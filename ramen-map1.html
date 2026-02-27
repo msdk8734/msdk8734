@@ -469,6 +469,20 @@ const html = mobile ? `
 
 tooltip.html(html).classed('visible', true);
   moveTip(ev);
+
+ // ▼ ここから追加 ▼
+  // 地図をホバーした時、ランキングリストの背景をハイライト
+  document.querySelectorAll('.rk-item').forEach(el => {
+    if (+el.dataset.id === p.id) {
+      el.style.background = 'rgba(26,111,196,0.15)';
+      // リストがスクロール外にある場合、自動でスクロールして見える位置に移動
+      el.scrollIntoView({ behavior: 'nearest', block: 'nearest' });
+    } else {
+      el.style.background = '';
+    }
+  });
+  // ▲ ここまで追加 ▲
+ 
 }
 
 function moveTip(ev) {
@@ -499,7 +513,15 @@ function moveTip(ev) {
   tooltip.style('left', nx + 'px').style('top', ny + 'px');
 }
 
-function hideTip() { if (tipLocked) return; tooltip.classed('visible', false); }
+function hideTip() { 
+  if (tipLocked) return; 
+  tooltip.classed('visible', false); 
+
+  // ▼ ランキングリストのハイライトをリセット ▼
+  document.querySelectorAll('.rk-item').forEach(el => {
+    el.style.background = '';
+  });
+}
 function forceHideTip() { tooltip.classed('visible', false); }
 
 // Tap outside to close (mobile)
@@ -531,16 +553,25 @@ rkList.innerHTML = ranked.map((f, i) => {
   </div>`;
 }).join('');
 
+// --- ランキングと地図の連動（クロスハイライト） ---
 document.querySelectorAll('.rk-item').forEach(el => {
   const id = +el.dataset.id;
+  
   el.addEventListener('mouseenter', () => {
-    g.selectAll('.pref-path')
-      .filter(d => d.properties.id === id)
-      .attr('stroke', '#d03025').attr('stroke-width', 2.2);
+    const path = g.selectAll('.pref-path').filter(d => d.properties.id === id);
+    
+    // ★重要: 対象の県を一番手前(最前面)に移動させることで、線が隠れるのを防ぐ
+    path.raise(); 
+    
+    // attrではなくstyleを使ってインラインCSSを上書きする
+    path.style('stroke', '#d03025').style('stroke-width', '2.5px');
   });
+
   el.addEventListener('mouseleave', () => {
-    g.selectAll('.pref-path')
-      .attr('stroke', '#fff').attr('stroke-width', 0.7);
+    const path = g.selectAll('.pref-path').filter(d => d.properties.id === id);
+    
+    // ★重要: styleをnullにすることで、元のCSSやズーム時の太さに自動で戻す
+    path.style('stroke', null).style('stroke-width', null);
   });
 });
 
