@@ -90,12 +90,17 @@ const data = {
 2070:{m:[1308.3,1359.1,1417.5,1539.5,1804.8,2050.7,2202.8,2295.5,2308.6,2349.7,2654.5,2916.7,2975.1,2980.3,2935.8,2631.2,2340.4,1978.1,2047.5],f:[1244.5,1294.5,1351.1,1474.5,1747.6,1961.8,2100.7,2193.2,2215.3,2262.7,2565.5,2823.9,2906.4,2946.3,3007.0,2850.2,2805.9,2771.2,4377.5],total:86996},
 };
 
-const margin = {top: 20, right: 60, bottom: 40, left: 60};
-const W = Math.min(800, window.innerWidth - 40);
-const H = 480;
+const isMobile = window.innerWidth < 500;
+const margin = {top: 20, right: isMobile ? 10 : 40, bottom: 40, left: isMobile ? 10 : 40};
+const W = Math.min(800, window.innerWidth - 20);
+const H = isMobile ? 420 : 480;
 const chartW = W - margin.left - margin.right;
 const chartH = H - margin.top - margin.bottom;
-const halfW = chartW / 2 - 20;
+
+// Center gap wide enough to fit age labels (e.g. "10–14" ~ 34px at 11px font)
+const centerGap = isMobile ? 38 : 46;
+const halfW = (chartW - centerGap) / 2;
+const centerX = halfW; // left half ends here; right half starts at halfW + centerGap
 
 const svg = d3.select("#chart").append("svg")
   .attr("width", W).attr("height", H)
@@ -106,19 +111,23 @@ const xScaleM = d3.scaleLinear().domain([0, maxPop]).range([halfW, 0]);
 const xScaleF = d3.scaleLinear().domain([0, maxPop]).range([0, halfW]);
 const yScale = d3.scaleBand().domain(d3.range(19)).range([chartH, 0]).padding(0.12);
 
-const centerX = chartW / 2;
-
-const xAxisM = d3.axisBottom(xScaleM).ticks(5).tickFormat(d => d === 0 ? "" : (d/1000).toFixed(1)+"M");
-const xAxisF = d3.axisBottom(xScaleF).ticks(5).tickFormat(d => d === 0 ? "" : (d/1000).toFixed(1)+"M");
+// Fewer ticks on mobile to avoid overlap
+const tickCount = isMobile ? 3 : 5;
+const tickFmt = d => d === 0 ? "" : (d/1000).toFixed(1)+"M";
+const xAxisM = d3.axisBottom(xScaleM).ticks(tickCount).tickFormat(tickFmt);
+const xAxisF = d3.axisBottom(xScaleF).ticks(tickCount).tickFormat(tickFmt);
 
 svg.append("g").attr("class","axis").attr("transform", `translate(0,${chartH})`).call(xAxisM);
-svg.append("g").attr("class","axis").attr("transform", `translate(${centerX + 20},${chartH})`).call(xAxisF);
+svg.append("g").attr("class","axis").attr("transform", `translate(${halfW + centerGap},${chartH})`).call(xAxisF);
 
+// Age labels centered in the gap
 svg.selectAll(".age-label")
   .data(ageLabels).join("text")
   .attr("class","age-label")
-  .attr("x", centerX + 10).attr("y", (d,i) => yScale(i) + yScale.bandwidth()/2)
+  .attr("x", halfW + centerGap / 2)
+  .attr("y", (d,i) => yScale(i) + yScale.bandwidth()/2)
   .attr("text-anchor","middle").attr("dominant-baseline","central")
+  .style("font-size", isMobile ? "9px" : "11px")
   .text(d => d);
 
 const maleGroup = svg.append("g");
@@ -145,7 +154,7 @@ function updateChart(yearIdx) {
   femaleGroup.selectAll("rect").data(d.f)
     .join("rect")
     .transition().duration(300)
-    .attr("x", centerX + 20)
+    .attr("x", halfW + centerGap)
     .attr("y", (v,i) => yScale(i))
     .attr("width", v => xScaleF(v))
     .attr("height", yScale.bandwidth())
