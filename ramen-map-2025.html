@@ -466,7 +466,8 @@ function renderRanking() {
   });
 }
 
-let dragging = false, lastX = 0, lastY = 0, pinchStartDist = null, pinchStartK = 1;
+let dragging = false, lastX = 0, lastY = 0, pinchStartDist = null;
+
 function applyTransform() {
   const t = `translate(${currentTransform.x}px, ${currentTransform.y}px) scale(${currentTransform.k})`;
   prefLayer.style.transform = t;
@@ -474,6 +475,7 @@ function applyTransform() {
   prefLayer.style.transformOrigin = '0 0';
   barsLayer.style.transformOrigin = '0 0';
 }
+
 function zoomAt(factor, cx, cy) {
   const oldK = currentTransform.k;
   const newK = Math.max(0.4, Math.min(12, oldK * factor));
@@ -484,12 +486,14 @@ function zoomAt(factor, cx, cy) {
   currentTransform.y = cy - worldY * newK;
   applyTransform();
 }
+
 svg.addEventListener('wheel', (e) => {
   e.preventDefault();
   const rect = svg.getBoundingClientRect();
   const cx = e.clientX - rect.left, cy = e.clientY - rect.top;
   zoomAt(e.deltaY < 0 ? 1.12 : 1/1.12, cx, cy);
 }, {passive:false});
+
 svg.addEventListener('mousedown', (e) => {
   dragging = true; lastX = e.clientX; lastY = e.clientY;
 });
@@ -502,17 +506,23 @@ window.addEventListener('mousemove', (e) => {
 });
 window.addEventListener('mouseup', () => dragging = false);
 
+// --- ここから下が修正されたタッチイベント処理 ---
 svg.addEventListener('touchstart', (e) => {
   if (e.touches.length === 2) {
     pinchStartDist = Math.hypot(
       e.touches[0].clientX - e.touches[1].clientX,
       e.touches[0].clientY - e.touches[1].clientY
     );
-    pinchStartK = currentTransform.k;
-  } else if (e.touches.length === 1 && !e.target.closest('.bar-group')) {
-    dragging = true; lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
+  } 
+  if (e.touches.length === 1) {
+    if (!e.target.closest('.bar-group')) {
+      dragging = true; 
+    }
+    lastX = e.touches[0].clientX; 
+    lastY = e.touches[0].clientY;
   }
 }, {passive:false});
+
 svg.addEventListener('touchmove', (e) => {
   if (e.touches.length === 2 && pinchStartDist) {
     e.preventDefault();
@@ -523,22 +533,32 @@ svg.addEventListener('touchmove', (e) => {
     const rect = svg.getBoundingClientRect();
     const cx = ((e.touches[0].clientX + e.touches[1].clientX)/2) - rect.left;
     const cy = ((e.touches[0].clientY + e.touches[1].clientY)/2) - rect.top;
+    
     const factor = dist / pinchStartDist;
-    currentTransform.k = pinchStartK;
     zoomAt(factor, cx, cy);
+    pinchStartDist = dist; // 次の計算のために距離を更新
   } else if (dragging && e.touches.length === 1) {
     e.preventDefault();
     currentTransform.x += e.touches[0].clientX - lastX;
     currentTransform.y += e.touches[0].clientY - lastY;
-    lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
+    lastX = e.touches[0].clientX; 
+    lastY = e.touches[0].clientY;
     applyTransform();
   }
 }, {passive:false});
-svg.addEventListener('touchend', (e) => {
-  if (e.touches && e.touches.length < 2) pinchStartDist = null;
-  if (!e.touches || e.touches.length === 0) dragging = false;
-});
 
+svg.addEventListener('touchend', (e) => {
+  if (e.touches.length < 2) {
+    pinchStartDist = null;
+  }
+  if (e.touches.length === 1) {
+    // 2本指から1本指になったとき、残った指の位置をドラッグの起点にリセットする
+    lastX = e.touches[0].clientX;
+    lastY = e.touches[0].clientY;
+  } else if (e.touches.length === 0) {
+    dragging = false;
+  }
+});
 renderMap();
 renderBars();
 renderRanking();
