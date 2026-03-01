@@ -89,7 +89,53 @@
     background: linear-gradient(135deg, #eef7f0 0%, #e1f1e6 50%, #cfe6d7 100%);
   }
 
-  .card-preview.heatmap-theme {
+  .card-preview.pyramid-theme {
+    background: linear-gradient(135deg, #eef3fb 0%, #dce8f8 50%, #c8d8f0 100%);
+  }
+
+  .pyramid-preview {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pyramid-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    padding: 16px 24px;
+  }
+
+  .pb-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .pb-m {
+    height: 10px;
+    background: #4a90d9;
+    border-radius: 3px 0 0 3px;
+    opacity: 0.75;
+  }
+
+  .pb-center {
+    width: 8px;
+    flex-shrink: 0;
+  }
+
+  .pb-f {
+    height: 10px;
+    background: #d04a5a;
+    border-radius: 0 3px 3px 0;
+    opacity: 0.75;
+  }
+
+
     background: linear-gradient(135deg, #eef3fb 0%, #dfeaf9 38%, #fff6cf 58%, #fddbb6 76%, #f4b0a6 100%);
   }
 
@@ -237,27 +283,29 @@
 
 <div class="gallery">
 
-  <a class="card" href="ramen-map-2025.html">
-    <div class="card-preview ramen-theme">
-      <span class="preview-icon">🍜</span>
-      <div class="mini-bars">
-        <div class="mb" style="height:14px;"></div>
-        <div class="mb" style="height:24px;"></div>
-        <div class="mb" style="height:11px;"></div>
-        <div class="mb" style="height:40px;"></div>
-        <div class="mb" style="height:18px;"></div>
-        <div class="mb" style="height:30px;"></div>
-        <div class="mb" style="height:13px;"></div>
+  <a class="card" href="japan-population-pyramid.html">
+    <div class="card-preview pyramid-theme">
+      <div class="pyramid-preview">
+        <div class="pyramid-bars">
+          <div class="pb-row"><div class="pb-m" style="width:52px"></div><div class="pb-center"></div><div class="pb-f" style="width:50px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:58px"></div><div class="pb-center"></div><div class="pb-f" style="width:56px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:64px"></div><div class="pb-center"></div><div class="pb-f" style="width:62px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:70px"></div><div class="pb-center"></div><div class="pb-f" style="width:72px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:76px"></div><div class="pb-center"></div><div class="pb-f" style="width:80px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:60px"></div><div class="pb-center"></div><div class="pb-f" style="width:66px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:44px"></div><div class="pb-center"></div><div class="pb-f" style="width:50px"></div></div>
+          <div class="pb-row"><div class="pb-m" style="width:30px"></div><div class="pb-center"></div><div class="pb-f" style="width:40px"></div></div>
+        </div>
       </div>
     </div>
     <div class="card-body">
-      <div class="card-tag">Interactive Map</div>
-      <div class="card-title">Japan Ramen Consumption Map</div>
-      <div class="card-desc">An interactive bar-chart map of ramen consumption in Japan, with responsive tooltips and ranking.</div>
+      <div class="card-tag">Population Pyramid</div>
+      <div class="card-title">Japan Population Pyramid 1965–2070</div>
+      <div class="card-desc">An animated population pyramid tracing Japan's demographic shift from a young society to a super-aged one, with census data and future projections.</div>
       <div class="card-meta">
         <span class="meta-tag">D3.js</span>
-        <span class="meta-tag">Bar Chart</span>
-        <span class="meta-tag">Ramen</span>
+        <span class="meta-tag">Animation</span>
+        <span class="meta-tag">Demographics</span>
         <span class="card-arrow">→</span>
       </div>
     </div>
@@ -375,6 +423,32 @@
         <span class="meta-tag">D3.js</span>
         <span class="meta-tag">Heatmap</span>
         <span class="meta-tag">Climate</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="card" href="ramen-map-2025.html">
+    <div class="card-preview ramen-theme">
+      <span class="preview-icon">🍜</span>
+      <div class="mini-bars">
+        <div class="mb" style="height:14px;"></div>
+        <div class="mb" style="height:24px;"></div>
+        <div class="mb" style="height:11px;"></div>
+        <div class="mb" style="height:40px;"></div>
+        <div class="mb" style="height:18px;"></div>
+        <div class="mb" style="height:30px;"></div>
+        <div class="mb" style="height:13px;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-tag">Interactive Map</div>
+      <div class="card-title">Japan Ramen Consumption Map</div>
+      <div class="card-desc">An interactive bar-chart map of ramen consumption in Japan, with responsive tooltips and ranking.</div>
+      <div class="card-meta">
+        <span class="meta-tag">D3.js</span>
+        <span class="meta-tag">Bar Chart</span>
+        <span class="meta-tag">Ramen</span>
         <span class="card-arrow">→</span>
       </div>
     </div>
