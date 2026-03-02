@@ -1,0 +1,344 @@
+{
+  "15100": {
+    "code": "15100",
+    "prefCode": "15",
+    "nameJa": "新潟市",
+    "nameEn": "Niigata City",
+    "total": 789275,
+    "male": 379741,
+    "female": 409534
+  },
+  "15101": {
+    "code": "15101",
+    "prefCode": "15",
+    "nameJa": "新潟市北区",
+    "nameEn": "Kita Ward, Niigata City",
+    "total": 72804,
+    "male": 35490,
+    "female": 37314
+  },
+  "15102": {
+    "code": "15102",
+    "prefCode": "15",
+    "nameJa": "新潟市東区",
+    "nameEn": "Higashi Ward, Niigata City",
+    "total": 134446,
+    "male": 64388,
+    "female": 70058
+  },
+  "15103": {
+    "code": "15103",
+    "prefCode": "15",
+    "nameJa": "新潟市中央区",
+    "nameEn": "Chuo Ward, Niigata City",
+    "total": 180345,
+    "male": 86046,
+    "female": 94299
+  },
+  "15104": {
+    "code": "15104",
+    "prefCode": "15",
+    "nameJa": "新潟市江南区",
+    "nameEn": "Konan Ward, Niigata City",
+    "total": 67972,
+    "male": 32940,
+    "female": 35032
+  },
+  "15105": {
+    "code": "15105",
+    "prefCode": "15",
+    "nameJa": "新潟市秋葉区",
+    "nameEn": "Akiha Ward, Niigata City",
+    "total": 75069,
+    "male": 36016,
+    "female": 39053
+  },
+  "15106": {
+    "code": "15106",
+    "prefCode": "15",
+    "nameJa": "新潟市南区",
+    "nameEn": "Minami Ward, Niigata City",
+    "total": 43437,
+    "male": 20977,
+    "female": 22460
+  },
+  "15107": {
+    "code": "15107",
+    "prefCode": "15",
+    "nameJa": "新潟市西区",
+    "nameEn": "Nishi Ward, Niigata City",
+    "total": 160656,
+    "male": 77653,
+    "female": 83003
+  },
+  "15108": {
+    "code": "15108",
+    "prefCode": "15",
+    "nameJa": "新潟市西蒲区",
+    "nameEn": "Nishikan Ward, Niigata City",
+    "total": 54546,
+    "male": 26231,
+    "female": 28315
+  },
+  "15202": {
+    "code": "15202",
+    "prefCode": "15",
+    "nameJa": "長岡市",
+    "nameEn": "Nagaoka City",
+    "total": 266936,
+    "male": 131011,
+    "female": 135925
+  },
+  "15204": {
+    "code": "15204",
+    "prefCode": "15",
+    "nameJa": "三条市",
+    "nameEn": "Sanjo City",
+    "total": 94642,
+    "male": 45815,
+    "female": 48827
+  },
+  "15205": {
+    "code": "15205",
+    "prefCode": "15",
+    "nameJa": "柏崎市",
+    "nameEn": "Kashiwazaki City",
+    "total": 81526,
+    "male": 40556,
+    "female": 40970
+  },
+  "15206": {
+    "code": "15206",
+    "prefCode": "15",
+    "nameJa": "新発田市",
+    "nameEn": "Shibata City",
+    "total": 94927,
+    "male": 45963,
+    "female": 48964
+  },
+  "15208": {
+    "code": "15208",
+    "prefCode": "15",
+    "nameJa": "小千谷市",
+    "nameEn": "Ojiya City",
+    "total": 34096,
+    "male": 16830,
+    "female": 17266
+  },
+  "15209": {
+    "code": "15209",
+    "prefCode": "15",
+    "nameJa": "加茂市",
+    "nameEn": "Kamo City",
+    "total": 25441,
+    "male": 12406,
+    "female": 13035
+  },
+  "15210": {
+    "code": "15210",
+    "prefCode": "15",
+    "nameJa": "十日町市",
+    "nameEn": "Tokamachi City",
+    "total": 49820,
+    "male": 24339,
+    "female": 25481
+  },
+  "15211": {
+    "code": "15211",
+    "prefCode": "15",
+    "nameJa": "見附市",
+    "nameEn": "Mitsuke City",
+    "total": 39237,
+    "male": 19050,
+    "female": 20187
+  },
+  "15212": {
+    "code": "15212",
+    "prefCode": "15",
+    "nameJa": "村上市",
+    "nameEn": "Murakami City",
+    "total": 57418,
+    "male": 27474,
+    "female": 29944
+  },
+  "15213": {
+    "code": "15213",
+    "prefCode": "15",
+    "nameJa": "燕市",
+    "nameEn": "Tsubame City",
+    "total": 77201,
+    "male": 37629,
+    "female": 39572
+  },
+  "15216": {
+    "code": "15216",
+    "prefCode": "15",
+    "nameJa": "糸魚川市",
+    "nameEn": "Itoigawa City",
+    "total": 40765,
+    "male": 20068,
+    "female": 20697
+  },
+  "15217": {
+    "code": "15217",
+    "prefCode": "15",
+    "nameJa": "妙高市",
+    "nameEn": "Myoko City",
+    "total": 30383,
+    "male": 14740,
+    "female": 15643
+  },
+  "15218": {
+    "code": "15218",
+    "prefCode": "15",
+    "nameJa": "五泉市",
+    "nameEn": "Gosen City",
+    "total": 47625,
+    "male": 22890,
+    "female": 24735
+  },
+  "15222": {
+    "code": "15222",
+    "prefCode": "15",
+    "nameJa": "上越市",
+    "nameEn": "Joetsu City",
+    "total": 188047,
+    "male": 91929,
+    "female": 96118
+  },
+  "15223": {
+    "code": "15223",
+    "prefCode": "15",
+    "nameJa": "阿賀野市",
+    "nameEn": "Agano City",
+    "total": 40696,
+    "male": 19570,
+    "female": 21126
+  },
+  "15224": {
+    "code": "15224",
+    "prefCode": "15",
+    "nameJa": "佐渡市",
+    "nameEn": "Sado City",
+    "total": 51492,
+    "male": 24881,
+    "female": 26611
+  },
+  "15225": {
+    "code": "15225",
+    "prefCode": "15",
+    "nameJa": "魚沼市",
+    "nameEn": "Uonuma City",
+    "total": 34483,
+    "male": 16802,
+    "female": 17681
+  },
+  "15226": {
+    "code": "15226",
+    "prefCode": "15",
+    "nameJa": "南魚沼市",
+    "nameEn": "Minamiuonuma City",
+    "total": 54851,
+    "male": 26777,
+    "female": 28074
+  },
+  "15227": {
+    "code": "15227",
+    "prefCode": "15",
+    "nameJa": "胎内市",
+    "nameEn": "Tainai City",
+    "total": 28509,
+    "male": 13959,
+    "female": 14550
+  },
+  "15307": {
+    "code": "15307",
+    "prefCode": "15",
+    "nameJa": "聖籠町",
+    "nameEn": "Seiro Town",
+    "total": 14259,
+    "male": 7172,
+    "female": 7087
+  },
+  "15342": {
+    "code": "15342",
+    "prefCode": "15",
+    "nameJa": "弥彦村",
+    "nameEn": "Yahiko Village",
+    "total": 7705,
+    "male": 3733,
+    "female": 3972
+  },
+  "15361": {
+    "code": "15361",
+    "prefCode": "15",
+    "nameJa": "田上町",
+    "nameEn": "Tagami Town",
+    "total": 11227,
+    "male": 5395,
+    "female": 5832
+  },
+  "15385": {
+    "code": "15385",
+    "prefCode": "15",
+    "nameJa": "阿賀町",
+    "nameEn": "Aga Town",
+    "total": 9965,
+    "male": 4825,
+    "female": 5140
+  },
+  "15405": {
+    "code": "15405",
+    "prefCode": "15",
+    "nameJa": "出雲崎町",
+    "nameEn": "Izumozaki Town",
+    "total": 4113,
+    "male": 1978,
+    "female": 2135
+  },
+  "15461": {
+    "code": "15461",
+    "prefCode": "15",
+    "nameJa": "湯沢町",
+    "nameEn": "Yuzawa Town",
+    "total": 7767,
+    "male": 3946,
+    "female": 3821
+  },
+  "15482": {
+    "code": "15482",
+    "prefCode": "15",
+    "nameJa": "津南町",
+    "nameEn": "Tsunan Town",
+    "total": 8989,
+    "male": 4322,
+    "female": 4667
+  },
+  "15504": {
+    "code": "15504",
+    "prefCode": "15",
+    "nameJa": "刈羽村",
+    "nameEn": "Kariwa Village",
+    "total": 4380,
+    "male": 2244,
+    "female": 2136
+  },
+  "15581": {
+    "code": "15581",
+    "prefCode": "15",
+    "nameJa": "関川村",
+    "nameEn": "Sekikawa Village",
+    "total": 5144,
+    "male": 2444,
+    "female": 2700
+  },
+  "15586": {
+    "code": "15586",
+    "prefCode": "15",
+    "nameJa": "粟島浦村",
+    "nameEn": "Awashimaura Village",
+    "total": 353,
+    "male": 181,
+    "female": 172
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "29201": {
+    "code": "29201",
+    "prefCode": "29",
+    "nameJa": "奈良市",
+    "nameEn": "Nara City",
+    "total": 354630,
+    "male": 164846,
+    "female": 189784
+  },
+  "29202": {
+    "code": "29202",
+    "prefCode": "29",
+    "nameJa": "大和高田市",
+    "nameEn": "Yamatotakada City",
+    "total": 61744,
+    "male": 28981,
+    "female": 32763
+  },
+  "29203": {
+    "code": "29203",
+    "prefCode": "29",
+    "nameJa": "大和郡山市",
+    "nameEn": "Yamatokoriyama City",
+    "total": 83285,
+    "male": 39249,
+    "female": 44036
+  },
+  "29204": {
+    "code": "29204",
+    "prefCode": "29",
+    "nameJa": "天理市",
+    "nameEn": "Tenri City",
+    "total": 63889,
+    "male": 31275,
+    "female": 32614
+  },
+  "29205": {
+    "code": "29205",
+    "prefCode": "29",
+    "nameJa": "橿原市",
+    "nameEn": "Kashihara City",
+    "total": 120922,
+    "male": 57336,
+    "female": 63586
+  },
+  "29206": {
+    "code": "29206",
+    "prefCode": "29",
+    "nameJa": "桜井市",
+    "nameEn": "Sakurai City",
+    "total": 54857,
+    "male": 25909,
+    "female": 28948
+  },
+  "29207": {
+    "code": "29207",
+    "prefCode": "29",
+    "nameJa": "五條市",
+    "nameEn": "Gojo City",
+    "total": 27927,
+    "male": 13180,
+    "female": 14747
+  },
+  "29208": {
+    "code": "29208",
+    "prefCode": "29",
+    "nameJa": "御所市",
+    "nameEn": "Gose City",
+    "total": 24096,
+    "male": 11122,
+    "female": 12974
+  },
+  "29209": {
+    "code": "29209",
+    "prefCode": "29",
+    "nameJa": "生駒市",
+    "nameEn": "Ikoma City",
+    "total": 116675,
+    "male": 55107,
+    "female": 61568
+  },
+  "29210": {
+    "code": "29210",
+    "prefCode": "29",
+    "nameJa": "香芝市",
+    "nameEn": "Kashiba City",
+    "total": 78113,
+    "male": 36925,
+    "female": 41188
+  },
+  "29211": {
+    "code": "29211",
+    "prefCode": "29",
+    "nameJa": "葛城市",
+    "nameEn": "Katsuragi City",
+    "total": 36832,
+    "male": 17526,
+    "female": 19306
+  },
+  "29212": {
+    "code": "29212",
+    "prefCode": "29",
+    "nameJa": "宇陀市",
+    "nameEn": "Uda City",
+    "total": 28121,
+    "male": 13374,
+    "female": 14747
+  },
+  "29322": {
+    "code": "29322",
+    "prefCode": "29",
+    "nameJa": "山添村",
+    "nameEn": "Yamazoe Village",
+    "total": 3226,
+    "male": 1543,
+    "female": 1683
+  },
+  "29342": {
+    "code": "29342",
+    "prefCode": "29",
+    "nameJa": "平群町",
+    "nameEn": "Heguri Town",
+    "total": 18009,
+    "male": 8446,
+    "female": 9563
+  },
+  "29343": {
+    "code": "29343",
+    "prefCode": "29",
+    "nameJa": "三郷町",
+    "nameEn": "Sango Town",
+    "total": 23219,
+    "male": 10877,
+    "female": 12342
+  },
+  "29344": {
+    "code": "29344",
+    "prefCode": "29",
+    "nameJa": "斑鳩町",
+    "nameEn": "Ikaruga Town",
+    "total": 27587,
+    "male": 12979,
+    "female": 14608
+  },
+  "29345": {
+    "code": "29345",
+    "prefCode": "29",
+    "nameJa": "安堵町",
+    "nameEn": "Ando Town",
+    "total": 7225,
+    "male": 3387,
+    "female": 3838
+  },
+  "29361": {
+    "code": "29361",
+    "prefCode": "29",
+    "nameJa": "川西町",
+    "nameEn": "Kawanishi Town",
+    "total": 8167,
+    "male": 3944,
+    "female": 4223
+  },
+  "29362": {
+    "code": "29362",
+    "prefCode": "29",
+    "nameJa": "三宅町",
+    "nameEn": "Miyake Town",
+    "total": 6439,
+    "male": 3049,
+    "female": 3390
+  },
+  "29363": {
+    "code": "29363",
+    "prefCode": "29",
+    "nameJa": "田原本町",
+    "nameEn": "Tawaramoto Town",
+    "total": 31177,
+    "male": 14870,
+    "female": 16307
+  },
+  "29385": {
+    "code": "29385",
+    "prefCode": "29",
+    "nameJa": "曽爾村",
+    "nameEn": "Soni Village",
+    "total": 1295,
+    "male": 595,
+    "female": 700
+  },
+  "29386": {
+    "code": "29386",
+    "prefCode": "29",
+    "nameJa": "御杖村",
+    "nameEn": "Mitsue Village",
+    "total": 1479,
+    "male": 694,
+    "female": 785
+  },
+  "29401": {
+    "code": "29401",
+    "prefCode": "29",
+    "nameJa": "高取町",
+    "nameEn": "Takatori Town",
+    "total": 6729,
+    "male": 3139,
+    "female": 3590
+  },
+  "29402": {
+    "code": "29402",
+    "prefCode": "29",
+    "nameJa": "明日香村",
+    "nameEn": "Asuka Village",
+    "total": 5179,
+    "male": 2439,
+    "female": 2740
+  },
+  "29424": {
+    "code": "29424",
+    "prefCode": "29",
+    "nameJa": "上牧町",
+    "nameEn": "Kanmaki Town",
+    "total": 21714,
+    "male": 10117,
+    "female": 11597
+  },
+  "29425": {
+    "code": "29425",
+    "prefCode": "29",
+    "nameJa": "王寺町",
+    "nameEn": "Oji Town",
+    "total": 24043,
+    "male": 11375,
+    "female": 12668
+  },
+  "29426": {
+    "code": "29426",
+    "prefCode": "29",
+    "nameJa": "広陵町",
+    "nameEn": "Koryo Town",
+    "total": 33810,
+    "male": 16045,
+    "female": 17765
+  },
+  "29427": {
+    "code": "29427",
+    "prefCode": "29",
+    "nameJa": "河合町",
+    "nameEn": "Kawai Town",
+    "total": 17018,
+    "male": 7918,
+    "female": 9100
+  },
+  "29441": {
+    "code": "29441",
+    "prefCode": "29",
+    "nameJa": "吉野町",
+    "nameEn": "Yoshino Town",
+    "total": 6229,
+    "male": 2840,
+    "female": 3389
+  },
+  "29442": {
+    "code": "29442",
+    "prefCode": "29",
+    "nameJa": "大淀町",
+    "nameEn": "Oyodo Town",
+    "total": 16728,
+    "male": 7936,
+    "female": 8792
+  },
+  "29443": {
+    "code": "29443",
+    "prefCode": "29",
+    "nameJa": "下市町",
+    "nameEn": "Shimoichi Town",
+    "total": 5037,
+    "male": 2356,
+    "female": 2681
+  },
+  "29444": {
+    "code": "29444",
+    "prefCode": "29",
+    "nameJa": "黒滝村",
+    "nameEn": "Kurotaki Village",
+    "total": 623,
+    "male": 296,
+    "female": 327
+  },
+  "29446": {
+    "code": "29446",
+    "prefCode": "29",
+    "nameJa": "天川村",
+    "nameEn": "Tenkawa Village",
+    "total": 1176,
+    "male": 567,
+    "female": 609
+  },
+  "29447": {
+    "code": "29447",
+    "prefCode": "29",
+    "nameJa": "野迫川村",
+    "nameEn": "Nosegawa Village",
+    "total": 357,
+    "male": 176,
+    "female": 181
+  },
+  "29449": {
+    "code": "29449",
+    "prefCode": "29",
+    "nameJa": "十津川村",
+    "nameEn": "Totsukawa Village",
+    "total": 3061,
+    "male": 1663,
+    "female": 1398
+  },
+  "29450": {
+    "code": "29450",
+    "prefCode": "29",
+    "nameJa": "下北山村",
+    "nameEn": "Shimokitayama Village",
+    "total": 753,
+    "male": 361,
+    "female": 392
+  },
+  "29451": {
+    "code": "29451",
+    "prefCode": "29",
+    "nameJa": "上北山村",
+    "nameEn": "Kamikitayama Village",
+    "total": 444,
+    "male": 227,
+    "female": 217
+  },
+  "29452": {
+    "code": "29452",
+    "prefCode": "29",
+    "nameJa": "川上村",
+    "nameEn": "Kawakami Village",
+    "total": 1156,
+    "male": 554,
+    "female": 602
+  },
+  "29453": {
+    "code": "29453",
+    "prefCode": "29",
+    "nameJa": "東吉野村",
+    "nameEn": "Higashiyoshino Village",
+    "total": 1502,
+    "male": 703,
+    "female": 799
+  }
+}

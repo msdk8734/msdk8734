@@ -1,0 +1,378 @@
+{
+  "01": {
+    "code": "01",
+    "nameJa": "北海道",
+    "nameEn": "Hokkaido",
+    "total": 5224614,
+    "male": 2465088,
+    "female": 2759526
+  },
+  "02": {
+    "code": "02",
+    "nameJa": "青森県",
+    "nameEn": "Aomori Prefecture",
+    "total": 1237984,
+    "male": 583402,
+    "female": 654582
+  },
+  "03": {
+    "code": "03",
+    "nameJa": "岩手県",
+    "nameEn": "Iwate Prefecture",
+    "total": 1210534,
+    "male": 582952,
+    "female": 627582
+  },
+  "04": {
+    "code": "04",
+    "nameJa": "宮城県",
+    "nameEn": "Miyagi Prefecture",
+    "total": 2301996,
+    "male": 1122598,
+    "female": 1179398
+  },
+  "05": {
+    "code": "05",
+    "nameJa": "秋田県",
+    "nameEn": "Akita Prefecture",
+    "total": 959502,
+    "male": 452439,
+    "female": 507063
+  },
+  "06": {
+    "code": "06",
+    "nameJa": "山形県",
+    "nameEn": "Yamagata Prefecture",
+    "total": 1068027,
+    "male": 516438,
+    "female": 551589
+  },
+  "07": {
+    "code": "07",
+    "nameJa": "福島県",
+    "nameEn": "Fukushima Prefecture",
+    "total": 1833152,
+    "male": 903864,
+    "female": 929288
+  },
+  "08": {
+    "code": "08",
+    "nameJa": "茨城県",
+    "nameEn": "Ibaraki Prefecture",
+    "total": 2867009,
+    "male": 1430976,
+    "female": 1436033
+  },
+  "09": {
+    "code": "09",
+    "nameJa": "栃木県",
+    "nameEn": "Tochigi Prefecture",
+    "total": 1933146,
+    "male": 964930,
+    "female": 968216
+  },
+  "10": {
+    "code": "10",
+    "nameJa": "群馬県",
+    "nameEn": "Gumma Prefecture",
+    "total": 1939110,
+    "male": 959411,
+    "female": 979699
+  },
+  "11": {
+    "code": "11",
+    "nameJa": "埼玉県",
+    "nameEn": "Saitama Prefecture",
+    "total": 7344765,
+    "male": 3652169,
+    "female": 3692596
+  },
+  "12": {
+    "code": "12",
+    "nameJa": "千葉県",
+    "nameEn": "Chiba Prefecture",
+    "total": 6284480,
+    "male": 3117987,
+    "female": 3166493
+  },
+  "13": {
+    "code": "13",
+    "nameJa": "東京都",
+    "nameEn": "Tokyo Metropolis",
+    "total": 14047594,
+    "male": 6898388,
+    "female": 7149206
+  },
+  "14": {
+    "code": "14",
+    "nameJa": "神奈川県",
+    "nameEn": "Kanagawa Prefecture",
+    "total": 9237337,
+    "male": 4588268,
+    "female": 4649069
+  },
+  "15": {
+    "code": "15",
+    "nameJa": "新潟県",
+    "nameEn": "Niigata Prefecture",
+    "total": 2201272,
+    "male": 1068670,
+    "female": 1132602
+  },
+  "16": {
+    "code": "16",
+    "nameJa": "富山県",
+    "nameEn": "Toyama Prefecture",
+    "total": 1034814,
+    "male": 502637,
+    "female": 532177
+  },
+  "17": {
+    "code": "17",
+    "nameJa": "石川県",
+    "nameEn": "Ishikawa Prefecture",
+    "total": 1132526,
+    "male": 549771,
+    "female": 582755
+  },
+  "18": {
+    "code": "18",
+    "nameJa": "福井県",
+    "nameEn": "Fukui Prefecture",
+    "total": 766863,
+    "male": 373973,
+    "female": 392890
+  },
+  "19": {
+    "code": "19",
+    "nameJa": "山梨県",
+    "nameEn": "Yamanashi Prefecture",
+    "total": 809974,
+    "male": 397309,
+    "female": 412665
+  },
+  "20": {
+    "code": "20",
+    "nameJa": "長野県",
+    "nameEn": "Nagano Prefecture",
+    "total": 2048011,
+    "male": 1000389,
+    "female": 1047622
+  },
+  "21": {
+    "code": "21",
+    "nameJa": "岐阜県",
+    "nameEn": "Gifu Prefecture",
+    "total": 1978742,
+    "male": 960436,
+    "female": 1018306
+  },
+  "22": {
+    "code": "22",
+    "nameJa": "静岡県",
+    "nameEn": "Shizuoka Prefecture",
+    "total": 3633202,
+    "male": 1791118,
+    "female": 1842084
+  },
+  "23": {
+    "code": "23",
+    "nameJa": "愛知県",
+    "nameEn": "Aichi Prefecture",
+    "total": 7542415,
+    "male": 3761502,
+    "female": 3780913
+  },
+  "24": {
+    "code": "24",
+    "nameJa": "三重県",
+    "nameEn": "Mie Prefecture",
+    "total": 1770254,
+    "male": 864475,
+    "female": 905779
+  },
+  "25": {
+    "code": "25",
+    "nameJa": "滋賀県",
+    "nameEn": "Shiga Prefecture",
+    "total": 1413610,
+    "male": 697429,
+    "female": 716181
+  },
+  "26": {
+    "code": "26",
+    "nameJa": "京都府",
+    "nameEn": "Kyoto Prefecture",
+    "total": 2578087,
+    "male": 1231468,
+    "female": 1346619
+  },
+  "27": {
+    "code": "27",
+    "nameJa": "大阪府",
+    "nameEn": "Osaka Prefecture",
+    "total": 8837685,
+    "male": 4235956,
+    "female": 4601729
+  },
+  "28": {
+    "code": "28",
+    "nameJa": "兵庫県",
+    "nameEn": "Hyogo Prefecture",
+    "total": 5465002,
+    "male": 2599756,
+    "female": 2865246
+  },
+  "29": {
+    "code": "29",
+    "nameJa": "奈良県",
+    "nameEn": "Nara Prefecture",
+    "total": 1324473,
+    "male": 623926,
+    "female": 700547
+  },
+  "30": {
+    "code": "30",
+    "nameJa": "和歌山県",
+    "nameEn": "Wakayama Prefecture",
+    "total": 922584,
+    "male": 435051,
+    "female": 487533
+  },
+  "31": {
+    "code": "31",
+    "nameJa": "鳥取県",
+    "nameEn": "Tottori Prefecture",
+    "total": 553407,
+    "male": 264432,
+    "female": 288975
+  },
+  "32": {
+    "code": "32",
+    "nameJa": "島根県",
+    "nameEn": "Shimane Prefecture",
+    "total": 671126,
+    "male": 324291,
+    "female": 346835
+  },
+  "33": {
+    "code": "33",
+    "nameJa": "岡山県",
+    "nameEn": "Okayama Prefecture",
+    "total": 1888432,
+    "male": 908045,
+    "female": 980387
+  },
+  "34": {
+    "code": "34",
+    "nameJa": "広島県",
+    "nameEn": "Hiroshima Prefecture",
+    "total": 2799702,
+    "male": 1357156,
+    "female": 1442546
+  },
+  "35": {
+    "code": "35",
+    "nameJa": "山口県",
+    "nameEn": "Yamaguchi Prefecture",
+    "total": 1342059,
+    "male": 636736,
+    "female": 705323
+  },
+  "36": {
+    "code": "36",
+    "nameJa": "徳島県",
+    "nameEn": "Tokushima Prefecture",
+    "total": 719559,
+    "male": 343265,
+    "female": 376294
+  },
+  "37": {
+    "code": "37",
+    "nameJa": "香川県",
+    "nameEn": "Kagawa Prefecture",
+    "total": 950244,
+    "male": 459197,
+    "female": 491047
+  },
+  "38": {
+    "code": "38",
+    "nameJa": "愛媛県",
+    "nameEn": "Ehime Prefecture",
+    "total": 1334841,
+    "male": 633062,
+    "female": 701779
+  },
+  "39": {
+    "code": "39",
+    "nameJa": "高知県",
+    "nameEn": "Kochi Prefecture",
+    "total": 691527,
+    "male": 326531,
+    "female": 364996
+  },
+  "40": {
+    "code": "40",
+    "nameJa": "福岡県",
+    "nameEn": "Fukuoka Prefecture",
+    "total": 5135214,
+    "male": 2430951,
+    "female": 2704263
+  },
+  "41": {
+    "code": "41",
+    "nameJa": "佐賀県",
+    "nameEn": "Saga Prefecture",
+    "total": 811442,
+    "male": 384451,
+    "female": 426991
+  },
+  "42": {
+    "code": "42",
+    "nameJa": "長崎県",
+    "nameEn": "Nagasaki Prefecture",
+    "total": 1312317,
+    "male": 616912,
+    "female": 695405
+  },
+  "43": {
+    "code": "43",
+    "nameJa": "熊本県",
+    "nameEn": "Kumamoto Prefecture",
+    "total": 1738301,
+    "male": 822481,
+    "female": 915820
+  },
+  "44": {
+    "code": "44",
+    "nameJa": "大分県",
+    "nameEn": "Oita Prefecture",
+    "total": 1123852,
+    "male": 533414,
+    "female": 590438
+  },
+  "45": {
+    "code": "45",
+    "nameJa": "宮崎県",
+    "nameEn": "Miyazaki Prefecture",
+    "total": 1069576,
+    "male": 504763,
+    "female": 564813
+  },
+  "46": {
+    "code": "46",
+    "nameJa": "鹿児島県",
+    "nameEn": "Kagoshima Prefecture",
+    "total": 1588256,
+    "male": 748306,
+    "female": 839950
+  },
+  "47": {
+    "code": "47",
+    "nameJa": "沖縄県",
+    "nameEn": "Okinawa Prefecture",
+    "total": 1467480,
+    "male": 722812,
+    "female": 744668
+  }
+}

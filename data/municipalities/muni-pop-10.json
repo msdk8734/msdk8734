@@ -1,0 +1,317 @@
+{
+  "10201": {
+    "code": "10201",
+    "prefCode": "10",
+    "nameJa": "前橋市",
+    "nameEn": "Maebashi City",
+    "total": 332149,
+    "male": 162298,
+    "female": 169851
+  },
+  "10202": {
+    "code": "10202",
+    "prefCode": "10",
+    "nameJa": "高崎市",
+    "nameEn": "Takasaki City",
+    "total": 372973,
+    "male": 182646,
+    "female": 190327
+  },
+  "10203": {
+    "code": "10203",
+    "prefCode": "10",
+    "nameJa": "桐生市",
+    "nameEn": "Kiryu City",
+    "total": 106445,
+    "male": 51392,
+    "female": 55053
+  },
+  "10204": {
+    "code": "10204",
+    "prefCode": "10",
+    "nameJa": "伊勢崎市",
+    "nameEn": "Isesaki City",
+    "total": 211850,
+    "male": 106350,
+    "female": 105500
+  },
+  "10205": {
+    "code": "10205",
+    "prefCode": "10",
+    "nameJa": "太田市",
+    "nameEn": "Ota City",
+    "total": 223014,
+    "male": 114106,
+    "female": 108908
+  },
+  "10206": {
+    "code": "10206",
+    "prefCode": "10",
+    "nameJa": "沼田市",
+    "nameEn": "Numata City",
+    "total": 45337,
+    "male": 21942,
+    "female": 23395
+  },
+  "10207": {
+    "code": "10207",
+    "prefCode": "10",
+    "nameJa": "館林市",
+    "nameEn": "Tatebayashi City",
+    "total": 75309,
+    "male": 37769,
+    "female": 37540
+  },
+  "10208": {
+    "code": "10208",
+    "prefCode": "10",
+    "nameJa": "渋川市",
+    "nameEn": "Shibukawa City",
+    "total": 74581,
+    "male": 36363,
+    "female": 38218
+  },
+  "10209": {
+    "code": "10209",
+    "prefCode": "10",
+    "nameJa": "藤岡市",
+    "nameEn": "Fujioka City",
+    "total": 63261,
+    "male": 30766,
+    "female": 32495
+  },
+  "10210": {
+    "code": "10210",
+    "prefCode": "10",
+    "nameJa": "富岡市",
+    "nameEn": "Tomioka City",
+    "total": 47446,
+    "male": 23403,
+    "female": 24043
+  },
+  "10211": {
+    "code": "10211",
+    "prefCode": "10",
+    "nameJa": "安中市",
+    "nameEn": "Annaka City",
+    "total": 54907,
+    "male": 26848,
+    "female": 28059
+  },
+  "10212": {
+    "code": "10212",
+    "prefCode": "10",
+    "nameJa": "みどり市",
+    "nameEn": "Midori City",
+    "total": 49648,
+    "male": 24562,
+    "female": 25086
+  },
+  "10344": {
+    "code": "10344",
+    "prefCode": "10",
+    "nameJa": "榛東村",
+    "nameEn": "Shinto Village",
+    "total": 14216,
+    "male": 7190,
+    "female": 7026
+  },
+  "10345": {
+    "code": "10345",
+    "prefCode": "10",
+    "nameJa": "吉岡町",
+    "nameEn": "Yoshioka Town",
+    "total": 21792,
+    "male": 10613,
+    "female": 11179
+  },
+  "10366": {
+    "code": "10366",
+    "prefCode": "10",
+    "nameJa": "上野村",
+    "nameEn": "Ueno Village",
+    "total": 1128,
+    "male": 573,
+    "female": 555
+  },
+  "10367": {
+    "code": "10367",
+    "prefCode": "10",
+    "nameJa": "神流町",
+    "nameEn": "Kanna Town",
+    "total": 1645,
+    "male": 793,
+    "female": 852
+  },
+  "10382": {
+    "code": "10382",
+    "prefCode": "10",
+    "nameJa": "下仁田町",
+    "nameEn": "Shimonita Town",
+    "total": 6576,
+    "male": 3224,
+    "female": 3352
+  },
+  "10383": {
+    "code": "10383",
+    "prefCode": "10",
+    "nameJa": "南牧村",
+    "nameEn": "Nanmoku Village",
+    "total": 1611,
+    "male": 762,
+    "female": 849
+  },
+  "10384": {
+    "code": "10384",
+    "prefCode": "10",
+    "nameJa": "甘楽町",
+    "nameEn": "Kanra Town",
+    "total": 12491,
+    "male": 6175,
+    "female": 6316
+  },
+  "10421": {
+    "code": "10421",
+    "prefCode": "10",
+    "nameJa": "中之条町",
+    "nameEn": "Nakanojo Town",
+    "total": 15386,
+    "male": 7498,
+    "female": 7888
+  },
+  "10424": {
+    "code": "10424",
+    "prefCode": "10",
+    "nameJa": "長野原町",
+    "nameEn": "Naganohara Town",
+    "total": 5095,
+    "male": 2529,
+    "female": 2566
+  },
+  "10425": {
+    "code": "10425",
+    "prefCode": "10",
+    "nameJa": "嬬恋村",
+    "nameEn": "Tsumagoi Village",
+    "total": 8850,
+    "male": 4522,
+    "female": 4328
+  },
+  "10426": {
+    "code": "10426",
+    "prefCode": "10",
+    "nameJa": "草津町",
+    "nameEn": "Kusatsu Town",
+    "total": 6049,
+    "male": 3034,
+    "female": 3015
+  },
+  "10428": {
+    "code": "10428",
+    "prefCode": "10",
+    "nameJa": "高山村",
+    "nameEn": "Takayama Village",
+    "total": 3511,
+    "male": 1745,
+    "female": 1766
+  },
+  "10429": {
+    "code": "10429",
+    "prefCode": "10",
+    "nameJa": "東吾妻町",
+    "nameEn": "Higashiagatsuma Town",
+    "total": 12728,
+    "male": 6268,
+    "female": 6460
+  },
+  "10443": {
+    "code": "10443",
+    "prefCode": "10",
+    "nameJa": "片品村",
+    "nameEn": "Katashina Village",
+    "total": 3993,
+    "male": 1949,
+    "female": 2044
+  },
+  "10444": {
+    "code": "10444",
+    "prefCode": "10",
+    "nameJa": "川場村",
+    "nameEn": "Kawaba Village",
+    "total": 3480,
+    "male": 1593,
+    "female": 1887
+  },
+  "10448": {
+    "code": "10448",
+    "prefCode": "10",
+    "nameJa": "昭和村",
+    "nameEn": "Showa Village",
+    "total": 6953,
+    "male": 3455,
+    "female": 3498
+  },
+  "10449": {
+    "code": "10449",
+    "prefCode": "10",
+    "nameJa": "みなかみ町",
+    "nameEn": "Minakami Town",
+    "total": 17195,
+    "male": 8349,
+    "female": 8846
+  },
+  "10464": {
+    "code": "10464",
+    "prefCode": "10",
+    "nameJa": "玉村町",
+    "nameEn": "Tamamura Town",
+    "total": 36054,
+    "male": 17594,
+    "female": 18460
+  },
+  "10521": {
+    "code": "10521",
+    "prefCode": "10",
+    "nameJa": "板倉町",
+    "nameEn": "Itakura Town",
+    "total": 14083,
+    "male": 7031,
+    "female": 7052
+  },
+  "10522": {
+    "code": "10522",
+    "prefCode": "10",
+    "nameJa": "明和町",
+    "nameEn": "Meiwa Town",
+    "total": 10882,
+    "male": 5465,
+    "female": 5417
+  },
+  "10523": {
+    "code": "10523",
+    "prefCode": "10",
+    "nameJa": "千代田町",
+    "nameEn": "Chiyoda Town",
+    "total": 10861,
+    "male": 5470,
+    "female": 5391
+  },
+  "10524": {
+    "code": "10524",
+    "prefCode": "10",
+    "nameJa": "大泉町",
+    "nameEn": "Oizumi Town",
+    "total": 42089,
+    "male": 22282,
+    "female": 19807
+  },
+  "10525": {
+    "code": "10525",
+    "prefCode": "10",
+    "nameJa": "邑楽町",
+    "nameEn": "Ora Town",
+    "total": 25522,
+    "male": 12852,
+    "female": 12670
+  }
+}

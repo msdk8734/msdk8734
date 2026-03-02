@@ -1,0 +1,173 @@
+{
+  "35201": {
+    "code": "35201",
+    "prefCode": "35",
+    "nameJa": "下関市",
+    "nameEn": "Shimonoseki City",
+    "total": 255051,
+    "male": 118683,
+    "female": 136368
+  },
+  "35202": {
+    "code": "35202",
+    "prefCode": "35",
+    "nameJa": "宇部市",
+    "nameEn": "Ube City",
+    "total": 162570,
+    "male": 77793,
+    "female": 84777
+  },
+  "35203": {
+    "code": "35203",
+    "prefCode": "35",
+    "nameJa": "山口市",
+    "nameEn": "Yamaguchi City",
+    "total": 193966,
+    "male": 92352,
+    "female": 101614
+  },
+  "35204": {
+    "code": "35204",
+    "prefCode": "35",
+    "nameJa": "萩市",
+    "nameEn": "Hagi City",
+    "total": 44626,
+    "male": 20610,
+    "female": 24016
+  },
+  "35206": {
+    "code": "35206",
+    "prefCode": "35",
+    "nameJa": "防府市",
+    "nameEn": "Hofu City",
+    "total": 113979,
+    "male": 54951,
+    "female": 59028
+  },
+  "35207": {
+    "code": "35207",
+    "prefCode": "35",
+    "nameJa": "下松市",
+    "nameEn": "Kudamatsu City",
+    "total": 55887,
+    "male": 27405,
+    "female": 28482
+  },
+  "35208": {
+    "code": "35208",
+    "prefCode": "35",
+    "nameJa": "岩国市",
+    "nameEn": "Iwakuni City",
+    "total": 129125,
+    "male": 60981,
+    "female": 68144
+  },
+  "35210": {
+    "code": "35210",
+    "prefCode": "35",
+    "nameJa": "光市",
+    "nameEn": "Hikari City",
+    "total": 49798,
+    "male": 23711,
+    "female": 26087
+  },
+  "35211": {
+    "code": "35211",
+    "prefCode": "35",
+    "nameJa": "長門市",
+    "nameEn": "Nagato City",
+    "total": 32519,
+    "male": 15040,
+    "female": 17479
+  },
+  "35212": {
+    "code": "35212",
+    "prefCode": "35",
+    "nameJa": "柳井市",
+    "nameEn": "Yanai City",
+    "total": 30799,
+    "male": 14345,
+    "female": 16454
+  },
+  "35213": {
+    "code": "35213",
+    "prefCode": "35",
+    "nameJa": "美祢市",
+    "nameEn": "Mine City",
+    "total": 23247,
+    "male": 10857,
+    "female": 12390
+  },
+  "35215": {
+    "code": "35215",
+    "prefCode": "35",
+    "nameJa": "周南市",
+    "nameEn": "Shunan City",
+    "total": 137540,
+    "male": 66686,
+    "female": 70854
+  },
+  "35216": {
+    "code": "35216",
+    "prefCode": "35",
+    "nameJa": "山陽小野田市",
+    "nameEn": "Sanyoonoda City",
+    "total": 60326,
+    "male": 28635,
+    "female": 31691
+  },
+  "35305": {
+    "code": "35305",
+    "prefCode": "35",
+    "nameJa": "周防大島町",
+    "nameEn": "Suooshima Town",
+    "total": 14798,
+    "male": 6828,
+    "female": 7970
+  },
+  "35321": {
+    "code": "35321",
+    "prefCode": "35",
+    "nameJa": "和木町",
+    "nameEn": "Waki Town",
+    "total": 6034,
+    "male": 2947,
+    "female": 3087
+  },
+  "35341": {
+    "code": "35341",
+    "prefCode": "35",
+    "nameJa": "上関町",
+    "nameEn": "Kaminoseki Town",
+    "total": 2342,
+    "male": 1084,
+    "female": 1258
+  },
+  "35343": {
+    "code": "35343",
+    "prefCode": "35",
+    "nameJa": "田布施町",
+    "nameEn": "Tabuse Town",
+    "total": 14483,
+    "male": 6908,
+    "female": 7575
+  },
+  "35344": {
+    "code": "35344",
+    "prefCode": "35",
+    "nameJa": "平生町",
+    "nameEn": "Hirao Town",
+    "total": 11914,
+    "male": 5553,
+    "female": 6361
+  },
+  "35502": {
+    "code": "35502",
+    "prefCode": "35",
+    "nameJa": "阿武町",
+    "nameEn": "Abu Town",
+    "total": 3055,
+    "male": 1367,
+    "female": 1688
+  }
+}
