@@ -1,0 +1,173 @@
+{
+  "32201": {
+    "code": "32201",
+    "prefCode": "32",
+    "nameJa": "松江市",
+    "nameEn": "Matsue City",
+    "total": 203616,
+    "male": 98544,
+    "female": 105072
+  },
+  "32202": {
+    "code": "32202",
+    "prefCode": "32",
+    "nameJa": "浜田市",
+    "nameEn": "Hamada City",
+    "total": 54592,
+    "male": 27298,
+    "female": 27294
+  },
+  "32203": {
+    "code": "32203",
+    "prefCode": "32",
+    "nameJa": "出雲市",
+    "nameEn": "Izumo City",
+    "total": 172775,
+    "male": 83469,
+    "female": 89306
+  },
+  "32204": {
+    "code": "32204",
+    "prefCode": "32",
+    "nameJa": "益田市",
+    "nameEn": "Masuda City",
+    "total": 45003,
+    "male": 21355,
+    "female": 23648
+  },
+  "32205": {
+    "code": "32205",
+    "prefCode": "32",
+    "nameJa": "大田市",
+    "nameEn": "Oda City",
+    "total": 32846,
+    "male": 15742,
+    "female": 17104
+  },
+  "32206": {
+    "code": "32206",
+    "prefCode": "32",
+    "nameJa": "安来市",
+    "nameEn": "Yasugi City",
+    "total": 37062,
+    "male": 17743,
+    "female": 19319
+  },
+  "32207": {
+    "code": "32207",
+    "prefCode": "32",
+    "nameJa": "江津市",
+    "nameEn": "Gotsu City",
+    "total": 22959,
+    "male": 10890,
+    "female": 12069
+  },
+  "32209": {
+    "code": "32209",
+    "prefCode": "32",
+    "nameJa": "雲南市",
+    "nameEn": "Unnan City",
+    "total": 36007,
+    "male": 17316,
+    "female": 18691
+  },
+  "32343": {
+    "code": "32343",
+    "prefCode": "32",
+    "nameJa": "奥出雲町",
+    "nameEn": "Okuizumo Town",
+    "total": 11849,
+    "male": 5705,
+    "female": 6144
+  },
+  "32386": {
+    "code": "32386",
+    "prefCode": "32",
+    "nameJa": "飯南町",
+    "nameEn": "Iinan Town",
+    "total": 4577,
+    "male": 2157,
+    "female": 2420
+  },
+  "32441": {
+    "code": "32441",
+    "prefCode": "32",
+    "nameJa": "川本町",
+    "nameEn": "Kawamoto Town",
+    "total": 3248,
+    "male": 1556,
+    "female": 1692
+  },
+  "32448": {
+    "code": "32448",
+    "prefCode": "32",
+    "nameJa": "美郷町",
+    "nameEn": "Misato Town",
+    "total": 4355,
+    "male": 2080,
+    "female": 2275
+  },
+  "32449": {
+    "code": "32449",
+    "prefCode": "32",
+    "nameJa": "邑南町",
+    "nameEn": "Onan Town",
+    "total": 10163,
+    "male": 4874,
+    "female": 5289
+  },
+  "32501": {
+    "code": "32501",
+    "prefCode": "32",
+    "nameJa": "津和野町",
+    "nameEn": "Tsuwano Town",
+    "total": 6875,
+    "male": 3221,
+    "female": 3654
+  },
+  "32505": {
+    "code": "32505",
+    "prefCode": "32",
+    "nameJa": "吉賀町",
+    "nameEn": "Yoshika Town",
+    "total": 6077,
+    "male": 2944,
+    "female": 3133
+  },
+  "32525": {
+    "code": "32525",
+    "prefCode": "32",
+    "nameJa": "海士町",
+    "nameEn": "Ama Town",
+    "total": 2267,
+    "male": 1113,
+    "female": 1154
+  },
+  "32526": {
+    "code": "32526",
+    "prefCode": "32",
+    "nameJa": "西ノ島町",
+    "nameEn": "Nishinoshima Town",
+    "total": 2788,
+    "male": 1430,
+    "female": 1358
+  },
+  "32527": {
+    "code": "32527",
+    "prefCode": "32",
+    "nameJa": "知夫村",
+    "nameEn": "Chibu Village",
+    "total": 634,
+    "male": 323,
+    "female": 311
+  },
+  "32528": {
+    "code": "32528",
+    "prefCode": "32",
+    "nameJa": "隠岐の島町",
+    "nameEn": "Okinoshima Town",
+    "total": 13433,
+    "male": 6531,
+    "female": 6902
+  }
+}

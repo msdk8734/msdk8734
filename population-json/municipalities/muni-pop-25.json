@@ -1,0 +1,173 @@
+{
+  "25201": {
+    "code": "25201",
+    "prefCode": "25",
+    "nameJa": "大津市",
+    "nameEn": "Otsu City",
+    "total": 345070,
+    "male": 166673,
+    "female": 178397
+  },
+  "25202": {
+    "code": "25202",
+    "prefCode": "25",
+    "nameJa": "彦根市",
+    "nameEn": "Hikone City",
+    "total": 113647,
+    "male": 56492,
+    "female": 57155
+  },
+  "25203": {
+    "code": "25203",
+    "prefCode": "25",
+    "nameJa": "長浜市",
+    "nameEn": "Nagahama City",
+    "total": 113636,
+    "male": 55406,
+    "female": 58230
+  },
+  "25204": {
+    "code": "25204",
+    "prefCode": "25",
+    "nameJa": "近江八幡市",
+    "nameEn": "Omihachiman City",
+    "total": 81122,
+    "male": 39676,
+    "female": 41446
+  },
+  "25206": {
+    "code": "25206",
+    "prefCode": "25",
+    "nameJa": "草津市",
+    "nameEn": "Kusatsu City",
+    "total": 143913,
+    "male": 72646,
+    "female": 71267
+  },
+  "25207": {
+    "code": "25207",
+    "prefCode": "25",
+    "nameJa": "守山市",
+    "nameEn": "Moriyama City",
+    "total": 83236,
+    "male": 40872,
+    "female": 42364
+  },
+  "25208": {
+    "code": "25208",
+    "prefCode": "25",
+    "nameJa": "栗東市",
+    "nameEn": "Ritto City",
+    "total": 68820,
+    "male": 34110,
+    "female": 34710
+  },
+  "25209": {
+    "code": "25209",
+    "prefCode": "25",
+    "nameJa": "甲賀市",
+    "nameEn": "Koka City",
+    "total": 88358,
+    "male": 44014,
+    "female": 44344
+  },
+  "25210": {
+    "code": "25210",
+    "prefCode": "25",
+    "nameJa": "野洲市",
+    "nameEn": "Yasu City",
+    "total": 50513,
+    "male": 25121,
+    "female": 25392
+  },
+  "25211": {
+    "code": "25211",
+    "prefCode": "25",
+    "nameJa": "湖南市",
+    "nameEn": "Konan City",
+    "total": 54460,
+    "male": 28168,
+    "female": 26292
+  },
+  "25212": {
+    "code": "25212",
+    "prefCode": "25",
+    "nameJa": "高島市",
+    "nameEn": "Takashima City",
+    "total": 46377,
+    "male": 22762,
+    "female": 23615
+  },
+  "25213": {
+    "code": "25213",
+    "prefCode": "25",
+    "nameJa": "東近江市",
+    "nameEn": "Higashiomi City",
+    "total": 112819,
+    "male": 56296,
+    "female": 56523
+  },
+  "25214": {
+    "code": "25214",
+    "prefCode": "25",
+    "nameJa": "米原市",
+    "nameEn": "Maibara City",
+    "total": 37225,
+    "male": 18051,
+    "female": 19174
+  },
+  "25383": {
+    "code": "25383",
+    "prefCode": "25",
+    "nameJa": "日野町",
+    "nameEn": "Hino Town",
+    "total": 20964,
+    "male": 10555,
+    "female": 10409
+  },
+  "25384": {
+    "code": "25384",
+    "prefCode": "25",
+    "nameJa": "竜王町",
+    "nameEn": "Ryuo Town",
+    "total": 11789,
+    "male": 6192,
+    "female": 5597
+  },
+  "25425": {
+    "code": "25425",
+    "prefCode": "25",
+    "nameJa": "愛荘町",
+    "nameEn": "Aisho Town",
+    "total": 20893,
+    "male": 10373,
+    "female": 10520
+  },
+  "25441": {
+    "code": "25441",
+    "prefCode": "25",
+    "nameJa": "豊郷町",
+    "nameEn": "Toyosato Town",
+    "total": 7132,
+    "male": 3458,
+    "female": 3674
+  },
+  "25442": {
+    "code": "25442",
+    "prefCode": "25",
+    "nameJa": "甲良町",
+    "nameEn": "Koura Town",
+    "total": 6362,
+    "male": 3060,
+    "female": 3302
+  },
+  "25443": {
+    "code": "25443",
+    "prefCode": "25",
+    "nameJa": "多賀町",
+    "nameEn": "Taga Town",
+    "total": 7274,
+    "male": 3504,
+    "female": 3770
+  }
+}

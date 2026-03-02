@@ -1,0 +1,668 @@
+{
+  "40100": {
+    "code": "40100",
+    "prefCode": "40",
+    "nameJa": "北九州市",
+    "nameEn": "Kitakyushu City",
+    "total": 939029,
+    "male": 443269,
+    "female": 495760
+  },
+  "40101": {
+    "code": "40101",
+    "prefCode": "40",
+    "nameJa": "北九州市門司区",
+    "nameEn": "Moji Ward, Kitakyushu City",
+    "total": 93842,
+    "male": 43051,
+    "female": 50791
+  },
+  "40103": {
+    "code": "40103",
+    "prefCode": "40",
+    "nameJa": "北九州市若松区",
+    "nameEn": "Wakamatsu Ward, Kitakyushu City",
+    "total": 80533,
+    "male": 38307,
+    "female": 42226
+  },
+  "40105": {
+    "code": "40105",
+    "prefCode": "40",
+    "nameJa": "北九州市戸畑区",
+    "nameEn": "Tobata Ward, Kitakyushu City",
+    "total": 57494,
+    "male": 28038,
+    "female": 29456
+  },
+  "40106": {
+    "code": "40106",
+    "prefCode": "40",
+    "nameJa": "北九州市小倉北区",
+    "nameEn": "Kokurakita Ward, Kitakyushu City",
+    "total": 183407,
+    "male": 86089,
+    "female": 97318
+  },
+  "40107": {
+    "code": "40107",
+    "prefCode": "40",
+    "nameJa": "北九州市小倉南区",
+    "nameEn": "Kokuraminami Ward, Kitakyushu City",
+    "total": 209028,
+    "male": 99584,
+    "female": 109444
+  },
+  "40108": {
+    "code": "40108",
+    "prefCode": "40",
+    "nameJa": "北九州市八幡東区",
+    "nameEn": "Yahatahigashi Ward, Kitakyushu City",
+    "total": 64792,
+    "male": 30400,
+    "female": 34392
+  },
+  "40109": {
+    "code": "40109",
+    "prefCode": "40",
+    "nameJa": "北九州市八幡西区",
+    "nameEn": "Yahatanishi Ward, Kitakyushu City",
+    "total": 249933,
+    "male": 117800,
+    "female": 132133
+  },
+  "40130": {
+    "code": "40130",
+    "prefCode": "40",
+    "nameJa": "福岡市",
+    "nameEn": "Fukuoka City",
+    "total": 1612392,
+    "male": 761148,
+    "female": 851244
+  },
+  "40131": {
+    "code": "40131",
+    "prefCode": "40",
+    "nameJa": "福岡市東区",
+    "nameEn": "Higashi Ward, Fukuoka City",
+    "total": 322503,
+    "male": 156725,
+    "female": 165778
+  },
+  "40132": {
+    "code": "40132",
+    "prefCode": "40",
+    "nameJa": "福岡市博多区",
+    "nameEn": "Hakata Ward, Fukuoka City",
+    "total": 252034,
+    "male": 121654,
+    "female": 130380
+  },
+  "40133": {
+    "code": "40133",
+    "prefCode": "40",
+    "nameJa": "福岡市中央区",
+    "nameEn": "Chuo Ward, Fukuoka City",
+    "total": 205501,
+    "male": 92450,
+    "female": 113051
+  },
+  "40134": {
+    "code": "40134",
+    "prefCode": "40",
+    "nameJa": "福岡市南区",
+    "nameEn": "Minami Ward, Fukuoka City",
+    "total": 265583,
+    "male": 122925,
+    "female": 142658
+  },
+  "40135": {
+    "code": "40135",
+    "prefCode": "40",
+    "nameJa": "福岡市西区",
+    "nameEn": "Nishi Ward, Fukuoka City",
+    "total": 212579,
+    "male": 100887,
+    "female": 111692
+  },
+  "40136": {
+    "code": "40136",
+    "prefCode": "40",
+    "nameJa": "福岡市城南区",
+    "nameEn": "Jonan Ward, Fukuoka City",
+    "total": 132864,
+    "male": 62325,
+    "female": 70539
+  },
+  "40137": {
+    "code": "40137",
+    "prefCode": "40",
+    "nameJa": "福岡市早良区",
+    "nameEn": "Sawara Ward, Fukuoka City",
+    "total": 221328,
+    "male": 104182,
+    "female": 117146
+  },
+  "40202": {
+    "code": "40202",
+    "prefCode": "40",
+    "nameJa": "大牟田市",
+    "nameEn": "Omuta City",
+    "total": 111281,
+    "male": 51262,
+    "female": 60019
+  },
+  "40203": {
+    "code": "40203",
+    "prefCode": "40",
+    "nameJa": "久留米市",
+    "nameEn": "Kurume City",
+    "total": 303316,
+    "male": 144522,
+    "female": 158794
+  },
+  "40204": {
+    "code": "40204",
+    "prefCode": "40",
+    "nameJa": "直方市",
+    "nameEn": "Nogata City",
+    "total": 56212,
+    "male": 26403,
+    "female": 29809
+  },
+  "40205": {
+    "code": "40205",
+    "prefCode": "40",
+    "nameJa": "飯塚市",
+    "nameEn": "Iizuka City",
+    "total": 126364,
+    "male": 60174,
+    "female": 66190
+  },
+  "40206": {
+    "code": "40206",
+    "prefCode": "40",
+    "nameJa": "田川市",
+    "nameEn": "Tagawa City",
+    "total": 46203,
+    "male": 21056,
+    "female": 25147
+  },
+  "40207": {
+    "code": "40207",
+    "prefCode": "40",
+    "nameJa": "柳川市",
+    "nameEn": "Yanagawa City",
+    "total": 64475,
+    "male": 30437,
+    "female": 34038
+  },
+  "40210": {
+    "code": "40210",
+    "prefCode": "40",
+    "nameJa": "八女市",
+    "nameEn": "Yame City",
+    "total": 60608,
+    "male": 28451,
+    "female": 32157
+  },
+  "40211": {
+    "code": "40211",
+    "prefCode": "40",
+    "nameJa": "筑後市",
+    "nameEn": "Chikugo City",
+    "total": 48827,
+    "male": 23400,
+    "female": 25427
+  },
+  "40212": {
+    "code": "40212",
+    "prefCode": "40",
+    "nameJa": "大川市",
+    "nameEn": "Okawa City",
+    "total": 32988,
+    "male": 15427,
+    "female": 17561
+  },
+  "40213": {
+    "code": "40213",
+    "prefCode": "40",
+    "nameJa": "行橋市",
+    "nameEn": "Yukuhashi City",
+    "total": 71426,
+    "male": 34120,
+    "female": 37306
+  },
+  "40214": {
+    "code": "40214",
+    "prefCode": "40",
+    "nameJa": "豊前市",
+    "nameEn": "Buzen City",
+    "total": 24391,
+    "male": 11378,
+    "female": 13013
+  },
+  "40215": {
+    "code": "40215",
+    "prefCode": "40",
+    "nameJa": "中間市",
+    "nameEn": "Nakama City",
+    "total": 40362,
+    "male": 18961,
+    "female": 21401
+  },
+  "40216": {
+    "code": "40216",
+    "prefCode": "40",
+    "nameJa": "小郡市",
+    "nameEn": "Ogori City",
+    "total": 59360,
+    "male": 27825,
+    "female": 31535
+  },
+  "40217": {
+    "code": "40217",
+    "prefCode": "40",
+    "nameJa": "筑紫野市",
+    "nameEn": "Chikushino City",
+    "total": 103311,
+    "male": 49289,
+    "female": 54022
+  },
+  "40218": {
+    "code": "40218",
+    "prefCode": "40",
+    "nameJa": "春日市",
+    "nameEn": "Kasuga City",
+    "total": 111023,
+    "male": 53099,
+    "female": 57924
+  },
+  "40219": {
+    "code": "40219",
+    "prefCode": "40",
+    "nameJa": "大野城市",
+    "nameEn": "Onojo City",
+    "total": 102085,
+    "male": 48887,
+    "female": 53198
+  },
+  "40220": {
+    "code": "40220",
+    "prefCode": "40",
+    "nameJa": "宗像市",
+    "nameEn": "Munakata City",
+    "total": 97095,
+    "male": 46143,
+    "female": 50952
+  },
+  "40221": {
+    "code": "40221",
+    "prefCode": "40",
+    "nameJa": "太宰府市",
+    "nameEn": "Dazaifu City",
+    "total": 73164,
+    "male": 34743,
+    "female": 38421
+  },
+  "40223": {
+    "code": "40223",
+    "prefCode": "40",
+    "nameJa": "古賀市",
+    "nameEn": "Koga City",
+    "total": 58786,
+    "male": 27924,
+    "female": 30862
+  },
+  "40224": {
+    "code": "40224",
+    "prefCode": "40",
+    "nameJa": "福津市",
+    "nameEn": "Fukutsu City",
+    "total": 67033,
+    "male": 31286,
+    "female": 35747
+  },
+  "40225": {
+    "code": "40225",
+    "prefCode": "40",
+    "nameJa": "うきは市",
+    "nameEn": "Ukiha City",
+    "total": 27981,
+    "male": 13145,
+    "female": 14836
+  },
+  "40226": {
+    "code": "40226",
+    "prefCode": "40",
+    "nameJa": "宮若市",
+    "nameEn": "Miyawaka City",
+    "total": 26298,
+    "male": 12379,
+    "female": 13919
+  },
+  "40227": {
+    "code": "40227",
+    "prefCode": "40",
+    "nameJa": "嘉麻市",
+    "nameEn": "Kama City",
+    "total": 35473,
+    "male": 16400,
+    "female": 19073
+  },
+  "40228": {
+    "code": "40228",
+    "prefCode": "40",
+    "nameJa": "朝倉市",
+    "nameEn": "Asakura City",
+    "total": 50273,
+    "male": 23546,
+    "female": 26727
+  },
+  "40229": {
+    "code": "40229",
+    "prefCode": "40",
+    "nameJa": "みやま市",
+    "nameEn": "Miyama City",
+    "total": 35861,
+    "male": 16675,
+    "female": 19186
+  },
+  "40230": {
+    "code": "40230",
+    "prefCode": "40",
+    "nameJa": "糸島市",
+    "nameEn": "Itoshima City",
+    "total": 98877,
+    "male": 46984,
+    "female": 51893
+  },
+  "40231": {
+    "code": "40231",
+    "prefCode": "40",
+    "nameJa": "那珂川市",
+    "nameEn": "Nakagawa City",
+    "total": 50112,
+    "male": 24194,
+    "female": 25918
+  },
+  "40341": {
+    "code": "40341",
+    "prefCode": "40",
+    "nameJa": "宇美町",
+    "nameEn": "Umi Town",
+    "total": 37671,
+    "male": 18964,
+    "female": 18707
+  },
+  "40342": {
+    "code": "40342",
+    "prefCode": "40",
+    "nameJa": "篠栗町",
+    "nameEn": "Sasaguri Town",
+    "total": 31209,
+    "male": 15014,
+    "female": 16195
+  },
+  "40343": {
+    "code": "40343",
+    "prefCode": "40",
+    "nameJa": "志免町",
+    "nameEn": "Shime Town",
+    "total": 46377,
+    "male": 22291,
+    "female": 24086
+  },
+  "40344": {
+    "code": "40344",
+    "prefCode": "40",
+    "nameJa": "須恵町",
+    "nameEn": "Sue Town",
+    "total": 28628,
+    "male": 13760,
+    "female": 14868
+  },
+  "40345": {
+    "code": "40345",
+    "prefCode": "40",
+    "nameJa": "新宮町",
+    "nameEn": "Shingu Town",
+    "total": 32927,
+    "male": 15894,
+    "female": 17033
+  },
+  "40348": {
+    "code": "40348",
+    "prefCode": "40",
+    "nameJa": "久山町",
+    "nameEn": "Hisayama Town",
+    "total": 9068,
+    "male": 4281,
+    "female": 4787
+  },
+  "40349": {
+    "code": "40349",
+    "prefCode": "40",
+    "nameJa": "粕屋町",
+    "nameEn": "Kasuya Town",
+    "total": 48190,
+    "male": 23840,
+    "female": 24350
+  },
+  "40381": {
+    "code": "40381",
+    "prefCode": "40",
+    "nameJa": "芦屋町",
+    "nameEn": "Ashiya Town",
+    "total": 13545,
+    "male": 6629,
+    "female": 6916
+  },
+  "40382": {
+    "code": "40382",
+    "prefCode": "40",
+    "nameJa": "水巻町",
+    "nameEn": "Mizumaki Town",
+    "total": 28114,
+    "male": 13074,
+    "female": 15040
+  },
+  "40383": {
+    "code": "40383",
+    "prefCode": "40",
+    "nameJa": "岡垣町",
+    "nameEn": "Okagaki Town",
+    "total": 31007,
+    "male": 14481,
+    "female": 16526
+  },
+  "40384": {
+    "code": "40384",
+    "prefCode": "40",
+    "nameJa": "遠賀町",
+    "nameEn": "Onga Town",
+    "total": 18723,
+    "male": 8795,
+    "female": 9928
+  },
+  "40401": {
+    "code": "40401",
+    "prefCode": "40",
+    "nameJa": "小竹町",
+    "nameEn": "Kotake Town",
+    "total": 7151,
+    "male": 3406,
+    "female": 3745
+  },
+  "40402": {
+    "code": "40402",
+    "prefCode": "40",
+    "nameJa": "鞍手町",
+    "nameEn": "Kurate Town",
+    "total": 15080,
+    "male": 7074,
+    "female": 8006
+  },
+  "40421": {
+    "code": "40421",
+    "prefCode": "40",
+    "nameJa": "桂川町",
+    "nameEn": "Keisen Town",
+    "total": 12878,
+    "male": 6018,
+    "female": 6860
+  },
+  "40447": {
+    "code": "40447",
+    "prefCode": "40",
+    "nameJa": "筑前町",
+    "nameEn": "Chikuzen Town",
+    "total": 29591,
+    "male": 14061,
+    "female": 15530
+  },
+  "40448": {
+    "code": "40448",
+    "prefCode": "40",
+    "nameJa": "東峰村",
+    "nameEn": "Toho Village",
+    "total": 1899,
+    "male": 868,
+    "female": 1031
+  },
+  "40503": {
+    "code": "40503",
+    "prefCode": "40",
+    "nameJa": "大刀洗町",
+    "nameEn": "Tachiarai Town",
+    "total": 15521,
+    "male": 7438,
+    "female": 8083
+  },
+  "40522": {
+    "code": "40522",
+    "prefCode": "40",
+    "nameJa": "大木町",
+    "nameEn": "Oki Town",
+    "total": 13820,
+    "male": 6545,
+    "female": 7275
+  },
+  "40544": {
+    "code": "40544",
+    "prefCode": "40",
+    "nameJa": "広川町",
+    "nameEn": "Hirokawa Town",
+    "total": 19969,
+    "male": 9589,
+    "female": 10380
+  },
+  "40601": {
+    "code": "40601",
+    "prefCode": "40",
+    "nameJa": "香春町",
+    "nameEn": "Kawara Town",
+    "total": 10191,
+    "male": 4737,
+    "female": 5454
+  },
+  "40602": {
+    "code": "40602",
+    "prefCode": "40",
+    "nameJa": "添田町",
+    "nameEn": "Soeda Town",
+    "total": 8801,
+    "male": 4128,
+    "female": 4673
+  },
+  "40604": {
+    "code": "40604",
+    "prefCode": "40",
+    "nameJa": "糸田町",
+    "nameEn": "Itoda Town",
+    "total": 8407,
+    "male": 3843,
+    "female": 4564
+  },
+  "40605": {
+    "code": "40605",
+    "prefCode": "40",
+    "nameJa": "川崎町",
+    "nameEn": "Kawasaki Town",
+    "total": 15176,
+    "male": 6918,
+    "female": 8258
+  },
+  "40608": {
+    "code": "40608",
+    "prefCode": "40",
+    "nameJa": "大任町",
+    "nameEn": "Oto Town",
+    "total": 5008,
+    "male": 2262,
+    "female": 2746
+  },
+  "40609": {
+    "code": "40609",
+    "prefCode": "40",
+    "nameJa": "赤村",
+    "nameEn": "Aka Village",
+    "total": 2774,
+    "male": 1295,
+    "female": 1479
+  },
+  "40610": {
+    "code": "40610",
+    "prefCode": "40",
+    "nameJa": "福智町",
+    "nameEn": "Fukuchi Town",
+    "total": 21398,
+    "male": 9984,
+    "female": 11414
+  },
+  "40621": {
+    "code": "40621",
+    "prefCode": "40",
+    "nameJa": "苅田町",
+    "nameEn": "Kanda Town",
+    "total": 37684,
+    "male": 19639,
+    "female": 18045
+  },
+  "40625": {
+    "code": "40625",
+    "prefCode": "40",
+    "nameJa": "みやこ町",
+    "nameEn": "Miyako Town",
+    "total": 18825,
+    "male": 8803,
+    "female": 10022
+  },
+  "40642": {
+    "code": "40642",
+    "prefCode": "40",
+    "nameJa": "吉富町",
+    "nameEn": "Yoshitomi Town",
+    "total": 6536,
+    "male": 3068,
+    "female": 3468
+  },
+  "40646": {
+    "code": "40646",
+    "prefCode": "40",
+    "nameJa": "上毛町",
+    "nameEn": "Koge Town",
+    "total": 7251,
+    "male": 3453,
+    "female": 3798
+  },
+  "40647": {
+    "code": "40647",
+    "prefCode": "40",
+    "nameJa": "築上町",
+    "nameEn": "Chikujo Town",
+    "total": 17189,
+    "male": 8272,
+    "female": 8917
+  }
+}

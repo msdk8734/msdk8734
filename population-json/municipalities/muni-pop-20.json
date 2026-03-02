@@ -1,0 +1,695 @@
+{
+  "20201": {
+    "code": "20201",
+    "prefCode": "20",
+    "nameJa": "長野市",
+    "nameEn": "Nagano City",
+    "total": 372760,
+    "male": 181284,
+    "female": 191476
+  },
+  "20202": {
+    "code": "20202",
+    "prefCode": "20",
+    "nameJa": "松本市",
+    "nameEn": "Matsumoto City",
+    "total": 241145,
+    "male": 118271,
+    "female": 122874
+  },
+  "20203": {
+    "code": "20203",
+    "prefCode": "20",
+    "nameJa": "上田市",
+    "nameEn": "Ueda City",
+    "total": 154055,
+    "male": 75365,
+    "female": 78690
+  },
+  "20204": {
+    "code": "20204",
+    "prefCode": "20",
+    "nameJa": "岡谷市",
+    "nameEn": "Okaya City",
+    "total": 47790,
+    "male": 23213,
+    "female": 24577
+  },
+  "20205": {
+    "code": "20205",
+    "prefCode": "20",
+    "nameJa": "飯田市",
+    "nameEn": "Iida City",
+    "total": 98164,
+    "male": 47280,
+    "female": 50884
+  },
+  "20206": {
+    "code": "20206",
+    "prefCode": "20",
+    "nameJa": "諏訪市",
+    "nameEn": "Suwa City",
+    "total": 48729,
+    "male": 23809,
+    "female": 24920
+  },
+  "20207": {
+    "code": "20207",
+    "prefCode": "20",
+    "nameJa": "須坂市",
+    "nameEn": "Suzaka City",
+    "total": 49559,
+    "male": 24324,
+    "female": 25235
+  },
+  "20208": {
+    "code": "20208",
+    "prefCode": "20",
+    "nameJa": "小諸市",
+    "nameEn": "Komoro City",
+    "total": 40991,
+    "male": 19972,
+    "female": 21019
+  },
+  "20209": {
+    "code": "20209",
+    "prefCode": "20",
+    "nameJa": "伊那市",
+    "nameEn": "Ina City",
+    "total": 66125,
+    "male": 32437,
+    "female": 33688
+  },
+  "20210": {
+    "code": "20210",
+    "prefCode": "20",
+    "nameJa": "駒ヶ根市",
+    "nameEn": "Komagane City",
+    "total": 32202,
+    "male": 15729,
+    "female": 16473
+  },
+  "20211": {
+    "code": "20211",
+    "prefCode": "20",
+    "nameJa": "中野市",
+    "nameEn": "Nakano City",
+    "total": 42338,
+    "male": 20552,
+    "female": 21786
+  },
+  "20212": {
+    "code": "20212",
+    "prefCode": "20",
+    "nameJa": "大町市",
+    "nameEn": "Omachi City",
+    "total": 26029,
+    "male": 12594,
+    "female": 13435
+  },
+  "20213": {
+    "code": "20213",
+    "prefCode": "20",
+    "nameJa": "飯山市",
+    "nameEn": "Iiyama City",
+    "total": 19539,
+    "male": 9498,
+    "female": 10041
+  },
+  "20214": {
+    "code": "20214",
+    "prefCode": "20",
+    "nameJa": "茅野市",
+    "nameEn": "Chino City",
+    "total": 56400,
+    "male": 28241,
+    "female": 28159
+  },
+  "20215": {
+    "code": "20215",
+    "prefCode": "20",
+    "nameJa": "塩尻市",
+    "nameEn": "Shiojiri City",
+    "total": 67241,
+    "male": 33620,
+    "female": 33621
+  },
+  "20217": {
+    "code": "20217",
+    "prefCode": "20",
+    "nameJa": "佐久市",
+    "nameEn": "Saku City",
+    "total": 98199,
+    "male": 48035,
+    "female": 50164
+  },
+  "20218": {
+    "code": "20218",
+    "prefCode": "20",
+    "nameJa": "千曲市",
+    "nameEn": "Chikuma City",
+    "total": 58852,
+    "male": 28404,
+    "female": 30448
+  },
+  "20219": {
+    "code": "20219",
+    "prefCode": "20",
+    "nameJa": "東御市",
+    "nameEn": "Tomi City",
+    "total": 30122,
+    "male": 14776,
+    "female": 15346
+  },
+  "20220": {
+    "code": "20220",
+    "prefCode": "20",
+    "nameJa": "安曇野市",
+    "nameEn": "Azumino City",
+    "total": 94222,
+    "male": 45398,
+    "female": 48824
+  },
+  "20303": {
+    "code": "20303",
+    "prefCode": "20",
+    "nameJa": "小海町",
+    "nameEn": "Koumi Town",
+    "total": 4353,
+    "male": 2140,
+    "female": 2213
+  },
+  "20304": {
+    "code": "20304",
+    "prefCode": "20",
+    "nameJa": "川上村",
+    "nameEn": "Kawakami Village",
+    "total": 4344,
+    "male": 2591,
+    "female": 1753
+  },
+  "20305": {
+    "code": "20305",
+    "prefCode": "20",
+    "nameJa": "南牧村",
+    "nameEn": "Minamimaki Village",
+    "total": 3242,
+    "male": 1807,
+    "female": 1435
+  },
+  "20306": {
+    "code": "20306",
+    "prefCode": "20",
+    "nameJa": "南相木村",
+    "nameEn": "Minamiaiki Village",
+    "total": 962,
+    "male": 473,
+    "female": 489
+  },
+  "20307": {
+    "code": "20307",
+    "prefCode": "20",
+    "nameJa": "北相木村",
+    "nameEn": "Kitaaiki Village",
+    "total": 752,
+    "male": 378,
+    "female": 374
+  },
+  "20309": {
+    "code": "20309",
+    "prefCode": "20",
+    "nameJa": "佐久穂町",
+    "nameEn": "Sakuho Town",
+    "total": 10218,
+    "male": 4966,
+    "female": 5252
+  },
+  "20321": {
+    "code": "20321",
+    "prefCode": "20",
+    "nameJa": "軽井沢町",
+    "nameEn": "Karuizawa Town",
+    "total": 19188,
+    "male": 9178,
+    "female": 10010
+  },
+  "20323": {
+    "code": "20323",
+    "prefCode": "20",
+    "nameJa": "御代田町",
+    "nameEn": "Miyota Town",
+    "total": 15555,
+    "male": 7703,
+    "female": 7852
+  },
+  "20324": {
+    "code": "20324",
+    "prefCode": "20",
+    "nameJa": "立科町",
+    "nameEn": "Tateshina Town",
+    "total": 6612,
+    "male": 3328,
+    "female": 3284
+  },
+  "20349": {
+    "code": "20349",
+    "prefCode": "20",
+    "nameJa": "青木村",
+    "nameEn": "Aoki Village",
+    "total": 4121,
+    "male": 1976,
+    "female": 2145
+  },
+  "20350": {
+    "code": "20350",
+    "prefCode": "20",
+    "nameJa": "長和町",
+    "nameEn": "Nagawa Town",
+    "total": 5600,
+    "male": 2774,
+    "female": 2826
+  },
+  "20361": {
+    "code": "20361",
+    "prefCode": "20",
+    "nameJa": "下諏訪町",
+    "nameEn": "Shimosuwa Town",
+    "total": 19155,
+    "male": 9238,
+    "female": 9917
+  },
+  "20362": {
+    "code": "20362",
+    "prefCode": "20",
+    "nameJa": "富士見町",
+    "nameEn": "Fujimi Town",
+    "total": 14084,
+    "male": 6839,
+    "female": 7245
+  },
+  "20363": {
+    "code": "20363",
+    "prefCode": "20",
+    "nameJa": "原村",
+    "nameEn": "Hara Village",
+    "total": 7680,
+    "male": 3771,
+    "female": 3909
+  },
+  "20382": {
+    "code": "20382",
+    "prefCode": "20",
+    "nameJa": "辰野町",
+    "nameEn": "Tatsuno Town",
+    "total": 18555,
+    "male": 9016,
+    "female": 9539
+  },
+  "20383": {
+    "code": "20383",
+    "prefCode": "20",
+    "nameJa": "箕輪町",
+    "nameEn": "Minowa Town",
+    "total": 24989,
+    "male": 12511,
+    "female": 12478
+  },
+  "20384": {
+    "code": "20384",
+    "prefCode": "20",
+    "nameJa": "飯島町",
+    "nameEn": "Iijima Town",
+    "total": 9004,
+    "male": 4392,
+    "female": 4612
+  },
+  "20385": {
+    "code": "20385",
+    "prefCode": "20",
+    "nameJa": "南箕輪村",
+    "nameEn": "Minamiminowa Village",
+    "total": 15797,
+    "male": 7851,
+    "female": 7946
+  },
+  "20386": {
+    "code": "20386",
+    "prefCode": "20",
+    "nameJa": "中川村",
+    "nameEn": "Nakagawa Village",
+    "total": 4651,
+    "male": 2189,
+    "female": 2462
+  },
+  "20388": {
+    "code": "20388",
+    "prefCode": "20",
+    "nameJa": "宮田村",
+    "nameEn": "Miyada Village",
+    "total": 8569,
+    "male": 4162,
+    "female": 4407
+  },
+  "20402": {
+    "code": "20402",
+    "prefCode": "20",
+    "nameJa": "松川町",
+    "nameEn": "Matsukawa Town",
+    "total": 12530,
+    "male": 6069,
+    "female": 6461
+  },
+  "20403": {
+    "code": "20403",
+    "prefCode": "20",
+    "nameJa": "高森町",
+    "nameEn": "Takamori Town",
+    "total": 12811,
+    "male": 6153,
+    "female": 6658
+  },
+  "20404": {
+    "code": "20404",
+    "prefCode": "20",
+    "nameJa": "阿南町",
+    "nameEn": "Anan Town",
+    "total": 4299,
+    "male": 2071,
+    "female": 2228
+  },
+  "20407": {
+    "code": "20407",
+    "prefCode": "20",
+    "nameJa": "阿智村",
+    "nameEn": "Achi Village",
+    "total": 6068,
+    "male": 2894,
+    "female": 3174
+  },
+  "20409": {
+    "code": "20409",
+    "prefCode": "20",
+    "nameJa": "平谷村",
+    "nameEn": "Hiraya Village",
+    "total": 387,
+    "male": 192,
+    "female": 195
+  },
+  "20410": {
+    "code": "20410",
+    "prefCode": "20",
+    "nameJa": "根羽村",
+    "nameEn": "Neba Village",
+    "total": 852,
+    "male": 411,
+    "female": 441
+  },
+  "20411": {
+    "code": "20411",
+    "prefCode": "20",
+    "nameJa": "下條村",
+    "nameEn": "Shimojo Village",
+    "total": 3545,
+    "male": 1709,
+    "female": 1836
+  },
+  "20412": {
+    "code": "20412",
+    "prefCode": "20",
+    "nameJa": "売木村",
+    "nameEn": "Urugi Village",
+    "total": 548,
+    "male": 252,
+    "female": 296
+  },
+  "20413": {
+    "code": "20413",
+    "prefCode": "20",
+    "nameJa": "天龍村",
+    "nameEn": "Tenryu Village",
+    "total": 1178,
+    "male": 558,
+    "female": 620
+  },
+  "20414": {
+    "code": "20414",
+    "prefCode": "20",
+    "nameJa": "泰阜村",
+    "nameEn": "Yasuoka Village",
+    "total": 1542,
+    "male": 726,
+    "female": 816
+  },
+  "20415": {
+    "code": "20415",
+    "prefCode": "20",
+    "nameJa": "喬木村",
+    "nameEn": "Takagi Village",
+    "total": 5973,
+    "male": 2908,
+    "female": 3065
+  },
+  "20416": {
+    "code": "20416",
+    "prefCode": "20",
+    "nameJa": "豊丘村",
+    "nameEn": "Toyooka Village",
+    "total": 6426,
+    "male": 3185,
+    "female": 3241
+  },
+  "20417": {
+    "code": "20417",
+    "prefCode": "20",
+    "nameJa": "大鹿村",
+    "nameEn": "Oshika Village",
+    "total": 1023,
+    "male": 539,
+    "female": 484
+  },
+  "20422": {
+    "code": "20422",
+    "prefCode": "20",
+    "nameJa": "上松町",
+    "nameEn": "Agematsu Town",
+    "total": 4131,
+    "male": 2044,
+    "female": 2087
+  },
+  "20423": {
+    "code": "20423",
+    "prefCode": "20",
+    "nameJa": "南木曽町",
+    "nameEn": "Nagiso Town",
+    "total": 3915,
+    "male": 1896,
+    "female": 2019
+  },
+  "20425": {
+    "code": "20425",
+    "prefCode": "20",
+    "nameJa": "木祖村",
+    "nameEn": "Kiso Village",
+    "total": 2692,
+    "male": 1235,
+    "female": 1457
+  },
+  "20429": {
+    "code": "20429",
+    "prefCode": "20",
+    "nameJa": "王滝村",
+    "nameEn": "Otaki Village",
+    "total": 715,
+    "male": 340,
+    "female": 375
+  },
+  "20430": {
+    "code": "20430",
+    "prefCode": "20",
+    "nameJa": "大桑村",
+    "nameEn": "Okuwa Village",
+    "total": 3439,
+    "male": 1682,
+    "female": 1757
+  },
+  "20432": {
+    "code": "20432",
+    "prefCode": "20",
+    "nameJa": "木曽町",
+    "nameEn": "Kiso Town",
+    "total": 10584,
+    "male": 5155,
+    "female": 5429
+  },
+  "20446": {
+    "code": "20446",
+    "prefCode": "20",
+    "nameJa": "麻績村",
+    "nameEn": "Omi Village",
+    "total": 2593,
+    "male": 1219,
+    "female": 1374
+  },
+  "20448": {
+    "code": "20448",
+    "prefCode": "20",
+    "nameJa": "生坂村",
+    "nameEn": "Ikusaka Village",
+    "total": 1639,
+    "male": 818,
+    "female": 821
+  },
+  "20450": {
+    "code": "20450",
+    "prefCode": "20",
+    "nameJa": "山形村",
+    "nameEn": "Yamagata Village",
+    "total": 8400,
+    "male": 4103,
+    "female": 4297
+  },
+  "20451": {
+    "code": "20451",
+    "prefCode": "20",
+    "nameJa": "朝日村",
+    "nameEn": "Asahi Village",
+    "total": 4279,
+    "male": 2110,
+    "female": 2169
+  },
+  "20452": {
+    "code": "20452",
+    "prefCode": "20",
+    "nameJa": "筑北村",
+    "nameEn": "Chikuhoku Village",
+    "total": 4149,
+    "male": 2046,
+    "female": 2103
+  },
+  "20481": {
+    "code": "20481",
+    "prefCode": "20",
+    "nameJa": "池田町",
+    "nameEn": "Ikeda Town",
+    "total": 9382,
+    "male": 4552,
+    "female": 4830
+  },
+  "20482": {
+    "code": "20482",
+    "prefCode": "20",
+    "nameJa": "松川村",
+    "nameEn": "Matsukawa Village",
+    "total": 9599,
+    "male": 4605,
+    "female": 4994
+  },
+  "20485": {
+    "code": "20485",
+    "prefCode": "20",
+    "nameJa": "白馬村",
+    "nameEn": "Hakuba Village",
+    "total": 8575,
+    "male": 4257,
+    "female": 4318
+  },
+  "20486": {
+    "code": "20486",
+    "prefCode": "20",
+    "nameJa": "小谷村",
+    "nameEn": "Otari Village",
+    "total": 2647,
+    "male": 1367,
+    "female": 1280
+  },
+  "20521": {
+    "code": "20521",
+    "prefCode": "20",
+    "nameJa": "坂城町",
+    "nameEn": "Sakaki Town",
+    "total": 14004,
+    "male": 6909,
+    "female": 7095
+  },
+  "20541": {
+    "code": "20541",
+    "prefCode": "20",
+    "nameJa": "小布施町",
+    "nameEn": "Obuse Town",
+    "total": 10660,
+    "male": 5122,
+    "female": 5538
+  },
+  "20543": {
+    "code": "20543",
+    "prefCode": "20",
+    "nameJa": "高山村",
+    "nameEn": "Takayama Village",
+    "total": 6617,
+    "male": 3242,
+    "female": 3375
+  },
+  "20561": {
+    "code": "20561",
+    "prefCode": "20",
+    "nameJa": "山ノ内町",
+    "nameEn": "Yamanouchi Town",
+    "total": 11352,
+    "male": 5519,
+    "female": 5833
+  },
+  "20562": {
+    "code": "20562",
+    "prefCode": "20",
+    "nameJa": "木島平村",
+    "nameEn": "Kijimadaira Village",
+    "total": 4375,
+    "male": 2114,
+    "female": 2261
+  },
+  "20563": {
+    "code": "20563",
+    "prefCode": "20",
+    "nameJa": "野沢温泉村",
+    "nameEn": "Nozawaonsen Village",
+    "total": 3279,
+    "male": 1571,
+    "female": 1708
+  },
+  "20583": {
+    "code": "20583",
+    "prefCode": "20",
+    "nameJa": "信濃町",
+    "nameEn": "Shinano Town",
+    "total": 7739,
+    "male": 3812,
+    "female": 3927
+  },
+  "20588": {
+    "code": "20588",
+    "prefCode": "20",
+    "nameJa": "小川村",
+    "nameEn": "Ogawa Village",
+    "total": 2215,
+    "male": 1100,
+    "female": 1115
+  },
+  "20590": {
+    "code": "20590",
+    "prefCode": "20",
+    "nameJa": "飯綱町",
+    "nameEn": "Iizuna Town",
+    "total": 10296,
+    "male": 5019,
+    "female": 5277
+  },
+  "20602": {
+    "code": "20602",
+    "prefCode": "20",
+    "nameJa": "栄村",
+    "nameEn": "Sakae Village",
+    "total": 1660,
+    "male": 800,
+    "female": 860
+  }
+}

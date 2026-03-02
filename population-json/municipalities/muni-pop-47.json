@@ -1,0 +1,371 @@
+{
+  "47201": {
+    "code": "47201",
+    "prefCode": "47",
+    "nameJa": "那覇市",
+    "nameEn": "Naha City",
+    "total": 317625,
+    "male": 154042,
+    "female": 163583
+  },
+  "47205": {
+    "code": "47205",
+    "prefCode": "47",
+    "nameJa": "宜野湾市",
+    "nameEn": "Ginowan City",
+    "total": 100125,
+    "male": 48826,
+    "female": 51299
+  },
+  "47207": {
+    "code": "47207",
+    "prefCode": "47",
+    "nameJa": "石垣市",
+    "nameEn": "Ishigaki City",
+    "total": 47637,
+    "male": 24001,
+    "female": 23636
+  },
+  "47208": {
+    "code": "47208",
+    "prefCode": "47",
+    "nameJa": "浦添市",
+    "nameEn": "Urasoe City",
+    "total": 115690,
+    "male": 55977,
+    "female": 59713
+  },
+  "47209": {
+    "code": "47209",
+    "prefCode": "47",
+    "nameJa": "名護市",
+    "nameEn": "Nago City",
+    "total": 63554,
+    "male": 31606,
+    "female": 31948
+  },
+  "47210": {
+    "code": "47210",
+    "prefCode": "47",
+    "nameJa": "糸満市",
+    "nameEn": "Itoman City",
+    "total": 61007,
+    "male": 30707,
+    "female": 30300
+  },
+  "47211": {
+    "code": "47211",
+    "prefCode": "47",
+    "nameJa": "沖縄市",
+    "nameEn": "Okinawa City",
+    "total": 142752,
+    "male": 69489,
+    "female": 73263
+  },
+  "47212": {
+    "code": "47212",
+    "prefCode": "47",
+    "nameJa": "豊見城市",
+    "nameEn": "Tomigusuku City",
+    "total": 64612,
+    "male": 31465,
+    "female": 33147
+  },
+  "47213": {
+    "code": "47213",
+    "prefCode": "47",
+    "nameJa": "うるま市",
+    "nameEn": "Uruma City",
+    "total": 125303,
+    "male": 63049,
+    "female": 62254
+  },
+  "47214": {
+    "code": "47214",
+    "prefCode": "47",
+    "nameJa": "宮古島市",
+    "nameEn": "Miyakojima City",
+    "total": 52931,
+    "male": 26481,
+    "female": 26450
+  },
+  "47215": {
+    "code": "47215",
+    "prefCode": "47",
+    "nameJa": "南城市",
+    "nameEn": "Nanjo City",
+    "total": 44043,
+    "male": 22164,
+    "female": 21879
+  },
+  "47301": {
+    "code": "47301",
+    "prefCode": "47",
+    "nameJa": "国頭村",
+    "nameEn": "Kunigami Village",
+    "total": 4517,
+    "male": 2317,
+    "female": 2200
+  },
+  "47302": {
+    "code": "47302",
+    "prefCode": "47",
+    "nameJa": "大宜味村",
+    "nameEn": "Ogimi Village",
+    "total": 3092,
+    "male": 1640,
+    "female": 1452
+  },
+  "47303": {
+    "code": "47303",
+    "prefCode": "47",
+    "nameJa": "東村",
+    "nameEn": "Higashi Village",
+    "total": 1598,
+    "male": 884,
+    "female": 714
+  },
+  "47306": {
+    "code": "47306",
+    "prefCode": "47",
+    "nameJa": "今帰仁村",
+    "nameEn": "Nakijin Village",
+    "total": 8894,
+    "male": 4466,
+    "female": 4428
+  },
+  "47308": {
+    "code": "47308",
+    "prefCode": "47",
+    "nameJa": "本部町",
+    "nameEn": "Motobu Town",
+    "total": 12530,
+    "male": 6337,
+    "female": 6193
+  },
+  "47311": {
+    "code": "47311",
+    "prefCode": "47",
+    "nameJa": "恩納村",
+    "nameEn": "Onna Village",
+    "total": 10869,
+    "male": 5497,
+    "female": 5372
+  },
+  "47313": {
+    "code": "47313",
+    "prefCode": "47",
+    "nameJa": "宜野座村",
+    "nameEn": "Ginoza Village",
+    "total": 5833,
+    "male": 2907,
+    "female": 2926
+  },
+  "47314": {
+    "code": "47314",
+    "prefCode": "47",
+    "nameJa": "金武町",
+    "nameEn": "Kin Town",
+    "total": 10806,
+    "male": 5371,
+    "female": 5435
+  },
+  "47315": {
+    "code": "47315",
+    "prefCode": "47",
+    "nameJa": "伊江村",
+    "nameEn": "Ie Village",
+    "total": 4118,
+    "male": 2074,
+    "female": 2044
+  },
+  "47324": {
+    "code": "47324",
+    "prefCode": "47",
+    "nameJa": "読谷村",
+    "nameEn": "Yomitan Village",
+    "total": 41206,
+    "male": 20242,
+    "female": 20964
+  },
+  "47325": {
+    "code": "47325",
+    "prefCode": "47",
+    "nameJa": "嘉手納町",
+    "nameEn": "Kadena Town",
+    "total": 13521,
+    "male": 6561,
+    "female": 6960
+  },
+  "47326": {
+    "code": "47326",
+    "prefCode": "47",
+    "nameJa": "北谷町",
+    "nameEn": "Chatan Town",
+    "total": 28201,
+    "male": 13483,
+    "female": 14718
+  },
+  "47327": {
+    "code": "47327",
+    "prefCode": "47",
+    "nameJa": "北中城村",
+    "nameEn": "Kitanakagusuku Village",
+    "total": 17969,
+    "male": 8667,
+    "female": 9302
+  },
+  "47328": {
+    "code": "47328",
+    "prefCode": "47",
+    "nameJa": "中城村",
+    "nameEn": "Nakagusuku Village",
+    "total": 22157,
+    "male": 11036,
+    "female": 11121
+  },
+  "47329": {
+    "code": "47329",
+    "prefCode": "47",
+    "nameJa": "西原町",
+    "nameEn": "Nishihara Town",
+    "total": 34984,
+    "male": 17647,
+    "female": 17337
+  },
+  "47348": {
+    "code": "47348",
+    "prefCode": "47",
+    "nameJa": "与那原町",
+    "nameEn": "Yonabaru Town",
+    "total": 19695,
+    "male": 9554,
+    "female": 10141
+  },
+  "47350": {
+    "code": "47350",
+    "prefCode": "47",
+    "nameJa": "南風原町",
+    "nameEn": "Haebaru Town",
+    "total": 40440,
+    "male": 19825,
+    "female": 20615
+  },
+  "47353": {
+    "code": "47353",
+    "prefCode": "47",
+    "nameJa": "渡嘉敷村",
+    "nameEn": "Tokashiki Village",
+    "total": 718,
+    "male": 387,
+    "female": 331
+  },
+  "47354": {
+    "code": "47354",
+    "prefCode": "47",
+    "nameJa": "座間味村",
+    "nameEn": "Zamami Village",
+    "total": 892,
+    "male": 486,
+    "female": 406
+  },
+  "47355": {
+    "code": "47355",
+    "prefCode": "47",
+    "nameJa": "粟国村",
+    "nameEn": "Aguni Village",
+    "total": 683,
+    "male": 384,
+    "female": 299
+  },
+  "47356": {
+    "code": "47356",
+    "prefCode": "47",
+    "nameJa": "渡名喜村",
+    "nameEn": "Tonaki Village",
+    "total": 346,
+    "male": 206,
+    "female": 140
+  },
+  "47357": {
+    "code": "47357",
+    "prefCode": "47",
+    "nameJa": "南大東村",
+    "nameEn": "Minamidaito Village",
+    "total": 1285,
+    "male": 744,
+    "female": 541
+  },
+  "47358": {
+    "code": "47358",
+    "prefCode": "47",
+    "nameJa": "北大東村",
+    "nameEn": "Kitadaito Village",
+    "total": 590,
+    "male": 367,
+    "female": 223
+  },
+  "47359": {
+    "code": "47359",
+    "prefCode": "47",
+    "nameJa": "伊平屋村",
+    "nameEn": "Iheya Village",
+    "total": 1126,
+    "male": 607,
+    "female": 519
+  },
+  "47360": {
+    "code": "47360",
+    "prefCode": "47",
+    "nameJa": "伊是名村",
+    "nameEn": "Izena Village",
+    "total": 1322,
+    "male": 718,
+    "female": 604
+  },
+  "47361": {
+    "code": "47361",
+    "prefCode": "47",
+    "nameJa": "久米島町",
+    "nameEn": "Kumejima Town",
+    "total": 7192,
+    "male": 3823,
+    "female": 3369
+  },
+  "47362": {
+    "code": "47362",
+    "prefCode": "47",
+    "nameJa": "八重瀬町",
+    "nameEn": "Yaese Town",
+    "total": 30941,
+    "male": 15244,
+    "female": 15697
+  },
+  "47375": {
+    "code": "47375",
+    "prefCode": "47",
+    "nameJa": "多良間村",
+    "nameEn": "Tarama Village",
+    "total": 1058,
+    "male": 575,
+    "female": 483
+  },
+  "47381": {
+    "code": "47381",
+    "prefCode": "47",
+    "nameJa": "竹富町",
+    "nameEn": "Taketomi Town",
+    "total": 3942,
+    "male": 2033,
+    "female": 1909
+  },
+  "47382": {
+    "code": "47382",
+    "prefCode": "47",
+    "nameJa": "与那国町",
+    "nameEn": "Yonaguni Town",
+    "total": 1676,
+    "male": 923,
+    "female": 753
+  }
+}

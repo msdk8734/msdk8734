@@ -1,0 +1,182 @@
+{
+  "38201": {
+    "code": "38201",
+    "prefCode": "38",
+    "nameJa": "松山市",
+    "nameEn": "Matsuyama City",
+    "total": 511192,
+    "male": 240292,
+    "female": 270900
+  },
+  "38202": {
+    "code": "38202",
+    "prefCode": "38",
+    "nameJa": "今治市",
+    "nameEn": "Imabari City",
+    "total": 151672,
+    "male": 71799,
+    "female": 79873
+  },
+  "38203": {
+    "code": "38203",
+    "prefCode": "38",
+    "nameJa": "宇和島市",
+    "nameEn": "Uwajima City",
+    "total": 70809,
+    "male": 33213,
+    "female": 37596
+  },
+  "38204": {
+    "code": "38204",
+    "prefCode": "38",
+    "nameJa": "八幡浜市",
+    "nameEn": "Yawatahama City",
+    "total": 31987,
+    "male": 14971,
+    "female": 17016
+  },
+  "38205": {
+    "code": "38205",
+    "prefCode": "38",
+    "nameJa": "新居浜市",
+    "nameEn": "Niihama City",
+    "total": 115938,
+    "male": 56004,
+    "female": 59934
+  },
+  "38206": {
+    "code": "38206",
+    "prefCode": "38",
+    "nameJa": "西条市",
+    "nameEn": "Saijo City",
+    "total": 104791,
+    "male": 50615,
+    "female": 54176
+  },
+  "38207": {
+    "code": "38207",
+    "prefCode": "38",
+    "nameJa": "大洲市",
+    "nameEn": "Ozu City",
+    "total": 40575,
+    "male": 19423,
+    "female": 21152
+  },
+  "38210": {
+    "code": "38210",
+    "prefCode": "38",
+    "nameJa": "伊予市",
+    "nameEn": "Iyo City",
+    "total": 35133,
+    "male": 16385,
+    "female": 18748
+  },
+  "38213": {
+    "code": "38213",
+    "prefCode": "38",
+    "nameJa": "四国中央市",
+    "nameEn": "Shikokuchuo City",
+    "total": 82754,
+    "male": 40468,
+    "female": 42286
+  },
+  "38214": {
+    "code": "38214",
+    "prefCode": "38",
+    "nameJa": "西予市",
+    "nameEn": "Seiyo City",
+    "total": 35388,
+    "male": 16635,
+    "female": 18753
+  },
+  "38215": {
+    "code": "38215",
+    "prefCode": "38",
+    "nameJa": "東温市",
+    "nameEn": "Toon City",
+    "total": 33903,
+    "male": 16180,
+    "female": 17723
+  },
+  "38356": {
+    "code": "38356",
+    "prefCode": "38",
+    "nameJa": "上島町",
+    "nameEn": "Kamijima Town",
+    "total": 6509,
+    "male": 3421,
+    "female": 3088
+  },
+  "38386": {
+    "code": "38386",
+    "prefCode": "38",
+    "nameJa": "久万高原町",
+    "nameEn": "Kumakogen Town",
+    "total": 7404,
+    "male": 3513,
+    "female": 3891
+  },
+  "38401": {
+    "code": "38401",
+    "prefCode": "38",
+    "nameJa": "松前町",
+    "nameEn": "Masaki Town",
+    "total": 29630,
+    "male": 13911,
+    "female": 15719
+  },
+  "38402": {
+    "code": "38402",
+    "prefCode": "38",
+    "nameJa": "砥部町",
+    "nameEn": "Tobe Town",
+    "total": 20480,
+    "male": 9519,
+    "female": 10961
+  },
+  "38422": {
+    "code": "38422",
+    "prefCode": "38",
+    "nameJa": "内子町",
+    "nameEn": "Uchiko Town",
+    "total": 15322,
+    "male": 7303,
+    "female": 8019
+  },
+  "38442": {
+    "code": "38442",
+    "prefCode": "38",
+    "nameJa": "伊方町",
+    "nameEn": "Ikata Town",
+    "total": 8397,
+    "male": 4036,
+    "female": 4361
+  },
+  "38484": {
+    "code": "38484",
+    "prefCode": "38",
+    "nameJa": "松野町",
+    "nameEn": "Matsuno Town",
+    "total": 3674,
+    "male": 1725,
+    "female": 1949
+  },
+  "38488": {
+    "code": "38488",
+    "prefCode": "38",
+    "nameJa": "鬼北町",
+    "nameEn": "Kihoku Town",
+    "total": 9682,
+    "male": 4463,
+    "female": 5219
+  },
+  "38506": {
+    "code": "38506",
+    "prefCode": "38",
+    "nameJa": "愛南町",
+    "nameEn": "Ainan Town",
+    "total": 19601,
+    "male": 9186,
+    "female": 10415
+  }
+}
