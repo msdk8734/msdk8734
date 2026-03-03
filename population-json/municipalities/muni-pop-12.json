@@ -1,0 +1,542 @@
+{
+  "12100": {
+    "code": "12100",
+    "prefCode": "12",
+    "nameJa": "千葉市",
+    "nameEn": "Chiba City",
+    "total": 983896,
+    "male": 488345,
+    "female": 495551
+  },
+  "12101": {
+    "code": "12101",
+    "prefCode": "12",
+    "nameJa": "千葉市中央区",
+    "nameEn": "Chuo Ward, Chiba City",
+    "total": 216963,
+    "male": 109244,
+    "female": 107719
+  },
+  "12102": {
+    "code": "12102",
+    "prefCode": "12",
+    "nameJa": "千葉市花見川区",
+    "nameEn": "Hanamigawa Ward, Chiba City",
+    "total": 176964,
+    "male": 87818,
+    "female": 89146
+  },
+  "12103": {
+    "code": "12103",
+    "prefCode": "12",
+    "nameJa": "千葉市稲毛区",
+    "nameEn": "Inage Ward, Chiba City",
+    "total": 158426,
+    "male": 78888,
+    "female": 79538
+  },
+  "12104": {
+    "code": "12104",
+    "prefCode": "12",
+    "nameJa": "千葉市若葉区",
+    "nameEn": "Wakaba Ward, Chiba City",
+    "total": 146761,
+    "male": 73971,
+    "female": 72790
+  },
+  "12105": {
+    "code": "12105",
+    "prefCode": "12",
+    "nameJa": "千葉市緑区",
+    "nameEn": "Midori Ward, Chiba City",
+    "total": 129402,
+    "male": 63481,
+    "female": 65921
+  },
+  "12106": {
+    "code": "12106",
+    "prefCode": "12",
+    "nameJa": "千葉市美浜区",
+    "nameEn": "Mihama Ward, Chiba City",
+    "total": 155380,
+    "male": 74943,
+    "female": 80437
+  },
+  "12202": {
+    "code": "12202",
+    "prefCode": "12",
+    "nameJa": "銚子市",
+    "nameEn": "Choshi City",
+    "total": 53986,
+    "male": 26413,
+    "female": 27573
+  },
+  "12203": {
+    "code": "12203",
+    "prefCode": "12",
+    "nameJa": "市川市",
+    "nameEn": "Ichikawa City",
+    "total": 494720,
+    "male": 249810,
+    "female": 244910
+  },
+  "12204": {
+    "code": "12204",
+    "prefCode": "12",
+    "nameJa": "船橋市",
+    "nameEn": "Funabashi City",
+    "total": 649393,
+    "male": 322801,
+    "female": 326592
+  },
+  "12205": {
+    "code": "12205",
+    "prefCode": "12",
+    "nameJa": "館山市",
+    "nameEn": "Tateyama City",
+    "total": 43554,
+    "male": 21082,
+    "female": 22472
+  },
+  "12206": {
+    "code": "12206",
+    "prefCode": "12",
+    "nameJa": "木更津市",
+    "nameEn": "Kisarazu City",
+    "total": 136843,
+    "male": 69044,
+    "female": 67799
+  },
+  "12207": {
+    "code": "12207",
+    "prefCode": "12",
+    "nameJa": "松戸市",
+    "nameEn": "Matsudo City",
+    "total": 500395,
+    "male": 248140,
+    "female": 252255
+  },
+  "12208": {
+    "code": "12208",
+    "prefCode": "12",
+    "nameJa": "野田市",
+    "nameEn": "Noda City",
+    "total": 153538,
+    "male": 77174,
+    "female": 76364
+  },
+  "12210": {
+    "code": "12210",
+    "prefCode": "12",
+    "nameJa": "茂原市",
+    "nameEn": "Mobara City",
+    "total": 85861,
+    "male": 42487,
+    "female": 43374
+  },
+  "12211": {
+    "code": "12211",
+    "prefCode": "12",
+    "nameJa": "成田市",
+    "nameEn": "Narita City",
+    "total": 133099,
+    "male": 66452,
+    "female": 66647
+  },
+  "12212": {
+    "code": "12212",
+    "prefCode": "12",
+    "nameJa": "佐倉市",
+    "nameEn": "Sakura City",
+    "total": 169506,
+    "male": 83129,
+    "female": 86377
+  },
+  "12213": {
+    "code": "12213",
+    "prefCode": "12",
+    "nameJa": "東金市",
+    "nameEn": "Togane City",
+    "total": 56524,
+    "male": 28362,
+    "female": 28162
+  },
+  "12215": {
+    "code": "12215",
+    "prefCode": "12",
+    "nameJa": "旭市",
+    "nameEn": "Asahi City",
+    "total": 61986,
+    "male": 30710,
+    "female": 31276
+  },
+  "12216": {
+    "code": "12216",
+    "prefCode": "12",
+    "nameJa": "習志野市",
+    "nameEn": "Narashino City",
+    "total": 175105,
+    "male": 86985,
+    "female": 88120
+  },
+  "12217": {
+    "code": "12217",
+    "prefCode": "12",
+    "nameJa": "柏市",
+    "nameEn": "Kashiwa City",
+    "total": 437634,
+    "male": 216041,
+    "female": 221593
+  },
+  "12218": {
+    "code": "12218",
+    "prefCode": "12",
+    "nameJa": "勝浦市",
+    "nameEn": "Katsuura City",
+    "total": 15213,
+    "male": 7592,
+    "female": 7621
+  },
+  "12219": {
+    "code": "12219",
+    "prefCode": "12",
+    "nameJa": "市原市",
+    "nameEn": "Ichihara City",
+    "total": 266861,
+    "male": 137547,
+    "female": 129314
+  },
+  "12220": {
+    "code": "12220",
+    "prefCode": "12",
+    "nameJa": "流山市",
+    "nameEn": "Nagareyama City",
+    "total": 212562,
+    "male": 104506,
+    "female": 108056
+  },
+  "12221": {
+    "code": "12221",
+    "prefCode": "12",
+    "nameJa": "八千代市",
+    "nameEn": "Yachiyo City",
+    "total": 206692,
+    "male": 101990,
+    "female": 104702
+  },
+  "12222": {
+    "code": "12222",
+    "prefCode": "12",
+    "nameJa": "我孫子市",
+    "nameEn": "Abiko City",
+    "total": 131317,
+    "male": 64174,
+    "female": 67143
+  },
+  "12223": {
+    "code": "12223",
+    "prefCode": "12",
+    "nameJa": "鴨川市",
+    "nameEn": "Kamogawa City",
+    "total": 30209,
+    "male": 14517,
+    "female": 15692
+  },
+  "12224": {
+    "code": "12224",
+    "prefCode": "12",
+    "nameJa": "鎌ケ谷市",
+    "nameEn": "Kamagaya City",
+    "total": 109757,
+    "male": 54001,
+    "female": 55756
+  },
+  "12225": {
+    "code": "12225",
+    "prefCode": "12",
+    "nameJa": "君津市",
+    "nameEn": "Kimitsu City",
+    "total": 79520,
+    "male": 40494,
+    "female": 39026
+  },
+  "12226": {
+    "code": "12226",
+    "prefCode": "12",
+    "nameJa": "富津市",
+    "nameEn": "Futtsu City",
+    "total": 40427,
+    "male": 20653,
+    "female": 19774
+  },
+  "12227": {
+    "code": "12227",
+    "prefCode": "12",
+    "nameJa": "浦安市",
+    "nameEn": "Urayasu City",
+    "total": 171322,
+    "male": 82954,
+    "female": 88368
+  },
+  "12228": {
+    "code": "12228",
+    "prefCode": "12",
+    "nameJa": "四街道市",
+    "nameEn": "Yotsukaido City",
+    "total": 96424,
+    "male": 48312,
+    "female": 48112
+  },
+  "12229": {
+    "code": "12229",
+    "prefCode": "12",
+    "nameJa": "袖ケ浦市",
+    "nameEn": "Sodegaura City",
+    "total": 66091,
+    "male": 33529,
+    "female": 32562
+  },
+  "12230": {
+    "code": "12230",
+    "prefCode": "12",
+    "nameJa": "八街市",
+    "nameEn": "Yachimata City",
+    "total": 66631,
+    "male": 34288,
+    "female": 32343
+  },
+  "12231": {
+    "code": "12231",
+    "prefCode": "12",
+    "nameJa": "印西市",
+    "nameEn": "Inzai City",
+    "total": 111731,
+    "male": 55381,
+    "female": 56350
+  },
+  "12232": {
+    "code": "12232",
+    "prefCode": "12",
+    "nameJa": "白井市",
+    "nameEn": "Shiroi City",
+    "total": 62218,
+    "male": 31050,
+    "female": 31168
+  },
+  "12233": {
+    "code": "12233",
+    "prefCode": "12",
+    "nameJa": "富里市",
+    "nameEn": "Tomisato City",
+    "total": 49999,
+    "male": 25595,
+    "female": 24404
+  },
+  "12234": {
+    "code": "12234",
+    "prefCode": "12",
+    "nameJa": "南房総市",
+    "nameEn": "Minamiboso City",
+    "total": 34066,
+    "male": 16357,
+    "female": 17709
+  },
+  "12235": {
+    "code": "12235",
+    "prefCode": "12",
+    "nameJa": "匝瑳市",
+    "nameEn": "Sosa City",
+    "total": 33294,
+    "male": 16613,
+    "female": 16681
+  },
+  "12236": {
+    "code": "12236",
+    "prefCode": "12",
+    "nameJa": "香取市",
+    "nameEn": "Katori City",
+    "total": 69575,
+    "male": 34699,
+    "female": 34876
+  },
+  "12237": {
+    "code": "12237",
+    "prefCode": "12",
+    "nameJa": "山武市",
+    "nameEn": "Sammu City",
+    "total": 47745,
+    "male": 24311,
+    "female": 23434
+  },
+  "12238": {
+    "code": "12238",
+    "prefCode": "12",
+    "nameJa": "いすみ市",
+    "nameEn": "Isumi City",
+    "total": 34705,
+    "male": 17081,
+    "female": 17624
+  },
+  "12239": {
+    "code": "12239",
+    "prefCode": "12",
+    "nameJa": "大網白里市",
+    "nameEn": "Oamishirasato City",
+    "total": 47660,
+    "male": 23526,
+    "female": 24134
+  },
+  "12322": {
+    "code": "12322",
+    "prefCode": "12",
+    "nameJa": "印旛郡酒々井町",
+    "nameEn": "Shisui Town",
+    "total": 20095,
+    "male": 9991,
+    "female": 10104
+  },
+  "12329": {
+    "code": "12329",
+    "prefCode": "12",
+    "nameJa": "印旛郡栄町",
+    "nameEn": "Sakae Town",
+    "total": 19624,
+    "male": 9687,
+    "female": 9937
+  },
+  "12342": {
+    "code": "12342",
+    "prefCode": "12",
+    "nameJa": "香取郡神崎町",
+    "nameEn": "Kozaki Town",
+    "total": 5634,
+    "male": 2861,
+    "female": 2773
+  },
+  "12347": {
+    "code": "12347",
+    "prefCode": "12",
+    "nameJa": "香取郡多古町",
+    "nameEn": "Tako Town",
+    "total": 13426,
+    "male": 6870,
+    "female": 6556
+  },
+  "12349": {
+    "code": "12349",
+    "prefCode": "12",
+    "nameJa": "香取郡東庄町",
+    "nameEn": "Tonosho Town",
+    "total": 12607,
+    "male": 6409,
+    "female": 6198
+  },
+  "12403": {
+    "code": "12403",
+    "prefCode": "12",
+    "nameJa": "山武郡九十九里町",
+    "nameEn": "Kujukuri Town",
+    "total": 14004,
+    "male": 6978,
+    "female": 7026
+  },
+  "12409": {
+    "code": "12409",
+    "prefCode": "12",
+    "nameJa": "山武郡芝山町",
+    "nameEn": "Shibayama Town",
+    "total": 6644,
+    "male": 3400,
+    "female": 3244
+  },
+  "12410": {
+    "code": "12410",
+    "prefCode": "12",
+    "nameJa": "山武郡横芝光町",
+    "nameEn": "Yokoshibahikari Town",
+    "total": 22095,
+    "male": 10920,
+    "female": 11175
+  },
+  "12421": {
+    "code": "12421",
+    "prefCode": "12",
+    "nameJa": "長生郡一宮町",
+    "nameEn": "Ichinomiya Town",
+    "total": 12294,
+    "male": 6087,
+    "female": 6207
+  },
+  "12422": {
+    "code": "12422",
+    "prefCode": "12",
+    "nameJa": "長生郡睦沢町",
+    "nameEn": "Mutsuzawa Town",
+    "total": 6549,
+    "male": 3205,
+    "female": 3344
+  },
+  "12423": {
+    "code": "12423",
+    "prefCode": "12",
+    "nameJa": "長生郡長生村",
+    "nameEn": "Chosei Village",
+    "total": 13269,
+    "male": 6582,
+    "female": 6687
+  },
+  "12424": {
+    "code": "12424",
+    "prefCode": "12",
+    "nameJa": "長生郡白子町",
+    "nameEn": "Shirako Town",
+    "total": 10376,
+    "male": 5230,
+    "female": 5146
+  },
+  "12426": {
+    "code": "12426",
+    "prefCode": "12",
+    "nameJa": "長生郡長柄町",
+    "nameEn": "Nagara Town",
+    "total": 6233,
+    "male": 3173,
+    "female": 3060
+  },
+  "12427": {
+    "code": "12427",
+    "prefCode": "12",
+    "nameJa": "長生郡長南町",
+    "nameEn": "Chonan Town",
+    "total": 7074,
+    "male": 3537,
+    "female": 3537
+  },
+  "12441": {
+    "code": "12441",
+    "prefCode": "12",
+    "nameJa": "夷隅郡大多喜町",
+    "nameEn": "Otaki Town",
+    "total": 8005,
+    "male": 3958,
+    "female": 4047
+  },
+  "12443": {
+    "code": "12443",
+    "prefCode": "12",
+    "nameJa": "夷隅郡御宿町",
+    "nameEn": "Onjuku Town",
+    "total": 6912,
+    "male": 3335,
+    "female": 3577
+  },
+  "12463": {
+    "code": "12463",
+    "prefCode": "12",
+    "nameJa": "安房郡鋸南町",
+    "nameEn": "Kyonan Town",
+    "total": 6679,
+    "male": 3242,
+    "female": 3437
+  }
+}

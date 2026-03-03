@@ -1,0 +1,371 @@
+{
+  "22100": {
+    "code": "22100",
+    "prefCode": "22",
+    "nameJa": "静岡市",
+    "nameEn": "Shizuoka City",
+    "total": 672775,
+    "male": 327566,
+    "female": 345209
+  },
+  "22101": {
+    "code": "22101",
+    "prefCode": "22",
+    "nameJa": "静岡市葵区",
+    "nameEn": "Aoi Ward, Shizuoka City",
+    "total": 244034,
+    "male": 117654,
+    "female": 126380
+  },
+  "22102": {
+    "code": "22102",
+    "prefCode": "22",
+    "nameJa": "静岡市駿河区",
+    "nameEn": "Suruga Ward, Shizuoka City",
+    "total": 205565,
+    "male": 101196,
+    "female": 104369
+  },
+  "22103": {
+    "code": "22103",
+    "prefCode": "22",
+    "nameJa": "静岡市清水区",
+    "nameEn": "Shimizu Ward, Shizuoka City",
+    "total": 223176,
+    "male": 108716,
+    "female": 114460
+  },
+  "22130": {
+    "code": "22130",
+    "prefCode": "22",
+    "nameJa": "浜松市",
+    "nameEn": "Hamamatsu City",
+    "total": 783924,
+    "male": 390875,
+    "female": 393049
+  },
+  "22138": {
+    "code": "22138",
+    "prefCode": "22",
+    "nameJa": "浜松市中央区",
+    "nameEn": "Chuo Ward, Hamamatsu City",
+    "total": 604410,
+    "male": 301835,
+    "female": 302575
+  },
+  "22139": {
+    "code": "22139",
+    "prefCode": "22",
+    "nameJa": "浜松市浜名区",
+    "nameEn": "Hamana Ward, Hamamatsu City",
+    "total": 154669,
+    "male": 76911,
+    "female": 77758
+  },
+  "22140": {
+    "code": "22140",
+    "prefCode": "22",
+    "nameJa": "浜松市天竜区",
+    "nameEn": "Tenryu Ward, Hamamatsu City",
+    "total": 24845,
+    "male": 12129,
+    "female": 12716
+  },
+  "22203": {
+    "code": "22203",
+    "prefCode": "22",
+    "nameJa": "沼津市",
+    "nameEn": "Numazu City",
+    "total": 185758,
+    "male": 91685,
+    "female": 94073
+  },
+  "22205": {
+    "code": "22205",
+    "prefCode": "22",
+    "nameJa": "熱海市",
+    "nameEn": "Atami City",
+    "total": 33290,
+    "male": 15135,
+    "female": 18155
+  },
+  "22206": {
+    "code": "22206",
+    "prefCode": "22",
+    "nameJa": "三島市",
+    "nameEn": "Mishima City",
+    "total": 104961,
+    "male": 51312,
+    "female": 53649
+  },
+  "22207": {
+    "code": "22207",
+    "prefCode": "22",
+    "nameJa": "富士宮市",
+    "nameEn": "Fujinomiya City",
+    "total": 126857,
+    "male": 63069,
+    "female": 63788
+  },
+  "22208": {
+    "code": "22208",
+    "prefCode": "22",
+    "nameJa": "伊東市",
+    "nameEn": "Ito City",
+    "total": 64438,
+    "male": 30588,
+    "female": 33850
+  },
+  "22209": {
+    "code": "22209",
+    "prefCode": "22",
+    "nameJa": "島田市",
+    "nameEn": "Shimada City",
+    "total": 94747,
+    "male": 46410,
+    "female": 48337
+  },
+  "22210": {
+    "code": "22210",
+    "prefCode": "22",
+    "nameJa": "富士市",
+    "nameEn": "Fuji City",
+    "total": 246491,
+    "male": 122463,
+    "female": 124028
+  },
+  "22211": {
+    "code": "22211",
+    "prefCode": "22",
+    "nameJa": "磐田市",
+    "nameEn": "Iwata City",
+    "total": 165426,
+    "male": 83574,
+    "female": 81852
+  },
+  "22212": {
+    "code": "22212",
+    "prefCode": "22",
+    "nameJa": "焼津市",
+    "nameEn": "Yaizu City",
+    "total": 135294,
+    "male": 66716,
+    "female": 68578
+  },
+  "22213": {
+    "code": "22213",
+    "prefCode": "22",
+    "nameJa": "掛川市",
+    "nameEn": "Kakegawa City",
+    "total": 115126,
+    "male": 57995,
+    "female": 57131
+  },
+  "22214": {
+    "code": "22214",
+    "prefCode": "22",
+    "nameJa": "藤枝市",
+    "nameEn": "Fujieda City",
+    "total": 139870,
+    "male": 68336,
+    "female": 71534
+  },
+  "22215": {
+    "code": "22215",
+    "prefCode": "22",
+    "nameJa": "御殿場市",
+    "nameEn": "Gotemba City",
+    "total": 83487,
+    "male": 42624,
+    "female": 40863
+  },
+  "22216": {
+    "code": "22216",
+    "prefCode": "22",
+    "nameJa": "袋井市",
+    "nameEn": "Fukuroi City",
+    "total": 87941,
+    "male": 44665,
+    "female": 43276
+  },
+  "22219": {
+    "code": "22219",
+    "prefCode": "22",
+    "nameJa": "下田市",
+    "nameEn": "Shimoda City",
+    "total": 19282,
+    "male": 9320,
+    "female": 9962
+  },
+  "22220": {
+    "code": "22220",
+    "prefCode": "22",
+    "nameJa": "裾野市",
+    "nameEn": "Susono City",
+    "total": 48688,
+    "male": 24507,
+    "female": 24181
+  },
+  "22221": {
+    "code": "22221",
+    "prefCode": "22",
+    "nameJa": "湖西市",
+    "nameEn": "Kosai City",
+    "total": 57216,
+    "male": 29561,
+    "female": 27655
+  },
+  "22222": {
+    "code": "22222",
+    "prefCode": "22",
+    "nameJa": "伊豆市",
+    "nameEn": "Izu City",
+    "total": 27748,
+    "male": 13356,
+    "female": 14392
+  },
+  "22223": {
+    "code": "22223",
+    "prefCode": "22",
+    "nameJa": "御前崎市",
+    "nameEn": "Omaezaki City",
+    "total": 29715,
+    "male": 15117,
+    "female": 14598
+  },
+  "22224": {
+    "code": "22224",
+    "prefCode": "22",
+    "nameJa": "菊川市",
+    "nameEn": "Kikugawa City",
+    "total": 47179,
+    "male": 23888,
+    "female": 23291
+  },
+  "22225": {
+    "code": "22225",
+    "prefCode": "22",
+    "nameJa": "伊豆の国市",
+    "nameEn": "Izunokuni City",
+    "total": 45983,
+    "male": 22274,
+    "female": 23709
+  },
+  "22226": {
+    "code": "22226",
+    "prefCode": "22",
+    "nameJa": "牧之原市",
+    "nameEn": "Makinohara City",
+    "total": 42326,
+    "male": 20994,
+    "female": 21332
+  },
+  "22301": {
+    "code": "22301",
+    "prefCode": "22",
+    "nameJa": "賀茂郡東伊豆町",
+    "nameEn": "Higashiizu Town",
+    "total": 11093,
+    "male": 5338,
+    "female": 5755
+  },
+  "22302": {
+    "code": "22302",
+    "prefCode": "22",
+    "nameJa": "賀茂郡河津町",
+    "nameEn": "Kawazu Town",
+    "total": 6398,
+    "male": 3088,
+    "female": 3310
+  },
+  "22304": {
+    "code": "22304",
+    "prefCode": "22",
+    "nameJa": "賀茂郡南伊豆町",
+    "nameEn": "Minamiizu Town",
+    "total": 7340,
+    "male": 3557,
+    "female": 3783
+  },
+  "22305": {
+    "code": "22305",
+    "prefCode": "22",
+    "nameJa": "賀茂郡松崎町",
+    "nameEn": "Matsuzaki Town",
+    "total": 5658,
+    "male": 2666,
+    "female": 2992
+  },
+  "22306": {
+    "code": "22306",
+    "prefCode": "22",
+    "nameJa": "賀茂郡西伊豆町",
+    "nameEn": "Nishiizu Town",
+    "total": 6639,
+    "male": 3198,
+    "female": 3441
+  },
+  "22325": {
+    "code": "22325",
+    "prefCode": "22",
+    "nameJa": "田方郡函南町",
+    "nameEn": "Kannami Town",
+    "total": 36105,
+    "male": 17701,
+    "female": 18404
+  },
+  "22341": {
+    "code": "22341",
+    "prefCode": "22",
+    "nameJa": "駿東郡清水町",
+    "nameEn": "Shimizu Town",
+    "total": 31637,
+    "male": 15453,
+    "female": 16184
+  },
+  "22342": {
+    "code": "22342",
+    "prefCode": "22",
+    "nameJa": "駿東郡長泉町",
+    "nameEn": "Nagaizumi Town",
+    "total": 43705,
+    "male": 21558,
+    "female": 22147
+  },
+  "22344": {
+    "code": "22344",
+    "prefCode": "22",
+    "nameJa": "駿東郡小山町",
+    "nameEn": "Oyama Town",
+    "total": 16975,
+    "male": 8598,
+    "female": 8377
+  },
+  "22424": {
+    "code": "22424",
+    "prefCode": "22",
+    "nameJa": "榛原郡吉田町",
+    "nameEn": "Yoshida Town",
+    "total": 28964,
+    "male": 14487,
+    "female": 14477
+  },
+  "22429": {
+    "code": "22429",
+    "prefCode": "22",
+    "nameJa": "榛原郡川根本町",
+    "nameEn": "Kawanehon Town",
+    "total": 5700,
+    "male": 2757,
+    "female": 2943
+  },
+  "22461": {
+    "code": "22461",
+    "prefCode": "22",
+    "nameJa": "周智郡森町",
+    "nameEn": "Mori Town",
+    "total": 16968,
+    "male": 8497,
+    "female": 8471
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "23100": {
+    "code": "23100",
+    "prefCode": "23",
+    "nameJa": "名古屋市",
+    "nameEn": "Nagoya City",
+    "total": 2303004,
+    "male": 1136651,
+    "female": 1166353
+  },
+  "23101": {
+    "code": "23101",
+    "prefCode": "23",
+    "nameJa": "名古屋市千種区",
+    "nameEn": "Chikusa Ward, Nagoya City",
+    "total": 160425,
+    "male": 77009,
+    "female": 83416
+  },
+  "23102": {
+    "code": "23102",
+    "prefCode": "23",
+    "nameJa": "名古屋市東区",
+    "nameEn": "Higashi Ward, Nagoya City",
+    "total": 85185,
+    "male": 40532,
+    "female": 44653
+  },
+  "23103": {
+    "code": "23103",
+    "prefCode": "23",
+    "nameJa": "名古屋市北区",
+    "nameEn": "Kita Ward, Nagoya City",
+    "total": 161333,
+    "male": 78634,
+    "female": 82699
+  },
+  "23104": {
+    "code": "23104",
+    "prefCode": "23",
+    "nameJa": "名古屋市西区",
+    "nameEn": "Nishi Ward, Nagoya City",
+    "total": 147999,
+    "male": 73467,
+    "female": 74532
+  },
+  "23105": {
+    "code": "23105",
+    "prefCode": "23",
+    "nameJa": "名古屋市中村区",
+    "nameEn": "Nakamura Ward, Nagoya City",
+    "total": 137948,
+    "male": 69761,
+    "female": 68187
+  },
+  "23106": {
+    "code": "23106",
+    "prefCode": "23",
+    "nameJa": "名古屋市中区",
+    "nameEn": "Naka Ward, Nagoya City",
+    "total": 99504,
+    "male": 50098,
+    "female": 49406
+  },
+  "23107": {
+    "code": "23107",
+    "prefCode": "23",
+    "nameJa": "名古屋市昭和区",
+    "nameEn": "Showa Ward, Nagoya City",
+    "total": 106491,
+    "male": 51853,
+    "female": 54638
+  },
+  "23108": {
+    "code": "23108",
+    "prefCode": "23",
+    "nameJa": "名古屋市瑞穂区",
+    "nameEn": "Mizuho Ward, Nagoya City",
+    "total": 107751,
+    "male": 51959,
+    "female": 55792
+  },
+  "23109": {
+    "code": "23109",
+    "prefCode": "23",
+    "nameJa": "名古屋市熱田区",
+    "nameEn": "Atsuta Ward, Nagoya City",
+    "total": 65904,
+    "male": 32934,
+    "female": 32970
+  },
+  "23110": {
+    "code": "23110",
+    "prefCode": "23",
+    "nameJa": "名古屋市中川区",
+    "nameEn": "Nakagawa Ward, Nagoya City",
+    "total": 215992,
+    "male": 107733,
+    "female": 108259
+  },
+  "23111": {
+    "code": "23111",
+    "prefCode": "23",
+    "nameJa": "名古屋市港区",
+    "nameEn": "Minato Ward, Nagoya City",
+    "total": 141271,
+    "male": 71411,
+    "female": 69860
+  },
+  "23112": {
+    "code": "23112",
+    "prefCode": "23",
+    "nameJa": "名古屋市南区",
+    "nameEn": "Minami Ward, Nagoya City",
+    "total": 131917,
+    "male": 67261,
+    "female": 64656
+  },
+  "23113": {
+    "code": "23113",
+    "prefCode": "23",
+    "nameJa": "名古屋市守山区",
+    "nameEn": "Moriyama Ward, Nagoya City",
+    "total": 175961,
+    "male": 86703,
+    "female": 89258
+  },
+  "23114": {
+    "code": "23114",
+    "prefCode": "23",
+    "nameJa": "名古屋市緑区",
+    "nameEn": "Midori Ward, Nagoya City",
+    "total": 249204,
+    "male": 123166,
+    "female": 126038
+  },
+  "23115": {
+    "code": "23115",
+    "prefCode": "23",
+    "nameJa": "名古屋市名東区",
+    "nameEn": "Meito Ward, Nagoya City",
+    "total": 159594,
+    "male": 76743,
+    "female": 82851
+  },
+  "23116": {
+    "code": "23116",
+    "prefCode": "23",
+    "nameJa": "名古屋市天白区",
+    "nameEn": "Tempaku Ward, Nagoya City",
+    "total": 156525,
+    "male": 77387,
+    "female": 79138
+  },
+  "23201": {
+    "code": "23201",
+    "prefCode": "23",
+    "nameJa": "豊橋市",
+    "nameEn": "Toyohashi City",
+    "total": 366089,
+    "male": 183516,
+    "female": 182573
+  },
+  "23202": {
+    "code": "23202",
+    "prefCode": "23",
+    "nameJa": "岡崎市",
+    "nameEn": "Okazaki City",
+    "total": 382656,
+    "male": 193716,
+    "female": 188940
+  },
+  "23203": {
+    "code": "23203",
+    "prefCode": "23",
+    "nameJa": "一宮市",
+    "nameEn": "Ichinomiya City",
+    "total": 376861,
+    "male": 183875,
+    "female": 192986
+  },
+  "23204": {
+    "code": "23204",
+    "prefCode": "23",
+    "nameJa": "瀬戸市",
+    "nameEn": "Seto City",
+    "total": 126274,
+    "male": 62202,
+    "female": 64072
+  },
+  "23205": {
+    "code": "23205",
+    "prefCode": "23",
+    "nameJa": "半田市",
+    "nameEn": "Handa City",
+    "total": 116209,
+    "male": 58853,
+    "female": 57356
+  },
+  "23206": {
+    "code": "23206",
+    "prefCode": "23",
+    "nameJa": "春日井市",
+    "nameEn": "Kasugai City",
+    "total": 305902,
+    "male": 151641,
+    "female": 154261
+  },
+  "23207": {
+    "code": "23207",
+    "prefCode": "23",
+    "nameJa": "豊川市",
+    "nameEn": "Toyokawa City",
+    "total": 185900,
+    "male": 92618,
+    "female": 93282
+  },
+  "23208": {
+    "code": "23208",
+    "prefCode": "23",
+    "nameJa": "津島市",
+    "nameEn": "Tsushima City",
+    "total": 59566,
+    "male": 29404,
+    "female": 30162
+  },
+  "23209": {
+    "code": "23209",
+    "prefCode": "23",
+    "nameJa": "碧南市",
+    "nameEn": "Hekinan City",
+    "total": 72242,
+    "male": 37120,
+    "female": 35122
+  },
+  "23210": {
+    "code": "23210",
+    "prefCode": "23",
+    "nameJa": "刈谷市",
+    "nameEn": "Kariya City",
+    "total": 152984,
+    "male": 79960,
+    "female": 73024
+  },
+  "23211": {
+    "code": "23211",
+    "prefCode": "23",
+    "nameJa": "豊田市",
+    "nameEn": "Toyota City",
+    "total": 414750,
+    "male": 215945,
+    "female": 198805
+  },
+  "23212": {
+    "code": "23212",
+    "prefCode": "23",
+    "nameJa": "安城市",
+    "nameEn": "Anjo City",
+    "total": 187665,
+    "male": 96036,
+    "female": 91629
+  },
+  "23213": {
+    "code": "23213",
+    "prefCode": "23",
+    "nameJa": "西尾市",
+    "nameEn": "Nishio City",
+    "total": 169528,
+    "male": 85896,
+    "female": 83632
+  },
+  "23214": {
+    "code": "23214",
+    "prefCode": "23",
+    "nameJa": "蒲郡市",
+    "nameEn": "Gamagori City",
+    "total": 77535,
+    "male": 38250,
+    "female": 39285
+  },
+  "23215": {
+    "code": "23215",
+    "prefCode": "23",
+    "nameJa": "犬山市",
+    "nameEn": "Inuyama City",
+    "total": 71334,
+    "male": 35396,
+    "female": 35938
+  },
+  "23216": {
+    "code": "23216",
+    "prefCode": "23",
+    "nameJa": "常滑市",
+    "nameEn": "Tokoname City",
+    "total": 58662,
+    "male": 29048,
+    "female": 29614
+  },
+  "23217": {
+    "code": "23217",
+    "prefCode": "23",
+    "nameJa": "江南市",
+    "nameEn": "Konan City",
+    "total": 98124,
+    "male": 48153,
+    "female": 49971
+  },
+  "23219": {
+    "code": "23219",
+    "prefCode": "23",
+    "nameJa": "小牧市",
+    "nameEn": "Komaki City",
+    "total": 149025,
+    "male": 75346,
+    "female": 73679
+  },
+  "23220": {
+    "code": "23220",
+    "prefCode": "23",
+    "nameJa": "稲沢市",
+    "nameEn": "Inazawa City",
+    "total": 132879,
+    "male": 65827,
+    "female": 67052
+  },
+  "23221": {
+    "code": "23221",
+    "prefCode": "23",
+    "nameJa": "新城市",
+    "nameEn": "Shinshiro City",
+    "total": 42375,
+    "male": 21107,
+    "female": 21268
+  },
+  "23222": {
+    "code": "23222",
+    "prefCode": "23",
+    "nameJa": "東海市",
+    "nameEn": "Tokai City",
+    "total": 113352,
+    "male": 58856,
+    "female": 54496
+  },
+  "23223": {
+    "code": "23223",
+    "prefCode": "23",
+    "nameJa": "大府市",
+    "nameEn": "Obu City",
+    "total": 93014,
+    "male": 47221,
+    "female": 45793
+  },
+  "23224": {
+    "code": "23224",
+    "prefCode": "23",
+    "nameJa": "知多市",
+    "nameEn": "Chita City",
+    "total": 83017,
+    "male": 41810,
+    "female": 41207
+  },
+  "23225": {
+    "code": "23225",
+    "prefCode": "23",
+    "nameJa": "知立市",
+    "nameEn": "Chiryu City",
+    "total": 72646,
+    "male": 38294,
+    "female": 34352
+  },
+  "23226": {
+    "code": "23226",
+    "prefCode": "23",
+    "nameJa": "尾張旭市",
+    "nameEn": "Owariasahi City",
+    "total": 83782,
+    "male": 40980,
+    "female": 42802
+  },
+  "23227": {
+    "code": "23227",
+    "prefCode": "23",
+    "nameJa": "高浜市",
+    "nameEn": "Takahama City",
+    "total": 49041,
+    "male": 25605,
+    "female": 23436
+  },
+  "23228": {
+    "code": "23228",
+    "prefCode": "23",
+    "nameJa": "岩倉市",
+    "nameEn": "Iwakura City",
+    "total": 47761,
+    "male": 23905,
+    "female": 23856
+  },
+  "23229": {
+    "code": "23229",
+    "prefCode": "23",
+    "nameJa": "豊明市",
+    "nameEn": "Toyoake City",
+    "total": 67902,
+    "male": 34477,
+    "female": 33425
+  },
+  "23230": {
+    "code": "23230",
+    "prefCode": "23",
+    "nameJa": "日進市",
+    "nameEn": "Nisshin City",
+    "total": 94207,
+    "male": 46925,
+    "female": 47282
+  },
+  "23231": {
+    "code": "23231",
+    "prefCode": "23",
+    "nameJa": "田原市",
+    "nameEn": "Tahara City",
+    "total": 58270,
+    "male": 29756,
+    "female": 28514
+  },
+  "23232": {
+    "code": "23232",
+    "prefCode": "23",
+    "nameJa": "愛西市",
+    "nameEn": "Aisai City",
+    "total": 60457,
+    "male": 29575,
+    "female": 30882
+  },
+  "23233": {
+    "code": "23233",
+    "prefCode": "23",
+    "nameJa": "清須市",
+    "nameEn": "Kiyosu City",
+    "total": 68707,
+    "male": 34536,
+    "female": 34171
+  },
+  "23234": {
+    "code": "23234",
+    "prefCode": "23",
+    "nameJa": "北名古屋市",
+    "nameEn": "Kitanagoya City",
+    "total": 85843,
+    "male": 42883,
+    "female": 42960
+  },
+  "23235": {
+    "code": "23235",
+    "prefCode": "23",
+    "nameJa": "弥富市",
+    "nameEn": "Yatomi City",
+    "total": 43534,
+    "male": 21923,
+    "female": 21611
+  },
+  "23236": {
+    "code": "23236",
+    "prefCode": "23",
+    "nameJa": "みよし市",
+    "nameEn": "Miyoshi City",
+    "total": 61408,
+    "male": 31461,
+    "female": 29947
+  },
+  "23237": {
+    "code": "23237",
+    "prefCode": "23",
+    "nameJa": "あま市",
+    "nameEn": "Ama City",
+    "total": 88393,
+    "male": 44006,
+    "female": 44387
+  },
+  "23238": {
+    "code": "23238",
+    "prefCode": "23",
+    "nameJa": "長久手市",
+    "nameEn": "Nagakute City",
+    "total": 61512,
+    "male": 30441,
+    "female": 31071
+  },
+  "23302": {
+    "code": "23302",
+    "prefCode": "23",
+    "nameJa": "愛知郡東郷町",
+    "nameEn": "Togo Town",
+    "total": 43928,
+    "male": 22039,
+    "female": 21889
+  },
+  "23342": {
+    "code": "23342",
+    "prefCode": "23",
+    "nameJa": "西春日井郡豊山町",
+    "nameEn": "Toyoyama Town",
+    "total": 15984,
+    "male": 8174,
+    "female": 7810
+  },
+  "23361": {
+    "code": "23361",
+    "prefCode": "23",
+    "nameJa": "丹羽郡大口町",
+    "nameEn": "Oguchi Town",
+    "total": 24004,
+    "male": 12145,
+    "female": 11859
+  },
+  "23362": {
+    "code": "23362",
+    "prefCode": "23",
+    "nameJa": "丹羽郡扶桑町",
+    "nameEn": "Fuso Town",
+    "total": 35043,
+    "male": 17436,
+    "female": 17607
+  },
+  "23424": {
+    "code": "23424",
+    "prefCode": "23",
+    "nameJa": "海部郡大治町",
+    "nameEn": "Oharu Town",
+    "total": 33566,
+    "male": 16997,
+    "female": 16569
+  },
+  "23425": {
+    "code": "23425",
+    "prefCode": "23",
+    "nameJa": "海部郡蟹江町",
+    "nameEn": "Kanie Town",
+    "total": 36824,
+    "male": 18289,
+    "female": 18535
+  },
+  "23427": {
+    "code": "23427",
+    "prefCode": "23",
+    "nameJa": "海部郡飛島村",
+    "nameEn": "Tobishima Village",
+    "total": 4713,
+    "male": 2433,
+    "female": 2280
+  },
+  "23441": {
+    "code": "23441",
+    "prefCode": "23",
+    "nameJa": "知多郡阿久比町",
+    "nameEn": "Agui Town",
+    "total": 28083,
+    "male": 13893,
+    "female": 14190
+  },
+  "23442": {
+    "code": "23442",
+    "prefCode": "23",
+    "nameJa": "知多郡東浦町",
+    "nameEn": "Higashiura Town",
+    "total": 50029,
+    "male": 25050,
+    "female": 24979
+  },
+  "23445": {
+    "code": "23445",
+    "prefCode": "23",
+    "nameJa": "知多郡南知多町",
+    "nameEn": "Minamichita Town",
+    "total": 15506,
+    "male": 7572,
+    "female": 7934
+  },
+  "23446": {
+    "code": "23446",
+    "prefCode": "23",
+    "nameJa": "知多郡美浜町",
+    "nameEn": "Mihama Town",
+    "total": 20560,
+    "male": 10175,
+    "female": 10385
+  },
+  "23447": {
+    "code": "23447",
+    "prefCode": "23",
+    "nameJa": "知多郡武豊町",
+    "nameEn": "Taketoyo Town",
+    "total": 43399,
+    "male": 21894,
+    "female": 21505
+  },
+  "23501": {
+    "code": "23501",
+    "prefCode": "23",
+    "nameJa": "額田郡幸田町",
+    "nameEn": "Kota Town",
+    "total": 42023,
+    "male": 21339,
+    "female": 20684
+  },
+  "23561": {
+    "code": "23561",
+    "prefCode": "23",
+    "nameJa": "北設楽郡設楽町",
+    "nameEn": "Shitara Town",
+    "total": 4051,
+    "male": 1979,
+    "female": 2072
+  },
+  "23562": {
+    "code": "23562",
+    "prefCode": "23",
+    "nameJa": "北設楽郡東栄町",
+    "nameEn": "Toei Town",
+    "total": 2703,
+    "male": 1323,
+    "female": 1380
+  },
+  "23563": {
+    "code": "23563",
+    "prefCode": "23",
+    "nameJa": "北設楽郡豊根村",
+    "nameEn": "Toyone Village",
+    "total": 929,
+    "male": 457,
+    "female": 472
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "07201": {
+    "code": "07201",
+    "prefCode": "07",
+    "nameJa": "福島市",
+    "nameEn": "Fukushima City",
+    "total": 264652,
+    "male": 128428,
+    "female": 136224
+  },
+  "07202": {
+    "code": "07202",
+    "prefCode": "07",
+    "nameJa": "会津若松市",
+    "nameEn": "Aizuwakamatsu City",
+    "total": 110841,
+    "male": 53295,
+    "female": 57546
+  },
+  "07203": {
+    "code": "07203",
+    "prefCode": "07",
+    "nameJa": "郡山市",
+    "nameEn": "Koriyama City",
+    "total": 312433,
+    "male": 153133,
+    "female": 159300
+  },
+  "07204": {
+    "code": "07204",
+    "prefCode": "07",
+    "nameJa": "いわき市",
+    "nameEn": "Iwaki City",
+    "total": 303171,
+    "male": 149012,
+    "female": 154159
+  },
+  "07205": {
+    "code": "07205",
+    "prefCode": "07",
+    "nameJa": "白河市",
+    "nameEn": "Shirakawa City",
+    "total": 57085,
+    "male": 28520,
+    "female": 28565
+  },
+  "07207": {
+    "code": "07207",
+    "prefCode": "07",
+    "nameJa": "須賀川市",
+    "nameEn": "Sukagawa City",
+    "total": 72918,
+    "male": 35983,
+    "female": 36935
+  },
+  "07208": {
+    "code": "07208",
+    "prefCode": "07",
+    "nameJa": "喜多方市",
+    "nameEn": "Kitakata City",
+    "total": 43519,
+    "male": 21109,
+    "female": 22410
+  },
+  "07209": {
+    "code": "07209",
+    "prefCode": "07",
+    "nameJa": "相馬市",
+    "nameEn": "Soma City",
+    "total": 32261,
+    "male": 16062,
+    "female": 16199
+  },
+  "07210": {
+    "code": "07210",
+    "prefCode": "07",
+    "nameJa": "二本松市",
+    "nameEn": "Nihonmatsu City",
+    "total": 50358,
+    "male": 24945,
+    "female": 25413
+  },
+  "07211": {
+    "code": "07211",
+    "prefCode": "07",
+    "nameJa": "田村市",
+    "nameEn": "Tamura City",
+    "total": 32982,
+    "male": 16409,
+    "female": 16573
+  },
+  "07212": {
+    "code": "07212",
+    "prefCode": "07",
+    "nameJa": "南相馬市",
+    "nameEn": "Minamisoma City",
+    "total": 55774,
+    "male": 27845,
+    "female": 27929
+  },
+  "07213": {
+    "code": "07213",
+    "prefCode": "07",
+    "nameJa": "伊達市",
+    "nameEn": "Date City",
+    "total": 55997,
+    "male": 27343,
+    "female": 28654
+  },
+  "07214": {
+    "code": "07214",
+    "prefCode": "07",
+    "nameJa": "本宮市",
+    "nameEn": "Motomiya City",
+    "total": 29712,
+    "male": 14697,
+    "female": 15015
+  },
+  "07301": {
+    "code": "07301",
+    "prefCode": "07",
+    "nameJa": "伊達郡桑折町",
+    "nameEn": "Koori Town",
+    "total": 10951,
+    "male": 5350,
+    "female": 5601
+  },
+  "07303": {
+    "code": "07303",
+    "prefCode": "07",
+    "nameJa": "伊達郡国見町",
+    "nameEn": "Kunimi Town",
+    "total": 8095,
+    "male": 3917,
+    "female": 4178
+  },
+  "07308": {
+    "code": "07308",
+    "prefCode": "07",
+    "nameJa": "伊達郡川俣町",
+    "nameEn": "Kawamata Town",
+    "total": 11412,
+    "male": 5709,
+    "female": 5703
+  },
+  "07322": {
+    "code": "07322",
+    "prefCode": "07",
+    "nameJa": "安達郡大玉村",
+    "nameEn": "Otama Village",
+    "total": 8817,
+    "male": 4391,
+    "female": 4426
+  },
+  "07342": {
+    "code": "07342",
+    "prefCode": "07",
+    "nameJa": "岩瀬郡鏡石町",
+    "nameEn": "Kagamiishi Town",
+    "total": 12356,
+    "male": 6093,
+    "female": 6263
+  },
+  "07344": {
+    "code": "07344",
+    "prefCode": "07",
+    "nameJa": "岩瀬郡天栄村",
+    "nameEn": "Tenei Village",
+    "total": 5171,
+    "male": 2612,
+    "female": 2559
+  },
+  "07362": {
+    "code": "07362",
+    "prefCode": "07",
+    "nameJa": "南会津郡下郷町",
+    "nameEn": "Shimogo Town",
+    "total": 4792,
+    "male": 2383,
+    "female": 2409
+  },
+  "07364": {
+    "code": "07364",
+    "prefCode": "07",
+    "nameJa": "南会津郡檜枝岐村",
+    "nameEn": "Hinoemata Village",
+    "total": 484,
+    "male": 250,
+    "female": 234
+  },
+  "07367": {
+    "code": "07367",
+    "prefCode": "07",
+    "nameJa": "南会津郡只見町",
+    "nameEn": "Tadami Town",
+    "total": 3690,
+    "male": 1824,
+    "female": 1866
+  },
+  "07368": {
+    "code": "07368",
+    "prefCode": "07",
+    "nameJa": "南会津郡南会津町",
+    "nameEn": "Minamiaizu Town",
+    "total": 13349,
+    "male": 6579,
+    "female": 6770
+  },
+  "07402": {
+    "code": "07402",
+    "prefCode": "07",
+    "nameJa": "耶麻郡北塩原村",
+    "nameEn": "Kitashiobara Village",
+    "total": 2394,
+    "male": 1205,
+    "female": 1189
+  },
+  "07405": {
+    "code": "07405",
+    "prefCode": "07",
+    "nameJa": "耶麻郡西会津町",
+    "nameEn": "Nishiaizu Town",
+    "total": 5408,
+    "male": 2638,
+    "female": 2770
+  },
+  "07407": {
+    "code": "07407",
+    "prefCode": "07",
+    "nameJa": "耶麻郡磐梯町",
+    "nameEn": "Bandai Town",
+    "total": 3151,
+    "male": 1573,
+    "female": 1578
+  },
+  "07408": {
+    "code": "07408",
+    "prefCode": "07",
+    "nameJa": "耶麻郡猪苗代町",
+    "nameEn": "Inawashiro Town",
+    "total": 12552,
+    "male": 6171,
+    "female": 6381
+  },
+  "07421": {
+    "code": "07421",
+    "prefCode": "07",
+    "nameJa": "河沼郡会津坂下町",
+    "nameEn": "Aizubange Town",
+    "total": 14217,
+    "male": 6947,
+    "female": 7270
+  },
+  "07422": {
+    "code": "07422",
+    "prefCode": "07",
+    "nameJa": "河沼郡湯川村",
+    "nameEn": "Yugawa Village",
+    "total": 2980,
+    "male": 1452,
+    "female": 1528
+  },
+  "07423": {
+    "code": "07423",
+    "prefCode": "07",
+    "nameJa": "河沼郡柳津町",
+    "nameEn": "Yanaizu Town",
+    "total": 2841,
+    "male": 1418,
+    "female": 1423
+  },
+  "07444": {
+    "code": "07444",
+    "prefCode": "07",
+    "nameJa": "大沼郡三島町",
+    "nameEn": "Mishima Town",
+    "total": 1327,
+    "male": 677,
+    "female": 650
+  },
+  "07445": {
+    "code": "07445",
+    "prefCode": "07",
+    "nameJa": "大沼郡金山町",
+    "nameEn": "Kaneyama Town",
+    "total": 1749,
+    "male": 865,
+    "female": 884
+  },
+  "07446": {
+    "code": "07446",
+    "prefCode": "07",
+    "nameJa": "大沼郡昭和村",
+    "nameEn": "Showa Village",
+    "total": 1085,
+    "male": 530,
+    "female": 555
+  },
+  "07447": {
+    "code": "07447",
+    "prefCode": "07",
+    "nameJa": "大沼郡会津美里町",
+    "nameEn": "Aizumisato Town",
+    "total": 18117,
+    "male": 8781,
+    "female": 9336
+  },
+  "07461": {
+    "code": "07461",
+    "prefCode": "07",
+    "nameJa": "西白河郡西郷村",
+    "nameEn": "Nishigo Village",
+    "total": 20616,
+    "male": 10482,
+    "female": 10134
+  },
+  "07464": {
+    "code": "07464",
+    "prefCode": "07",
+    "nameJa": "西白河郡泉崎村",
+    "nameEn": "Izumizaki Village",
+    "total": 6092,
+    "male": 3052,
+    "female": 3040
+  },
+  "07465": {
+    "code": "07465",
+    "prefCode": "07",
+    "nameJa": "西白河郡中島村",
+    "nameEn": "Nakajima Village",
+    "total": 4732,
+    "male": 2319,
+    "female": 2413
+  },
+  "07466": {
+    "code": "07466",
+    "prefCode": "07",
+    "nameJa": "西白河郡矢吹町",
+    "nameEn": "Yabuki Town",
+    "total": 16807,
+    "male": 8356,
+    "female": 8451
+  },
+  "07481": {
+    "code": "07481",
+    "prefCode": "07",
+    "nameJa": "東白川郡棚倉町",
+    "nameEn": "Tanagura Town",
+    "total": 12789,
+    "male": 6305,
+    "female": 6484
+  },
+  "07482": {
+    "code": "07482",
+    "prefCode": "07",
+    "nameJa": "東白川郡矢祭町",
+    "nameEn": "Yamatsuri Town",
+    "total": 5145,
+    "male": 2532,
+    "female": 2613
+  },
+  "07483": {
+    "code": "07483",
+    "prefCode": "07",
+    "nameJa": "東白川郡塙町",
+    "nameEn": "Hanawa Town",
+    "total": 7821,
+    "male": 3883,
+    "female": 3938
+  },
+  "07484": {
+    "code": "07484",
+    "prefCode": "07",
+    "nameJa": "東白川郡鮫川村",
+    "nameEn": "Samegawa Village",
+    "total": 2846,
+    "male": 1466,
+    "female": 1380
+  },
+  "07501": {
+    "code": "07501",
+    "prefCode": "07",
+    "nameJa": "石川郡石川町",
+    "nameEn": "Ishikawa Town",
+    "total": 13654,
+    "male": 6817,
+    "female": 6837
+  },
+  "07502": {
+    "code": "07502",
+    "prefCode": "07",
+    "nameJa": "石川郡玉川村",
+    "nameEn": "Tamakawa Village",
+    "total": 6050,
+    "male": 3024,
+    "female": 3026
+  },
+  "07503": {
+    "code": "07503",
+    "prefCode": "07",
+    "nameJa": "石川郡平田村",
+    "nameEn": "Hirata Village",
+    "total": 5352,
+    "male": 2719,
+    "female": 2633
+  },
+  "07504": {
+    "code": "07504",
+    "prefCode": "07",
+    "nameJa": "石川郡浅川町",
+    "nameEn": "Asakawa Town",
+    "total": 5782,
+    "male": 2907,
+    "female": 2875
+  },
+  "07505": {
+    "code": "07505",
+    "prefCode": "07",
+    "nameJa": "石川郡古殿町",
+    "nameEn": "Furudono Town",
+    "total": 4517,
+    "male": 2240,
+    "female": 2277
+  },
+  "07521": {
+    "code": "07521",
+    "prefCode": "07",
+    "nameJa": "田村郡三春町",
+    "nameEn": "Miharu Town",
+    "total": 16080,
+    "male": 7998,
+    "female": 8082
+  },
+  "07522": {
+    "code": "07522",
+    "prefCode": "07",
+    "nameJa": "田村郡小野町",
+    "nameEn": "Ono Town",
+    "total": 8864,
+    "male": 4438,
+    "female": 4426
+  },
+  "07541": {
+    "code": "07541",
+    "prefCode": "07",
+    "nameJa": "双葉郡広野町",
+    "nameEn": "Hirono Town",
+    "total": 4531,
+    "male": 2394,
+    "female": 2137
+  },
+  "07542": {
+    "code": "07542",
+    "prefCode": "07",
+    "nameJa": "双葉郡楢葉町",
+    "nameEn": "Naraha Town",
+    "total": 6409,
+    "male": 3327,
+    "female": 3082
+  },
+  "07543": {
+    "code": "07543",
+    "prefCode": "07",
+    "nameJa": "双葉郡富岡町",
+    "nameEn": "Tomioka Town",
+    "total": 11316,
+    "male": 5915,
+    "female": 5401
+  },
+  "07544": {
+    "code": "07544",
+    "prefCode": "07",
+    "nameJa": "双葉郡川内村",
+    "nameEn": "Kawauchi Village",
+    "total": 2233,
+    "male": 1125,
+    "female": 1108
+  },
+  "07545": {
+    "code": "07545",
+    "prefCode": "07",
+    "nameJa": "双葉郡大熊町",
+    "nameEn": "Okuma Town",
+    "total": 9944,
+    "male": 5001,
+    "female": 4943
+  },
+  "07546": {
+    "code": "07546",
+    "prefCode": "07",
+    "nameJa": "双葉郡双葉町",
+    "nameEn": "Futaba Town",
+    "total": 5294,
+    "male": 2580,
+    "female": 2714
+  },
+  "07547": {
+    "code": "07547",
+    "prefCode": "07",
+    "nameJa": "双葉郡浪江町",
+    "nameEn": "Namie Town",
+    "total": 14632,
+    "male": 7259,
+    "female": 7373
+  },
+  "07548": {
+    "code": "07548",
+    "prefCode": "07",
+    "nameJa": "双葉郡葛尾村",
+    "nameEn": "Katsurao Village",
+    "total": 1216,
+    "male": 626,
+    "female": 590
+  },
+  "07561": {
+    "code": "07561",
+    "prefCode": "07",
+    "nameJa": "相馬郡新地町",
+    "nameEn": "Shinchi Town",
+    "total": 7445,
+    "male": 3721,
+    "female": 3724
+  },
+  "07564": {
+    "code": "07564",
+    "prefCode": "07",
+    "nameJa": "相馬郡飯舘村",
+    "nameEn": "Iitate Village",
+    "total": 4506,
+    "male": 2279,
+    "female": 2227
+  }
+}

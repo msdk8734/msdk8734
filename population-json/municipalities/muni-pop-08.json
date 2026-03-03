@@ -1,0 +1,398 @@
+{
+  "08201": {
+    "code": "08201",
+    "prefCode": "08",
+    "nameJa": "水戸市",
+    "nameEn": "Mito City",
+    "total": 267467,
+    "male": 131087,
+    "female": 136380
+  },
+  "08202": {
+    "code": "08202",
+    "prefCode": "08",
+    "nameJa": "日立市",
+    "nameEn": "Hitachi City",
+    "total": 163855,
+    "male": 81881,
+    "female": 81974
+  },
+  "08203": {
+    "code": "08203",
+    "prefCode": "08",
+    "nameJa": "土浦市",
+    "nameEn": "Tsuchiura City",
+    "total": 141571,
+    "male": 71080,
+    "female": 70491
+  },
+  "08204": {
+    "code": "08204",
+    "prefCode": "08",
+    "nameJa": "古河市",
+    "nameEn": "Koga City",
+    "total": 139812,
+    "male": 70892,
+    "female": 68920
+  },
+  "08205": {
+    "code": "08205",
+    "prefCode": "08",
+    "nameJa": "石岡市",
+    "nameEn": "Ishioka City",
+    "total": 69937,
+    "male": 34849,
+    "female": 35088
+  },
+  "08207": {
+    "code": "08207",
+    "prefCode": "08",
+    "nameJa": "結城市",
+    "nameEn": "Yuki City",
+    "total": 49528,
+    "male": 25241,
+    "female": 24287
+  },
+  "08208": {
+    "code": "08208",
+    "prefCode": "08",
+    "nameJa": "龍ケ崎市",
+    "nameEn": "Ryugasaki City",
+    "total": 74917,
+    "male": 37209,
+    "female": 37708
+  },
+  "08210": {
+    "code": "08210",
+    "prefCode": "08",
+    "nameJa": "下妻市",
+    "nameEn": "Shimotsuma City",
+    "total": 42071,
+    "male": 21513,
+    "female": 20558
+  },
+  "08211": {
+    "code": "08211",
+    "prefCode": "08",
+    "nameJa": "常総市",
+    "nameEn": "Joso City",
+    "total": 60596,
+    "male": 30759,
+    "female": 29837
+  },
+  "08212": {
+    "code": "08212",
+    "prefCode": "08",
+    "nameJa": "常陸太田市",
+    "nameEn": "Hitachiota City",
+    "total": 46390,
+    "male": 22870,
+    "female": 23520
+  },
+  "08214": {
+    "code": "08214",
+    "prefCode": "08",
+    "nameJa": "高萩市",
+    "nameEn": "Takahagi City",
+    "total": 25769,
+    "male": 12827,
+    "female": 12942
+  },
+  "08215": {
+    "code": "08215",
+    "prefCode": "08",
+    "nameJa": "北茨城市",
+    "nameEn": "Kitaibaraki City",
+    "total": 40014,
+    "male": 20099,
+    "female": 19915
+  },
+  "08216": {
+    "code": "08216",
+    "prefCode": "08",
+    "nameJa": "笠間市",
+    "nameEn": "Kasama City",
+    "total": 72567,
+    "male": 35884,
+    "female": 36683
+  },
+  "08217": {
+    "code": "08217",
+    "prefCode": "08",
+    "nameJa": "取手市",
+    "nameEn": "Toride City",
+    "total": 105872,
+    "male": 52089,
+    "female": 53783
+  },
+  "08219": {
+    "code": "08219",
+    "prefCode": "08",
+    "nameJa": "牛久市",
+    "nameEn": "Ushiku City",
+    "total": 83820,
+    "male": 41304,
+    "female": 42516
+  },
+  "08220": {
+    "code": "08220",
+    "prefCode": "08",
+    "nameJa": "つくば市",
+    "nameEn": "Tsukuba City",
+    "total": 259000,
+    "male": 131664,
+    "female": 127336
+  },
+  "08221": {
+    "code": "08221",
+    "prefCode": "08",
+    "nameJa": "ひたちなか市",
+    "nameEn": "Hitachinaka City",
+    "total": 154647,
+    "male": 78040,
+    "female": 76607
+  },
+  "08222": {
+    "code": "08222",
+    "prefCode": "08",
+    "nameJa": "鹿嶋市",
+    "nameEn": "Kashima City",
+    "total": 65217,
+    "male": 33413,
+    "female": 31804
+  },
+  "08223": {
+    "code": "08223",
+    "prefCode": "08",
+    "nameJa": "潮来市",
+    "nameEn": "Itako City",
+    "total": 26088,
+    "male": 12995,
+    "female": 13093
+  },
+  "08224": {
+    "code": "08224",
+    "prefCode": "08",
+    "nameJa": "守谷市",
+    "nameEn": "Moriya City",
+    "total": 70900,
+    "male": 35464,
+    "female": 35436
+  },
+  "08225": {
+    "code": "08225",
+    "prefCode": "08",
+    "nameJa": "常陸大宮市",
+    "nameEn": "Hitachiomiya City",
+    "total": 37861,
+    "male": 18895,
+    "female": 18966
+  },
+  "08226": {
+    "code": "08226",
+    "prefCode": "08",
+    "nameJa": "那珂市",
+    "nameEn": "Naka City",
+    "total": 53167,
+    "male": 26133,
+    "female": 27034
+  },
+  "08227": {
+    "code": "08227",
+    "prefCode": "08",
+    "nameJa": "筑西市",
+    "nameEn": "Chikusei City",
+    "total": 99804,
+    "male": 49903,
+    "female": 49901
+  },
+  "08228": {
+    "code": "08228",
+    "prefCode": "08",
+    "nameJa": "坂東市",
+    "nameEn": "Bando City",
+    "total": 52143,
+    "male": 27161,
+    "female": 24982
+  },
+  "08229": {
+    "code": "08229",
+    "prefCode": "08",
+    "nameJa": "稲敷市",
+    "nameEn": "Inashiki City",
+    "total": 37012,
+    "male": 18740,
+    "female": 18272
+  },
+  "08230": {
+    "code": "08230",
+    "prefCode": "08",
+    "nameJa": "かすみがうら市",
+    "nameEn": "Kasumigaura City",
+    "total": 39893,
+    "male": 20412,
+    "female": 19481
+  },
+  "08231": {
+    "code": "08231",
+    "prefCode": "08",
+    "nameJa": "桜川市",
+    "nameEn": "Sakuragawa City",
+    "total": 37635,
+    "male": 18854,
+    "female": 18781
+  },
+  "08232": {
+    "code": "08232",
+    "prefCode": "08",
+    "nameJa": "神栖市",
+    "nameEn": "Kamisu City",
+    "total": 93786,
+    "male": 48370,
+    "female": 45416
+  },
+  "08233": {
+    "code": "08233",
+    "prefCode": "08",
+    "nameJa": "行方市",
+    "nameEn": "Namegata City",
+    "total": 31505,
+    "male": 15964,
+    "female": 15541
+  },
+  "08234": {
+    "code": "08234",
+    "prefCode": "08",
+    "nameJa": "鉾田市",
+    "nameEn": "Hokota City",
+    "total": 46537,
+    "male": 24246,
+    "female": 22291
+  },
+  "08235": {
+    "code": "08235",
+    "prefCode": "08",
+    "nameJa": "つくばみらい市",
+    "nameEn": "Tsukubamirai City",
+    "total": 53503,
+    "male": 26911,
+    "female": 26592
+  },
+  "08236": {
+    "code": "08236",
+    "prefCode": "08",
+    "nameJa": "小美玉市",
+    "nameEn": "Omitama City",
+    "total": 48482,
+    "male": 24546,
+    "female": 23936
+  },
+  "08302": {
+    "code": "08302",
+    "prefCode": "08",
+    "nameJa": "東茨城郡茨城町",
+    "nameEn": "Ibaraki Town",
+    "total": 30523,
+    "male": 15317,
+    "female": 15206
+  },
+  "08309": {
+    "code": "08309",
+    "prefCode": "08",
+    "nameJa": "東茨城郡大洗町",
+    "nameEn": "Oarai Town",
+    "total": 15461,
+    "male": 7658,
+    "female": 7803
+  },
+  "08310": {
+    "code": "08310",
+    "prefCode": "08",
+    "nameJa": "東茨城郡城里町",
+    "nameEn": "Shirosato Town",
+    "total": 17708,
+    "male": 8833,
+    "female": 8875
+  },
+  "08341": {
+    "code": "08341",
+    "prefCode": "08",
+    "nameJa": "那珂郡東海村",
+    "nameEn": "Tokai Village",
+    "total": 38151,
+    "male": 19373,
+    "female": 18778
+  },
+  "08364": {
+    "code": "08364",
+    "prefCode": "08",
+    "nameJa": "久慈郡大子町",
+    "nameEn": "Daigo Town",
+    "total": 14516,
+    "male": 7224,
+    "female": 7292
+  },
+  "08442": {
+    "code": "08442",
+    "prefCode": "08",
+    "nameJa": "稲敷郡美浦村",
+    "nameEn": "Miho Village",
+    "total": 14156,
+    "male": 7306,
+    "female": 6850
+  },
+  "08443": {
+    "code": "08443",
+    "prefCode": "08",
+    "nameJa": "稲敷郡阿見町",
+    "nameEn": "Ami Town",
+    "total": 49643,
+    "male": 24758,
+    "female": 24885
+  },
+  "08447": {
+    "code": "08447",
+    "prefCode": "08",
+    "nameJa": "稲敷郡河内町",
+    "nameEn": "Kawachi Town",
+    "total": 7791,
+    "male": 3856,
+    "female": 3935
+  },
+  "08521": {
+    "code": "08521",
+    "prefCode": "08",
+    "nameJa": "結城郡八千代町",
+    "nameEn": "Yachiyo Town",
+    "total": 21082,
+    "male": 11145,
+    "female": 9937
+  },
+  "08542": {
+    "code": "08542",
+    "prefCode": "08",
+    "nameJa": "猿島郡五霞町",
+    "nameEn": "Goka Town",
+    "total": 7933,
+    "male": 4095,
+    "female": 3838
+  },
+  "08546": {
+    "code": "08546",
+    "prefCode": "08",
+    "nameJa": "猿島郡境町",
+    "nameEn": "Sakai Town",
+    "total": 24769,
+    "male": 12745,
+    "female": 12024
+  },
+  "08564": {
+    "code": "08564",
+    "prefCode": "08",
+    "nameJa": "北相馬郡利根町",
+    "nameEn": "Tone Town",
+    "total": 15498,
+    "male": 7639,
+    "female": 7859
+  }
+}

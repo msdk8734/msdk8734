@@ -1,0 +1,362 @@
+{
+  "02201": {
+    "code": "02201",
+    "prefCode": "02",
+    "nameJa": "青森市",
+    "nameEn": "Aomori City",
+    "total": 263512,
+    "male": 123008,
+    "female": 140504
+  },
+  "02202": {
+    "code": "02202",
+    "prefCode": "02",
+    "nameJa": "弘前市",
+    "nameEn": "Hirosaki City",
+    "total": 159488,
+    "male": 73636,
+    "female": 85852
+  },
+  "02203": {
+    "code": "02203",
+    "prefCode": "02",
+    "nameJa": "八戸市",
+    "nameEn": "Hachinohe City",
+    "total": 215080,
+    "male": 103104,
+    "female": 111976
+  },
+  "02204": {
+    "code": "02204",
+    "prefCode": "02",
+    "nameJa": "黒石市",
+    "nameEn": "Kuroishi City",
+    "total": 30428,
+    "male": 14224,
+    "female": 16204
+  },
+  "02205": {
+    "code": "02205",
+    "prefCode": "02",
+    "nameJa": "五所川原市",
+    "nameEn": "Goshogawara City",
+    "total": 49811,
+    "male": 22829,
+    "female": 26982
+  },
+  "02206": {
+    "code": "02206",
+    "prefCode": "02",
+    "nameJa": "十和田市",
+    "nameEn": "Towada City",
+    "total": 57361,
+    "male": 27434,
+    "female": 29927
+  },
+  "02207": {
+    "code": "02207",
+    "prefCode": "02",
+    "nameJa": "三沢市",
+    "nameEn": "Misawa City",
+    "total": 37380,
+    "male": 18580,
+    "female": 18800
+  },
+  "02208": {
+    "code": "02208",
+    "prefCode": "02",
+    "nameJa": "むつ市",
+    "nameEn": "Mutsu City",
+    "total": 51606,
+    "male": 25212,
+    "female": 26394
+  },
+  "02209": {
+    "code": "02209",
+    "prefCode": "02",
+    "nameJa": "つがる市",
+    "nameEn": "Tsugaru City",
+    "total": 28806,
+    "male": 13535,
+    "female": 15271
+  },
+  "02210": {
+    "code": "02210",
+    "prefCode": "02",
+    "nameJa": "平川市",
+    "nameEn": "Hirakawa City",
+    "total": 29353,
+    "male": 13832,
+    "female": 15521
+  },
+  "02301": {
+    "code": "02301",
+    "prefCode": "02",
+    "nameJa": "東津軽郡平内町",
+    "nameEn": "Hiranai Town",
+    "total": 9730,
+    "male": 4638,
+    "female": 5092
+  },
+  "02303": {
+    "code": "02303",
+    "prefCode": "02",
+    "nameJa": "東津軽郡今別町",
+    "nameEn": "Imabetsu Town",
+    "total": 2096,
+    "male": 998,
+    "female": 1098
+  },
+  "02304": {
+    "code": "02304",
+    "prefCode": "02",
+    "nameJa": "東津軽郡蓬田村",
+    "nameEn": "Yomogita Village",
+    "total": 2434,
+    "male": 1181,
+    "female": 1253
+  },
+  "02307": {
+    "code": "02307",
+    "prefCode": "02",
+    "nameJa": "東津軽郡外ヶ浜町",
+    "nameEn": "Sotogahama Town",
+    "total": 4996,
+    "male": 2375,
+    "female": 2621
+  },
+  "02321": {
+    "code": "02321",
+    "prefCode": "02",
+    "nameJa": "西津軽郡鰺ヶ沢町",
+    "nameEn": "Ajigasawa Town",
+    "total": 8505,
+    "male": 3999,
+    "female": 4506
+  },
+  "02323": {
+    "code": "02323",
+    "prefCode": "02",
+    "nameJa": "西津軽郡深浦町",
+    "nameEn": "Fukaura Town",
+    "total": 6803,
+    "male": 3216,
+    "female": 3587
+  },
+  "02343": {
+    "code": "02343",
+    "prefCode": "02",
+    "nameJa": "中津軽郡西目屋村",
+    "nameEn": "Nishimeya Village",
+    "total": 1210,
+    "male": 568,
+    "female": 642
+  },
+  "02361": {
+    "code": "02361",
+    "prefCode": "02",
+    "nameJa": "南津軽郡藤崎町",
+    "nameEn": "Fujisaki Town",
+    "total": 14300,
+    "male": 6711,
+    "female": 7589
+  },
+  "02362": {
+    "code": "02362",
+    "prefCode": "02",
+    "nameJa": "南津軽郡大鰐町",
+    "nameEn": "Owani Town",
+    "total": 8231,
+    "male": 3787,
+    "female": 4444
+  },
+  "02367": {
+    "code": "02367",
+    "prefCode": "02",
+    "nameJa": "南津軽郡田舎館村",
+    "nameEn": "Inakadate Village",
+    "total": 7239,
+    "male": 3430,
+    "female": 3809
+  },
+  "02381": {
+    "code": "02381",
+    "prefCode": "02",
+    "nameJa": "北津軽郡板柳町",
+    "nameEn": "Itayanagi Town",
+    "total": 12198,
+    "male": 5617,
+    "female": 6581
+  },
+  "02384": {
+    "code": "02384",
+    "prefCode": "02",
+    "nameJa": "北津軽郡鶴田町",
+    "nameEn": "Tsuruta Town",
+    "total": 11540,
+    "male": 5390,
+    "female": 6150
+  },
+  "02387": {
+    "code": "02387",
+    "prefCode": "02",
+    "nameJa": "北津軽郡中泊町",
+    "nameEn": "Nakadomari Town",
+    "total": 9417,
+    "male": 4438,
+    "female": 4979
+  },
+  "02401": {
+    "code": "02401",
+    "prefCode": "02",
+    "nameJa": "上北郡野辺地町",
+    "nameEn": "Noheji Town",
+    "total": 11855,
+    "male": 5545,
+    "female": 6310
+  },
+  "02402": {
+    "code": "02402",
+    "prefCode": "02",
+    "nameJa": "上北郡七戸町",
+    "nameEn": "Shichinohe Town",
+    "total": 14014,
+    "male": 6729,
+    "female": 7285
+  },
+  "02405": {
+    "code": "02405",
+    "prefCode": "02",
+    "nameJa": "上北郡六戸町",
+    "nameEn": "Rokunohe Town",
+    "total": 10551,
+    "male": 5203,
+    "female": 5348
+  },
+  "02406": {
+    "code": "02406",
+    "prefCode": "02",
+    "nameJa": "上北郡横浜町",
+    "nameEn": "Yokohama Town",
+    "total": 4048,
+    "male": 2038,
+    "female": 2010
+  },
+  "02408": {
+    "code": "02408",
+    "prefCode": "02",
+    "nameJa": "上北郡東北町",
+    "nameEn": "Tohoku Town",
+    "total": 16005,
+    "male": 7781,
+    "female": 8224
+  },
+  "02411": {
+    "code": "02411",
+    "prefCode": "02",
+    "nameJa": "上北郡六ヶ所村",
+    "nameEn": "Rokkasho Village",
+    "total": 9628,
+    "male": 5314,
+    "female": 4314
+  },
+  "02412": {
+    "code": "02412",
+    "prefCode": "02",
+    "nameJa": "上北郡おいらせ町",
+    "nameEn": "Oirase Town",
+    "total": 25182,
+    "male": 12174,
+    "female": 13008
+  },
+  "02423": {
+    "code": "02423",
+    "prefCode": "02",
+    "nameJa": "下北郡大間町",
+    "nameEn": "Oma Town",
+    "total": 4649,
+    "male": 2381,
+    "female": 2268
+  },
+  "02424": {
+    "code": "02424",
+    "prefCode": "02",
+    "nameJa": "下北郡東通村",
+    "nameEn": "Higashidoori Village",
+    "total": 5553,
+    "male": 2896,
+    "female": 2657
+  },
+  "02425": {
+    "code": "02425",
+    "prefCode": "02",
+    "nameJa": "下北郡風間浦村",
+    "nameEn": "Kazamaura Village",
+    "total": 1554,
+    "male": 746,
+    "female": 808
+  },
+  "02426": {
+    "code": "02426",
+    "prefCode": "02",
+    "nameJa": "下北郡佐井村",
+    "nameEn": "Sai Village",
+    "total": 1628,
+    "male": 829,
+    "female": 799
+  },
+  "02441": {
+    "code": "02441",
+    "prefCode": "02",
+    "nameJa": "三戸郡三戸町",
+    "nameEn": "Sannohe Town",
+    "total": 8767,
+    "male": 4208,
+    "female": 4559
+  },
+  "02442": {
+    "code": "02442",
+    "prefCode": "02",
+    "nameJa": "三戸郡五戸町",
+    "nameEn": "Gonohe Town",
+    "total": 15285,
+    "male": 7395,
+    "female": 7890
+  },
+  "02443": {
+    "code": "02443",
+    "prefCode": "02",
+    "nameJa": "三戸郡田子町",
+    "nameEn": "Takko Town",
+    "total": 4718,
+    "male": 2278,
+    "female": 2440
+  },
+  "02445": {
+    "code": "02445",
+    "prefCode": "02",
+    "nameJa": "三戸郡南部町",
+    "nameEn": "Nambu Town",
+    "total": 16185,
+    "male": 7697,
+    "female": 8488
+  },
+  "02446": {
+    "code": "02446",
+    "prefCode": "02",
+    "nameJa": "三戸郡階上町",
+    "nameEn": "Hashikami Town",
+    "total": 12562,
+    "male": 6311,
+    "female": 6251
+  },
+  "02450": {
+    "code": "02450",
+    "prefCode": "02",
+    "nameJa": "三戸郡新郷村",
+    "nameEn": "Shingo Village",
+    "total": 2059,
+    "male": 1028,
+    "female": 1031
+  }
+}

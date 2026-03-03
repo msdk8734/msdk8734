@@ -1,0 +1,317 @@
+{
+  "06201": {
+    "code": "06201",
+    "prefCode": "06",
+    "nameJa": "山形市",
+    "nameEn": "Yamagata City",
+    "total": 236164,
+    "male": 113126,
+    "female": 123038
+  },
+  "06202": {
+    "code": "06202",
+    "prefCode": "06",
+    "nameJa": "米沢市",
+    "nameEn": "Yonezawa City",
+    "total": 74629,
+    "male": 36643,
+    "female": 37986
+  },
+  "06203": {
+    "code": "06203",
+    "prefCode": "06",
+    "nameJa": "鶴岡市",
+    "nameEn": "Tsuruoka City",
+    "total": 116731,
+    "male": 56141,
+    "female": 60590
+  },
+  "06204": {
+    "code": "06204",
+    "prefCode": "06",
+    "nameJa": "酒田市",
+    "nameEn": "Sakata City",
+    "total": 93924,
+    "male": 45123,
+    "female": 48801
+  },
+  "06205": {
+    "code": "06205",
+    "prefCode": "06",
+    "nameJa": "新庄市",
+    "nameEn": "Shinjo City",
+    "total": 32362,
+    "male": 15511,
+    "female": 16851
+  },
+  "06206": {
+    "code": "06206",
+    "prefCode": "06",
+    "nameJa": "寒河江市",
+    "nameEn": "Sagae City",
+    "total": 39417,
+    "male": 19274,
+    "female": 20143
+  },
+  "06207": {
+    "code": "06207",
+    "prefCode": "06",
+    "nameJa": "上山市",
+    "nameEn": "Kaminoyama City",
+    "total": 27584,
+    "male": 13288,
+    "female": 14296
+  },
+  "06208": {
+    "code": "06208",
+    "prefCode": "06",
+    "nameJa": "村山市",
+    "nameEn": "Murayama City",
+    "total": 21299,
+    "male": 10471,
+    "female": 10828
+  },
+  "06209": {
+    "code": "06209",
+    "prefCode": "06",
+    "nameJa": "長井市",
+    "nameEn": "Nagai City",
+    "total": 24420,
+    "male": 11961,
+    "female": 12459
+  },
+  "06210": {
+    "code": "06210",
+    "prefCode": "06",
+    "nameJa": "天童市",
+    "nameEn": "Tendo City",
+    "total": 60204,
+    "male": 29467,
+    "female": 30737
+  },
+  "06211": {
+    "code": "06211",
+    "prefCode": "06",
+    "nameJa": "東根市",
+    "nameEn": "Higashine City",
+    "total": 47631,
+    "male": 23470,
+    "female": 24161
+  },
+  "06212": {
+    "code": "06212",
+    "prefCode": "06",
+    "nameJa": "尾花沢市",
+    "nameEn": "Obanazawa City",
+    "total": 13529,
+    "male": 6716,
+    "female": 6813
+  },
+  "06213": {
+    "code": "06213",
+    "prefCode": "06",
+    "nameJa": "南陽市",
+    "nameEn": "Nanyo City",
+    "total": 29070,
+    "male": 14087,
+    "female": 14983
+  },
+  "06301": {
+    "code": "06301",
+    "prefCode": "06",
+    "nameJa": "東村山郡山辺町",
+    "nameEn": "Yamanobe Town",
+    "total": 13344,
+    "male": 6571,
+    "female": 6773
+  },
+  "06302": {
+    "code": "06302",
+    "prefCode": "06",
+    "nameJa": "東村山郡中山町",
+    "nameEn": "Nakayama Town",
+    "total": 10455,
+    "male": 5131,
+    "female": 5324
+  },
+  "06321": {
+    "code": "06321",
+    "prefCode": "06",
+    "nameJa": "西村山郡河北町",
+    "nameEn": "Kahoku Town",
+    "total": 16809,
+    "male": 8261,
+    "female": 8548
+  },
+  "06322": {
+    "code": "06322",
+    "prefCode": "06",
+    "nameJa": "西村山郡西川町",
+    "nameEn": "Nishikawa Town",
+    "total": 4536,
+    "male": 2223,
+    "female": 2313
+  },
+  "06323": {
+    "code": "06323",
+    "prefCode": "06",
+    "nameJa": "西村山郡朝日町",
+    "nameEn": "Asahi Town",
+    "total": 5782,
+    "male": 2871,
+    "female": 2911
+  },
+  "06324": {
+    "code": "06324",
+    "prefCode": "06",
+    "nameJa": "西村山郡大江町",
+    "nameEn": "Oe Town",
+    "total": 7062,
+    "male": 3559,
+    "female": 3503
+  },
+  "06341": {
+    "code": "06341",
+    "prefCode": "06",
+    "nameJa": "北村山郡大石田町",
+    "nameEn": "Oishida Town",
+    "total": 5979,
+    "male": 2978,
+    "female": 3001
+  },
+  "06361": {
+    "code": "06361",
+    "prefCode": "06",
+    "nameJa": "最上郡金山町",
+    "nameEn": "Kaneyama Town",
+    "total": 4691,
+    "male": 2313,
+    "female": 2378
+  },
+  "06362": {
+    "code": "06362",
+    "prefCode": "06",
+    "nameJa": "最上郡最上町",
+    "nameEn": "Mogami Town",
+    "total": 7358,
+    "male": 3598,
+    "female": 3760
+  },
+  "06363": {
+    "code": "06363",
+    "prefCode": "06",
+    "nameJa": "最上郡舟形町",
+    "nameEn": "Funagata Town",
+    "total": 4662,
+    "male": 2288,
+    "female": 2374
+  },
+  "06364": {
+    "code": "06364",
+    "prefCode": "06",
+    "nameJa": "最上郡真室川町",
+    "nameEn": "Mamurogawa Town",
+    "total": 6481,
+    "male": 3125,
+    "female": 3356
+  },
+  "06365": {
+    "code": "06365",
+    "prefCode": "06",
+    "nameJa": "最上郡大蔵村",
+    "nameEn": "Okura Village",
+    "total": 2760,
+    "male": 1369,
+    "female": 1391
+  },
+  "06366": {
+    "code": "06366",
+    "prefCode": "06",
+    "nameJa": "最上郡鮭川村",
+    "nameEn": "Sakegawa Village",
+    "total": 3659,
+    "male": 1771,
+    "female": 1888
+  },
+  "06367": {
+    "code": "06367",
+    "prefCode": "06",
+    "nameJa": "最上郡戸沢村",
+    "nameEn": "Tozawa Village",
+    "total": 3850,
+    "male": 1846,
+    "female": 2004
+  },
+  "06381": {
+    "code": "06381",
+    "prefCode": "06",
+    "nameJa": "東置賜郡高畠町",
+    "nameEn": "Takahata Town",
+    "total": 21306,
+    "male": 10439,
+    "female": 10867
+  },
+  "06382": {
+    "code": "06382",
+    "prefCode": "06",
+    "nameJa": "東置賜郡川西町",
+    "nameEn": "Kawanishi Town",
+    "total": 13385,
+    "male": 6608,
+    "female": 6777
+  },
+  "06401": {
+    "code": "06401",
+    "prefCode": "06",
+    "nameJa": "西置賜郡小国町",
+    "nameEn": "Oguni Town",
+    "total": 6537,
+    "male": 3299,
+    "female": 3238
+  },
+  "06402": {
+    "code": "06402",
+    "prefCode": "06",
+    "nameJa": "西置賜郡白鷹町",
+    "nameEn": "Shirataka Town",
+    "total": 12222,
+    "male": 6074,
+    "female": 6148
+  },
+  "06403": {
+    "code": "06403",
+    "prefCode": "06",
+    "nameJa": "西置賜郡飯豊町",
+    "nameEn": "Iide Town",
+    "total": 6203,
+    "male": 3072,
+    "female": 3131
+  },
+  "06426": {
+    "code": "06426",
+    "prefCode": "06",
+    "nameJa": "東田川郡三川町",
+    "nameEn": "Mikawa Town",
+    "total": 7009,
+    "male": 3426,
+    "female": 3583
+  },
+  "06428": {
+    "code": "06428",
+    "prefCode": "06",
+    "nameJa": "東田川郡庄内町",
+    "nameEn": "Shonai Town",
+    "total": 19144,
+    "male": 9258,
+    "female": 9886
+  },
+  "06461": {
+    "code": "06461",
+    "prefCode": "06",
+    "nameJa": "飽海郡遊佐町",
+    "nameEn": "Yuza Town",
+    "total": 12157,
+    "male": 5814,
+    "female": 6343
+  }
+}

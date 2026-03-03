@@ -1,0 +1,155 @@
+{
+  "18201": {
+    "code": "18201",
+    "prefCode": "18",
+    "nameJa": "福井市",
+    "nameEn": "Fukui City",
+    "total": 254029,
+    "male": 123197,
+    "female": 130832
+  },
+  "18202": {
+    "code": "18202",
+    "prefCode": "18",
+    "nameJa": "敦賀市",
+    "nameEn": "Tsuruga City",
+    "total": 62382,
+    "male": 30735,
+    "female": 31647
+  },
+  "18204": {
+    "code": "18204",
+    "prefCode": "18",
+    "nameJa": "小浜市",
+    "nameEn": "Obama City",
+    "total": 27644,
+    "male": 13660,
+    "female": 13984
+  },
+  "18205": {
+    "code": "18205",
+    "prefCode": "18",
+    "nameJa": "大野市",
+    "nameEn": "Ono City",
+    "total": 29821,
+    "male": 14262,
+    "female": 15559
+  },
+  "18206": {
+    "code": "18206",
+    "prefCode": "18",
+    "nameJa": "勝山市",
+    "nameEn": "Katsuyama City",
+    "total": 21056,
+    "male": 10081,
+    "female": 10975
+  },
+  "18207": {
+    "code": "18207",
+    "prefCode": "18",
+    "nameJa": "鯖江市",
+    "nameEn": "Sabae City",
+    "total": 68302,
+    "male": 33480,
+    "female": 34822
+  },
+  "18208": {
+    "code": "18208",
+    "prefCode": "18",
+    "nameJa": "あわら市",
+    "nameEn": "Awara City",
+    "total": 26306,
+    "male": 12560,
+    "female": 13746
+  },
+  "18209": {
+    "code": "18209",
+    "prefCode": "18",
+    "nameJa": "越前市",
+    "nameEn": "Echizen City",
+    "total": 80418,
+    "male": 39754,
+    "female": 40664
+  },
+  "18210": {
+    "code": "18210",
+    "prefCode": "18",
+    "nameJa": "坂井市",
+    "nameEn": "Sakai City",
+    "total": 88430,
+    "male": 43144,
+    "female": 45286
+  },
+  "18322": {
+    "code": "18322",
+    "prefCode": "18",
+    "nameJa": "吉田郡永平寺町",
+    "nameEn": "Eiheiji Town",
+    "total": 17644,
+    "male": 8619,
+    "female": 9025
+  },
+  "18382": {
+    "code": "18382",
+    "prefCode": "18",
+    "nameJa": "今立郡池田町",
+    "nameEn": "Ikeda Town",
+    "total": 2186,
+    "male": 1056,
+    "female": 1130
+  },
+  "18404": {
+    "code": "18404",
+    "prefCode": "18",
+    "nameJa": "南条郡南越前町",
+    "nameEn": "Minamiechizen Town",
+    "total": 9448,
+    "male": 4600,
+    "female": 4848
+  },
+  "18423": {
+    "code": "18423",
+    "prefCode": "18",
+    "nameJa": "丹生郡越前町",
+    "nameEn": "Echizen Town",
+    "total": 19769,
+    "male": 9644,
+    "female": 10125
+  },
+  "18442": {
+    "code": "18442",
+    "prefCode": "18",
+    "nameJa": "三方郡美浜町",
+    "nameEn": "Mihama Town",
+    "total": 8676,
+    "male": 4282,
+    "female": 4394
+  },
+  "18481": {
+    "code": "18481",
+    "prefCode": "18",
+    "nameJa": "大飯郡高浜町",
+    "nameEn": "Takahama Town",
+    "total": 9544,
+    "male": 4799,
+    "female": 4745
+  },
+  "18483": {
+    "code": "18483",
+    "prefCode": "18",
+    "nameJa": "大飯郡おおい町",
+    "nameEn": "Ohi Town",
+    "total": 7681,
+    "male": 3810,
+    "female": 3871
+  },
+  "18501": {
+    "code": "18501",
+    "prefCode": "18",
+    "nameJa": "三方上中郡若狭町",
+    "nameEn": "Wakasa Town",
+    "total": 13354,
+    "male": 6514,
+    "female": 6840
+  }
+}

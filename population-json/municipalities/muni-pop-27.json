@@ -1,0 +1,668 @@
+{
+  "27100": {
+    "code": "27100",
+    "prefCode": "27",
+    "nameJa": "大阪市",
+    "nameEn": "Osaka City",
+    "total": 2778917,
+    "male": 1345204,
+    "female": 1433713
+  },
+  "27102": {
+    "code": "27102",
+    "prefCode": "27",
+    "nameJa": "大阪市都島区",
+    "nameEn": "Miyakojima Ward, Osaka City",
+    "total": 106872,
+    "male": 51196,
+    "female": 55676
+  },
+  "27103": {
+    "code": "27103",
+    "prefCode": "27",
+    "nameJa": "大阪市福島区",
+    "nameEn": "Fukushima Ward, Osaka City",
+    "total": 82015,
+    "male": 38999,
+    "female": 43016
+  },
+  "27104": {
+    "code": "27104",
+    "prefCode": "27",
+    "nameJa": "大阪市此花区",
+    "nameEn": "Konohana Ward, Osaka City",
+    "total": 64155,
+    "male": 31372,
+    "female": 32783
+  },
+  "27106": {
+    "code": "27106",
+    "prefCode": "27",
+    "nameJa": "大阪市西区",
+    "nameEn": "Nishi Ward, Osaka City",
+    "total": 110826,
+    "male": 52076,
+    "female": 58750
+  },
+  "27107": {
+    "code": "27107",
+    "prefCode": "27",
+    "nameJa": "大阪市港区",
+    "nameEn": "Minato Ward, Osaka City",
+    "total": 80247,
+    "male": 39285,
+    "female": 40962
+  },
+  "27108": {
+    "code": "27108",
+    "prefCode": "27",
+    "nameJa": "大阪市大正区",
+    "nameEn": "Taisho Ward, Osaka City",
+    "total": 61890,
+    "male": 30432,
+    "female": 31458
+  },
+  "27109": {
+    "code": "27109",
+    "prefCode": "27",
+    "nameJa": "大阪市天王寺区",
+    "nameEn": "Tennoji Ward, Osaka City",
+    "total": 84726,
+    "male": 39100,
+    "female": 45626
+  },
+  "27111": {
+    "code": "27111",
+    "prefCode": "27",
+    "nameJa": "大阪市浪速区",
+    "nameEn": "Naniwa Ward, Osaka City",
+    "total": 79032,
+    "male": 40359,
+    "female": 38673
+  },
+  "27113": {
+    "code": "27113",
+    "prefCode": "27",
+    "nameJa": "大阪市西淀川区",
+    "nameEn": "Nishiyodogawa Ward, Osaka City",
+    "total": 98386,
+    "male": 48406,
+    "female": 49980
+  },
+  "27114": {
+    "code": "27114",
+    "prefCode": "27",
+    "nameJa": "大阪市東淀川区",
+    "nameEn": "Higashiyodogawa Ward, Osaka City",
+    "total": 171844,
+    "male": 84938,
+    "female": 86906
+  },
+  "27115": {
+    "code": "27115",
+    "prefCode": "27",
+    "nameJa": "大阪市東成区",
+    "nameEn": "Higashinari Ward, Osaka City",
+    "total": 86902,
+    "male": 40906,
+    "female": 45996
+  },
+  "27116": {
+    "code": "27116",
+    "prefCode": "27",
+    "nameJa": "大阪市生野区",
+    "nameEn": "Ikuno Ward, Osaka City",
+    "total": 126884,
+    "male": 61318,
+    "female": 65566
+  },
+  "27117": {
+    "code": "27117",
+    "prefCode": "27",
+    "nameJa": "大阪市旭区",
+    "nameEn": "Asahi Ward, Osaka City",
+    "total": 90613,
+    "male": 43478,
+    "female": 47135
+  },
+  "27118": {
+    "code": "27118",
+    "prefCode": "27",
+    "nameJa": "大阪市城東区",
+    "nameEn": "Joto Ward, Osaka City",
+    "total": 170197,
+    "male": 80942,
+    "female": 89255
+  },
+  "27119": {
+    "code": "27119",
+    "prefCode": "27",
+    "nameJa": "大阪市阿倍野区",
+    "nameEn": "Abeno Ward, Osaka City",
+    "total": 112617,
+    "male": 52202,
+    "female": 60415
+  },
+  "27120": {
+    "code": "27120",
+    "prefCode": "27",
+    "nameJa": "大阪市住吉区",
+    "nameEn": "Sumiyoshi Ward, Osaka City",
+    "total": 152260,
+    "male": 71292,
+    "female": 80968
+  },
+  "27121": {
+    "code": "27121",
+    "prefCode": "27",
+    "nameJa": "大阪市東住吉区",
+    "nameEn": "Higashisumiyoshi Ward, Osaka City",
+    "total": 133291,
+    "male": 63403,
+    "female": 69888
+  },
+  "27122": {
+    "code": "27122",
+    "prefCode": "27",
+    "nameJa": "大阪市西成区",
+    "nameEn": "Nishinari Ward, Osaka City",
+    "total": 105151,
+    "male": 60589,
+    "female": 44562
+  },
+  "27123": {
+    "code": "27123",
+    "prefCode": "27",
+    "nameJa": "大阪市淀川区",
+    "nameEn": "Yodogawa Ward, Osaka City",
+    "total": 184388,
+    "male": 91760,
+    "female": 92628
+  },
+  "27124": {
+    "code": "27124",
+    "prefCode": "27",
+    "nameJa": "大阪市鶴見区",
+    "nameEn": "Tsurumi Ward, Osaka City",
+    "total": 111616,
+    "male": 53052,
+    "female": 58564
+  },
+  "27125": {
+    "code": "27125",
+    "prefCode": "27",
+    "nameJa": "大阪市住之江区",
+    "nameEn": "Suminoe Ward, Osaka City",
+    "total": 117229,
+    "male": 56577,
+    "female": 60652
+  },
+  "27126": {
+    "code": "27126",
+    "prefCode": "27",
+    "nameJa": "大阪市平野区",
+    "nameEn": "Hirano Ward, Osaka City",
+    "total": 187648,
+    "male": 89051,
+    "female": 98597
+  },
+  "27127": {
+    "code": "27127",
+    "prefCode": "27",
+    "nameJa": "大阪市北区",
+    "nameEn": "Kita Ward, Osaka City",
+    "total": 141357,
+    "male": 68656,
+    "female": 72701
+  },
+  "27128": {
+    "code": "27128",
+    "prefCode": "27",
+    "nameJa": "大阪市中央区",
+    "nameEn": "Chuo Ward, Osaka City",
+    "total": 118771,
+    "male": 55815,
+    "female": 62956
+  },
+  "27140": {
+    "code": "27140",
+    "prefCode": "27",
+    "nameJa": "堺市",
+    "nameEn": "Sakai City",
+    "total": 811993,
+    "male": 388259,
+    "female": 423734
+  },
+  "27141": {
+    "code": "27141",
+    "prefCode": "27",
+    "nameJa": "堺市堺区",
+    "nameEn": "Sakai Ward, Sakai City",
+    "total": 147241,
+    "male": 72319,
+    "female": 74922
+  },
+  "27142": {
+    "code": "27142",
+    "prefCode": "27",
+    "nameJa": "堺市中区",
+    "nameEn": "Naka Ward, Sakai City",
+    "total": 118050,
+    "male": 57194,
+    "female": 60856
+  },
+  "27143": {
+    "code": "27143",
+    "prefCode": "27",
+    "nameJa": "堺市東区",
+    "nameEn": "Higashi Ward, Sakai City",
+    "total": 85994,
+    "male": 40914,
+    "female": 45080
+  },
+  "27144": {
+    "code": "27144",
+    "prefCode": "27",
+    "nameJa": "堺市西区",
+    "nameEn": "Nishi Ward, Sakai City",
+    "total": 134876,
+    "male": 64954,
+    "female": 69922
+  },
+  "27145": {
+    "code": "27145",
+    "prefCode": "27",
+    "nameJa": "堺市南区",
+    "nameEn": "Minami Ward, Sakai City",
+    "total": 132177,
+    "male": 61122,
+    "female": 71055
+  },
+  "27146": {
+    "code": "27146",
+    "prefCode": "27",
+    "nameJa": "堺市北区",
+    "nameEn": "Kita Ward, Sakai City",
+    "total": 156441,
+    "male": 73652,
+    "female": 82789
+  },
+  "27147": {
+    "code": "27147",
+    "prefCode": "27",
+    "nameJa": "堺市美原区",
+    "nameEn": "Mihara Ward, Sakai City",
+    "total": 37214,
+    "male": 18104,
+    "female": 19110
+  },
+  "27202": {
+    "code": "27202",
+    "prefCode": "27",
+    "nameJa": "岸和田市",
+    "nameEn": "Kishiwada City",
+    "total": 186596,
+    "male": 89302,
+    "female": 97294
+  },
+  "27203": {
+    "code": "27203",
+    "prefCode": "27",
+    "nameJa": "豊中市",
+    "nameEn": "Toyonaka City",
+    "total": 405955,
+    "male": 192466,
+    "female": 213489
+  },
+  "27204": {
+    "code": "27204",
+    "prefCode": "27",
+    "nameJa": "池田市",
+    "nameEn": "Ikeda City",
+    "total": 102636,
+    "male": 48740,
+    "female": 53896
+  },
+  "27205": {
+    "code": "27205",
+    "prefCode": "27",
+    "nameJa": "吹田市",
+    "nameEn": "Suita City",
+    "total": 384506,
+    "male": 183107,
+    "female": 201399
+  },
+  "27206": {
+    "code": "27206",
+    "prefCode": "27",
+    "nameJa": "泉大津市",
+    "nameEn": "Izumiotsu City",
+    "total": 72762,
+    "male": 34615,
+    "female": 38147
+  },
+  "27207": {
+    "code": "27207",
+    "prefCode": "27",
+    "nameJa": "高槻市",
+    "nameEn": "Takatsuki City",
+    "total": 345589,
+    "male": 164274,
+    "female": 181315
+  },
+  "27208": {
+    "code": "27208",
+    "prefCode": "27",
+    "nameJa": "貝塚市",
+    "nameEn": "Kaizuka City",
+    "total": 81420,
+    "male": 39253,
+    "female": 42167
+  },
+  "27209": {
+    "code": "27209",
+    "prefCode": "27",
+    "nameJa": "守口市",
+    "nameEn": "Moriguchi City",
+    "total": 140923,
+    "male": 68333,
+    "female": 72590
+  },
+  "27210": {
+    "code": "27210",
+    "prefCode": "27",
+    "nameJa": "枚方市",
+    "nameEn": "Hirakata City",
+    "total": 392328,
+    "male": 187474,
+    "female": 204854
+  },
+  "27211": {
+    "code": "27211",
+    "prefCode": "27",
+    "nameJa": "茨木市",
+    "nameEn": "Ibaraki City",
+    "total": 286042,
+    "male": 137728,
+    "female": 148314
+  },
+  "27212": {
+    "code": "27212",
+    "prefCode": "27",
+    "nameJa": "八尾市",
+    "nameEn": "Yao City",
+    "total": 259158,
+    "male": 123560,
+    "female": 135598
+  },
+  "27213": {
+    "code": "27213",
+    "prefCode": "27",
+    "nameJa": "泉佐野市",
+    "nameEn": "Izumisano City",
+    "total": 99318,
+    "male": 47696,
+    "female": 51622
+  },
+  "27214": {
+    "code": "27214",
+    "prefCode": "27",
+    "nameJa": "富田林市",
+    "nameEn": "Tondabayashi City",
+    "total": 105715,
+    "male": 49823,
+    "female": 55892
+  },
+  "27215": {
+    "code": "27215",
+    "prefCode": "27",
+    "nameJa": "寝屋川市",
+    "nameEn": "Neyagawa City",
+    "total": 224378,
+    "male": 108051,
+    "female": 116327
+  },
+  "27216": {
+    "code": "27216",
+    "prefCode": "27",
+    "nameJa": "河内長野市",
+    "nameEn": "Kawachinagano City",
+    "total": 97912,
+    "male": 46017,
+    "female": 51895
+  },
+  "27217": {
+    "code": "27217",
+    "prefCode": "27",
+    "nameJa": "松原市",
+    "nameEn": "Matsubara City",
+    "total": 116259,
+    "male": 55767,
+    "female": 60492
+  },
+  "27218": {
+    "code": "27218",
+    "prefCode": "27",
+    "nameJa": "大東市",
+    "nameEn": "Daito City",
+    "total": 115687,
+    "male": 56280,
+    "female": 59407
+  },
+  "27219": {
+    "code": "27219",
+    "prefCode": "27",
+    "nameJa": "和泉市",
+    "nameEn": "Izumi City",
+    "total": 182481,
+    "male": 88084,
+    "female": 94397
+  },
+  "27220": {
+    "code": "27220",
+    "prefCode": "27",
+    "nameJa": "箕面市",
+    "nameEn": "Minoh City",
+    "total": 139527,
+    "male": 66685,
+    "female": 72842
+  },
+  "27221": {
+    "code": "27221",
+    "prefCode": "27",
+    "nameJa": "柏原市",
+    "nameEn": "Kashiwara City",
+    "total": 66500,
+    "male": 31928,
+    "female": 34572
+  },
+  "27222": {
+    "code": "27222",
+    "prefCode": "27",
+    "nameJa": "羽曳野市",
+    "nameEn": "Habikino City",
+    "total": 107406,
+    "male": 51000,
+    "female": 56406
+  },
+  "27223": {
+    "code": "27223",
+    "prefCode": "27",
+    "nameJa": "門真市",
+    "nameEn": "Kadoma City",
+    "total": 116179,
+    "male": 57161,
+    "female": 59018
+  },
+  "27224": {
+    "code": "27224",
+    "prefCode": "27",
+    "nameJa": "摂津市",
+    "nameEn": "Settsu City",
+    "total": 86344,
+    "male": 42625,
+    "female": 43719
+  },
+  "27225": {
+    "code": "27225",
+    "prefCode": "27",
+    "nameJa": "高石市",
+    "nameEn": "Takaishi City",
+    "total": 55968,
+    "male": 26581,
+    "female": 29387
+  },
+  "27226": {
+    "code": "27226",
+    "prefCode": "27",
+    "nameJa": "藤井寺市",
+    "nameEn": "Fujiidera City",
+    "total": 62304,
+    "male": 29612,
+    "female": 32692
+  },
+  "27227": {
+    "code": "27227",
+    "prefCode": "27",
+    "nameJa": "東大阪市",
+    "nameEn": "Higashiosaka City",
+    "total": 477700,
+    "male": 232134,
+    "female": 245566
+  },
+  "27228": {
+    "code": "27228",
+    "prefCode": "27",
+    "nameJa": "泉南市",
+    "nameEn": "Sennan City",
+    "total": 58145,
+    "male": 27993,
+    "female": 30152
+  },
+  "27229": {
+    "code": "27229",
+    "prefCode": "27",
+    "nameJa": "四條畷市",
+    "nameEn": "Shijonawate City",
+    "total": 53749,
+    "male": 26095,
+    "female": 27654
+  },
+  "27230": {
+    "code": "27230",
+    "prefCode": "27",
+    "nameJa": "交野市",
+    "nameEn": "Katano City",
+    "total": 77191,
+    "male": 37066,
+    "female": 40125
+  },
+  "27231": {
+    "code": "27231",
+    "prefCode": "27",
+    "nameJa": "大阪狭山市",
+    "nameEn": "Osakasayama City",
+    "total": 57746,
+    "male": 27087,
+    "female": 30659
+  },
+  "27232": {
+    "code": "27232",
+    "prefCode": "27",
+    "nameJa": "阪南市",
+    "nameEn": "Hannan City",
+    "total": 50080,
+    "male": 23862,
+    "female": 26218
+  },
+  "27301": {
+    "code": "27301",
+    "prefCode": "27",
+    "nameJa": "三島郡島本町",
+    "nameEn": "Shimamoto Town",
+    "total": 32247,
+    "male": 15195,
+    "female": 17052
+  },
+  "27321": {
+    "code": "27321",
+    "prefCode": "27",
+    "nameJa": "豊能郡豊能町",
+    "nameEn": "Toyono Town",
+    "total": 17804,
+    "male": 8486,
+    "female": 9318
+  },
+  "27322": {
+    "code": "27322",
+    "prefCode": "27",
+    "nameJa": "豊能郡能勢町",
+    "nameEn": "Nose Town",
+    "total": 8940,
+    "male": 4326,
+    "female": 4614
+  },
+  "27341": {
+    "code": "27341",
+    "prefCode": "27",
+    "nameJa": "泉北郡忠岡町",
+    "nameEn": "Tadaoka Town",
+    "total": 16317,
+    "male": 7896,
+    "female": 8421
+  },
+  "27361": {
+    "code": "27361",
+    "prefCode": "27",
+    "nameJa": "泉南郡熊取町",
+    "nameEn": "Kumatori Town",
+    "total": 42544,
+    "male": 20510,
+    "female": 22034
+  },
+  "27362": {
+    "code": "27362",
+    "prefCode": "27",
+    "nameJa": "泉南郡田尻町",
+    "nameEn": "Tajiri Town",
+    "total": 8484,
+    "male": 4265,
+    "female": 4219
+  },
+  "27366": {
+    "code": "27366",
+    "prefCode": "27",
+    "nameJa": "泉南郡岬町",
+    "nameEn": "Misaki Town",
+    "total": 14295,
+    "male": 6695,
+    "female": 7600
+  },
+  "27381": {
+    "code": "27381",
+    "prefCode": "27",
+    "nameJa": "南河内郡太子町",
+    "nameEn": "Taishi Town",
+    "total": 12673,
+    "male": 6221,
+    "female": 6452
+  },
+  "27382": {
+    "code": "27382",
+    "prefCode": "27",
+    "nameJa": "南河内郡河南町",
+    "nameEn": "Kanan Town",
+    "total": 14556,
+    "male": 7142,
+    "female": 7414
+  },
+  "27383": {
+    "code": "27383",
+    "prefCode": "27",
+    "nameJa": "南河内郡千早赤阪村",
+    "nameEn": "Chihayaakasaka Village",
+    "total": 4687,
+    "male": 2209,
+    "female": 2478
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "34100": {
+    "code": "34100",
+    "prefCode": "34",
+    "nameJa": "広島市",
+    "nameEn": "Hiroshima City",
+    "total": 1173543,
+    "male": 567524,
+    "female": 606019
+  },
+  "34101": {
+    "code": "34101",
+    "prefCode": "34",
+    "nameJa": "広島市中区",
+    "nameEn": "Naka Ward, Hiroshima City",
+    "total": 137102,
+    "male": 64008,
+    "female": 73094
+  },
+  "34102": {
+    "code": "34102",
+    "prefCode": "34",
+    "nameJa": "広島市東区",
+    "nameEn": "Higashi Ward, Hiroshima City",
+    "total": 117089,
+    "male": 56230,
+    "female": 60859
+  },
+  "34103": {
+    "code": "34103",
+    "prefCode": "34",
+    "nameJa": "広島市南区",
+    "nameEn": "Minami Ward, Hiroshima City",
+    "total": 140221,
+    "male": 68432,
+    "female": 71789
+  },
+  "34104": {
+    "code": "34104",
+    "prefCode": "34",
+    "nameJa": "広島市西区",
+    "nameEn": "Nishi Ward, Hiroshima City",
+    "total": 184899,
+    "male": 89651,
+    "female": 95248
+  },
+  "34105": {
+    "code": "34105",
+    "prefCode": "34",
+    "nameJa": "広島市安佐南区",
+    "nameEn": "Asaminami Ward, Hiroshima City",
+    "total": 242704,
+    "male": 118272,
+    "female": 124432
+  },
+  "34106": {
+    "code": "34106",
+    "prefCode": "34",
+    "nameJa": "広島市安佐北区",
+    "nameEn": "Asakita Ward, Hiroshima City",
+    "total": 136745,
+    "male": 65504,
+    "female": 71241
+  },
+  "34107": {
+    "code": "34107",
+    "prefCode": "34",
+    "nameJa": "広島市安芸区",
+    "nameEn": "Aki Ward, Hiroshima City",
+    "total": 75166,
+    "male": 37500,
+    "female": 37666
+  },
+  "34108": {
+    "code": "34108",
+    "prefCode": "34",
+    "nameJa": "広島市佐伯区",
+    "nameEn": "Saeki Ward, Hiroshima City",
+    "total": 139617,
+    "male": 67927,
+    "female": 71690
+  },
+  "34202": {
+    "code": "34202",
+    "prefCode": "34",
+    "nameJa": "呉市",
+    "nameEn": "Kure City",
+    "total": 201242,
+    "male": 97471,
+    "female": 103771
+  },
+  "34203": {
+    "code": "34203",
+    "prefCode": "34",
+    "nameJa": "竹原市",
+    "nameEn": "Takehara City",
+    "total": 22557,
+    "male": 10809,
+    "female": 11748
+  },
+  "34204": {
+    "code": "34204",
+    "prefCode": "34",
+    "nameJa": "三原市",
+    "nameEn": "Mihara City",
+    "total": 87075,
+    "male": 42120,
+    "female": 44955
+  },
+  "34205": {
+    "code": "34205",
+    "prefCode": "34",
+    "nameJa": "尾道市",
+    "nameEn": "Onomichi City",
+    "total": 126396,
+    "male": 61687,
+    "female": 64709
+  },
+  "34207": {
+    "code": "34207",
+    "prefCode": "34",
+    "nameJa": "福山市",
+    "nameEn": "Fukuyama City",
+    "total": 455028,
+    "male": 222067,
+    "female": 232961
+  },
+  "34208": {
+    "code": "34208",
+    "prefCode": "34",
+    "nameJa": "府中市",
+    "nameEn": "Fuchu City",
+    "total": 35105,
+    "male": 16955,
+    "female": 18150
+  },
+  "34209": {
+    "code": "34209",
+    "prefCode": "34",
+    "nameJa": "三次市",
+    "nameEn": "Miyoshi City",
+    "total": 47904,
+    "male": 23142,
+    "female": 24762
+  },
+  "34210": {
+    "code": "34210",
+    "prefCode": "34",
+    "nameJa": "庄原市",
+    "nameEn": "Shobara City",
+    "total": 31198,
+    "male": 14950,
+    "female": 16248
+  },
+  "34211": {
+    "code": "34211",
+    "prefCode": "34",
+    "nameJa": "大竹市",
+    "nameEn": "Otake City",
+    "total": 25353,
+    "male": 12413,
+    "female": 12940
+  },
+  "34212": {
+    "code": "34212",
+    "prefCode": "34",
+    "nameJa": "東広島市",
+    "nameEn": "Higashihiroshima City",
+    "total": 190911,
+    "male": 96205,
+    "female": 94706
+  },
+  "34213": {
+    "code": "34213",
+    "prefCode": "34",
+    "nameJa": "廿日市市",
+    "nameEn": "Hatsukaichi City",
+    "total": 115451,
+    "male": 55598,
+    "female": 59853
+  },
+  "34214": {
+    "code": "34214",
+    "prefCode": "34",
+    "nameJa": "安芸高田市",
+    "nameEn": "Akitakata City",
+    "total": 26041,
+    "male": 12629,
+    "female": 13412
+  },
+  "34215": {
+    "code": "34215",
+    "prefCode": "34",
+    "nameJa": "江田島市",
+    "nameEn": "Etajima City",
+    "total": 20690,
+    "male": 10333,
+    "female": 10357
+  },
+  "34302": {
+    "code": "34302",
+    "prefCode": "34",
+    "nameJa": "安芸郡府中町",
+    "nameEn": "Fuchu Town",
+    "total": 52074,
+    "male": 25572,
+    "female": 26502
+  },
+  "34304": {
+    "code": "34304",
+    "prefCode": "34",
+    "nameJa": "安芸郡海田町",
+    "nameEn": "Kaita Town",
+    "total": 30810,
+    "male": 15272,
+    "female": 15538
+  },
+  "34307": {
+    "code": "34307",
+    "prefCode": "34",
+    "nameJa": "安芸郡熊野町",
+    "nameEn": "Kumano Town",
+    "total": 23475,
+    "male": 11353,
+    "female": 12122
+  },
+  "34309": {
+    "code": "34309",
+    "prefCode": "34",
+    "nameJa": "安芸郡坂町",
+    "nameEn": "Saka Town",
+    "total": 12498,
+    "male": 5998,
+    "female": 6500
+  },
+  "34368": {
+    "code": "34368",
+    "prefCode": "34",
+    "nameJa": "山県郡安芸太田町",
+    "nameEn": "Akiota Town",
+    "total": 5367,
+    "male": 2511,
+    "female": 2856
+  },
+  "34369": {
+    "code": "34369",
+    "prefCode": "34",
+    "nameJa": "山県郡北広島町",
+    "nameEn": "Kitahiroshima Town",
+    "total": 16953,
+    "male": 8404,
+    "female": 8549
+  },
+  "34431": {
+    "code": "34431",
+    "prefCode": "34",
+    "nameJa": "豊田郡大崎上島町",
+    "nameEn": "Osakikamijima Town",
+    "total": 6779,
+    "male": 3442,
+    "female": 3337
+  },
+  "34462": {
+    "code": "34462",
+    "prefCode": "34",
+    "nameJa": "世羅郡世羅町",
+    "nameEn": "Sera Town",
+    "total": 14519,
+    "male": 6934,
+    "female": 7585
+  },
+  "34545": {
+    "code": "34545",
+    "prefCode": "34",
+    "nameJa": "神石郡神石高原町",
+    "nameEn": "Jinsekikogen Town",
+    "total": 7802,
+    "male": 3764,
+    "female": 4038
+  }
+}

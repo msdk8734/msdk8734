@@ -1,0 +1,1757 @@
+{
+  "01100": {
+    "code": "01100",
+    "prefCode": "01",
+    "nameJa": "札幌市",
+    "nameEn": "Sapporo City",
+    "total": 1955678,
+    "male": 914781,
+    "female": 1040897
+  },
+  "01101": {
+    "code": "01101",
+    "prefCode": "01",
+    "nameJa": "札幌市中央区",
+    "nameEn": "Chuo Ward, Sapporo City",
+    "total": 245916,
+    "male": 111745,
+    "female": 134171
+  },
+  "01102": {
+    "code": "01102",
+    "prefCode": "01",
+    "nameJa": "札幌市北区",
+    "nameEn": "Kita Ward, Sapporo City",
+    "total": 284333,
+    "male": 135510,
+    "female": 148823
+  },
+  "01103": {
+    "code": "01103",
+    "prefCode": "01",
+    "nameJa": "札幌市東区",
+    "nameEn": "Higashi Ward, Sapporo City",
+    "total": 260418,
+    "male": 123914,
+    "female": 136504
+  },
+  "01104": {
+    "code": "01104",
+    "prefCode": "01",
+    "nameJa": "札幌市白石区",
+    "nameEn": "Shiroishi Ward, Sapporo City",
+    "total": 213531,
+    "male": 101647,
+    "female": 111884
+  },
+  "01105": {
+    "code": "01105",
+    "prefCode": "01",
+    "nameJa": "札幌市豊平区",
+    "nameEn": "Toyohira Ward, Sapporo City",
+    "total": 227092,
+    "male": 104954,
+    "female": 122138
+  },
+  "01106": {
+    "code": "01106",
+    "prefCode": "01",
+    "nameJa": "札幌市南区",
+    "nameEn": "Minami Ward, Sapporo City",
+    "total": 133337,
+    "male": 61942,
+    "female": 71395
+  },
+  "01107": {
+    "code": "01107",
+    "prefCode": "01",
+    "nameJa": "札幌市西区",
+    "nameEn": "Nishi Ward, Sapporo City",
+    "total": 218835,
+    "male": 101124,
+    "female": 117711
+  },
+  "01108": {
+    "code": "01108",
+    "prefCode": "01",
+    "nameJa": "札幌市厚別区",
+    "nameEn": "Atsubetsu Ward, Sapporo City",
+    "total": 123293,
+    "male": 56271,
+    "female": 67022
+  },
+  "01109": {
+    "code": "01109",
+    "prefCode": "01",
+    "nameJa": "札幌市手稲区",
+    "nameEn": "Teine Ward, Sapporo City",
+    "total": 139810,
+    "male": 65855,
+    "female": 73955
+  },
+  "01110": {
+    "code": "01110",
+    "prefCode": "01",
+    "nameJa": "札幌市清田区",
+    "nameEn": "Kiyota Ward, Sapporo City",
+    "total": 109113,
+    "male": 51819,
+    "female": 57294
+  },
+  "01202": {
+    "code": "01202",
+    "prefCode": "01",
+    "nameJa": "函館市",
+    "nameEn": "Hakodate City",
+    "total": 236515,
+    "male": 107727,
+    "female": 128788
+  },
+  "01203": {
+    "code": "01203",
+    "prefCode": "01",
+    "nameJa": "小樽市",
+    "nameEn": "Otaru City",
+    "total": 104432,
+    "male": 47245,
+    "female": 57187
+  },
+  "01204": {
+    "code": "01204",
+    "prefCode": "01",
+    "nameJa": "旭川市",
+    "nameEn": "Asahikawa City",
+    "total": 316183,
+    "male": 146486,
+    "female": 169697
+  },
+  "01205": {
+    "code": "01205",
+    "prefCode": "01",
+    "nameJa": "室蘭市",
+    "nameEn": "Muroran City",
+    "total": 74855,
+    "male": 36084,
+    "female": 38771
+  },
+  "01206": {
+    "code": "01206",
+    "prefCode": "01",
+    "nameJa": "釧路市",
+    "nameEn": "Kushiro City",
+    "total": 154271,
+    "male": 72445,
+    "female": 81826
+  },
+  "01207": {
+    "code": "01207",
+    "prefCode": "01",
+    "nameJa": "帯広市",
+    "nameEn": "Obihiro City",
+    "total": 160810,
+    "male": 76719,
+    "female": 84091
+  },
+  "01208": {
+    "code": "01208",
+    "prefCode": "01",
+    "nameJa": "北見市",
+    "nameEn": "Kitami City",
+    "total": 110046,
+    "male": 52486,
+    "female": 57560
+  },
+  "01209": {
+    "code": "01209",
+    "prefCode": "01",
+    "nameJa": "夕張市",
+    "nameEn": "Yubari City",
+    "total": 6107,
+    "male": 2884,
+    "female": 3223
+  },
+  "01210": {
+    "code": "01210",
+    "prefCode": "01",
+    "nameJa": "岩見沢市",
+    "nameEn": "Iwamizawa City",
+    "total": 74204,
+    "male": 34633,
+    "female": 39571
+  },
+  "01211": {
+    "code": "01211",
+    "prefCode": "01",
+    "nameJa": "網走市",
+    "nameEn": "Abashiri City",
+    "total": 32199,
+    "male": 15772,
+    "female": 16427
+  },
+  "01212": {
+    "code": "01212",
+    "prefCode": "01",
+    "nameJa": "留萌市",
+    "nameEn": "Rumoi City",
+    "total": 18169,
+    "male": 8784,
+    "female": 9385
+  },
+  "01213": {
+    "code": "01213",
+    "prefCode": "01",
+    "nameJa": "苫小牧市",
+    "nameEn": "Tomakomai City",
+    "total": 165590,
+    "male": 81259,
+    "female": 84331
+  },
+  "01214": {
+    "code": "01214",
+    "prefCode": "01",
+    "nameJa": "稚内市",
+    "nameEn": "Wakkanai City",
+    "total": 30336,
+    "male": 15022,
+    "female": 15314
+  },
+  "01215": {
+    "code": "01215",
+    "prefCode": "01",
+    "nameJa": "美唄市",
+    "nameEn": "Bibai City",
+    "total": 18427,
+    "male": 8741,
+    "female": 9686
+  },
+  "01216": {
+    "code": "01216",
+    "prefCode": "01",
+    "nameJa": "芦別市",
+    "nameEn": "Ashibetsu City",
+    "total": 11243,
+    "male": 5191,
+    "female": 6052
+  },
+  "01217": {
+    "code": "01217",
+    "prefCode": "01",
+    "nameJa": "江別市",
+    "nameEn": "Ebetsu City",
+    "total": 118055,
+    "male": 56089,
+    "female": 61966
+  },
+  "01218": {
+    "code": "01218",
+    "prefCode": "01",
+    "nameJa": "赤平市",
+    "nameEn": "Akabira City",
+    "total": 8464,
+    "male": 3850,
+    "female": 4614
+  },
+  "01219": {
+    "code": "01219",
+    "prefCode": "01",
+    "nameJa": "紋別市",
+    "nameEn": "Mombetsu City",
+    "total": 19760,
+    "male": 9278,
+    "female": 10482
+  },
+  "01220": {
+    "code": "01220",
+    "prefCode": "01",
+    "nameJa": "士別市",
+    "nameEn": "Shibetsu City",
+    "total": 16440,
+    "male": 7844,
+    "female": 8596
+  },
+  "01221": {
+    "code": "01221",
+    "prefCode": "01",
+    "nameJa": "名寄市",
+    "nameEn": "Nayoro City",
+    "total": 24742,
+    "male": 12008,
+    "female": 12734
+  },
+  "01222": {
+    "code": "01222",
+    "prefCode": "01",
+    "nameJa": "三笠市",
+    "nameEn": "Mikasa City",
+    "total": 7268,
+    "male": 3354,
+    "female": 3914
+  },
+  "01223": {
+    "code": "01223",
+    "prefCode": "01",
+    "nameJa": "根室市",
+    "nameEn": "Nemuro City",
+    "total": 22468,
+    "male": 10709,
+    "female": 11759
+  },
+  "01224": {
+    "code": "01224",
+    "prefCode": "01",
+    "nameJa": "千歳市",
+    "nameEn": "Chitose City",
+    "total": 97355,
+    "male": 49513,
+    "female": 47842
+  },
+  "01225": {
+    "code": "01225",
+    "prefCode": "01",
+    "nameJa": "滝川市",
+    "nameEn": "Takikawa City",
+    "total": 36515,
+    "male": 17316,
+    "female": 19199
+  },
+  "01226": {
+    "code": "01226",
+    "prefCode": "01",
+    "nameJa": "砂川市",
+    "nameEn": "Sunagawa City",
+    "total": 15231,
+    "male": 7066,
+    "female": 8165
+  },
+  "01227": {
+    "code": "01227",
+    "prefCode": "01",
+    "nameJa": "歌志内市",
+    "nameEn": "Utashinai City",
+    "total": 2584,
+    "male": 1244,
+    "female": 1340
+  },
+  "01228": {
+    "code": "01228",
+    "prefCode": "01",
+    "nameJa": "深川市",
+    "nameEn": "Fukagawa City",
+    "total": 18329,
+    "male": 8520,
+    "female": 9809
+  },
+  "01229": {
+    "code": "01229",
+    "prefCode": "01",
+    "nameJa": "富良野市",
+    "nameEn": "Furano City",
+    "total": 19624,
+    "male": 9281,
+    "female": 10343
+  },
+  "01230": {
+    "code": "01230",
+    "prefCode": "01",
+    "nameJa": "登別市",
+    "nameEn": "Noboribetsu City",
+    "total": 43615,
+    "male": 20851,
+    "female": 22764
+  },
+  "01231": {
+    "code": "01231",
+    "prefCode": "01",
+    "nameJa": "恵庭市",
+    "nameEn": "Eniwa City",
+    "total": 70446,
+    "male": 34249,
+    "female": 36197
+  },
+  "01233": {
+    "code": "01233",
+    "prefCode": "01",
+    "nameJa": "伊達市",
+    "nameEn": "Date City",
+    "total": 31208,
+    "male": 14437,
+    "female": 16771
+  },
+  "01234": {
+    "code": "01234",
+    "prefCode": "01",
+    "nameJa": "北広島市",
+    "nameEn": "Kitahiroshima City",
+    "total": 56495,
+    "male": 26995,
+    "female": 29500
+  },
+  "01235": {
+    "code": "01235",
+    "prefCode": "01",
+    "nameJa": "石狩市",
+    "nameEn": "Ishikari City",
+    "total": 57143,
+    "male": 27641,
+    "female": 29502
+  },
+  "01236": {
+    "code": "01236",
+    "prefCode": "01",
+    "nameJa": "北斗市",
+    "nameEn": "Hokuto City",
+    "total": 42810,
+    "male": 20159,
+    "female": 22651
+  },
+  "01303": {
+    "code": "01303",
+    "prefCode": "01",
+    "nameJa": "石狩郡当別町",
+    "nameEn": "Tobetsu Town",
+    "total": 15113,
+    "male": 7392,
+    "female": 7721
+  },
+  "01304": {
+    "code": "01304",
+    "prefCode": "01",
+    "nameJa": "石狩郡新篠津村",
+    "nameEn": "Shinshinotsu Village",
+    "total": 2730,
+    "male": 1320,
+    "female": 1410
+  },
+  "01331": {
+    "code": "01331",
+    "prefCode": "01",
+    "nameJa": "松前郡松前町",
+    "nameEn": "Matsumae Town",
+    "total": 5818,
+    "male": 2757,
+    "female": 3061
+  },
+  "01332": {
+    "code": "01332",
+    "prefCode": "01",
+    "nameJa": "松前郡福島町",
+    "nameEn": "Fukushima Town",
+    "total": 3378,
+    "male": 1582,
+    "female": 1796
+  },
+  "01333": {
+    "code": "01333",
+    "prefCode": "01",
+    "nameJa": "上磯郡知内町",
+    "nameEn": "Shiriuchi Town",
+    "total": 3783,
+    "male": 1865,
+    "female": 1918
+  },
+  "01334": {
+    "code": "01334",
+    "prefCode": "01",
+    "nameJa": "上磯郡木古内町",
+    "nameEn": "Kikonai Town",
+    "total": 3528,
+    "male": 1655,
+    "female": 1873
+  },
+  "01337": {
+    "code": "01337",
+    "prefCode": "01",
+    "nameJa": "亀田郡七飯町",
+    "nameEn": "Nanae Town",
+    "total": 27139,
+    "male": 12558,
+    "female": 14581
+  },
+  "01343": {
+    "code": "01343",
+    "prefCode": "01",
+    "nameJa": "茅部郡鹿部町",
+    "nameEn": "Shikabe Town",
+    "total": 3508,
+    "male": 1669,
+    "female": 1839
+  },
+  "01345": {
+    "code": "01345",
+    "prefCode": "01",
+    "nameJa": "茅部郡森町",
+    "nameEn": "Mori Town",
+    "total": 13582,
+    "male": 6326,
+    "female": 7256
+  },
+  "01346": {
+    "code": "01346",
+    "prefCode": "01",
+    "nameJa": "二海郡八雲町",
+    "nameEn": "Yakumo Town",
+    "total": 14514,
+    "male": 7202,
+    "female": 7312
+  },
+  "01347": {
+    "code": "01347",
+    "prefCode": "01",
+    "nameJa": "山越郡長万部町",
+    "nameEn": "Oshamambe Town",
+    "total": 4696,
+    "male": 2224,
+    "female": 2472
+  },
+  "01361": {
+    "code": "01361",
+    "prefCode": "01",
+    "nameJa": "檜山郡江差町",
+    "nameEn": "Esashi Town",
+    "total": 6607,
+    "male": 3186,
+    "female": 3421
+  },
+  "01362": {
+    "code": "01362",
+    "prefCode": "01",
+    "nameJa": "檜山郡上ノ国町",
+    "nameEn": "Kaminokuni Town",
+    "total": 4133,
+    "male": 1926,
+    "female": 2207
+  },
+  "01363": {
+    "code": "01363",
+    "prefCode": "01",
+    "nameJa": "檜山郡厚沢部町",
+    "nameEn": "Assabu Town",
+    "total": 3269,
+    "male": 1564,
+    "female": 1705
+  },
+  "01364": {
+    "code": "01364",
+    "prefCode": "01",
+    "nameJa": "爾志郡乙部町",
+    "nameEn": "Otobe Town",
+    "total": 3107,
+    "male": 1413,
+    "female": 1694
+  },
+  "01367": {
+    "code": "01367",
+    "prefCode": "01",
+    "nameJa": "奥尻郡奥尻町",
+    "nameEn": "Okushiri Town",
+    "total": 2138,
+    "male": 1120,
+    "female": 1018
+  },
+  "01370": {
+    "code": "01370",
+    "prefCode": "01",
+    "nameJa": "瀬棚郡今金町",
+    "nameEn": "Imakane Town",
+    "total": 4444,
+    "male": 2147,
+    "female": 2297
+  },
+  "01371": {
+    "code": "01371",
+    "prefCode": "01",
+    "nameJa": "久遠郡せたな町",
+    "nameEn": "Setana Town",
+    "total": 6730,
+    "male": 3186,
+    "female": 3544
+  },
+  "01391": {
+    "code": "01391",
+    "prefCode": "01",
+    "nameJa": "島牧郡島牧村",
+    "nameEn": "Shimamaki Village",
+    "total": 1246,
+    "male": 617,
+    "female": 629
+  },
+  "01392": {
+    "code": "01392",
+    "prefCode": "01",
+    "nameJa": "寿都郡寿都町",
+    "nameEn": "Suttsu Town",
+    "total": 2629,
+    "male": 1302,
+    "female": 1327
+  },
+  "01393": {
+    "code": "01393",
+    "prefCode": "01",
+    "nameJa": "寿都郡黒松内町",
+    "nameEn": "Kuromatsunai Town",
+    "total": 2446,
+    "male": 1169,
+    "female": 1277
+  },
+  "01394": {
+    "code": "01394",
+    "prefCode": "01",
+    "nameJa": "磯谷郡蘭越町",
+    "nameEn": "Rankoshi Town",
+    "total": 4501,
+    "male": 2178,
+    "female": 2323
+  },
+  "01395": {
+    "code": "01395",
+    "prefCode": "01",
+    "nameJa": "虻田郡ニセコ町",
+    "nameEn": "Niseko Town",
+    "total": 5551,
+    "male": 2830,
+    "female": 2721
+  },
+  "01396": {
+    "code": "01396",
+    "prefCode": "01",
+    "nameJa": "虻田郡真狩村",
+    "nameEn": "Makkari Village",
+    "total": 1938,
+    "male": 996,
+    "female": 942
+  },
+  "01397": {
+    "code": "01397",
+    "prefCode": "01",
+    "nameJa": "虻田郡留寿都村",
+    "nameEn": "Rusutsu Village",
+    "total": 2018,
+    "male": 1046,
+    "female": 972
+  },
+  "01398": {
+    "code": "01398",
+    "prefCode": "01",
+    "nameJa": "虻田郡喜茂別町",
+    "nameEn": "Kimobetsu Town",
+    "total": 1928,
+    "male": 958,
+    "female": 970
+  },
+  "01399": {
+    "code": "01399",
+    "prefCode": "01",
+    "nameJa": "虻田郡京極町",
+    "nameEn": "Kyogoku Town",
+    "total": 2776,
+    "male": 1358,
+    "female": 1418
+  },
+  "01400": {
+    "code": "01400",
+    "prefCode": "01",
+    "nameJa": "虻田郡倶知安町",
+    "nameEn": "Kutchan Town",
+    "total": 17120,
+    "male": 8967,
+    "female": 8153
+  },
+  "01401": {
+    "code": "01401",
+    "prefCode": "01",
+    "nameJa": "岩内郡共和町",
+    "nameEn": "Kyowa Town",
+    "total": 5364,
+    "male": 2741,
+    "female": 2623
+  },
+  "01402": {
+    "code": "01402",
+    "prefCode": "01",
+    "nameJa": "岩内郡岩内町",
+    "nameEn": "Iwanai Town",
+    "total": 10913,
+    "male": 5177,
+    "female": 5736
+  },
+  "01403": {
+    "code": "01403",
+    "prefCode": "01",
+    "nameJa": "古宇郡泊村",
+    "nameEn": "Tomari Village",
+    "total": 1420,
+    "male": 698,
+    "female": 722
+  },
+  "01404": {
+    "code": "01404",
+    "prefCode": "01",
+    "nameJa": "古宇郡神恵内村",
+    "nameEn": "Kamoenai Village",
+    "total": 740,
+    "male": 358,
+    "female": 382
+  },
+  "01405": {
+    "code": "01405",
+    "prefCode": "01",
+    "nameJa": "積丹郡積丹町",
+    "nameEn": "Shakotan Town",
+    "total": 1702,
+    "male": 795,
+    "female": 907
+  },
+  "01406": {
+    "code": "01406",
+    "prefCode": "01",
+    "nameJa": "古平郡古平町",
+    "nameEn": "Furubira Town",
+    "total": 2589,
+    "male": 1218,
+    "female": 1371
+  },
+  "01407": {
+    "code": "01407",
+    "prefCode": "01",
+    "nameJa": "余市郡仁木町",
+    "nameEn": "Niki Town",
+    "total": 3051,
+    "male": 1489,
+    "female": 1562
+  },
+  "01408": {
+    "code": "01408",
+    "prefCode": "01",
+    "nameJa": "余市郡余市町",
+    "nameEn": "Yoichi Town",
+    "total": 16954,
+    "male": 7875,
+    "female": 9079
+  },
+  "01409": {
+    "code": "01409",
+    "prefCode": "01",
+    "nameJa": "余市郡赤井川村",
+    "nameEn": "Akaigawa Village",
+    "total": 1492,
+    "male": 804,
+    "female": 688
+  },
+  "01423": {
+    "code": "01423",
+    "prefCode": "01",
+    "nameJa": "空知郡南幌町",
+    "nameEn": "Nanporo Town",
+    "total": 7933,
+    "male": 3826,
+    "female": 4107
+  },
+  "01424": {
+    "code": "01424",
+    "prefCode": "01",
+    "nameJa": "空知郡奈井江町",
+    "nameEn": "Naie Town",
+    "total": 4704,
+    "male": 2242,
+    "female": 2462
+  },
+  "01425": {
+    "code": "01425",
+    "prefCode": "01",
+    "nameJa": "空知郡上砂川町",
+    "nameEn": "Kamisunagawa Town",
+    "total": 2360,
+    "male": 1102,
+    "female": 1258
+  },
+  "01427": {
+    "code": "01427",
+    "prefCode": "01",
+    "nameJa": "夕張郡由仁町",
+    "nameEn": "Yuni Town",
+    "total": 4527,
+    "male": 2160,
+    "female": 2367
+  },
+  "01428": {
+    "code": "01428",
+    "prefCode": "01",
+    "nameJa": "夕張郡長沼町",
+    "nameEn": "Naganuma Town",
+    "total": 9937,
+    "male": 4766,
+    "female": 5171
+  },
+  "01429": {
+    "code": "01429",
+    "prefCode": "01",
+    "nameJa": "夕張郡栗山町",
+    "nameEn": "Kuriyama Town",
+    "total": 10653,
+    "male": 4986,
+    "female": 5667
+  },
+  "01430": {
+    "code": "01430",
+    "prefCode": "01",
+    "nameJa": "樺戸郡月形町",
+    "nameEn": "Tsukigata Town",
+    "total": 2732,
+    "male": 1419,
+    "female": 1313
+  },
+  "01431": {
+    "code": "01431",
+    "prefCode": "01",
+    "nameJa": "樺戸郡浦臼町",
+    "nameEn": "Urausu Town",
+    "total": 1577,
+    "male": 762,
+    "female": 815
+  },
+  "01432": {
+    "code": "01432",
+    "prefCode": "01",
+    "nameJa": "樺戸郡新十津川町",
+    "nameEn": "Shintotsukawa Town",
+    "total": 6229,
+    "male": 2904,
+    "female": 3325
+  },
+  "01433": {
+    "code": "01433",
+    "prefCode": "01",
+    "nameJa": "雨竜郡妹背牛町",
+    "nameEn": "Moseushi Town",
+    "total": 2565,
+    "male": 1211,
+    "female": 1354
+  },
+  "01434": {
+    "code": "01434",
+    "prefCode": "01",
+    "nameJa": "雨竜郡秩父別町",
+    "nameEn": "Chippubetsu Town",
+    "total": 2182,
+    "male": 1025,
+    "female": 1157
+  },
+  "01436": {
+    "code": "01436",
+    "prefCode": "01",
+    "nameJa": "雨竜郡雨竜町",
+    "nameEn": "Uryu Town",
+    "total": 2044,
+    "male": 997,
+    "female": 1047
+  },
+  "01437": {
+    "code": "01437",
+    "prefCode": "01",
+    "nameJa": "雨竜郡北竜町",
+    "nameEn": "Hokuryu Town",
+    "total": 1593,
+    "male": 752,
+    "female": 841
+  },
+  "01438": {
+    "code": "01438",
+    "prefCode": "01",
+    "nameJa": "雨竜郡沼田町",
+    "nameEn": "Numata Town",
+    "total": 2798,
+    "male": 1356,
+    "female": 1442
+  },
+  "01452": {
+    "code": "01452",
+    "prefCode": "01",
+    "nameJa": "上川郡鷹栖町",
+    "nameEn": "Takasu Town",
+    "total": 6463,
+    "male": 3088,
+    "female": 3375
+  },
+  "01453": {
+    "code": "01453",
+    "prefCode": "01",
+    "nameJa": "上川郡東神楽町",
+    "nameEn": "Higashikagura Town",
+    "total": 9775,
+    "male": 4641,
+    "female": 5134
+  },
+  "01454": {
+    "code": "01454",
+    "prefCode": "01",
+    "nameJa": "上川郡当麻町",
+    "nameEn": "Tohma Town",
+    "total": 6054,
+    "male": 2816,
+    "female": 3238
+  },
+  "01455": {
+    "code": "01455",
+    "prefCode": "01",
+    "nameJa": "上川郡比布町",
+    "nameEn": "Pippu Town",
+    "total": 3425,
+    "male": 1619,
+    "female": 1806
+  },
+  "01456": {
+    "code": "01456",
+    "prefCode": "01",
+    "nameJa": "上川郡愛別町",
+    "nameEn": "Aibetsu Town",
+    "total": 2418,
+    "male": 1151,
+    "female": 1267
+  },
+  "01457": {
+    "code": "01457",
+    "prefCode": "01",
+    "nameJa": "上川郡上川町",
+    "nameEn": "Kamikawa Town",
+    "total": 3085,
+    "male": 1458,
+    "female": 1627
+  },
+  "01458": {
+    "code": "01458",
+    "prefCode": "01",
+    "nameJa": "上川郡東川町",
+    "nameEn": "Higashikawa Town",
+    "total": 8673,
+    "male": 4047,
+    "female": 4626
+  },
+  "01459": {
+    "code": "01459",
+    "prefCode": "01",
+    "nameJa": "上川郡美瑛町",
+    "nameEn": "Biei Town",
+    "total": 9283,
+    "male": 4351,
+    "female": 4932
+  },
+  "01460": {
+    "code": "01460",
+    "prefCode": "01",
+    "nameJa": "空知郡上富良野町",
+    "nameEn": "Kamifurano Town",
+    "total": 9706,
+    "male": 4919,
+    "female": 4787
+  },
+  "01461": {
+    "code": "01461",
+    "prefCode": "01",
+    "nameJa": "空知郡中富良野町",
+    "nameEn": "Nakafurano Town",
+    "total": 4486,
+    "male": 2116,
+    "female": 2370
+  },
+  "01462": {
+    "code": "01462",
+    "prefCode": "01",
+    "nameJa": "空知郡南富良野町",
+    "nameEn": "Minamifurano Town",
+    "total": 2236,
+    "male": 1143,
+    "female": 1093
+  },
+  "01463": {
+    "code": "01463",
+    "prefCode": "01",
+    "nameJa": "勇払郡占冠村",
+    "nameEn": "Shimukappu Village",
+    "total": 1590,
+    "male": 829,
+    "female": 761
+  },
+  "01464": {
+    "code": "01464",
+    "prefCode": "01",
+    "nameJa": "上川郡和寒町",
+    "nameEn": "Wassamu Town",
+    "total": 2807,
+    "male": 1343,
+    "female": 1464
+  },
+  "01465": {
+    "code": "01465",
+    "prefCode": "01",
+    "nameJa": "上川郡剣淵町",
+    "nameEn": "Kembuchi Town",
+    "total": 2728,
+    "male": 1343,
+    "female": 1385
+  },
+  "01468": {
+    "code": "01468",
+    "prefCode": "01",
+    "nameJa": "上川郡下川町",
+    "nameEn": "Shimokawa Town",
+    "total": 2836,
+    "male": 1365,
+    "female": 1471
+  },
+  "01469": {
+    "code": "01469",
+    "prefCode": "01",
+    "nameJa": "中川郡美深町",
+    "nameEn": "Bifuka Town",
+    "total": 3681,
+    "male": 1778,
+    "female": 1903
+  },
+  "01470": {
+    "code": "01470",
+    "prefCode": "01",
+    "nameJa": "中川郡音威子府村",
+    "nameEn": "Otoineppu Village",
+    "total": 601,
+    "male": 316,
+    "female": 285
+  },
+  "01471": {
+    "code": "01471",
+    "prefCode": "01",
+    "nameJa": "中川郡中川町",
+    "nameEn": "Nakagawa Town",
+    "total": 1269,
+    "male": 661,
+    "female": 608
+  },
+  "01472": {
+    "code": "01472",
+    "prefCode": "01",
+    "nameJa": "雨竜郡幌加内町",
+    "nameEn": "Horokanai Town",
+    "total": 1222,
+    "male": 601,
+    "female": 621
+  },
+  "01481": {
+    "code": "01481",
+    "prefCode": "01",
+    "nameJa": "増毛郡増毛町",
+    "nameEn": "Mashike Town",
+    "total": 3620,
+    "male": 1652,
+    "female": 1968
+  },
+  "01482": {
+    "code": "01482",
+    "prefCode": "01",
+    "nameJa": "留萌郡小平町",
+    "nameEn": "Obira Town",
+    "total": 2664,
+    "male": 1279,
+    "female": 1385
+  },
+  "01483": {
+    "code": "01483",
+    "prefCode": "01",
+    "nameJa": "苫前郡苫前町",
+    "nameEn": "Tomamae Town",
+    "total": 2666,
+    "male": 1301,
+    "female": 1365
+  },
+  "01484": {
+    "code": "01484",
+    "prefCode": "01",
+    "nameJa": "苫前郡羽幌町",
+    "nameEn": "Haboro Town",
+    "total": 5945,
+    "male": 2878,
+    "female": 3067
+  },
+  "01485": {
+    "code": "01485",
+    "prefCode": "01",
+    "nameJa": "苫前郡初山別村",
+    "nameEn": "Shosambetsu Village",
+    "total": 1005,
+    "male": 499,
+    "female": 506
+  },
+  "01486": {
+    "code": "01486",
+    "prefCode": "01",
+    "nameJa": "天塩郡遠別町",
+    "nameEn": "Embetsu Town",
+    "total": 2258,
+    "male": 1098,
+    "female": 1160
+  },
+  "01487": {
+    "code": "01487",
+    "prefCode": "01",
+    "nameJa": "天塩郡天塩町",
+    "nameEn": "Teshio Town",
+    "total": 2642,
+    "male": 1361,
+    "female": 1281
+  },
+  "01511": {
+    "code": "01511",
+    "prefCode": "01",
+    "nameJa": "宗谷郡猿払村",
+    "nameEn": "Sarufutsu Village",
+    "total": 2589,
+    "male": 1260,
+    "female": 1329
+  },
+  "01512": {
+    "code": "01512",
+    "prefCode": "01",
+    "nameJa": "枝幸郡浜頓別町",
+    "nameEn": "Hamatonbetsu Town",
+    "total": 3221,
+    "male": 1564,
+    "female": 1657
+  },
+  "01513": {
+    "code": "01513",
+    "prefCode": "01",
+    "nameJa": "枝幸郡中頓別町",
+    "nameEn": "Nakatombetsu Town",
+    "total": 1472,
+    "male": 739,
+    "female": 733
+  },
+  "01514": {
+    "code": "01514",
+    "prefCode": "01",
+    "nameJa": "枝幸郡枝幸町",
+    "nameEn": "Esashi Town",
+    "total": 7199,
+    "male": 3432,
+    "female": 3767
+  },
+  "01516": {
+    "code": "01516",
+    "prefCode": "01",
+    "nameJa": "天塩郡豊富町",
+    "nameEn": "Toyotomi Town",
+    "total": 3515,
+    "male": 1807,
+    "female": 1708
+  },
+  "01517": {
+    "code": "01517",
+    "prefCode": "01",
+    "nameJa": "礼文郡礼文町",
+    "nameEn": "Rebun Town",
+    "total": 2183,
+    "male": 1122,
+    "female": 1061
+  },
+  "01518": {
+    "code": "01518",
+    "prefCode": "01",
+    "nameJa": "利尻郡利尻町",
+    "nameEn": "Rishiri Town",
+    "total": 1830,
+    "male": 914,
+    "female": 916
+  },
+  "01519": {
+    "code": "01519",
+    "prefCode": "01",
+    "nameJa": "利尻郡利尻富士町",
+    "nameEn": "Rishirifuji Town",
+    "total": 2151,
+    "male": 1047,
+    "female": 1104
+  },
+  "01520": {
+    "code": "01520",
+    "prefCode": "01",
+    "nameJa": "天塩郡幌延町",
+    "nameEn": "Horonobe Town",
+    "total": 2042,
+    "male": 1066,
+    "female": 976
+  },
+  "01543": {
+    "code": "01543",
+    "prefCode": "01",
+    "nameJa": "網走郡美幌町",
+    "nameEn": "Bihoro Town",
+    "total": 17329,
+    "male": 8437,
+    "female": 8892
+  },
+  "01544": {
+    "code": "01544",
+    "prefCode": "01",
+    "nameJa": "網走郡津別町",
+    "nameEn": "Tsubetsu Town",
+    "total": 3970,
+    "male": 1953,
+    "female": 2017
+  },
+  "01545": {
+    "code": "01545",
+    "prefCode": "01",
+    "nameJa": "斜里郡斜里町",
+    "nameEn": "Shari Town",
+    "total": 10513,
+    "male": 5186,
+    "female": 5327
+  },
+  "01546": {
+    "code": "01546",
+    "prefCode": "01",
+    "nameJa": "斜里郡清里町",
+    "nameEn": "Kiyosato Town",
+    "total": 3622,
+    "male": 1792,
+    "female": 1830
+  },
+  "01547": {
+    "code": "01547",
+    "prefCode": "01",
+    "nameJa": "斜里郡小清水町",
+    "nameEn": "Koshimizu Town",
+    "total": 4342,
+    "male": 2072,
+    "female": 2270
+  },
+  "01549": {
+    "code": "01549",
+    "prefCode": "01",
+    "nameJa": "常呂郡訓子府町",
+    "nameEn": "Kunneppu Town",
+    "total": 4448,
+    "male": 2166,
+    "female": 2282
+  },
+  "01550": {
+    "code": "01550",
+    "prefCode": "01",
+    "nameJa": "常呂郡置戸町",
+    "nameEn": "Oketo Town",
+    "total": 2543,
+    "male": 1168,
+    "female": 1375
+  },
+  "01552": {
+    "code": "01552",
+    "prefCode": "01",
+    "nameJa": "常呂郡佐呂間町",
+    "nameEn": "Saroma Town",
+    "total": 4646,
+    "male": 2151,
+    "female": 2495
+  },
+  "01555": {
+    "code": "01555",
+    "prefCode": "01",
+    "nameJa": "紋別郡遠軽町",
+    "nameEn": "Engaru Town",
+    "total": 17646,
+    "male": 8584,
+    "female": 9062
+  },
+  "01559": {
+    "code": "01559",
+    "prefCode": "01",
+    "nameJa": "紋別郡湧別町",
+    "nameEn": "Yubetsu Town",
+    "total": 7901,
+    "male": 3776,
+    "female": 4125
+  },
+  "01560": {
+    "code": "01560",
+    "prefCode": "01",
+    "nameJa": "紋別郡滝上町",
+    "nameEn": "Takinoue Town",
+    "total": 2208,
+    "male": 1074,
+    "female": 1134
+  },
+  "01561": {
+    "code": "01561",
+    "prefCode": "01",
+    "nameJa": "紋別郡興部町",
+    "nameEn": "Okoppe Town",
+    "total": 3495,
+    "male": 1723,
+    "female": 1772
+  },
+  "01562": {
+    "code": "01562",
+    "prefCode": "01",
+    "nameJa": "紋別郡西興部村",
+    "nameEn": "Nishiokoppe Village",
+    "total": 956,
+    "male": 486,
+    "female": 470
+  },
+  "01563": {
+    "code": "01563",
+    "prefCode": "01",
+    "nameJa": "紋別郡雄武町",
+    "nameEn": "Oumu Town",
+    "total": 4033,
+    "male": 1936,
+    "female": 2097
+  },
+  "01564": {
+    "code": "01564",
+    "prefCode": "01",
+    "nameJa": "網走郡大空町",
+    "nameEn": "Ozora Town",
+    "total": 6441,
+    "male": 3166,
+    "female": 3275
+  },
+  "01571": {
+    "code": "01571",
+    "prefCode": "01",
+    "nameJa": "虻田郡豊浦町",
+    "nameEn": "Toyoura Town",
+    "total": 3491,
+    "male": 1679,
+    "female": 1812
+  },
+  "01575": {
+    "code": "01575",
+    "prefCode": "01",
+    "nameJa": "有珠郡壮瞥町",
+    "nameEn": "Sobetsu Town",
+    "total": 2313,
+    "male": 1118,
+    "female": 1195
+  },
+  "01578": {
+    "code": "01578",
+    "prefCode": "01",
+    "nameJa": "白老郡白老町",
+    "nameEn": "Shiraoi Town",
+    "total": 15095,
+    "male": 7173,
+    "female": 7922
+  },
+  "01581": {
+    "code": "01581",
+    "prefCode": "01",
+    "nameJa": "勇払郡厚真町",
+    "nameEn": "Atsuma Town",
+    "total": 4227,
+    "male": 2146,
+    "female": 2081
+  },
+  "01584": {
+    "code": "01584",
+    "prefCode": "01",
+    "nameJa": "虻田郡洞爺湖町",
+    "nameEn": "Toyako Town",
+    "total": 7906,
+    "male": 3651,
+    "female": 4255
+  },
+  "01585": {
+    "code": "01585",
+    "prefCode": "01",
+    "nameJa": "勇払郡安平町",
+    "nameEn": "Abira Town",
+    "total": 7214,
+    "male": 3597,
+    "female": 3617
+  },
+  "01586": {
+    "code": "01586",
+    "prefCode": "01",
+    "nameJa": "勇払郡むかわ町",
+    "nameEn": "Mukawa Town",
+    "total": 7221,
+    "male": 3582,
+    "female": 3639
+  },
+  "01601": {
+    "code": "01601",
+    "prefCode": "01",
+    "nameJa": "沙流郡日高町",
+    "nameEn": "Hidaka Town",
+    "total": 10904,
+    "male": 5641,
+    "female": 5263
+  },
+  "01602": {
+    "code": "01602",
+    "prefCode": "01",
+    "nameJa": "沙流郡平取町",
+    "nameEn": "Biratori Town",
+    "total": 4435,
+    "male": 2188,
+    "female": 2247
+  },
+  "01604": {
+    "code": "01604",
+    "prefCode": "01",
+    "nameJa": "新冠郡新冠町",
+    "nameEn": "Niikappu Town",
+    "total": 5011,
+    "male": 2519,
+    "female": 2492
+  },
+  "01607": {
+    "code": "01607",
+    "prefCode": "01",
+    "nameJa": "浦河郡浦河町",
+    "nameEn": "Urakawa Town",
+    "total": 11231,
+    "male": 5726,
+    "female": 5505
+  },
+  "01608": {
+    "code": "01608",
+    "prefCode": "01",
+    "nameJa": "様似郡様似町",
+    "nameEn": "Samani Town",
+    "total": 3777,
+    "male": 1829,
+    "female": 1948
+  },
+  "01609": {
+    "code": "01609",
+    "prefCode": "01",
+    "nameJa": "幌泉郡えりも町",
+    "nameEn": "Erimo Town",
+    "total": 4060,
+    "male": 2045,
+    "female": 2015
+  },
+  "01610": {
+    "code": "01610",
+    "prefCode": "01",
+    "nameJa": "日高郡新ひだか町",
+    "nameEn": "Shinhidaka Town",
+    "total": 20229,
+    "male": 9978,
+    "female": 10251
+  },
+  "01631": {
+    "code": "01631",
+    "prefCode": "01",
+    "nameJa": "河東郡音更町",
+    "nameEn": "Otofuke Town",
+    "total": 42683,
+    "male": 20288,
+    "female": 22395
+  },
+  "01632": {
+    "code": "01632",
+    "prefCode": "01",
+    "nameJa": "河東郡士幌町",
+    "nameEn": "Shihoro Town",
+    "total": 5690,
+    "male": 2819,
+    "female": 2871
+  },
+  "01633": {
+    "code": "01633",
+    "prefCode": "01",
+    "nameJa": "河東郡上士幌町",
+    "nameEn": "Kamishihoro Town",
+    "total": 4758,
+    "male": 2381,
+    "female": 2377
+  },
+  "01634": {
+    "code": "01634",
+    "prefCode": "01",
+    "nameJa": "河東郡鹿追町",
+    "nameEn": "Shikaoi Town",
+    "total": 4928,
+    "male": 2401,
+    "female": 2527
+  },
+  "01635": {
+    "code": "01635",
+    "prefCode": "01",
+    "nameJa": "上川郡新得町",
+    "nameEn": "Shintoku Town",
+    "total": 5503,
+    "male": 2759,
+    "female": 2744
+  },
+  "01636": {
+    "code": "01636",
+    "prefCode": "01",
+    "nameJa": "上川郡清水町",
+    "nameEn": "Shimizu Town",
+    "total": 8755,
+    "male": 4368,
+    "female": 4387
+  },
+  "01637": {
+    "code": "01637",
+    "prefCode": "01",
+    "nameJa": "河西郡芽室町",
+    "nameEn": "Memuro Town",
+    "total": 17773,
+    "male": 8480,
+    "female": 9293
+  },
+  "01638": {
+    "code": "01638",
+    "prefCode": "01",
+    "nameJa": "河西郡中札内村",
+    "nameEn": "Nakasatsunai Village",
+    "total": 3823,
+    "male": 1851,
+    "female": 1972
+  },
+  "01639": {
+    "code": "01639",
+    "prefCode": "01",
+    "nameJa": "河西郡更別村",
+    "nameEn": "Sarabetsu Village",
+    "total": 3084,
+    "male": 1514,
+    "female": 1570
+  },
+  "01641": {
+    "code": "01641",
+    "prefCode": "01",
+    "nameJa": "広尾郡大樹町",
+    "nameEn": "Taiki Town",
+    "total": 5266,
+    "male": 2670,
+    "female": 2596
+  },
+  "01642": {
+    "code": "01642",
+    "prefCode": "01",
+    "nameJa": "広尾郡広尾町",
+    "nameEn": "Hiroo Town",
+    "total": 5880,
+    "male": 2842,
+    "female": 3038
+  },
+  "01643": {
+    "code": "01643",
+    "prefCode": "01",
+    "nameJa": "中川郡幕別町",
+    "nameEn": "Makubetsu Town",
+    "total": 25269,
+    "male": 11994,
+    "female": 13275
+  },
+  "01644": {
+    "code": "01644",
+    "prefCode": "01",
+    "nameJa": "中川郡池田町",
+    "nameEn": "Ikeda Town",
+    "total": 5906,
+    "male": 2777,
+    "female": 3129
+  },
+  "01645": {
+    "code": "01645",
+    "prefCode": "01",
+    "nameJa": "中川郡豊頃町",
+    "nameEn": "Toyokoro Town",
+    "total": 2878,
+    "male": 1418,
+    "female": 1460
+  },
+  "01646": {
+    "code": "01646",
+    "prefCode": "01",
+    "nameJa": "中川郡本別町",
+    "nameEn": "Hombetsu Town",
+    "total": 6046,
+    "male": 2965,
+    "female": 3081
+  },
+  "01647": {
+    "code": "01647",
+    "prefCode": "01",
+    "nameJa": "足寄郡足寄町",
+    "nameEn": "Ashoro Town",
+    "total": 5952,
+    "male": 2950,
+    "female": 3002
+  },
+  "01648": {
+    "code": "01648",
+    "prefCode": "01",
+    "nameJa": "足寄郡陸別町",
+    "nameEn": "Rikubetsu Town",
+    "total": 2120,
+    "male": 1063,
+    "female": 1057
+  },
+  "01649": {
+    "code": "01649",
+    "prefCode": "01",
+    "nameJa": "十勝郡浦幌町",
+    "nameEn": "Urahoro Town",
+    "total": 4108,
+    "male": 2028,
+    "female": 2080
+  },
+  "01661": {
+    "code": "01661",
+    "prefCode": "01",
+    "nameJa": "釧路郡釧路町",
+    "nameEn": "Kushiro Town",
+    "total": 18380,
+    "male": 8744,
+    "female": 9636
+  },
+  "01662": {
+    "code": "01662",
+    "prefCode": "01",
+    "nameJa": "厚岸郡厚岸町",
+    "nameEn": "Akkeshi Town",
+    "total": 8195,
+    "male": 3883,
+    "female": 4312
+  },
+  "01663": {
+    "code": "01663",
+    "prefCode": "01",
+    "nameJa": "厚岸郡浜中町",
+    "nameEn": "Hamanaka Town",
+    "total": 5246,
+    "male": 2559,
+    "female": 2687
+  },
+  "01664": {
+    "code": "01664",
+    "prefCode": "01",
+    "nameJa": "川上郡標茶町",
+    "nameEn": "Shibecha Town",
+    "total": 6836,
+    "male": 3357,
+    "female": 3479
+  },
+  "01665": {
+    "code": "01665",
+    "prefCode": "01",
+    "nameJa": "川上郡弟子屈町",
+    "nameEn": "Teshikaga Town",
+    "total": 6432,
+    "male": 3099,
+    "female": 3333
+  },
+  "01667": {
+    "code": "01667",
+    "prefCode": "01",
+    "nameJa": "阿寒郡鶴居村",
+    "nameEn": "Tsurui Village",
+    "total": 2432,
+    "male": 1222,
+    "female": 1210
+  },
+  "01668": {
+    "code": "01668",
+    "prefCode": "01",
+    "nameJa": "白糠郡白糠町",
+    "nameEn": "Shiranuka Town",
+    "total": 7003,
+    "male": 3289,
+    "female": 3714
+  },
+  "01691": {
+    "code": "01691",
+    "prefCode": "01",
+    "nameJa": "野付郡別海町",
+    "nameEn": "Betsukai Town",
+    "total": 13964,
+    "male": 7123,
+    "female": 6841
+  },
+  "01692": {
+    "code": "01692",
+    "prefCode": "01",
+    "nameJa": "標津郡中標津町",
+    "nameEn": "Nakashibetsu Town",
+    "total": 22257,
+    "male": 11004,
+    "female": 11253
+  },
+  "01693": {
+    "code": "01693",
+    "prefCode": "01",
+    "nameJa": "標津郡標津町",
+    "nameEn": "Shibetsu Town",
+    "total": 4798,
+    "male": 2315,
+    "female": 2483
+  },
+  "01694": {
+    "code": "01694",
+    "prefCode": "01",
+    "nameJa": "目梨郡羅臼町",
+    "nameEn": "Rausu Town",
+    "total": 4267,
+    "male": 2159,
+    "female": 2108
+  },
+  "01695": {
+    "code": "01695",
+    "prefCode": "01",
+    "nameJa": "色丹郡色丹村",
+    "nameEn": "Shikotan Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  },
+  "01696": {
+    "code": "01696",
+    "prefCode": "01",
+    "nameJa": "国後郡泊村",
+    "nameEn": "Tomari Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  },
+  "01697": {
+    "code": "01697",
+    "prefCode": "01",
+    "nameJa": "国後郡留夜別村",
+    "nameEn": "Rubetsu Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  },
+  "01698": {
+    "code": "01698",
+    "prefCode": "01",
+    "nameJa": "択捉郡留別村",
+    "nameEn": "Rubetsu Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  },
+  "01699": {
+    "code": "01699",
+    "prefCode": "01",
+    "nameJa": "紗那郡紗那村",
+    "nameEn": "Shana Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  },
+  "01700": {
+    "code": "01700",
+    "prefCode": "01",
+    "nameJa": "蘂取郡蘂取村",
+    "nameEn": "Shibetoro Village",
+    "total": 0,
+    "male": 0,
+    "female": 0
+  }
+}

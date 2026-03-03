@@ -1,0 +1,173 @@
+{
+  "31201": {
+    "code": "31201",
+    "prefCode": "31",
+    "nameJa": "鳥取市",
+    "nameEn": "Tottori City",
+    "total": 179215,
+    "male": 86492,
+    "female": 92723
+  },
+  "31202": {
+    "code": "31202",
+    "prefCode": "31",
+    "nameJa": "米子市",
+    "nameEn": "Yonago City",
+    "total": 144056,
+    "male": 68726,
+    "female": 75330
+  },
+  "31203": {
+    "code": "31203",
+    "prefCode": "31",
+    "nameJa": "倉吉市",
+    "nameEn": "Kurayoshi City",
+    "total": 43663,
+    "male": 20692,
+    "female": 22971
+  },
+  "31204": {
+    "code": "31204",
+    "prefCode": "31",
+    "nameJa": "境港市",
+    "nameEn": "Sakaiminato City",
+    "total": 32469,
+    "male": 15641,
+    "female": 16828
+  },
+  "31302": {
+    "code": "31302",
+    "prefCode": "31",
+    "nameJa": "岩美郡岩美町",
+    "nameEn": "Iwami Town",
+    "total": 10769,
+    "male": 5211,
+    "female": 5558
+  },
+  "31325": {
+    "code": "31325",
+    "prefCode": "31",
+    "nameJa": "八頭郡若桜町",
+    "nameEn": "Wakasa Town",
+    "total": 2671,
+    "male": 1281,
+    "female": 1390
+  },
+  "31328": {
+    "code": "31328",
+    "prefCode": "31",
+    "nameJa": "八頭郡智頭町",
+    "nameEn": "Chizu Town",
+    "total": 6129,
+    "male": 2858,
+    "female": 3271
+  },
+  "31329": {
+    "code": "31329",
+    "prefCode": "31",
+    "nameJa": "八頭郡八頭町",
+    "nameEn": "Yazu Town",
+    "total": 15488,
+    "male": 7448,
+    "female": 8040
+  },
+  "31364": {
+    "code": "31364",
+    "prefCode": "31",
+    "nameJa": "東伯郡三朝町",
+    "nameEn": "Misasa Town",
+    "total": 5788,
+    "male": 2803,
+    "female": 2985
+  },
+  "31370": {
+    "code": "31370",
+    "prefCode": "31",
+    "nameJa": "東伯郡湯梨浜町",
+    "nameEn": "Yurihama Town",
+    "total": 16219,
+    "male": 7786,
+    "female": 8432
+  },
+  "31371": {
+    "code": "31371",
+    "prefCode": "31",
+    "nameJa": "東伯郡琴浦町",
+    "nameEn": "Kotoura Town",
+    "total": 15784,
+    "male": 7486,
+    "female": 8298
+  },
+  "31372": {
+    "code": "31372",
+    "prefCode": "31",
+    "nameJa": "東伯郡北栄町",
+    "nameEn": "Hokuei Town",
+    "total": 14127,
+    "male": 6800,
+    "female": 7327
+  },
+  "31384": {
+    "code": "31384",
+    "prefCode": "31",
+    "nameJa": "西伯郡日吉津村",
+    "nameEn": "Hiezu Village",
+    "total": 3616,
+    "male": 1715,
+    "female": 1901
+  },
+  "31386": {
+    "code": "31386",
+    "prefCode": "31",
+    "nameJa": "西伯郡大山町",
+    "nameEn": "Daisen Town",
+    "total": 14786,
+    "male": 7153,
+    "female": 7633
+  },
+  "31389": {
+    "code": "31389",
+    "prefCode": "31",
+    "nameJa": "西伯郡南部町",
+    "nameEn": "Nanbu Town",
+    "total": 10099,
+    "male": 4835,
+    "female": 5264
+  },
+  "31390": {
+    "code": "31390",
+    "prefCode": "31",
+    "nameJa": "西伯郡伯耆町",
+    "nameEn": "Hoki Town",
+    "total": 10145,
+    "male": 4865,
+    "female": 5280
+  },
+  "31401": {
+    "code": "31401",
+    "prefCode": "31",
+    "nameJa": "日野郡日南町",
+    "nameEn": "Nichinan Town",
+    "total": 3865,
+    "male": 1838,
+    "female": 2027
+  },
+  "31402": {
+    "code": "31402",
+    "prefCode": "31",
+    "nameJa": "日野郡日野町",
+    "nameEn": "Hino Town",
+    "total": 2635,
+    "male": 1213,
+    "female": 1422
+  },
+  "31403": {
+    "code": "31403",
+    "prefCode": "31",
+    "nameJa": "日野郡江府町",
+    "nameEn": "Kofu Town",
+    "total": 2479,
+    "male": 1159,
+    "female": 1320
+  }
+}

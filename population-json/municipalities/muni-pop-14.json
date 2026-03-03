@@ -1,0 +1,551 @@
+{
+  "14100": {
+    "code": "14100",
+    "prefCode": "14",
+    "nameJa": "横浜市",
+    "nameEn": "Yokohama City",
+    "total": 3753398,
+    "male": 1857643,
+    "female": 1895755
+  },
+  "14101": {
+    "code": "14101",
+    "prefCode": "14",
+    "nameJa": "横浜市鶴見区",
+    "nameEn": "Tsurumi Ward, Yokohama City",
+    "total": 295947,
+    "male": 152880,
+    "female": 143067
+  },
+  "14102": {
+    "code": "14102",
+    "prefCode": "14",
+    "nameJa": "横浜市神奈川区",
+    "nameEn": "Kanagawa Ward, Yokohama City",
+    "total": 245832,
+    "male": 123819,
+    "female": 122013
+  },
+  "14103": {
+    "code": "14103",
+    "prefCode": "14",
+    "nameJa": "横浜市西区",
+    "nameEn": "Nishi Ward, Yokohama City",
+    "total": 106188,
+    "male": 53235,
+    "female": 52953
+  },
+  "14104": {
+    "code": "14104",
+    "prefCode": "14",
+    "nameJa": "横浜市中区",
+    "nameEn": "Naka Ward, Yokohama City",
+    "total": 155366,
+    "male": 80137,
+    "female": 75229
+  },
+  "14105": {
+    "code": "14105",
+    "prefCode": "14",
+    "nameJa": "横浜市南区",
+    "nameEn": "Minami Ward, Yokohama City",
+    "total": 200586,
+    "male": 100111,
+    "female": 100475
+  },
+  "14106": {
+    "code": "14106",
+    "prefCode": "14",
+    "nameJa": "横浜市保土ケ谷区",
+    "nameEn": "Hodogaya Ward, Yokohama City",
+    "total": 202706,
+    "male": 100254,
+    "female": 102452
+  },
+  "14107": {
+    "code": "14107",
+    "prefCode": "14",
+    "nameJa": "横浜市磯子区",
+    "nameEn": "Isogo Ward, Yokohama City",
+    "total": 165586,
+    "male": 81489,
+    "female": 84097
+  },
+  "14108": {
+    "code": "14108",
+    "prefCode": "14",
+    "nameJa": "横浜市金沢区",
+    "nameEn": "Kanazawa Ward, Yokohama City",
+    "total": 192009,
+    "male": 93799,
+    "female": 98210
+  },
+  "14109": {
+    "code": "14109",
+    "prefCode": "14",
+    "nameJa": "横浜市港北区",
+    "nameEn": "Kohoku Ward, Yokohama City",
+    "total": 358165,
+    "male": 177988,
+    "female": 180177
+  },
+  "14110": {
+    "code": "14110",
+    "prefCode": "14",
+    "nameJa": "横浜市戸塚区",
+    "nameEn": "Totsuka Ward, Yokohama City",
+    "total": 280846,
+    "male": 137833,
+    "female": 143013
+  },
+  "14111": {
+    "code": "14111",
+    "prefCode": "14",
+    "nameJa": "横浜市港南区",
+    "nameEn": "Konan Ward, Yokohama City",
+    "total": 211469,
+    "male": 102446,
+    "female": 109023
+  },
+  "14112": {
+    "code": "14112",
+    "prefCode": "14",
+    "nameJa": "横浜市旭区",
+    "nameEn": "Asahi Ward, Yokohama City",
+    "total": 241954,
+    "male": 117796,
+    "female": 124158
+  },
+  "14113": {
+    "code": "14113",
+    "prefCode": "14",
+    "nameJa": "横浜市緑区",
+    "nameEn": "Midori Ward, Yokohama City",
+    "total": 181558,
+    "male": 89476,
+    "female": 92082
+  },
+  "14114": {
+    "code": "14114",
+    "prefCode": "14",
+    "nameJa": "横浜市瀬谷区",
+    "nameEn": "Seya Ward, Yokohama City",
+    "total": 121731,
+    "male": 59556,
+    "female": 62175
+  },
+  "14115": {
+    "code": "14115",
+    "prefCode": "14",
+    "nameJa": "横浜市栄区",
+    "nameEn": "Sakae Ward, Yokohama City",
+    "total": 120683,
+    "male": 58640,
+    "female": 62043
+  },
+  "14116": {
+    "code": "14116",
+    "prefCode": "14",
+    "nameJa": "横浜市泉区",
+    "nameEn": "Izumi Ward, Yokohama City",
+    "total": 151056,
+    "male": 73833,
+    "female": 77223
+  },
+  "14117": {
+    "code": "14117",
+    "prefCode": "14",
+    "nameJa": "横浜市青葉区",
+    "nameEn": "Aoba Ward, Yokohama City",
+    "total": 306960,
+    "male": 148149,
+    "female": 158811
+  },
+  "14118": {
+    "code": "14118",
+    "prefCode": "14",
+    "nameJa": "横浜市都筑区",
+    "nameEn": "Tsuzuki Ward, Yokohama City",
+    "total": 214756,
+    "male": 106202,
+    "female": 108554
+  },
+  "14130": {
+    "code": "14130",
+    "prefCode": "14",
+    "nameJa": "川崎市",
+    "nameEn": "Kawasaki City",
+    "total": 1535141,
+    "male": 775836,
+    "female": 759305
+  },
+  "14131": {
+    "code": "14131",
+    "prefCode": "14",
+    "nameJa": "川崎市川崎区",
+    "nameEn": "Kawasaki Ward, Kawasaki City",
+    "total": 233887,
+    "male": 126425,
+    "female": 107462
+  },
+  "14132": {
+    "code": "14132",
+    "prefCode": "14",
+    "nameJa": "川崎市幸区",
+    "nameEn": "Saiwai Ward, Kawasaki City",
+    "total": 174808,
+    "male": 88963,
+    "female": 85845
+  },
+  "14133": {
+    "code": "14133",
+    "prefCode": "14",
+    "nameJa": "川崎市中原区",
+    "nameEn": "Nakahara Ward, Kawasaki City",
+    "total": 263731,
+    "male": 132648,
+    "female": 131083
+  },
+  "14134": {
+    "code": "14134",
+    "prefCode": "14",
+    "nameJa": "川崎市高津区",
+    "nameEn": "Takatsu Ward, Kawasaki City",
+    "total": 231957,
+    "male": 115952,
+    "female": 116005
+  },
+  "14135": {
+    "code": "14135",
+    "prefCode": "14",
+    "nameJa": "川崎市多摩区",
+    "nameEn": "Tama Ward, Kawasaki City",
+    "total": 218533,
+    "male": 110999,
+    "female": 107534
+  },
+  "14136": {
+    "code": "14136",
+    "prefCode": "14",
+    "nameJa": "川崎市宮前区",
+    "nameEn": "Miyamae Ward, Kawasaki City",
+    "total": 234249,
+    "male": 114539,
+    "female": 119710
+  },
+  "14137": {
+    "code": "14137",
+    "prefCode": "14",
+    "nameJa": "川崎市麻生区",
+    "nameEn": "Asao Ward, Kawasaki City",
+    "total": 177976,
+    "male": 86310,
+    "female": 91666
+  },
+  "14150": {
+    "code": "14150",
+    "prefCode": "14",
+    "nameJa": "相模原市",
+    "nameEn": "Sagamihara City",
+    "total": 716494,
+    "male": 358771,
+    "female": 357723
+  },
+  "14151": {
+    "code": "14151",
+    "prefCode": "14",
+    "nameJa": "相模原市緑区",
+    "nameEn": "Midori Ward, Sagamihara City",
+    "total": 165772,
+    "male": 83451,
+    "female": 82321
+  },
+  "14152": {
+    "code": "14152",
+    "prefCode": "14",
+    "nameJa": "相模原市中央区",
+    "nameEn": "Chuo Ward, Sagamihara City",
+    "total": 271862,
+    "male": 137027,
+    "female": 134835
+  },
+  "14153": {
+    "code": "14153",
+    "prefCode": "14",
+    "nameJa": "相模原市南区",
+    "nameEn": "Minami Ward, Sagamihara City",
+    "total": 278860,
+    "male": 138293,
+    "female": 140567
+  },
+  "14201": {
+    "code": "14201",
+    "prefCode": "14",
+    "nameJa": "横須賀市",
+    "nameEn": "Yokosuka City",
+    "total": 379041,
+    "male": 188643,
+    "female": 190398
+  },
+  "14203": {
+    "code": "14203",
+    "prefCode": "14",
+    "nameJa": "平塚市",
+    "nameEn": "Hiratsuka City",
+    "total": 256549,
+    "male": 128048,
+    "female": 128501
+  },
+  "14204": {
+    "code": "14204",
+    "prefCode": "14",
+    "nameJa": "鎌倉市",
+    "nameEn": "Kamakura City",
+    "total": 174535,
+    "male": 82577,
+    "female": 91958
+  },
+  "14205": {
+    "code": "14205",
+    "prefCode": "14",
+    "nameJa": "藤沢市",
+    "nameEn": "Fujisawa City",
+    "total": 445041,
+    "male": 220078,
+    "female": 224963
+  },
+  "14206": {
+    "code": "14206",
+    "prefCode": "14",
+    "nameJa": "小田原市",
+    "nameEn": "Odawara City",
+    "total": 186464,
+    "male": 90919,
+    "female": 95545
+  },
+  "14207": {
+    "code": "14207",
+    "prefCode": "14",
+    "nameJa": "茅ヶ崎市",
+    "nameEn": "Chigasaki City",
+    "total": 247345,
+    "male": 120290,
+    "female": 127055
+  },
+  "14208": {
+    "code": "14208",
+    "prefCode": "14",
+    "nameJa": "逗子市",
+    "nameEn": "Zushi City",
+    "total": 57827,
+    "male": 27150,
+    "female": 30677
+  },
+  "14210": {
+    "code": "14210",
+    "prefCode": "14",
+    "nameJa": "三浦市",
+    "nameEn": "Miura City",
+    "total": 39842,
+    "male": 19343,
+    "female": 20499
+  },
+  "14211": {
+    "code": "14211",
+    "prefCode": "14",
+    "nameJa": "秦野市",
+    "nameEn": "Hadano City",
+    "total": 158573,
+    "male": 79592,
+    "female": 78981
+  },
+  "14212": {
+    "code": "14212",
+    "prefCode": "14",
+    "nameJa": "厚木市",
+    "nameEn": "Atsugi City",
+    "total": 223424,
+    "male": 115364,
+    "female": 108060
+  },
+  "14213": {
+    "code": "14213",
+    "prefCode": "14",
+    "nameJa": "大和市",
+    "nameEn": "Yamato City",
+    "total": 245750,
+    "male": 122451,
+    "female": 123299
+  },
+  "14214": {
+    "code": "14214",
+    "prefCode": "14",
+    "nameJa": "伊勢原市",
+    "nameEn": "Isehara City",
+    "total": 99816,
+    "male": 50705,
+    "female": 49111
+  },
+  "14215": {
+    "code": "14215",
+    "prefCode": "14",
+    "nameJa": "海老名市",
+    "nameEn": "Ebina City",
+    "total": 140763,
+    "male": 70753,
+    "female": 70010
+  },
+  "14216": {
+    "code": "14216",
+    "prefCode": "14",
+    "nameJa": "座間市",
+    "nameEn": "Zama City",
+    "total": 131219,
+    "male": 65724,
+    "female": 65495
+  },
+  "14217": {
+    "code": "14217",
+    "prefCode": "14",
+    "nameJa": "南足柄市",
+    "nameEn": "Minamiashigara City",
+    "total": 40164,
+    "male": 19697,
+    "female": 20467
+  },
+  "14218": {
+    "code": "14218",
+    "prefCode": "14",
+    "nameJa": "綾瀬市",
+    "nameEn": "Ayase City",
+    "total": 83952,
+    "male": 42914,
+    "female": 41038
+  },
+  "14301": {
+    "code": "14301",
+    "prefCode": "14",
+    "nameJa": "三浦郡葉山町",
+    "nameEn": "Hayama Town",
+    "total": 31813,
+    "male": 15006,
+    "female": 16807
+  },
+  "14321": {
+    "code": "14321",
+    "prefCode": "14",
+    "nameJa": "高座郡寒川町",
+    "nameEn": "Samukawa Town",
+    "total": 48997,
+    "male": 24933,
+    "female": 24064
+  },
+  "14341": {
+    "code": "14341",
+    "prefCode": "14",
+    "nameJa": "中郡大磯町",
+    "nameEn": "Oiso Town",
+    "total": 31757,
+    "male": 15514,
+    "female": 16243
+  },
+  "14342": {
+    "code": "14342",
+    "prefCode": "14",
+    "nameJa": "中郡二宮町",
+    "nameEn": "Ninomiya Town",
+    "total": 27415,
+    "male": 13280,
+    "female": 14135
+  },
+  "14361": {
+    "code": "14361",
+    "prefCode": "14",
+    "nameJa": "足柄上郡中井町",
+    "nameEn": "Nakai Town",
+    "total": 8901,
+    "male": 4497,
+    "female": 4404
+  },
+  "14362": {
+    "code": "14362",
+    "prefCode": "14",
+    "nameJa": "足柄上郡大井町",
+    "nameEn": "Oi Town",
+    "total": 17426,
+    "male": 8574,
+    "female": 8852
+  },
+  "14363": {
+    "code": "14363",
+    "prefCode": "14",
+    "nameJa": "足柄上郡松田町",
+    "nameEn": "Matsuda Town",
+    "total": 10419,
+    "male": 5137,
+    "female": 5282
+  },
+  "14364": {
+    "code": "14364",
+    "prefCode": "14",
+    "nameJa": "足柄上郡山北町",
+    "nameEn": "Yamakita Town",
+    "total": 9263,
+    "male": 4561,
+    "female": 4702
+  },
+  "14366": {
+    "code": "14366",
+    "prefCode": "14",
+    "nameJa": "足柄上郡開成町",
+    "nameEn": "Kaisei Town",
+    "total": 18566,
+    "male": 9047,
+    "female": 9519
+  },
+  "14382": {
+    "code": "14382",
+    "prefCode": "14",
+    "nameJa": "足柄下郡箱根町",
+    "nameEn": "Hakone Town",
+    "total": 10835,
+    "male": 5203,
+    "female": 5632
+  },
+  "14383": {
+    "code": "14383",
+    "prefCode": "14",
+    "nameJa": "足柄下郡真鶴町",
+    "nameEn": "Manazuru Town",
+    "total": 6553,
+    "male": 3065,
+    "female": 3488
+  },
+  "14384": {
+    "code": "14384",
+    "prefCode": "14",
+    "nameJa": "足柄下郡湯河原町",
+    "nameEn": "Yugawara Town",
+    "total": 23183,
+    "male": 10893,
+    "female": 12290
+  },
+  "14401": {
+    "code": "14401",
+    "prefCode": "14",
+    "nameJa": "愛甲郡愛川町",
+    "nameEn": "Aikawa Town",
+    "total": 39377,
+    "male": 20624,
+    "female": 18753
+  },
+  "14402": {
+    "code": "14402",
+    "prefCode": "14",
+    "nameJa": "愛甲郡清川村",
+    "nameEn": "Kiyokawa Village",
+    "total": 2716,
+    "male": 1402,
+    "female": 1314
+  }
+}

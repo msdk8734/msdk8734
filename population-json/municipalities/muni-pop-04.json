@@ -1,0 +1,362 @@
+{
+  "04100": {
+    "code": "04100",
+    "prefCode": "04",
+    "nameJa": "仙台市",
+    "nameEn": "Sendai City",
+    "total": 1064142,
+    "male": 514228,
+    "female": 549914
+  },
+  "04101": {
+    "code": "04101",
+    "prefCode": "04",
+    "nameJa": "仙台市青葉区",
+    "nameEn": "Aoba Ward, Sendai City",
+    "total": 296338,
+    "male": 142144,
+    "female": 154194
+  },
+  "04102": {
+    "code": "04102",
+    "prefCode": "04",
+    "nameJa": "仙台市宮城野区",
+    "nameEn": "Miyagino Ward, Sendai City",
+    "total": 187541,
+    "male": 91422,
+    "female": 96119
+  },
+  "04103": {
+    "code": "04103",
+    "prefCode": "04",
+    "nameJa": "仙台市若林区",
+    "nameEn": "Wakabayashi Ward, Sendai City",
+    "total": 138173,
+    "male": 67418,
+    "female": 70755
+  },
+  "04104": {
+    "code": "04104",
+    "prefCode": "04",
+    "nameJa": "仙台市太白区",
+    "nameEn": "Taihaku Ward, Sendai City",
+    "total": 234710,
+    "male": 113354,
+    "female": 121356
+  },
+  "04105": {
+    "code": "04105",
+    "prefCode": "04",
+    "nameJa": "仙台市泉区",
+    "nameEn": "Izumi Ward, Sendai City",
+    "total": 207380,
+    "male": 99890,
+    "female": 107490
+  },
+  "04202": {
+    "code": "04202",
+    "prefCode": "04",
+    "nameJa": "石巻市",
+    "nameEn": "Ishinomaki City",
+    "total": 132447,
+    "male": 64279,
+    "female": 68168
+  },
+  "04203": {
+    "code": "04203",
+    "prefCode": "04",
+    "nameJa": "塩竈市",
+    "nameEn": "Shiogama City",
+    "total": 51726,
+    "male": 24782,
+    "female": 26944
+  },
+  "04205": {
+    "code": "04205",
+    "prefCode": "04",
+    "nameJa": "気仙沼市",
+    "nameEn": "Kesennuma City",
+    "total": 56300,
+    "male": 27112,
+    "female": 29188
+  },
+  "04206": {
+    "code": "04206",
+    "prefCode": "04",
+    "nameJa": "白石市",
+    "nameEn": "Shiroishi City",
+    "total": 30569,
+    "male": 15045,
+    "female": 15524
+  },
+  "04207": {
+    "code": "04207",
+    "prefCode": "04",
+    "nameJa": "名取市",
+    "nameEn": "Natori City",
+    "total": 79792,
+    "male": 39174,
+    "female": 40618
+  },
+  "04208": {
+    "code": "04208",
+    "prefCode": "04",
+    "nameJa": "角田市",
+    "nameEn": "Kakuda City",
+    "total": 26469,
+    "male": 13181,
+    "female": 13288
+  },
+  "04209": {
+    "code": "04209",
+    "prefCode": "04",
+    "nameJa": "多賀城市",
+    "nameEn": "Tagajo City",
+    "total": 61628,
+    "male": 30573,
+    "female": 31055
+  },
+  "04211": {
+    "code": "04211",
+    "prefCode": "04",
+    "nameJa": "岩沼市",
+    "nameEn": "Iwanuma City",
+    "total": 43137,
+    "male": 21360,
+    "female": 21777
+  },
+  "04212": {
+    "code": "04212",
+    "prefCode": "04",
+    "nameJa": "登米市",
+    "nameEn": "Tome City",
+    "total": 71919,
+    "male": 35324,
+    "female": 36595
+  },
+  "04213": {
+    "code": "04213",
+    "prefCode": "04",
+    "nameJa": "栗原市",
+    "nameEn": "Kurihara City",
+    "total": 60518,
+    "male": 29512,
+    "female": 31006
+  },
+  "04214": {
+    "code": "04214",
+    "prefCode": "04",
+    "nameJa": "東松島市",
+    "nameEn": "Higashimatsushima City",
+    "total": 37875,
+    "male": 18512,
+    "female": 19363
+  },
+  "04215": {
+    "code": "04215",
+    "prefCode": "04",
+    "nameJa": "大崎市",
+    "nameEn": "Osaki City",
+    "total": 122035,
+    "male": 60130,
+    "female": 61905
+  },
+  "04216": {
+    "code": "04216",
+    "prefCode": "04",
+    "nameJa": "富谷市",
+    "nameEn": "Tomiya City",
+    "total": 52452,
+    "male": 25793,
+    "female": 26659
+  },
+  "04301": {
+    "code": "04301",
+    "prefCode": "04",
+    "nameJa": "刈田郡蔵王町",
+    "nameEn": "Zao Town",
+    "total": 10916,
+    "male": 5392,
+    "female": 5524
+  },
+  "04302": {
+    "code": "04302",
+    "prefCode": "04",
+    "nameJa": "刈田郡七ヶ宿町",
+    "nameEn": "Shichikashuku Town",
+    "total": 1213,
+    "male": 600,
+    "female": 613
+  },
+  "04321": {
+    "code": "04321",
+    "prefCode": "04",
+    "nameJa": "柴田郡大河原町",
+    "nameEn": "Ogawara Town",
+    "total": 23297,
+    "male": 11439,
+    "female": 11858
+  },
+  "04322": {
+    "code": "04322",
+    "prefCode": "04",
+    "nameJa": "柴田郡村田町",
+    "nameEn": "Murata Town",
+    "total": 9816,
+    "male": 4931,
+    "female": 4885
+  },
+  "04323": {
+    "code": "04323",
+    "prefCode": "04",
+    "nameJa": "柴田郡柴田町",
+    "nameEn": "Shibata Town",
+    "total": 36331,
+    "male": 18084,
+    "female": 18247
+  },
+  "04324": {
+    "code": "04324",
+    "prefCode": "04",
+    "nameJa": "柴田郡川崎町",
+    "nameEn": "Kawasaki Town",
+    "total": 7938,
+    "male": 3950,
+    "female": 3988
+  },
+  "04341": {
+    "code": "04341",
+    "prefCode": "04",
+    "nameJa": "伊具郡丸森町",
+    "nameEn": "Marumori Town",
+    "total": 11571,
+    "male": 5845,
+    "female": 5726
+  },
+  "04361": {
+    "code": "04361",
+    "prefCode": "04",
+    "nameJa": "亘理郡亘理町",
+    "nameEn": "Watari Town",
+    "total": 32825,
+    "male": 16181,
+    "female": 16644
+  },
+  "04362": {
+    "code": "04362",
+    "prefCode": "04",
+    "nameJa": "亘理郡山元町",
+    "nameEn": "Yamamoto Town",
+    "total": 11427,
+    "male": 5658,
+    "female": 5769
+  },
+  "04401": {
+    "code": "04401",
+    "prefCode": "04",
+    "nameJa": "宮城郡松島町",
+    "nameEn": "Matsushima Town",
+    "total": 12885,
+    "male": 6250,
+    "female": 6635
+  },
+  "04404": {
+    "code": "04404",
+    "prefCode": "04",
+    "nameJa": "宮城郡七ヶ浜町",
+    "nameEn": "Shichigahama Town",
+    "total": 17553,
+    "male": 8741,
+    "female": 8812
+  },
+  "04406": {
+    "code": "04406",
+    "prefCode": "04",
+    "nameJa": "宮城郡利府町",
+    "nameEn": "Rifu Town",
+    "total": 35863,
+    "male": 17687,
+    "female": 18176
+  },
+  "04421": {
+    "code": "04421",
+    "prefCode": "04",
+    "nameJa": "黒川郡大和町",
+    "nameEn": "Taiwa Town",
+    "total": 27861,
+    "male": 14392,
+    "female": 13469
+  },
+  "04422": {
+    "code": "04422",
+    "prefCode": "04",
+    "nameJa": "黒川郡大郷町",
+    "nameEn": "Osato Town",
+    "total": 7480,
+    "male": 3727,
+    "female": 3753
+  },
+  "04424": {
+    "code": "04424",
+    "prefCode": "04",
+    "nameJa": "黒川郡大衡村",
+    "nameEn": "Ohira Village",
+    "total": 5539,
+    "male": 2789,
+    "female": 2750
+  },
+  "04444": {
+    "code": "04444",
+    "prefCode": "04",
+    "nameJa": "加美郡色麻町",
+    "nameEn": "Shikama Town",
+    "total": 6103,
+    "male": 2969,
+    "female": 3134
+  },
+  "04445": {
+    "code": "04445",
+    "prefCode": "04",
+    "nameJa": "加美郡加美町",
+    "nameEn": "Kami Town",
+    "total": 20970,
+    "male": 10381,
+    "female": 10589
+  },
+  "04501": {
+    "code": "04501",
+    "prefCode": "04",
+    "nameJa": "遠田郡涌谷町",
+    "nameEn": "Wakuya Town",
+    "total": 14249,
+    "male": 7014,
+    "female": 7235
+  },
+  "04505": {
+    "code": "04505",
+    "prefCode": "04",
+    "nameJa": "遠田郡美里町",
+    "nameEn": "Misato Town",
+    "total": 22826,
+    "male": 11161,
+    "female": 11665
+  },
+  "04581": {
+    "code": "04581",
+    "prefCode": "04",
+    "nameJa": "牡鹿郡女川町",
+    "nameEn": "Onagawa Town",
+    "total": 5810,
+    "male": 2842,
+    "female": 2968
+  },
+  "04606": {
+    "code": "04606",
+    "prefCode": "04",
+    "nameJa": "本吉郡南三陸町",
+    "nameEn": "Minamisanriku Town",
+    "total": 11498,
+    "male": 5641,
+    "female": 5857
+  }
+}

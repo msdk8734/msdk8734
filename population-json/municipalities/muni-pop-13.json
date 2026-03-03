@@ -1,0 +1,560 @@
+{
+  "13101": {
+    "code": "13101",
+    "prefCode": "13",
+    "nameJa": "千代田区",
+    "nameEn": "Chiyoda Ward",
+    "total": 68835,
+    "male": 34502,
+    "female": 34333
+  },
+  "13102": {
+    "code": "13102",
+    "prefCode": "13",
+    "nameJa": "中央区",
+    "nameEn": "Chuo Ward",
+    "total": 187404,
+    "male": 89617,
+    "female": 97787
+  },
+  "13103": {
+    "code": "13103",
+    "prefCode": "13",
+    "nameJa": "港区",
+    "nameEn": "Minato Ward",
+    "total": 267780,
+    "male": 126062,
+    "female": 141718
+  },
+  "13104": {
+    "code": "13104",
+    "prefCode": "13",
+    "nameJa": "新宿区",
+    "nameEn": "Shinjuku Ward",
+    "total": 352717,
+    "male": 177370,
+    "female": 175347
+  },
+  "13105": {
+    "code": "13105",
+    "prefCode": "13",
+    "nameJa": "文京区",
+    "nameEn": "Bunkyo Ward",
+    "total": 235345,
+    "male": 112018,
+    "female": 123326
+  },
+  "13106": {
+    "code": "13106",
+    "prefCode": "13",
+    "nameJa": "台東区",
+    "nameEn": "Taito Ward",
+    "total": 216084,
+    "male": 109947,
+    "female": 106137
+  },
+  "13107": {
+    "code": "13107",
+    "prefCode": "13",
+    "nameJa": "墨田区",
+    "nameEn": "Sumida Ward",
+    "total": 287302,
+    "male": 141451,
+    "female": 145851
+  },
+  "13108": {
+    "code": "13108",
+    "prefCode": "13",
+    "nameJa": "江東区",
+    "nameEn": "Koto Ward",
+    "total": 541685,
+    "male": 265630,
+    "female": 276055
+  },
+  "13109": {
+    "code": "13109",
+    "prefCode": "13",
+    "nameJa": "品川区",
+    "nameEn": "Shinagawa Ward",
+    "total": 412786,
+    "male": 202245,
+    "female": 210541
+  },
+  "13110": {
+    "code": "13110",
+    "prefCode": "13",
+    "nameJa": "目黒区",
+    "nameEn": "Meguro Ward",
+    "total": 281400,
+    "male": 132760,
+    "female": 148640
+  },
+  "13111": {
+    "code": "13111",
+    "prefCode": "13",
+    "nameJa": "大田区",
+    "nameEn": "Ota Ward",
+    "total": 740519,
+    "male": 368378,
+    "female": 372141
+  },
+  "13112": {
+    "code": "13112",
+    "prefCode": "13",
+    "nameJa": "世田谷区",
+    "nameEn": "Setagaya Ward",
+    "total": 923210,
+    "male": 436905,
+    "female": 486305
+  },
+  "13113": {
+    "code": "13113",
+    "prefCode": "13",
+    "nameJa": "渋谷区",
+    "nameEn": "Shibuya Ward",
+    "total": 231402,
+    "male": 111018,
+    "female": 120384
+  },
+  "13114": {
+    "code": "13114",
+    "prefCode": "13",
+    "nameJa": "中野区",
+    "nameEn": "Nakano Ward",
+    "total": 341322,
+    "male": 172721,
+    "female": 168601
+  },
+  "13115": {
+    "code": "13115",
+    "prefCode": "13",
+    "nameJa": "杉並区",
+    "nameEn": "Suginami Ward",
+    "total": 577147,
+    "male": 277809,
+    "female": 299337
+  },
+  "13116": {
+    "code": "13116",
+    "prefCode": "13",
+    "nameJa": "豊島区",
+    "nameEn": "Toshima Ward",
+    "total": 294644,
+    "male": 147717,
+    "female": 146927
+  },
+  "13117": {
+    "code": "13117",
+    "prefCode": "13",
+    "nameJa": "北区",
+    "nameEn": "Kita Ward",
+    "total": 362089,
+    "male": 179986,
+    "female": 182103
+  },
+  "13118": {
+    "code": "13118",
+    "prefCode": "13",
+    "nameJa": "荒川区",
+    "nameEn": "Arakawa Ward",
+    "total": 222278,
+    "male": 110539,
+    "female": 111739
+  },
+  "13119": {
+    "code": "13119",
+    "prefCode": "13",
+    "nameJa": "板橋区",
+    "nameEn": "Itabashi Ward",
+    "total": 578914,
+    "male": 283229,
+    "female": 295685
+  },
+  "13120": {
+    "code": "13120",
+    "prefCode": "13",
+    "nameJa": "練馬区",
+    "nameEn": "Nerima Ward",
+    "total": 745927,
+    "male": 360504,
+    "female": 385423
+  },
+  "13121": {
+    "code": "13121",
+    "prefCode": "13",
+    "nameJa": "足立区",
+    "nameEn": "Adachi Ward",
+    "total": 698276,
+    "male": 349165,
+    "female": 349111
+  },
+  "13122": {
+    "code": "13122",
+    "prefCode": "13",
+    "nameJa": "葛飾区",
+    "nameEn": "Katsushika Ward",
+    "total": 469916,
+    "male": 233991,
+    "female": 235925
+  },
+  "13123": {
+    "code": "13123",
+    "prefCode": "13",
+    "nameJa": "江戸川区",
+    "nameEn": "Edogawa Ward",
+    "total": 693570,
+    "male": 348893,
+    "female": 344677
+  },
+  "13201": {
+    "code": "13201",
+    "prefCode": "13",
+    "nameJa": "八王子市",
+    "nameEn": "Hachioji City",
+    "total": 559083,
+    "male": 279079,
+    "female": 280004
+  },
+  "13202": {
+    "code": "13202",
+    "prefCode": "13",
+    "nameJa": "立川市",
+    "nameEn": "Tachikawa City",
+    "total": 186257,
+    "male": 92181,
+    "female": 94076
+  },
+  "13203": {
+    "code": "13203",
+    "prefCode": "13",
+    "nameJa": "武蔵野市",
+    "nameEn": "Musashino City",
+    "total": 148034,
+    "male": 70910,
+    "female": 77124
+  },
+  "13204": {
+    "code": "13204",
+    "prefCode": "13",
+    "nameJa": "三鷹市",
+    "nameEn": "Mitaka City",
+    "total": 190497,
+    "male": 92633,
+    "female": 97863
+  },
+  "13205": {
+    "code": "13205",
+    "prefCode": "13",
+    "nameJa": "青梅市",
+    "nameEn": "Ome City",
+    "total": 129105,
+    "male": 65013,
+    "female": 64092
+  },
+  "13206": {
+    "code": "13206",
+    "prefCode": "13",
+    "nameJa": "府中市",
+    "nameEn": "Fuchu City",
+    "total": 260998,
+    "male": 130361,
+    "female": 130637
+  },
+  "13207": {
+    "code": "13207",
+    "prefCode": "13",
+    "nameJa": "昭島市",
+    "nameEn": "Akishima City",
+    "total": 115632,
+    "male": 57486,
+    "female": 58146
+  },
+  "13208": {
+    "code": "13208",
+    "prefCode": "13",
+    "nameJa": "調布市",
+    "nameEn": "Chofu City",
+    "total": 239348,
+    "male": 116306,
+    "female": 123042
+  },
+  "13209": {
+    "code": "13209",
+    "prefCode": "13",
+    "nameJa": "町田市",
+    "nameEn": "Machida City",
+    "total": 430170,
+    "male": 209990,
+    "female": 220180
+  },
+  "13210": {
+    "code": "13210",
+    "prefCode": "13",
+    "nameJa": "小金井市",
+    "nameEn": "Koganei City",
+    "total": 125174,
+    "male": 61595,
+    "female": 63579
+  },
+  "13211": {
+    "code": "13211",
+    "prefCode": "13",
+    "nameJa": "小平市",
+    "nameEn": "Kodaira City",
+    "total": 196799,
+    "male": 96317,
+    "female": 100482
+  },
+  "13212": {
+    "code": "13212",
+    "prefCode": "13",
+    "nameJa": "日野市",
+    "nameEn": "Hino City",
+    "total": 188477,
+    "male": 94173,
+    "female": 94304
+  },
+  "13213": {
+    "code": "13213",
+    "prefCode": "13",
+    "nameJa": "東村山市",
+    "nameEn": "Higashimurayama City",
+    "total": 151795,
+    "male": 73872,
+    "female": 77923
+  },
+  "13214": {
+    "code": "13214",
+    "prefCode": "13",
+    "nameJa": "国分寺市",
+    "nameEn": "Kokubunji City",
+    "total": 129500,
+    "male": 63439,
+    "female": 66061
+  },
+  "13215": {
+    "code": "13215",
+    "prefCode": "13",
+    "nameJa": "国立市",
+    "nameEn": "Kunitachi City",
+    "total": 76079,
+    "male": 36854,
+    "female": 39225
+  },
+  "13218": {
+    "code": "13218",
+    "prefCode": "13",
+    "nameJa": "福生市",
+    "nameEn": "Fussa City",
+    "total": 56582,
+    "male": 28555,
+    "female": 28027
+  },
+  "13219": {
+    "code": "13219",
+    "prefCode": "13",
+    "nameJa": "狛江市",
+    "nameEn": "Komae City",
+    "total": 82048,
+    "male": 39625,
+    "female": 42423
+  },
+  "13220": {
+    "code": "13220",
+    "prefCode": "13",
+    "nameJa": "東大和市",
+    "nameEn": "Higashiyamato City",
+    "total": 84996,
+    "male": 41647,
+    "female": 43349
+  },
+  "13221": {
+    "code": "13221",
+    "prefCode": "13",
+    "nameJa": "清瀬市",
+    "nameEn": "Kiyose City",
+    "total": 75011,
+    "male": 36070,
+    "female": 38941
+  },
+  "13222": {
+    "code": "13222",
+    "prefCode": "13",
+    "nameJa": "東久留米市",
+    "nameEn": "Higashikurume City",
+    "total": 116325,
+    "male": 56338,
+    "female": 59987
+  },
+  "13223": {
+    "code": "13223",
+    "prefCode": "13",
+    "nameJa": "武蔵村山市",
+    "nameEn": "Musashimurayama City",
+    "total": 70696,
+    "male": 35172,
+    "female": 35524
+  },
+  "13224": {
+    "code": "13224",
+    "prefCode": "13",
+    "nameJa": "多摩市",
+    "nameEn": "Tama City",
+    "total": 148084,
+    "male": 72420,
+    "female": 75664
+  },
+  "13225": {
+    "code": "13225",
+    "prefCode": "13",
+    "nameJa": "稲城市",
+    "nameEn": "Inagi City",
+    "total": 93916,
+    "male": 46914,
+    "female": 47002
+  },
+  "13227": {
+    "code": "13227",
+    "prefCode": "13",
+    "nameJa": "羽村市",
+    "nameEn": "Hamura City",
+    "total": 54126,
+    "male": 27339,
+    "female": 26787
+  },
+  "13228": {
+    "code": "13228",
+    "prefCode": "13",
+    "nameJa": "あきる野市",
+    "nameEn": "Akiruno City",
+    "total": 79244,
+    "male": 39496,
+    "female": 39748
+  },
+  "13229": {
+    "code": "13229",
+    "prefCode": "13",
+    "nameJa": "西東京市",
+    "nameEn": "Nishitokyo City",
+    "total": 206245,
+    "male": 100219,
+    "female": 106026
+  },
+  "13303": {
+    "code": "13303",
+    "prefCode": "13",
+    "nameJa": "西多摩郡瑞穂町",
+    "nameEn": "Mizuho Town",
+    "total": 32013,
+    "male": 16290,
+    "female": 15723
+  },
+  "13305": {
+    "code": "13305",
+    "prefCode": "13",
+    "nameJa": "西多摩郡日の出町",
+    "nameEn": "Hinode Town",
+    "total": 16061,
+    "male": 7920,
+    "female": 8141
+  },
+  "13307": {
+    "code": "13307",
+    "prefCode": "13",
+    "nameJa": "西多摩郡檜原村",
+    "nameEn": "Hinohara Village",
+    "total": 1923,
+    "male": 961,
+    "female": 962
+  },
+  "13308": {
+    "code": "13308",
+    "prefCode": "13",
+    "nameJa": "西多摩郡奥多摩町",
+    "nameEn": "Okutama Town",
+    "total": 4492,
+    "male": 2221,
+    "female": 2271
+  },
+  "13361": {
+    "code": "13361",
+    "prefCode": "13",
+    "nameJa": "大島町",
+    "nameEn": "Oshima Town",
+    "total": 6813,
+    "male": 3556,
+    "female": 3257
+  },
+  "13362": {
+    "code": "13362",
+    "prefCode": "13",
+    "nameJa": "利島村",
+    "nameEn": "Toshima Village",
+    "total": 300,
+    "male": 161,
+    "female": 139
+  },
+  "13363": {
+    "code": "13363",
+    "prefCode": "13",
+    "nameJa": "新島村",
+    "nameEn": "Niijima Village",
+    "total": 2415,
+    "male": 1186,
+    "female": 1229
+  },
+  "13364": {
+    "code": "13364",
+    "prefCode": "13",
+    "nameJa": "神津島村",
+    "nameEn": "Kouzushima Village",
+    "total": 1737,
+    "male": 898,
+    "female": 839
+  },
+  "13381": {
+    "code": "13381",
+    "prefCode": "13",
+    "nameJa": "三宅村",
+    "nameEn": "Miyake Village",
+    "total": 2211,
+    "male": 1228,
+    "female": 983
+  },
+  "13382": {
+    "code": "13382",
+    "prefCode": "13",
+    "nameJa": "御蔵島村",
+    "nameEn": "Mikurajima Village",
+    "total": 302,
+    "male": 163,
+    "female": 139
+  },
+  "13401": {
+    "code": "13401",
+    "prefCode": "13",
+    "nameJa": "八丈町",
+    "nameEn": "Hachijo Town",
+    "total": 6838,
+    "male": 3419,
+    "female": 3419
+  },
+  "13402": {
+    "code": "13402",
+    "prefCode": "13",
+    "nameJa": "青ヶ島村",
+    "nameEn": "Aogashima Village",
+    "total": 160,
+    "male": 93,
+    "female": 67
+  },
+  "13421": {
+    "code": "13421",
+    "prefCode": "13",
+    "nameJa": "小笠原村",
+    "nameEn": "Ogasawara Village",
+    "total": 2496,
+    "male": 1412,
+    "female": 1084
+  }
+}

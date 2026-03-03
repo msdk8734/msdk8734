@@ -1,0 +1,308 @@
+{
+  "39201": {
+    "code": "39201",
+    "prefCode": "39",
+    "nameJa": "高知市",
+    "nameEn": "Kochi City",
+    "total": 312228,
+    "male": 146177,
+    "female": 166051
+  },
+  "39202": {
+    "code": "39202",
+    "prefCode": "39",
+    "nameJa": "室戸市",
+    "nameEn": "Muroto City",
+    "total": 11273,
+    "male": 5472,
+    "female": 5801
+  },
+  "39203": {
+    "code": "39203",
+    "prefCode": "39",
+    "nameJa": "安芸市",
+    "nameEn": "Aki City",
+    "total": 15555,
+    "male": 7414,
+    "female": 8141
+  },
+  "39204": {
+    "code": "39204",
+    "prefCode": "39",
+    "nameJa": "南国市",
+    "nameEn": "Nankoku City",
+    "total": 45979,
+    "male": 21962,
+    "female": 24017
+  },
+  "39205": {
+    "code": "39205",
+    "prefCode": "39",
+    "nameJa": "土佐市",
+    "nameEn": "Tosa City",
+    "total": 25646,
+    "male": 12481,
+    "female": 13165
+  },
+  "39206": {
+    "code": "39206",
+    "prefCode": "39",
+    "nameJa": "須崎市",
+    "nameEn": "Susaki City",
+    "total": 19325,
+    "male": 9597,
+    "female": 9728
+  },
+  "39208": {
+    "code": "39208",
+    "prefCode": "39",
+    "nameJa": "宿毛市",
+    "nameEn": "Sukumo City",
+    "total": 18394,
+    "male": 8688,
+    "female": 9706
+  },
+  "39209": {
+    "code": "39209",
+    "prefCode": "39",
+    "nameJa": "土佐清水市",
+    "nameEn": "Tosashimizu City",
+    "total": 11591,
+    "male": 5511,
+    "female": 6080
+  },
+  "39210": {
+    "code": "39210",
+    "prefCode": "39",
+    "nameJa": "四万十市",
+    "nameEn": "Shimanto City",
+    "total": 31424,
+    "male": 14923,
+    "female": 16501
+  },
+  "39211": {
+    "code": "39211",
+    "prefCode": "39",
+    "nameJa": "香南市",
+    "nameEn": "Konan City",
+    "total": 32585,
+    "male": 15859,
+    "female": 16726
+  },
+  "39212": {
+    "code": "39212",
+    "prefCode": "39",
+    "nameJa": "香美市",
+    "nameEn": "Kami City",
+    "total": 24667,
+    "male": 11786,
+    "female": 12881
+  },
+  "39301": {
+    "code": "39301",
+    "prefCode": "39",
+    "nameJa": "安芸郡東洋町",
+    "nameEn": "Toyo Town",
+    "total": 2059,
+    "male": 1002,
+    "female": 1057
+  },
+  "39302": {
+    "code": "39302",
+    "prefCode": "39",
+    "nameJa": "安芸郡奈半利町",
+    "nameEn": "Nahari Town",
+    "total": 2858,
+    "male": 1333,
+    "female": 1525
+  },
+  "39303": {
+    "code": "39303",
+    "prefCode": "39",
+    "nameJa": "安芸郡田野町",
+    "nameEn": "Tano Town",
+    "total": 2419,
+    "male": 1144,
+    "female": 1275
+  },
+  "39304": {
+    "code": "39304",
+    "prefCode": "39",
+    "nameJa": "安芸郡安田町",
+    "nameEn": "Yasuda Town",
+    "total": 2269,
+    "male": 1125,
+    "female": 1144
+  },
+  "39305": {
+    "code": "39305",
+    "prefCode": "39",
+    "nameJa": "安芸郡北川村",
+    "nameEn": "Kitagawa Village",
+    "total": 1177,
+    "male": 574,
+    "female": 603
+  },
+  "39306": {
+    "code": "39306",
+    "prefCode": "39",
+    "nameJa": "安芸郡馬路村",
+    "nameEn": "Umaji Village",
+    "total": 762,
+    "male": 360,
+    "female": 402
+  },
+  "39307": {
+    "code": "39307",
+    "prefCode": "39",
+    "nameJa": "安芸郡芸西村",
+    "nameEn": "Geisei Village",
+    "total": 3570,
+    "male": 1718,
+    "female": 1852
+  },
+  "39341": {
+    "code": "39341",
+    "prefCode": "39",
+    "nameJa": "長岡郡本山町",
+    "nameEn": "Motoyama Town",
+    "total": 3125,
+    "male": 1485,
+    "female": 1640
+  },
+  "39344": {
+    "code": "39344",
+    "prefCode": "39",
+    "nameJa": "長岡郡大豊町",
+    "nameEn": "Otoyo Town",
+    "total": 2961,
+    "male": 1386,
+    "female": 1575
+  },
+  "39363": {
+    "code": "39363",
+    "prefCode": "39",
+    "nameJa": "土佐郡土佐町",
+    "nameEn": "Tosa Town",
+    "total": 3488,
+    "male": 1711,
+    "female": 1777
+  },
+  "39364": {
+    "code": "39364",
+    "prefCode": "39",
+    "nameJa": "土佐郡大川村",
+    "nameEn": "Okawa Village",
+    "total": 355,
+    "male": 173,
+    "female": 182
+  },
+  "39386": {
+    "code": "39386",
+    "prefCode": "39",
+    "nameJa": "吾川郡いの町",
+    "nameEn": "Ino Town",
+    "total": 20829,
+    "male": 9985,
+    "female": 10844
+  },
+  "39387": {
+    "code": "39387",
+    "prefCode": "39",
+    "nameJa": "吾川郡仁淀川町",
+    "nameEn": "Niyodogawa Town",
+    "total": 4459,
+    "male": 2186,
+    "female": 2273
+  },
+  "39401": {
+    "code": "39401",
+    "prefCode": "39",
+    "nameJa": "高岡郡中土佐町",
+    "nameEn": "Nakatosa Town",
+    "total": 5774,
+    "male": 2710,
+    "female": 3064
+  },
+  "39402": {
+    "code": "39402",
+    "prefCode": "39",
+    "nameJa": "高岡郡佐川町",
+    "nameEn": "Sakawa Town",
+    "total": 11805,
+    "male": 5564,
+    "female": 6241
+  },
+  "39403": {
+    "code": "39403",
+    "prefCode": "39",
+    "nameJa": "高岡郡越知町",
+    "nameEn": "Ochi Town",
+    "total": 4811,
+    "male": 2257,
+    "female": 2554
+  },
+  "39405": {
+    "code": "39405",
+    "prefCode": "39",
+    "nameJa": "高岡郡檮原町",
+    "nameEn": "Yusuhara Town",
+    "total": 3084,
+    "male": 1501,
+    "female": 1583
+  },
+  "39410": {
+    "code": "39410",
+    "prefCode": "39",
+    "nameJa": "高岡郡日高村",
+    "nameEn": "Hidaka Village",
+    "total": 4704,
+    "male": 2229,
+    "female": 2475
+  },
+  "39411": {
+    "code": "39411",
+    "prefCode": "39",
+    "nameJa": "高岡郡津野町",
+    "nameEn": "Tsuno Town",
+    "total": 5184,
+    "male": 2460,
+    "female": 2724
+  },
+  "39412": {
+    "code": "39412",
+    "prefCode": "39",
+    "nameJa": "高岡郡四万十町",
+    "nameEn": "Shimanto Town",
+    "total": 14945,
+    "male": 7206,
+    "female": 7739
+  },
+  "39424": {
+    "code": "39424",
+    "prefCode": "39",
+    "nameJa": "幡多郡大月町",
+    "nameEn": "Otsuki Town",
+    "total": 4348,
+    "male": 2142,
+    "female": 2206
+  },
+  "39427": {
+    "code": "39427",
+    "prefCode": "39",
+    "nameJa": "幡多郡三原村",
+    "nameEn": "Mihara Village",
+    "total": 1355,
+    "male": 666,
+    "female": 689
+  },
+  "39428": {
+    "code": "39428",
+    "prefCode": "39",
+    "nameJa": "幡多郡黒潮町",
+    "nameEn": "Kuroshio Town",
+    "total": 9855,
+    "male": 4731,
+    "female": 5124
+  }
+}

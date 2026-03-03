@@ -1,0 +1,272 @@
+{
+  "30201": {
+    "code": "30201",
+    "prefCode": "30",
+    "nameJa": "和歌山市",
+    "nameEn": "Wakayama City",
+    "total": 352941,
+    "male": 167118,
+    "female": 185823
+  },
+  "30202": {
+    "code": "30202",
+    "prefCode": "30",
+    "nameJa": "海南市",
+    "nameEn": "Kainan City",
+    "total": 46492,
+    "male": 21723,
+    "female": 24769
+  },
+  "30203": {
+    "code": "30203",
+    "prefCode": "30",
+    "nameJa": "橋本市",
+    "nameEn": "Hashimoto City",
+    "total": 58792,
+    "male": 27812,
+    "female": 30980
+  },
+  "30204": {
+    "code": "30204",
+    "prefCode": "30",
+    "nameJa": "有田市",
+    "nameEn": "Arida City",
+    "total": 25230,
+    "male": 12031,
+    "female": 13199
+  },
+  "30205": {
+    "code": "30205",
+    "prefCode": "30",
+    "nameJa": "御坊市",
+    "nameEn": "Gobo City",
+    "total": 21074,
+    "male": 10022,
+    "female": 11052
+  },
+  "30206": {
+    "code": "30206",
+    "prefCode": "30",
+    "nameJa": "田辺市",
+    "nameEn": "Tanabe City",
+    "total": 67316,
+    "male": 31676,
+    "female": 35640
+  },
+  "30207": {
+    "code": "30207",
+    "prefCode": "30",
+    "nameJa": "新宮市",
+    "nameEn": "Shingu City",
+    "total": 25822,
+    "male": 12025,
+    "female": 13797
+  },
+  "30208": {
+    "code": "30208",
+    "prefCode": "30",
+    "nameJa": "紀の川市",
+    "nameEn": "Kinokawa City",
+    "total": 58920,
+    "male": 28054,
+    "female": 30866
+  },
+  "30209": {
+    "code": "30209",
+    "prefCode": "30",
+    "nameJa": "岩出市",
+    "nameEn": "Iwade City",
+    "total": 53900,
+    "male": 25949,
+    "female": 27951
+  },
+  "30304": {
+    "code": "30304",
+    "prefCode": "30",
+    "nameJa": "海草郡紀美野町",
+    "nameEn": "Kimino Town",
+    "total": 7711,
+    "male": 3591,
+    "female": 4120
+  },
+  "30341": {
+    "code": "30341",
+    "prefCode": "30",
+    "nameJa": "伊都郡かつらぎ町",
+    "nameEn": "Katsuragi Town",
+    "total": 15299,
+    "male": 7242,
+    "female": 8057
+  },
+  "30343": {
+    "code": "30343",
+    "prefCode": "30",
+    "nameJa": "伊都郡九度山町",
+    "nameEn": "Kudoyama Town",
+    "total": 3760,
+    "male": 1708,
+    "female": 2052
+  },
+  "30344": {
+    "code": "30344",
+    "prefCode": "30",
+    "nameJa": "伊都郡高野町",
+    "nameEn": "Koya Town",
+    "total": 2605,
+    "male": 1273,
+    "female": 1332
+  },
+  "30361": {
+    "code": "30361",
+    "prefCode": "30",
+    "nameJa": "有田郡湯浅町",
+    "nameEn": "Yuasa Town",
+    "total": 10731,
+    "male": 5045,
+    "female": 5686
+  },
+  "30362": {
+    "code": "30362",
+    "prefCode": "30",
+    "nameJa": "有田郡広川町",
+    "nameEn": "Hirogawa Town",
+    "total": 6403,
+    "male": 3042,
+    "female": 3361
+  },
+  "30366": {
+    "code": "30366",
+    "prefCode": "30",
+    "nameJa": "有田郡有田川町",
+    "nameEn": "Aridagawa Town",
+    "total": 24954,
+    "male": 11830,
+    "female": 13124
+  },
+  "30381": {
+    "code": "30381",
+    "prefCode": "30",
+    "nameJa": "日高郡美浜町",
+    "nameEn": "Mihama Town",
+    "total": 6324,
+    "male": 2946,
+    "female": 3378
+  },
+  "30382": {
+    "code": "30382",
+    "prefCode": "30",
+    "nameJa": "日高郡日高町",
+    "nameEn": "Hidaka Town",
+    "total": 7953,
+    "male": 3821,
+    "female": 4132
+  },
+  "30383": {
+    "code": "30383",
+    "prefCode": "30",
+    "nameJa": "日高郡由良町",
+    "nameEn": "Yura Town",
+    "total": 5035,
+    "male": 2494,
+    "female": 2541
+  },
+  "30390": {
+    "code": "30390",
+    "prefCode": "30",
+    "nameJa": "日高郡印南町",
+    "nameEn": "Inami Town",
+    "total": 7636,
+    "male": 3640,
+    "female": 3996
+  },
+  "30391": {
+    "code": "30391",
+    "prefCode": "30",
+    "nameJa": "日高郡みなべ町",
+    "nameEn": "Minabe Town",
+    "total": 11516,
+    "male": 5469,
+    "female": 6047
+  },
+  "30392": {
+    "code": "30392",
+    "prefCode": "30",
+    "nameJa": "日高郡日高川町",
+    "nameEn": "Hidakagawa Town",
+    "total": 8962,
+    "male": 4325,
+    "female": 4637
+  },
+  "30401": {
+    "code": "30401",
+    "prefCode": "30",
+    "nameJa": "西牟婁郡白浜町",
+    "nameEn": "Shirahama Town",
+    "total": 19753,
+    "male": 9357,
+    "female": 10396
+  },
+  "30404": {
+    "code": "30404",
+    "prefCode": "30",
+    "nameJa": "西牟婁郡上富田町",
+    "nameEn": "Kamitonda Town",
+    "total": 15683,
+    "male": 7504,
+    "female": 8179
+  },
+  "30406": {
+    "code": "30406",
+    "prefCode": "30",
+    "nameJa": "西牟婁郡すさみ町",
+    "nameEn": "Susami Town",
+    "total": 3471,
+    "male": 1668,
+    "female": 1803
+  },
+  "30421": {
+    "code": "30421",
+    "prefCode": "30",
+    "nameJa": "東牟婁郡那智勝浦町",
+    "nameEn": "Nachikatsuura Town",
+    "total": 13468,
+    "male": 6306,
+    "female": 7162
+  },
+  "30422": {
+    "code": "30422",
+    "prefCode": "30",
+    "nameJa": "東牟婁郡太地町",
+    "nameEn": "Taiji Town",
+    "total": 2834,
+    "male": 1271,
+    "female": 1563
+  },
+  "30424": {
+    "code": "30424",
+    "prefCode": "30",
+    "nameJa": "東牟婁郡古座川町",
+    "nameEn": "Kozagawa Town",
+    "total": 2302,
+    "male": 1088,
+    "female": 1214
+  },
+  "30427": {
+    "code": "30427",
+    "prefCode": "30",
+    "nameJa": "東牟婁郡北山村",
+    "nameEn": "Kitayama Village",
+    "total": 382,
+    "male": 182,
+    "female": 200
+  },
+  "30428": {
+    "code": "30428",
+    "prefCode": "30",
+    "nameJa": "東牟婁郡串本町",
+    "nameEn": "Kushimoto Town",
+    "total": 13924,
+    "male": 6614,
+    "female": 7310
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "33100": {
+    "code": "33100",
+    "prefCode": "33",
+    "nameJa": "岡山市",
+    "nameEn": "Okayama City",
+    "total": 695690,
+    "male": 334689,
+    "female": 361001
+  },
+  "33101": {
+    "code": "33101",
+    "prefCode": "33",
+    "nameJa": "岡山市北区",
+    "nameEn": "Kita Ward, Okayama City",
+    "total": 294198,
+    "male": 142251,
+    "female": 151947
+  },
+  "33102": {
+    "code": "33102",
+    "prefCode": "33",
+    "nameJa": "岡山市中区",
+    "nameEn": "Naka Ward, Okayama City",
+    "total": 145840,
+    "male": 69288,
+    "female": 76552
+  },
+  "33103": {
+    "code": "33103",
+    "prefCode": "33",
+    "nameJa": "岡山市東区",
+    "nameEn": "Higashi Ward, Okayama City",
+    "total": 91180,
+    "male": 43438,
+    "female": 47742
+  },
+  "33104": {
+    "code": "33104",
+    "prefCode": "33",
+    "nameJa": "岡山市南区",
+    "nameEn": "Minami Ward, Okayama City",
+    "total": 164472,
+    "male": 79712,
+    "female": 84760
+  },
+  "33202": {
+    "code": "33202",
+    "prefCode": "33",
+    "nameJa": "倉敷市",
+    "nameEn": "Kurashiki City",
+    "total": 473670,
+    "male": 230829,
+    "female": 242841
+  },
+  "33203": {
+    "code": "33203",
+    "prefCode": "33",
+    "nameJa": "津山市",
+    "nameEn": "Tsuyama City",
+    "total": 95030,
+    "male": 45770,
+    "female": 49260
+  },
+  "33204": {
+    "code": "33204",
+    "prefCode": "33",
+    "nameJa": "玉野市",
+    "nameEn": "Tamano City",
+    "total": 54130,
+    "male": 26418,
+    "female": 27712
+  },
+  "33205": {
+    "code": "33205",
+    "prefCode": "33",
+    "nameJa": "笠岡市",
+    "nameEn": "Kasaoka City",
+    "total": 44030,
+    "male": 21241,
+    "female": 22789
+  },
+  "33207": {
+    "code": "33207",
+    "prefCode": "33",
+    "nameJa": "井原市",
+    "nameEn": "Ibara City",
+    "total": 36670,
+    "male": 17582,
+    "female": 19088
+  },
+  "33208": {
+    "code": "33208",
+    "prefCode": "33",
+    "nameJa": "総社市",
+    "nameEn": "Soja City",
+    "total": 69625,
+    "male": 33851,
+    "female": 35774
+  },
+  "33209": {
+    "code": "33209",
+    "prefCode": "33",
+    "nameJa": "高梁市",
+    "nameEn": "Takahashi City",
+    "total": 26020,
+    "male": 12649,
+    "female": 13371
+  },
+  "33210": {
+    "code": "33210",
+    "prefCode": "33",
+    "nameJa": "新見市",
+    "nameEn": "Niimi City",
+    "total": 25939,
+    "male": 12405,
+    "female": 13534
+  },
+  "33211": {
+    "code": "33211",
+    "prefCode": "33",
+    "nameJa": "備前市",
+    "nameEn": "Bizen City",
+    "total": 30816,
+    "male": 14951,
+    "female": 15865
+  },
+  "33212": {
+    "code": "33212",
+    "prefCode": "33",
+    "nameJa": "瀬戸内市",
+    "nameEn": "Setouchi City",
+    "total": 36160,
+    "male": 17559,
+    "female": 18601
+  },
+  "33213": {
+    "code": "33213",
+    "prefCode": "33",
+    "nameJa": "赤磐市",
+    "nameEn": "Akaiwa City",
+    "total": 42490,
+    "male": 20391,
+    "female": 22099
+  },
+  "33214": {
+    "code": "33214",
+    "prefCode": "33",
+    "nameJa": "真庭市",
+    "nameEn": "Maniwa City",
+    "total": 40778,
+    "male": 19651,
+    "female": 21127
+  },
+  "33215": {
+    "code": "33215",
+    "prefCode": "33",
+    "nameJa": "美作市",
+    "nameEn": "Mimasaka City",
+    "total": 24886,
+    "male": 12052,
+    "female": 12834
+  },
+  "33216": {
+    "code": "33216",
+    "prefCode": "33",
+    "nameJa": "浅口市",
+    "nameEn": "Asakuchi City",
+    "total": 32525,
+    "male": 15757,
+    "female": 16768
+  },
+  "33346": {
+    "code": "33346",
+    "prefCode": "33",
+    "nameJa": "和気郡和気町",
+    "nameEn": "Wake Town",
+    "total": 12871,
+    "male": 6203,
+    "female": 6668
+  },
+  "33423": {
+    "code": "33423",
+    "prefCode": "33",
+    "nameJa": "都窪郡早島町",
+    "nameEn": "Hayashima Town",
+    "total": 12748,
+    "male": 6150,
+    "female": 6598
+  },
+  "33445": {
+    "code": "33445",
+    "prefCode": "33",
+    "nameJa": "浅口郡里庄町",
+    "nameEn": "Satosho Town",
+    "total": 10883,
+    "male": 5287,
+    "female": 5596
+  },
+  "33461": {
+    "code": "33461",
+    "prefCode": "33",
+    "nameJa": "小田郡矢掛町",
+    "nameEn": "Yakage Town",
+    "total": 13101,
+    "male": 6333,
+    "female": 6768
+  },
+  "33586": {
+    "code": "33586",
+    "prefCode": "33",
+    "nameJa": "真庭郡新庄村",
+    "nameEn": "Shinjo Village",
+    "total": 793,
+    "male": 379,
+    "female": 414
+  },
+  "33606": {
+    "code": "33606",
+    "prefCode": "33",
+    "nameJa": "苫田郡鏡野町",
+    "nameEn": "Kagamino Town",
+    "total": 12017,
+    "male": 5837,
+    "female": 6180
+  },
+  "33622": {
+    "code": "33622",
+    "prefCode": "33",
+    "nameJa": "勝田郡勝央町",
+    "nameEn": "Shoo Town",
+    "total": 10737,
+    "male": 5178,
+    "female": 5559
+  },
+  "33623": {
+    "code": "33623",
+    "prefCode": "33",
+    "nameJa": "勝田郡奈義町",
+    "nameEn": "Nagi Town",
+    "total": 5515,
+    "male": 2702,
+    "female": 2813
+  },
+  "33643": {
+    "code": "33643",
+    "prefCode": "33",
+    "nameJa": "英田郡西粟倉村",
+    "nameEn": "Nishiawakura Village",
+    "total": 1331,
+    "male": 634,
+    "female": 697
+  },
+  "33663": {
+    "code": "33663",
+    "prefCode": "33",
+    "nameJa": "久米郡久米南町",
+    "nameEn": "Kumenan Town",
+    "total": 4290,
+    "male": 2045,
+    "female": 2245
+  },
+  "33666": {
+    "code": "33666",
+    "prefCode": "33",
+    "nameJa": "久米郡美咲町",
+    "nameEn": "Misaki Town",
+    "total": 12538,
+    "male": 6015,
+    "female": 6523
+  },
+  "33681": {
+    "code": "33681",
+    "prefCode": "33",
+    "nameJa": "加賀郡吉備中央町",
+    "nameEn": "Kibichuo Town",
+    "total": 10195,
+    "male": 4932,
+    "female": 5263
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "28100": {
+    "code": "28100",
+    "prefCode": "28",
+    "nameJa": "神戸市",
+    "nameEn": "Kobe City",
+    "total": 1493543,
+    "male": 706589,
+    "female": 786954
+  },
+  "28101": {
+    "code": "28101",
+    "prefCode": "28",
+    "nameJa": "神戸市東灘区",
+    "nameEn": "Higashinada Ward, Kobe City",
+    "total": 210422,
+    "male": 98267,
+    "female": 112155
+  },
+  "28102": {
+    "code": "28102",
+    "prefCode": "28",
+    "nameJa": "神戸市灘区",
+    "nameEn": "Nada Ward, Kobe City",
+    "total": 132080,
+    "male": 61621,
+    "female": 70459
+  },
+  "28105": {
+    "code": "28105",
+    "prefCode": "28",
+    "nameJa": "神戸市兵庫区",
+    "nameEn": "Hyogo Ward, Kobe City",
+    "total": 110227,
+    "male": 53918,
+    "female": 56309
+  },
+  "28106": {
+    "code": "28106",
+    "prefCode": "28",
+    "nameJa": "神戸市長田区",
+    "nameEn": "Nagata Ward, Kobe City",
+    "total": 94846,
+    "male": 45650,
+    "female": 49196
+  },
+  "28107": {
+    "code": "28107",
+    "prefCode": "28",
+    "nameJa": "神戸市須磨区",
+    "nameEn": "Suma Ward, Kobe City",
+    "total": 154928,
+    "male": 71836,
+    "female": 83092
+  },
+  "28108": {
+    "code": "28108",
+    "prefCode": "28",
+    "nameJa": "神戸市垂水区",
+    "nameEn": "Tarumi Ward, Kobe City",
+    "total": 210779,
+    "male": 98736,
+    "female": 112043
+  },
+  "28109": {
+    "code": "28109",
+    "prefCode": "28",
+    "nameJa": "神戸市北区",
+    "nameEn": "Kita Ward, Kobe City",
+    "total": 208114,
+    "male": 98977,
+    "female": 109137
+  },
+  "28110": {
+    "code": "28110",
+    "prefCode": "28",
+    "nameJa": "神戸市中央区",
+    "nameEn": "Chuo Ward, Kobe City",
+    "total": 140761,
+    "male": 65633,
+    "female": 75128
+  },
+  "28111": {
+    "code": "28111",
+    "prefCode": "28",
+    "nameJa": "神戸市西区",
+    "nameEn": "Nishi Ward, Kobe City",
+    "total": 231386,
+    "male": 111951,
+    "female": 119435
+  },
+  "28201": {
+    "code": "28201",
+    "prefCode": "28",
+    "nameJa": "姫路市",
+    "nameEn": "Himeji City",
+    "total": 523181,
+    "male": 253726,
+    "female": 269455
+  },
+  "28202": {
+    "code": "28202",
+    "prefCode": "28",
+    "nameJa": "尼崎市",
+    "nameEn": "Amagasaki City",
+    "total": 457508,
+    "male": 222025,
+    "female": 235483
+  },
+  "28203": {
+    "code": "28203",
+    "prefCode": "28",
+    "nameJa": "明石市",
+    "nameEn": "Akashi City",
+    "total": 307235,
+    "male": 148112,
+    "female": 159123
+  },
+  "28204": {
+    "code": "28204",
+    "prefCode": "28",
+    "nameJa": "西宮市",
+    "nameEn": "Nishinomiya City",
+    "total": 480818,
+    "male": 225922,
+    "female": 254896
+  },
+  "28205": {
+    "code": "28205",
+    "prefCode": "28",
+    "nameJa": "洲本市",
+    "nameEn": "Sumoto City",
+    "total": 40767,
+    "male": 19455,
+    "female": 21312
+  },
+  "28206": {
+    "code": "28206",
+    "prefCode": "28",
+    "nameJa": "芦屋市",
+    "nameEn": "Ashiya City",
+    "total": 94007,
+    "male": 42298,
+    "female": 51709
+  },
+  "28207": {
+    "code": "28207",
+    "prefCode": "28",
+    "nameJa": "伊丹市",
+    "nameEn": "Itami City",
+    "total": 200284,
+    "male": 96757,
+    "female": 103527
+  },
+  "28208": {
+    "code": "28208",
+    "prefCode": "28",
+    "nameJa": "相生市",
+    "nameEn": "Aioi City",
+    "total": 27058,
+    "male": 13112,
+    "female": 13946
+  },
+  "28209": {
+    "code": "28209",
+    "prefCode": "28",
+    "nameJa": "豊岡市",
+    "nameEn": "Toyooka City",
+    "total": 75177,
+    "male": 36176,
+    "female": 39001
+  },
+  "28210": {
+    "code": "28210",
+    "prefCode": "28",
+    "nameJa": "加古川市",
+    "nameEn": "Kakogawa City",
+    "total": 257203,
+    "male": 125802,
+    "female": 131401
+  },
+  "28212": {
+    "code": "28212",
+    "prefCode": "28",
+    "nameJa": "赤穂市",
+    "nameEn": "Ako City",
+    "total": 44179,
+    "male": 21374,
+    "female": 22805
+  },
+  "28213": {
+    "code": "28213",
+    "prefCode": "28",
+    "nameJa": "西脇市",
+    "nameEn": "Nishiwaki City",
+    "total": 37688,
+    "male": 18118,
+    "female": 19570
+  },
+  "28214": {
+    "code": "28214",
+    "prefCode": "28",
+    "nameJa": "宝塚市",
+    "nameEn": "Takarazuka City",
+    "total": 227645,
+    "male": 105391,
+    "female": 122254
+  },
+  "28215": {
+    "code": "28215",
+    "prefCode": "28",
+    "nameJa": "三木市",
+    "nameEn": "Miki City",
+    "total": 73091,
+    "male": 35318,
+    "female": 37773
+  },
+  "28216": {
+    "code": "28216",
+    "prefCode": "28",
+    "nameJa": "高砂市",
+    "nameEn": "Takasago City",
+    "total": 86511,
+    "male": 42017,
+    "female": 44494
+  },
+  "28217": {
+    "code": "28217",
+    "prefCode": "28",
+    "nameJa": "川西市",
+    "nameEn": "Kawanishi City",
+    "total": 152914,
+    "male": 72076,
+    "female": 80838
+  },
+  "28218": {
+    "code": "28218",
+    "prefCode": "28",
+    "nameJa": "小野市",
+    "nameEn": "Ono City",
+    "total": 46825,
+    "male": 22943,
+    "female": 23882
+  },
+  "28219": {
+    "code": "28219",
+    "prefCode": "28",
+    "nameJa": "三田市",
+    "nameEn": "Sanda City",
+    "total": 106482,
+    "male": 51481,
+    "female": 55001
+  },
+  "28220": {
+    "code": "28220",
+    "prefCode": "28",
+    "nameJa": "加西市",
+    "nameEn": "Kasai City",
+    "total": 41455,
+    "male": 20386,
+    "female": 21069
+  },
+  "28221": {
+    "code": "28221",
+    "prefCode": "28",
+    "nameJa": "丹波篠山市",
+    "nameEn": "Tambasasayama City",
+    "total": 39095,
+    "male": 18791,
+    "female": 20304
+  },
+  "28222": {
+    "code": "28222",
+    "prefCode": "28",
+    "nameJa": "養父市",
+    "nameEn": "Yabu City",
+    "total": 21005,
+    "male": 10090,
+    "female": 10915
+  },
+  "28223": {
+    "code": "28223",
+    "prefCode": "28",
+    "nameJa": "丹波市",
+    "nameEn": "Tamba City",
+    "total": 60033,
+    "male": 28990,
+    "female": 31043
+  },
+  "28224": {
+    "code": "28224",
+    "prefCode": "28",
+    "nameJa": "南あわじ市",
+    "nameEn": "Minamiawaji City",
+    "total": 43732,
+    "male": 21079,
+    "female": 22653
+  },
+  "28225": {
+    "code": "28225",
+    "prefCode": "28",
+    "nameJa": "朝来市",
+    "nameEn": "Asago City",
+    "total": 27754,
+    "male": 13352,
+    "female": 14402
+  },
+  "28226": {
+    "code": "28226",
+    "prefCode": "28",
+    "nameJa": "淡路市",
+    "nameEn": "Awaji City",
+    "total": 41364,
+    "male": 19798,
+    "female": 21566
+  },
+  "28227": {
+    "code": "28227",
+    "prefCode": "28",
+    "nameJa": "宍粟市",
+    "nameEn": "Shiso City",
+    "total": 33749,
+    "male": 16224,
+    "female": 17525
+  },
+  "28228": {
+    "code": "28228",
+    "prefCode": "28",
+    "nameJa": "加東市",
+    "nameEn": "Kato City",
+    "total": 39413,
+    "male": 19526,
+    "female": 19887
+  },
+  "28229": {
+    "code": "28229",
+    "prefCode": "28",
+    "nameJa": "たつの市",
+    "nameEn": "Tatsuno City",
+    "total": 72271,
+    "male": 35096,
+    "female": 37175
+  },
+  "28301": {
+    "code": "28301",
+    "prefCode": "28",
+    "nameJa": "川辺郡猪名川町",
+    "nameEn": "Inagawa Town",
+    "total": 28644,
+    "male": 13639,
+    "female": 15005
+  },
+  "28365": {
+    "code": "28365",
+    "prefCode": "28",
+    "nameJa": "多可郡多可町",
+    "nameEn": "Taka Town",
+    "total": 18605,
+    "male": 9086,
+    "female": 9519
+  },
+  "28381": {
+    "code": "28381",
+    "prefCode": "28",
+    "nameJa": "加古郡稲美町",
+    "nameEn": "Inami Town",
+    "total": 30491,
+    "male": 15002,
+    "female": 15489
+  },
+  "28382": {
+    "code": "28382",
+    "prefCode": "28",
+    "nameJa": "加古郡播磨町",
+    "nameEn": "Harima Town",
+    "total": 34687,
+    "male": 16961,
+    "female": 17726
+  },
+  "28442": {
+    "code": "28442",
+    "prefCode": "28",
+    "nameJa": "神崎郡市川町",
+    "nameEn": "Ichikawa Town",
+    "total": 10660,
+    "male": 5211,
+    "female": 5449
+  },
+  "28443": {
+    "code": "28443",
+    "prefCode": "28",
+    "nameJa": "神崎郡福崎町",
+    "nameEn": "Fukusaki Town",
+    "total": 18573,
+    "male": 8977,
+    "female": 9596
+  },
+  "28446": {
+    "code": "28446",
+    "prefCode": "28",
+    "nameJa": "神崎郡神河町",
+    "nameEn": "Kamikawa Town",
+    "total": 10144,
+    "male": 4821,
+    "female": 5323
+  },
+  "28464": {
+    "code": "28464",
+    "prefCode": "28",
+    "nameJa": "揖保郡太子町",
+    "nameEn": "Taishi Town",
+    "total": 33414,
+    "male": 16369,
+    "female": 17045
+  },
+  "28481": {
+    "code": "28481",
+    "prefCode": "28",
+    "nameJa": "赤穂郡上郡町",
+    "nameEn": "Kamigori Town",
+    "total": 13543,
+    "male": 6625,
+    "female": 6918
+  },
+  "28501": {
+    "code": "28501",
+    "prefCode": "28",
+    "nameJa": "佐用郡佐用町",
+    "nameEn": "Sayo Town",
+    "total": 14727,
+    "male": 7119,
+    "female": 7608
+  },
+  "28585": {
+    "code": "28585",
+    "prefCode": "28",
+    "nameJa": "美方郡香美町",
+    "nameEn": "Kami Town",
+    "total": 15303,
+    "male": 7278,
+    "female": 8025
+  },
+  "28586": {
+    "code": "28586",
+    "prefCode": "28",
+    "nameJa": "美方郡新温泉町",
+    "nameEn": "Shinonsen Town",
+    "total": 12829,
+    "male": 6153,
+    "female": 6676
+  }
+}

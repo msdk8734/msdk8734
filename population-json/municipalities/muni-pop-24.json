@@ -1,0 +1,263 @@
+{
+  "24201": {
+    "code": "24201",
+    "prefCode": "24",
+    "nameJa": "津市",
+    "nameEn": "Tsu City",
+    "total": 268388,
+    "male": 130701,
+    "female": 137687
+  },
+  "24202": {
+    "code": "24202",
+    "prefCode": "24",
+    "nameJa": "四日市市",
+    "nameEn": "Yokkaichi City",
+    "total": 306378,
+    "male": 153870,
+    "female": 152508
+  },
+  "24203": {
+    "code": "24203",
+    "prefCode": "24",
+    "nameJa": "伊勢市",
+    "nameEn": "Ise City",
+    "total": 118849,
+    "male": 56299,
+    "female": 62550
+  },
+  "24204": {
+    "code": "24204",
+    "prefCode": "24",
+    "nameJa": "松阪市",
+    "nameEn": "Matsusaka City",
+    "total": 156026,
+    "male": 75126,
+    "female": 80900
+  },
+  "24205": {
+    "code": "24205",
+    "prefCode": "24",
+    "nameJa": "桑名市",
+    "nameEn": "Kuwana City",
+    "total": 137978,
+    "male": 68413,
+    "female": 69565
+  },
+  "24207": {
+    "code": "24207",
+    "prefCode": "24",
+    "nameJa": "鈴鹿市",
+    "nameEn": "Suzuka City",
+    "total": 194451,
+    "male": 97276,
+    "female": 97175
+  },
+  "24208": {
+    "code": "24208",
+    "prefCode": "24",
+    "nameJa": "名張市",
+    "nameEn": "Nabari City",
+    "total": 74229,
+    "male": 35730,
+    "female": 38499
+  },
+  "24209": {
+    "code": "24209",
+    "prefCode": "24",
+    "nameJa": "尾鷲市",
+    "nameEn": "Owase City",
+    "total": 15524,
+    "male": 7191,
+    "female": 8333
+  },
+  "24210": {
+    "code": "24210",
+    "prefCode": "24",
+    "nameJa": "亀山市",
+    "nameEn": "Kameyama City",
+    "total": 49130,
+    "male": 24853,
+    "female": 24277
+  },
+  "24211": {
+    "code": "24211",
+    "prefCode": "24",
+    "nameJa": "鳥羽市",
+    "nameEn": "Toba City",
+    "total": 16424,
+    "male": 7758,
+    "female": 8666
+  },
+  "24212": {
+    "code": "24212",
+    "prefCode": "24",
+    "nameJa": "熊野市",
+    "nameEn": "Kumano City",
+    "total": 14981,
+    "male": 6944,
+    "female": 8037
+  },
+  "24214": {
+    "code": "24214",
+    "prefCode": "24",
+    "nameJa": "いなべ市",
+    "nameEn": "Inabe City",
+    "total": 44507,
+    "male": 22983,
+    "female": 21524
+  },
+  "24215": {
+    "code": "24215",
+    "prefCode": "24",
+    "nameJa": "志摩市",
+    "nameEn": "Shima City",
+    "total": 44110,
+    "male": 20563,
+    "female": 23547
+  },
+  "24216": {
+    "code": "24216",
+    "prefCode": "24",
+    "nameJa": "伊賀市",
+    "nameEn": "Iga City",
+    "total": 84603,
+    "male": 41679,
+    "female": 42924
+  },
+  "24303": {
+    "code": "24303",
+    "prefCode": "24",
+    "nameJa": "桑名郡木曽岬町",
+    "nameEn": "Kisosaki Town",
+    "total": 5875,
+    "male": 3067,
+    "female": 2808
+  },
+  "24324": {
+    "code": "24324",
+    "prefCode": "24",
+    "nameJa": "員弁郡東員町",
+    "nameEn": "Toin Town",
+    "total": 25737,
+    "male": 12675,
+    "female": 13062
+  },
+  "24341": {
+    "code": "24341",
+    "prefCode": "24",
+    "nameJa": "三重郡菰野町",
+    "nameEn": "Komono Town",
+    "total": 40758,
+    "male": 20238,
+    "female": 20520
+  },
+  "24343": {
+    "code": "24343",
+    "prefCode": "24",
+    "nameJa": "三重郡朝日町",
+    "nameEn": "Asahi Town",
+    "total": 11107,
+    "male": 5507,
+    "female": 5600
+  },
+  "24344": {
+    "code": "24344",
+    "prefCode": "24",
+    "nameJa": "三重郡川越町",
+    "nameEn": "Kawagoe Town",
+    "total": 15745,
+    "male": 8119,
+    "female": 7626
+  },
+  "24441": {
+    "code": "24441",
+    "prefCode": "24",
+    "nameJa": "多気郡多気町",
+    "nameEn": "Taki Town",
+    "total": 13637,
+    "male": 6541,
+    "female": 7096
+  },
+  "24442": {
+    "code": "24442",
+    "prefCode": "24",
+    "nameJa": "多気郡明和町",
+    "nameEn": "Meiwa Town",
+    "total": 22630,
+    "male": 10836,
+    "female": 11794
+  },
+  "24443": {
+    "code": "24443",
+    "prefCode": "24",
+    "nameJa": "多気郡大台町",
+    "nameEn": "Odai Town",
+    "total": 8204,
+    "male": 3913,
+    "female": 4291
+  },
+  "24461": {
+    "code": "24461",
+    "prefCode": "24",
+    "nameJa": "度会郡玉城町",
+    "nameEn": "Tamaki Town",
+    "total": 15035,
+    "male": 7244,
+    "female": 7791
+  },
+  "24470": {
+    "code": "24470",
+    "prefCode": "24",
+    "nameJa": "度会郡度会町",
+    "nameEn": "Watarai Town",
+    "total": 7556,
+    "male": 3658,
+    "female": 3898
+  },
+  "24471": {
+    "code": "24471",
+    "prefCode": "24",
+    "nameJa": "度会郡大紀町",
+    "nameEn": "Taiki Town",
+    "total": 7227,
+    "male": 3424,
+    "female": 3803
+  },
+  "24472": {
+    "code": "24472",
+    "prefCode": "24",
+    "nameJa": "度会郡南伊勢町",
+    "nameEn": "Minamiise Town",
+    "total": 10489,
+    "male": 4915,
+    "female": 5574
+  },
+  "24543": {
+    "code": "24543",
+    "prefCode": "24",
+    "nameJa": "北牟婁郡紀北町",
+    "nameEn": "Kihoku Town",
+    "total": 13759,
+    "male": 6524,
+    "female": 7235
+  },
+  "24561": {
+    "code": "24561",
+    "prefCode": "24",
+    "nameJa": "南牟婁郡御浜町",
+    "nameEn": "Mihama Town",
+    "total": 7809,
+    "male": 3678,
+    "female": 4131
+  },
+  "24562": {
+    "code": "24562",
+    "prefCode": "24",
+    "nameJa": "南牟婁郡紀宝町",
+    "nameEn": "Kiho Town",
+    "total": 10120,
+    "male": 4740,
+    "female": 5380
+  }
+}

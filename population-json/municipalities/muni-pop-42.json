@@ -1,0 +1,191 @@
+{
+  "42201": {
+    "code": "42201",
+    "prefCode": "42",
+    "nameJa": "長崎市",
+    "nameEn": "Nagasaki City",
+    "total": 390551,
+    "male": 180915,
+    "female": 209636
+  },
+  "42202": {
+    "code": "42202",
+    "prefCode": "42",
+    "nameJa": "佐世保市",
+    "nameEn": "Sasebo City",
+    "total": 233507,
+    "male": 110740,
+    "female": 122767
+  },
+  "42203": {
+    "code": "42203",
+    "prefCode": "42",
+    "nameJa": "島原市",
+    "nameEn": "Shimabara City",
+    "total": 42044,
+    "male": 19609,
+    "female": 22435
+  },
+  "42204": {
+    "code": "42204",
+    "prefCode": "42",
+    "nameJa": "諫早市",
+    "nameEn": "Isahaya City",
+    "total": 133479,
+    "male": 63955,
+    "female": 69524
+  },
+  "42205": {
+    "code": "42205",
+    "prefCode": "42",
+    "nameJa": "大村市",
+    "nameEn": "Omura City",
+    "total": 99694,
+    "male": 48001,
+    "female": 51693
+  },
+  "42207": {
+    "code": "42207",
+    "prefCode": "42",
+    "nameJa": "平戸市",
+    "nameEn": "Hirado City",
+    "total": 27908,
+    "male": 13308,
+    "female": 14600
+  },
+  "42208": {
+    "code": "42208",
+    "prefCode": "42",
+    "nameJa": "松浦市",
+    "nameEn": "Matsuura City",
+    "total": 20439,
+    "male": 9876,
+    "female": 10563
+  },
+  "42209": {
+    "code": "42209",
+    "prefCode": "42",
+    "nameJa": "対馬市",
+    "nameEn": "Tsushima City",
+    "total": 27102,
+    "male": 13463,
+    "female": 13639
+  },
+  "42210": {
+    "code": "42210",
+    "prefCode": "42",
+    "nameJa": "壱岐市",
+    "nameEn": "Iki City",
+    "total": 23736,
+    "male": 11439,
+    "female": 12297
+  },
+  "42211": {
+    "code": "42211",
+    "prefCode": "42",
+    "nameJa": "五島市",
+    "nameEn": "Goto City",
+    "total": 33739,
+    "male": 16125,
+    "female": 17614
+  },
+  "42212": {
+    "code": "42212",
+    "prefCode": "42",
+    "nameJa": "西海市",
+    "nameEn": "Saikai City",
+    "total": 24973,
+    "male": 12520,
+    "female": 12453
+  },
+  "42213": {
+    "code": "42213",
+    "prefCode": "42",
+    "nameJa": "雲仙市",
+    "nameEn": "Unzen City",
+    "total": 40724,
+    "male": 19481,
+    "female": 21243
+  },
+  "42214": {
+    "code": "42214",
+    "prefCode": "42",
+    "nameJa": "南島原市",
+    "nameEn": "Minamishimabara City",
+    "total": 40640,
+    "male": 18956,
+    "female": 21684
+  },
+  "42307": {
+    "code": "42307",
+    "prefCode": "42",
+    "nameJa": "西彼杵郡長与町",
+    "nameEn": "Nagayo Town",
+    "total": 39479,
+    "male": 18787,
+    "female": 20692
+  },
+  "42308": {
+    "code": "42308",
+    "prefCode": "42",
+    "nameJa": "西彼杵郡時津町",
+    "nameEn": "Togitsu Town",
+    "total": 29240,
+    "male": 14089,
+    "female": 15151
+  },
+  "42321": {
+    "code": "42321",
+    "prefCode": "42",
+    "nameJa": "東彼杵郡東彼杵町",
+    "nameEn": "Higashisonogi Town",
+    "total": 7348,
+    "male": 3543,
+    "female": 3805
+  },
+  "42322": {
+    "code": "42322",
+    "prefCode": "42",
+    "nameJa": "東彼杵郡川棚町",
+    "nameEn": "Kawatana Town",
+    "total": 12948,
+    "male": 6083,
+    "female": 6865
+  },
+  "42323": {
+    "code": "42323",
+    "prefCode": "42",
+    "nameJa": "東彼杵郡波佐見町",
+    "nameEn": "Hasami Town",
+    "total": 14111,
+    "male": 6685,
+    "female": 7426
+  },
+  "42383": {
+    "code": "42383",
+    "prefCode": "42",
+    "nameJa": "北松浦郡小値賀町",
+    "nameEn": "Ojika Town",
+    "total": 2115,
+    "male": 992,
+    "female": 1123
+  },
+  "42391": {
+    "code": "42391",
+    "prefCode": "42",
+    "nameJa": "北松浦郡佐々町",
+    "nameEn": "Saza Town",
+    "total": 13912,
+    "male": 6656,
+    "female": 7256
+  },
+  "42411": {
+    "code": "42411",
+    "prefCode": "42",
+    "nameJa": "南松浦郡新上五島町",
+    "nameEn": "Shinkamigoto Town",
+    "total": 16682,
+    "male": 8085,
+    "female": 8597
+  }
+}
