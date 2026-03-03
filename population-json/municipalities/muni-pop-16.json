@@ -1,0 +1,137 @@
+{
+  "16201": {
+    "code": "16201",
+    "prefCode": "16",
+    "nameJa": "富山市",
+    "nameEn": "Toyama City",
+    "total": 406483,
+    "male": 198368,
+    "female": 208115
+  },
+  "16202": {
+    "code": "16202",
+    "prefCode": "16",
+    "nameJa": "高岡市",
+    "nameEn": "Takaoka City",
+    "total": 164053,
+    "male": 79660,
+    "female": 84393
+  },
+  "16204": {
+    "code": "16204",
+    "prefCode": "16",
+    "nameJa": "魚津市",
+    "nameEn": "Uozu City",
+    "total": 39274,
+    "male": 19238,
+    "female": 20036
+  },
+  "16205": {
+    "code": "16205",
+    "prefCode": "16",
+    "nameJa": "氷見市",
+    "nameEn": "Himi City",
+    "total": 43205,
+    "male": 20760,
+    "female": 22445
+  },
+  "16206": {
+    "code": "16206",
+    "prefCode": "16",
+    "nameJa": "滑川市",
+    "nameEn": "Namerikawa City",
+    "total": 32728,
+    "male": 16082,
+    "female": 16646
+  },
+  "16207": {
+    "code": "16207",
+    "prefCode": "16",
+    "nameJa": "黒部市",
+    "nameEn": "Kurobe City",
+    "total": 39697,
+    "male": 19591,
+    "female": 20106
+  },
+  "16208": {
+    "code": "16208",
+    "prefCode": "16",
+    "nameJa": "砺波市",
+    "nameEn": "Tonami City",
+    "total": 47024,
+    "male": 22939,
+    "female": 24085
+  },
+  "16209": {
+    "code": "16209",
+    "prefCode": "16",
+    "nameJa": "小矢部市",
+    "nameEn": "Oyabe City",
+    "total": 28356,
+    "male": 13916,
+    "female": 14440
+  },
+  "16210": {
+    "code": "16210",
+    "prefCode": "16",
+    "nameJa": "南砺市",
+    "nameEn": "Nanto City",
+    "total": 46949,
+    "male": 22597,
+    "female": 24352
+  },
+  "16211": {
+    "code": "16211",
+    "prefCode": "16",
+    "nameJa": "射水市",
+    "nameEn": "Imizu City",
+    "total": 90997,
+    "male": 44598,
+    "female": 46399
+  },
+  "16321": {
+    "code": "16321",
+    "prefCode": "16",
+    "nameJa": "中新川郡舟橋村",
+    "nameEn": "Funahashi Village",
+    "total": 3299,
+    "male": 1644,
+    "female": 1655
+  },
+  "16322": {
+    "code": "16322",
+    "prefCode": "16",
+    "nameJa": "中新川郡上市町",
+    "nameEn": "Kamiichi Town",
+    "total": 19027,
+    "male": 9141,
+    "female": 9886
+  },
+  "16323": {
+    "code": "16323",
+    "prefCode": "16",
+    "nameJa": "中新川郡立山町",
+    "nameEn": "Tateyama Town",
+    "total": 24567,
+    "male": 11874,
+    "female": 12693
+  },
+  "16342": {
+    "code": "16342",
+    "prefCode": "16",
+    "nameJa": "下新川郡入善町",
+    "nameEn": "Nyuzen Town",
+    "total": 22629,
+    "male": 10939,
+    "female": 11690
+  },
+  "16343": {
+    "code": "16343",
+    "prefCode": "16",
+    "nameJa": "下新川郡朝日町",
+    "nameEn": "Asahi Town",
+    "total": 10716,
+    "male": 5069,
+    "female": 5647
+  }
+}

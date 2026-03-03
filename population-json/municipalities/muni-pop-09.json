@@ -1,0 +1,227 @@
+{
+  "09201": {
+    "code": "09201",
+    "prefCode": "09",
+    "nameJa": "宇都宮市",
+    "nameEn": "Utsunomiya City",
+    "total": 515831,
+    "male": 258149,
+    "female": 257682
+  },
+  "09202": {
+    "code": "09202",
+    "prefCode": "09",
+    "nameJa": "足利市",
+    "nameEn": "Ashikaga City",
+    "total": 141021,
+    "male": 69619,
+    "female": 71402
+  },
+  "09203": {
+    "code": "09203",
+    "prefCode": "09",
+    "nameJa": "栃木市",
+    "nameEn": "Tochigi City",
+    "total": 154371,
+    "male": 77216,
+    "female": 77155
+  },
+  "09204": {
+    "code": "09204",
+    "prefCode": "09",
+    "nameJa": "佐野市",
+    "nameEn": "Sano City",
+    "total": 114146,
+    "male": 56762,
+    "female": 57384
+  },
+  "09205": {
+    "code": "09205",
+    "prefCode": "09",
+    "nameJa": "鹿沼市",
+    "nameEn": "Kanuma City",
+    "total": 93807,
+    "male": 46715,
+    "female": 47092
+  },
+  "09206": {
+    "code": "09206",
+    "prefCode": "09",
+    "nameJa": "日光市",
+    "nameEn": "Nikko City",
+    "total": 76413,
+    "male": 37377,
+    "female": 39036
+  },
+  "09208": {
+    "code": "09208",
+    "prefCode": "09",
+    "nameJa": "小山市",
+    "nameEn": "Oyama City",
+    "total": 166975,
+    "male": 84835,
+    "female": 82140
+  },
+  "09209": {
+    "code": "09209",
+    "prefCode": "09",
+    "nameJa": "真岡市",
+    "nameEn": "Moka City",
+    "total": 79002,
+    "male": 40016,
+    "female": 38986
+  },
+  "09210": {
+    "code": "09210",
+    "prefCode": "09",
+    "nameJa": "大田原市",
+    "nameEn": "Ohtawara City",
+    "total": 68873,
+    "male": 34237,
+    "female": 34636
+  },
+  "09211": {
+    "code": "09211",
+    "prefCode": "09",
+    "nameJa": "矢板市",
+    "nameEn": "Yaita City",
+    "total": 30577,
+    "male": 15211,
+    "female": 15366
+  },
+  "09213": {
+    "code": "09213",
+    "prefCode": "09",
+    "nameJa": "那須塩原市",
+    "nameEn": "Nasushiobara City",
+    "total": 116133,
+    "male": 57973,
+    "female": 58160
+  },
+  "09214": {
+    "code": "09214",
+    "prefCode": "09",
+    "nameJa": "さくら市",
+    "nameEn": "Sakura City",
+    "total": 43802,
+    "male": 22084,
+    "female": 21718
+  },
+  "09215": {
+    "code": "09215",
+    "prefCode": "09",
+    "nameJa": "那須烏山市",
+    "nameEn": "Nasukarasuyama City",
+    "total": 24035,
+    "male": 12021,
+    "female": 12014
+  },
+  "09216": {
+    "code": "09216",
+    "prefCode": "09",
+    "nameJa": "下野市",
+    "nameEn": "Shimotsuke City",
+    "total": 59880,
+    "male": 29761,
+    "female": 30119
+  },
+  "09301": {
+    "code": "09301",
+    "prefCode": "09",
+    "nameJa": "河内郡上三川町",
+    "nameEn": "Kaminokawa Town",
+    "total": 31012,
+    "male": 15978,
+    "female": 15034
+  },
+  "09342": {
+    "code": "09342",
+    "prefCode": "09",
+    "nameJa": "芳賀郡益子町",
+    "nameEn": "Mashiko Town",
+    "total": 21616,
+    "male": 10798,
+    "female": 10818
+  },
+  "09343": {
+    "code": "09343",
+    "prefCode": "09",
+    "nameJa": "芳賀郡茂木町",
+    "nameEn": "Motegi Town",
+    "total": 11703,
+    "male": 5834,
+    "female": 5869
+  },
+  "09344": {
+    "code": "09344",
+    "prefCode": "09",
+    "nameJa": "芳賀郡市貝町",
+    "nameEn": "Ichikai Town",
+    "total": 11277,
+    "male": 5768,
+    "female": 5509
+  },
+  "09345": {
+    "code": "09345",
+    "prefCode": "09",
+    "nameJa": "芳賀郡芳賀町",
+    "nameEn": "Haga Town",
+    "total": 15505,
+    "male": 7890,
+    "female": 7615
+  },
+  "09361": {
+    "code": "09361",
+    "prefCode": "09",
+    "nameJa": "下都賀郡壬生町",
+    "nameEn": "Mibu Town",
+    "total": 38359,
+    "male": 18994,
+    "female": 19365
+  },
+  "09364": {
+    "code": "09364",
+    "prefCode": "09",
+    "nameJa": "下都賀郡野木町",
+    "nameEn": "Nogi Town",
+    "total": 25006,
+    "male": 12508,
+    "female": 12498
+  },
+  "09384": {
+    "code": "09384",
+    "prefCode": "09",
+    "nameJa": "塩谷郡塩谷町",
+    "nameEn": "Shioya Town",
+    "total": 10069,
+    "male": 5026,
+    "female": 5043
+  },
+  "09386": {
+    "code": "09386",
+    "prefCode": "09",
+    "nameJa": "塩谷郡高根沢町",
+    "nameEn": "Takanezawa Town",
+    "total": 28803,
+    "male": 15111,
+    "female": 13692
+  },
+  "09407": {
+    "code": "09407",
+    "prefCode": "09",
+    "nameJa": "那須郡那須町",
+    "nameEn": "Nasu Town",
+    "total": 24011,
+    "male": 11967,
+    "female": 12044
+  },
+  "09411": {
+    "code": "09411",
+    "prefCode": "09",
+    "nameJa": "那須郡那珂川町",
+    "nameEn": "Nakagawa Town",
+    "total": 14560,
+    "male": 7376,
+    "female": 7184
+  }
+}

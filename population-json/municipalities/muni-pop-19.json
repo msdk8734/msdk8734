@@ -1,0 +1,245 @@
+{
+  "19201": {
+    "code": "19201",
+    "prefCode": "19",
+    "nameJa": "甲府市",
+    "nameEn": "Kofu City",
+    "total": 184827,
+    "male": 89890,
+    "female": 94937
+  },
+  "19202": {
+    "code": "19202",
+    "prefCode": "19",
+    "nameJa": "富士吉田市",
+    "nameEn": "Fujiyoshida City",
+    "total": 46770,
+    "male": 22985,
+    "female": 23785
+  },
+  "19204": {
+    "code": "19204",
+    "prefCode": "19",
+    "nameJa": "都留市",
+    "nameEn": "Tsuru City",
+    "total": 28798,
+    "male": 14045,
+    "female": 14753
+  },
+  "19205": {
+    "code": "19205",
+    "prefCode": "19",
+    "nameJa": "山梨市",
+    "nameEn": "Yamanashi City",
+    "total": 33114,
+    "male": 15921,
+    "female": 17193
+  },
+  "19206": {
+    "code": "19206",
+    "prefCode": "19",
+    "nameJa": "大月市",
+    "nameEn": "Otsuki City",
+    "total": 21742,
+    "male": 10744,
+    "female": 10998
+  },
+  "19207": {
+    "code": "19207",
+    "prefCode": "19",
+    "nameJa": "韮崎市",
+    "nameEn": "Nirasaki City",
+    "total": 28089,
+    "male": 14089,
+    "female": 14000
+  },
+  "19208": {
+    "code": "19208",
+    "prefCode": "19",
+    "nameJa": "南アルプス市",
+    "nameEn": "Minamialps City",
+    "total": 71660,
+    "male": 35579,
+    "female": 36081
+  },
+  "19209": {
+    "code": "19209",
+    "prefCode": "19",
+    "nameJa": "北杜市",
+    "nameEn": "Hokuto City",
+    "total": 45533,
+    "male": 22308,
+    "female": 23225
+  },
+  "19210": {
+    "code": "19210",
+    "prefCode": "19",
+    "nameJa": "甲斐市",
+    "nameEn": "Kai City",
+    "total": 76514,
+    "male": 37852,
+    "female": 38662
+  },
+  "19211": {
+    "code": "19211",
+    "prefCode": "19",
+    "nameJa": "笛吹市",
+    "nameEn": "Fuefuki City",
+    "total": 67271,
+    "male": 32793,
+    "female": 34478
+  },
+  "19212": {
+    "code": "19212",
+    "prefCode": "19",
+    "nameJa": "上野原市",
+    "nameEn": "Uenohara City",
+    "total": 21637,
+    "male": 10854,
+    "female": 10783
+  },
+  "19213": {
+    "code": "19213",
+    "prefCode": "19",
+    "nameJa": "甲州市",
+    "nameEn": "Koshu City",
+    "total": 29600,
+    "male": 14337,
+    "female": 15263
+  },
+  "19214": {
+    "code": "19214",
+    "prefCode": "19",
+    "nameJa": "中央市",
+    "nameEn": "Chuo City",
+    "total": 30657,
+    "male": 15189,
+    "female": 15468
+  },
+  "19346": {
+    "code": "19346",
+    "prefCode": "19",
+    "nameJa": "西八代郡市川三郷町",
+    "nameEn": "Ichikawamisato Town",
+    "total": 14693,
+    "male": 7166,
+    "female": 7527
+  },
+  "19364": {
+    "code": "19364",
+    "prefCode": "19",
+    "nameJa": "南巨摩郡早川町",
+    "nameEn": "Hayakawa Town",
+    "total": 884,
+    "male": 445,
+    "female": 439
+  },
+  "19365": {
+    "code": "19365",
+    "prefCode": "19",
+    "nameJa": "南巨摩郡身延町",
+    "nameEn": "Minobu Town",
+    "total": 10051,
+    "male": 4922,
+    "female": 5129
+  },
+  "19366": {
+    "code": "19366",
+    "prefCode": "19",
+    "nameJa": "南巨摩郡南部町",
+    "nameEn": "Nanbu Town",
+    "total": 6920,
+    "male": 3431,
+    "female": 3489
+  },
+  "19368": {
+    "code": "19368",
+    "prefCode": "19",
+    "nameJa": "南巨摩郡富士川町",
+    "nameEn": "Fujikawa Town",
+    "total": 14127,
+    "male": 6899,
+    "female": 7228
+  },
+  "19384": {
+    "code": "19384",
+    "prefCode": "19",
+    "nameJa": "中巨摩郡昭和町",
+    "nameEn": "Showa Town",
+    "total": 21213,
+    "male": 10627,
+    "female": 10586
+  },
+  "19422": {
+    "code": "19422",
+    "prefCode": "19",
+    "nameJa": "南都留郡道志村",
+    "nameEn": "Doshi Village",
+    "total": 1545,
+    "male": 779,
+    "female": 766
+  },
+  "19423": {
+    "code": "19423",
+    "prefCode": "19",
+    "nameJa": "南都留郡西桂町",
+    "nameEn": "Nishikatsura Town",
+    "total": 4001,
+    "male": 1941,
+    "female": 2060
+  },
+  "19424": {
+    "code": "19424",
+    "prefCode": "19",
+    "nameJa": "南都留郡忍野村",
+    "nameEn": "Oshino Village",
+    "total": 9758,
+    "male": 5310,
+    "female": 4448
+  },
+  "19425": {
+    "code": "19425",
+    "prefCode": "19",
+    "nameJa": "南都留郡山中湖村",
+    "nameEn": "Yamanakako Village",
+    "total": 5768,
+    "male": 2914,
+    "female": 2854
+  },
+  "19429": {
+    "code": "19429",
+    "prefCode": "19",
+    "nameJa": "南都留郡鳴沢村",
+    "nameEn": "Narusawa Village",
+    "total": 3079,
+    "male": 1557,
+    "female": 1522
+  },
+  "19430": {
+    "code": "19430",
+    "prefCode": "19",
+    "nameJa": "南都留郡富士河口湖町",
+    "nameEn": "Fujikawaguchiko Town",
+    "total": 26965,
+    "male": 13277,
+    "female": 13688
+  },
+  "19442": {
+    "code": "19442",
+    "prefCode": "19",
+    "nameJa": "北都留郡小菅村",
+    "nameEn": "Kosuge Village",
+    "total": 639,
+    "male": 327,
+    "female": 312
+  },
+  "19443": {
+    "code": "19443",
+    "prefCode": "19",
+    "nameJa": "北都留郡丹波山村",
+    "nameEn": "Tabayama Village",
+    "total": 514,
+    "male": 271,
+    "female": 243
+  }
+}

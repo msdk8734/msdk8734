@@ -1,0 +1,182 @@
+{
+  "41201": {
+    "code": "41201",
+    "prefCode": "41",
+    "nameJa": "佐賀市",
+    "nameEn": "Saga City",
+    "total": 228042,
+    "male": 107811,
+    "female": 120231
+  },
+  "41202": {
+    "code": "41202",
+    "prefCode": "41",
+    "nameJa": "唐津市",
+    "nameEn": "Karatsu City",
+    "total": 115475,
+    "male": 54472,
+    "female": 61003
+  },
+  "41203": {
+    "code": "41203",
+    "prefCode": "41",
+    "nameJa": "鳥栖市",
+    "nameEn": "Tosu City",
+    "total": 74492,
+    "male": 36155,
+    "female": 38337
+  },
+  "41204": {
+    "code": "41204",
+    "prefCode": "41",
+    "nameJa": "多久市",
+    "nameEn": "Taku City",
+    "total": 17988,
+    "male": 8604,
+    "female": 9384
+  },
+  "41205": {
+    "code": "41205",
+    "prefCode": "41",
+    "nameJa": "伊万里市",
+    "nameEn": "Imari City",
+    "total": 52279,
+    "male": 25524,
+    "female": 26755
+  },
+  "41206": {
+    "code": "41206",
+    "prefCode": "41",
+    "nameJa": "武雄市",
+    "nameEn": "Takeo City",
+    "total": 47472,
+    "male": 22648,
+    "female": 24824
+  },
+  "41207": {
+    "code": "41207",
+    "prefCode": "41",
+    "nameJa": "鹿島市",
+    "nameEn": "Kashima City",
+    "total": 27596,
+    "male": 13053,
+    "female": 14543
+  },
+  "41208": {
+    "code": "41208",
+    "prefCode": "41",
+    "nameJa": "小城市",
+    "nameEn": "Ogi City",
+    "total": 44259,
+    "male": 21181,
+    "female": 23078
+  },
+  "41209": {
+    "code": "41209",
+    "prefCode": "41",
+    "nameJa": "嬉野市",
+    "nameEn": "Ureshino City",
+    "total": 24760,
+    "male": 11665,
+    "female": 13095
+  },
+  "41210": {
+    "code": "41210",
+    "prefCode": "41",
+    "nameJa": "神埼市",
+    "nameEn": "Kanzaki City",
+    "total": 30438,
+    "male": 14724,
+    "female": 15714
+  },
+  "41327": {
+    "code": "41327",
+    "prefCode": "41",
+    "nameJa": "神埼郡吉野ヶ里町",
+    "nameEn": "Yoshinogari Town",
+    "total": 16188,
+    "male": 7901,
+    "female": 8287
+  },
+  "41341": {
+    "code": "41341",
+    "prefCode": "41",
+    "nameJa": "三養基郡基山町",
+    "nameEn": "Kiyama Town",
+    "total": 17575,
+    "male": 8339,
+    "female": 9236
+  },
+  "41345": {
+    "code": "41345",
+    "prefCode": "41",
+    "nameJa": "三養基郡上峰町",
+    "nameEn": "Kamimine Town",
+    "total": 9818,
+    "male": 4741,
+    "female": 5077
+  },
+  "41346": {
+    "code": "41346",
+    "prefCode": "41",
+    "nameJa": "三養基郡みやき町",
+    "nameEn": "Miyaki Town",
+    "total": 25759,
+    "male": 12392,
+    "female": 13367
+  },
+  "41387": {
+    "code": "41387",
+    "prefCode": "41",
+    "nameJa": "東松浦郡玄海町",
+    "nameEn": "Genkai Town",
+    "total": 4966,
+    "male": 2537,
+    "female": 2429
+  },
+  "41401": {
+    "code": "41401",
+    "prefCode": "41",
+    "nameJa": "西松浦郡有田町",
+    "nameEn": "Arita Town",
+    "total": 18840,
+    "male": 8847,
+    "female": 9993
+  },
+  "41423": {
+    "code": "41423",
+    "prefCode": "41",
+    "nameJa": "杵島郡大町町",
+    "nameEn": "Omachi Town",
+    "total": 6044,
+    "male": 2813,
+    "female": 3231
+  },
+  "41424": {
+    "code": "41424",
+    "prefCode": "41",
+    "nameJa": "杵島郡江北町",
+    "nameEn": "Kohoku Town",
+    "total": 9593,
+    "male": 4565,
+    "female": 5028
+  },
+  "41425": {
+    "code": "41425",
+    "prefCode": "41",
+    "nameJa": "杵島郡白石町",
+    "nameEn": "Shiroishi Town",
+    "total": 21398,
+    "male": 10153,
+    "female": 11245
+  },
+  "41441": {
+    "code": "41441",
+    "prefCode": "41",
+    "nameJa": "藤津郡太良町",
+    "nameEn": "Tara Town",
+    "total": 8069,
+    "male": 3882,
+    "female": 4187
+  }
+}

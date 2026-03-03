@@ -1,0 +1,380 @@
+{
+  "21201": {
+    "code": "21201",
+    "prefCode": "21",
+    "nameJa": "岐阜市",
+    "nameEn": "Gifu City",
+    "total": 400937,
+    "male": 191526,
+    "female": 209411
+  },
+  "21202": {
+    "code": "21202",
+    "prefCode": "21",
+    "nameJa": "大垣市",
+    "nameEn": "Ogaki City",
+    "total": 158049,
+    "male": 77247,
+    "female": 80802
+  },
+  "21203": {
+    "code": "21203",
+    "prefCode": "21",
+    "nameJa": "高山市",
+    "nameEn": "Takayama City",
+    "total": 83281,
+    "male": 39814,
+    "female": 43467
+  },
+  "21204": {
+    "code": "21204",
+    "prefCode": "21",
+    "nameJa": "多治見市",
+    "nameEn": "Tajimi City",
+    "total": 106181,
+    "male": 51705,
+    "female": 54476
+  },
+  "21205": {
+    "code": "21205",
+    "prefCode": "21",
+    "nameJa": "関市",
+    "nameEn": "Seki City",
+    "total": 84825,
+    "male": 41599,
+    "female": 43226
+  },
+  "21206": {
+    "code": "21206",
+    "prefCode": "21",
+    "nameJa": "中津川市",
+    "nameEn": "Nakatsugawa City",
+    "total": 74532,
+    "male": 36633,
+    "female": 37899
+  },
+  "21207": {
+    "code": "21207",
+    "prefCode": "21",
+    "nameJa": "美濃市",
+    "nameEn": "Mino City",
+    "total": 19279,
+    "male": 9311,
+    "female": 9968
+  },
+  "21208": {
+    "code": "21208",
+    "prefCode": "21",
+    "nameJa": "瑞浪市",
+    "nameEn": "Mizunami City",
+    "total": 35731,
+    "male": 17450,
+    "female": 18281
+  },
+  "21209": {
+    "code": "21209",
+    "prefCode": "21",
+    "nameJa": "羽島市",
+    "nameEn": "Hashima City",
+    "total": 66775,
+    "male": 32939,
+    "female": 33836
+  },
+  "21210": {
+    "code": "21210",
+    "prefCode": "21",
+    "nameJa": "恵那市",
+    "nameEn": "Ena City",
+    "total": 46868,
+    "male": 22878,
+    "female": 23990
+  },
+  "21211": {
+    "code": "21211",
+    "prefCode": "21",
+    "nameJa": "美濃加茂市",
+    "nameEn": "Minokamo City",
+    "total": 57540,
+    "male": 28553,
+    "female": 28987
+  },
+  "21212": {
+    "code": "21212",
+    "prefCode": "21",
+    "nameJa": "土岐市",
+    "nameEn": "Toki City",
+    "total": 54990,
+    "male": 26756,
+    "female": 28234
+  },
+  "21213": {
+    "code": "21213",
+    "prefCode": "21",
+    "nameJa": "各務原市",
+    "nameEn": "Kakamigahara City",
+    "total": 144940,
+    "male": 71661,
+    "female": 73279
+  },
+  "21214": {
+    "code": "21214",
+    "prefCode": "21",
+    "nameJa": "可児市",
+    "nameEn": "Kani City",
+    "total": 100207,
+    "male": 49603,
+    "female": 50604
+  },
+  "21215": {
+    "code": "21215",
+    "prefCode": "21",
+    "nameJa": "山県市",
+    "nameEn": "Yamagata City",
+    "total": 25233,
+    "male": 12322,
+    "female": 12911
+  },
+  "21216": {
+    "code": "21216",
+    "prefCode": "21",
+    "nameJa": "瑞穂市",
+    "nameEn": "Mizuho City",
+    "total": 56329,
+    "male": 28096,
+    "female": 28233
+  },
+  "21217": {
+    "code": "21217",
+    "prefCode": "21",
+    "nameJa": "飛騨市",
+    "nameEn": "Hida City",
+    "total": 22106,
+    "male": 10719,
+    "female": 11387
+  },
+  "21218": {
+    "code": "21218",
+    "prefCode": "21",
+    "nameJa": "本巣市",
+    "nameEn": "Motosu City",
+    "total": 33109,
+    "male": 16176,
+    "female": 16933
+  },
+  "21219": {
+    "code": "21219",
+    "prefCode": "21",
+    "nameJa": "郡上市",
+    "nameEn": "Gujo City",
+    "total": 38450,
+    "male": 18839,
+    "female": 19611
+  },
+  "21220": {
+    "code": "21220",
+    "prefCode": "21",
+    "nameJa": "下呂市",
+    "nameEn": "Gero City",
+    "total": 29495,
+    "male": 14104,
+    "female": 15391
+  },
+  "21221": {
+    "code": "21221",
+    "prefCode": "21",
+    "nameJa": "海津市",
+    "nameEn": "Kaizu City",
+    "total": 32084,
+    "male": 15905,
+    "female": 16179
+  },
+  "21302": {
+    "code": "21302",
+    "prefCode": "21",
+    "nameJa": "羽島郡岐南町",
+    "nameEn": "Ginan Town",
+    "total": 26227,
+    "male": 13068,
+    "female": 13159
+  },
+  "21303": {
+    "code": "21303",
+    "prefCode": "21",
+    "nameJa": "羽島郡笠松町",
+    "nameEn": "Kasamatsu Town",
+    "total": 21816,
+    "male": 10517,
+    "female": 11299
+  },
+  "21341": {
+    "code": "21341",
+    "prefCode": "21",
+    "nameJa": "養老郡養老町",
+    "nameEn": "Yoro Town",
+    "total": 26397,
+    "male": 13059,
+    "female": 13338
+  },
+  "21361": {
+    "code": "21361",
+    "prefCode": "21",
+    "nameJa": "不破郡垂井町",
+    "nameEn": "Tarui Town",
+    "total": 26058,
+    "male": 12890,
+    "female": 13168
+  },
+  "21362": {
+    "code": "21362",
+    "prefCode": "21",
+    "nameJa": "不破郡関ケ原町",
+    "nameEn": "Sekigahara Town",
+    "total": 6287,
+    "male": 3046,
+    "female": 3241
+  },
+  "21381": {
+    "code": "21381",
+    "prefCode": "21",
+    "nameJa": "安八郡神戸町",
+    "nameEn": "Godo Town",
+    "total": 18409,
+    "male": 8984,
+    "female": 9425
+  },
+  "21382": {
+    "code": "21382",
+    "prefCode": "21",
+    "nameJa": "安八郡輪之内町",
+    "nameEn": "Wanouchi Town",
+    "total": 9267,
+    "male": 4640,
+    "female": 4627
+  },
+  "21383": {
+    "code": "21383",
+    "prefCode": "21",
+    "nameJa": "安八郡安八町",
+    "nameEn": "Anpachi Town",
+    "total": 14465,
+    "male": 7155,
+    "female": 7310
+  },
+  "21401": {
+    "code": "21401",
+    "prefCode": "21",
+    "nameJa": "揖斐郡揖斐川町",
+    "nameEn": "Ibigawa Town",
+    "total": 19062,
+    "male": 9239,
+    "female": 9823
+  },
+  "21403": {
+    "code": "21403",
+    "prefCode": "21",
+    "nameJa": "揖斐郡大野町",
+    "nameEn": "Ono Town",
+    "total": 21798,
+    "male": 10760,
+    "female": 11038
+  },
+  "21404": {
+    "code": "21404",
+    "prefCode": "21",
+    "nameJa": "揖斐郡池田町",
+    "nameEn": "Ikeda Town",
+    "total": 22714,
+    "male": 11194,
+    "female": 11520
+  },
+  "21421": {
+    "code": "21421",
+    "prefCode": "21",
+    "nameJa": "本巣郡北方町",
+    "nameEn": "Kitagata Town",
+    "total": 18697,
+    "male": 8938,
+    "female": 9759
+  },
+  "21501": {
+    "code": "21501",
+    "prefCode": "21",
+    "nameJa": "加茂郡坂祝町",
+    "nameEn": "Sakahogi Town",
+    "total": 8213,
+    "male": 4270,
+    "female": 3943
+  },
+  "21502": {
+    "code": "21502",
+    "prefCode": "21",
+    "nameJa": "加茂郡富加町",
+    "nameEn": "Tomika Town",
+    "total": 5847,
+    "male": 2880,
+    "female": 2967
+  },
+  "21503": {
+    "code": "21503",
+    "prefCode": "21",
+    "nameJa": "加茂郡川辺町",
+    "nameEn": "Kawabe Town",
+    "total": 9843,
+    "male": 4858,
+    "female": 4985
+  },
+  "21504": {
+    "code": "21504",
+    "prefCode": "21",
+    "nameJa": "加茂郡七宗町",
+    "nameEn": "Hichiso Town",
+    "total": 3290,
+    "male": 1547,
+    "female": 1743
+  },
+  "21505": {
+    "code": "21505",
+    "prefCode": "21",
+    "nameJa": "加茂郡八百津町",
+    "nameEn": "Yaotsu Town",
+    "total": 10092,
+    "male": 4898,
+    "female": 5194
+  },
+  "21506": {
+    "code": "21506",
+    "prefCode": "21",
+    "nameJa": "加茂郡白川町",
+    "nameEn": "Shirakawa Town",
+    "total": 7194,
+    "male": 3383,
+    "female": 3811
+  },
+  "21507": {
+    "code": "21507",
+    "prefCode": "21",
+    "nameJa": "加茂郡東白川村",
+    "nameEn": "Higashishirakawa Village",
+    "total": 2072,
+    "male": 980,
+    "female": 1092
+  },
+  "21521": {
+    "code": "21521",
+    "prefCode": "21",
+    "nameJa": "可児郡御嵩町",
+    "nameEn": "Mitake Town",
+    "total": 17682,
+    "male": 8864,
+    "female": 8818
+  },
+  "21604": {
+    "code": "21604",
+    "prefCode": "21",
+    "nameJa": "大野郡白川村",
+    "nameEn": "Shirakawa Village",
+    "total": 1491,
+    "male": 736,
+    "female": 755
+  }
+}

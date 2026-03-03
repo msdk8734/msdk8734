@@ -1,0 +1,335 @@
+{
+  "26100": {
+    "code": "26100",
+    "prefCode": "26",
+    "nameJa": "京都市",
+    "nameEn": "Kyoto City",
+    "total": 1379529,
+    "male": 652979,
+    "female": 726550
+  },
+  "26101": {
+    "code": "26101",
+    "prefCode": "26",
+    "nameJa": "京都市北区",
+    "nameEn": "Kita Ward, Kyoto City",
+    "total": 107370,
+    "male": 50537,
+    "female": 56833
+  },
+  "26102": {
+    "code": "26102",
+    "prefCode": "26",
+    "nameJa": "京都市上京区",
+    "nameEn": "Kamigyo Ward, Kyoto City",
+    "total": 75335,
+    "male": 34608,
+    "female": 40727
+  },
+  "26103": {
+    "code": "26103",
+    "prefCode": "26",
+    "nameJa": "京都市左京区",
+    "nameEn": "Sakyo Ward, Kyoto City",
+    "total": 151480,
+    "male": 71456,
+    "female": 80024
+  },
+  "26104": {
+    "code": "26104",
+    "prefCode": "26",
+    "nameJa": "京都市中京区",
+    "nameEn": "Nakagyo Ward, Kyoto City",
+    "total": 105269,
+    "male": 47964,
+    "female": 57305
+  },
+  "26105": {
+    "code": "26105",
+    "prefCode": "26",
+    "nameJa": "京都市東山区",
+    "nameEn": "Higashiyama Ward, Kyoto City",
+    "total": 33145,
+    "male": 14975,
+    "female": 18170
+  },
+  "26106": {
+    "code": "26106",
+    "prefCode": "26",
+    "nameJa": "京都市下京区",
+    "nameEn": "Shimogyo Ward, Kyoto City",
+    "total": 77273,
+    "male": 35797,
+    "female": 41476
+  },
+  "26107": {
+    "code": "26107",
+    "prefCode": "26",
+    "nameJa": "京都市南区",
+    "nameEn": "Minami Ward, Kyoto City",
+    "total": 100516,
+    "male": 49788,
+    "female": 50728
+  },
+  "26108": {
+    "code": "26108",
+    "prefCode": "26",
+    "nameJa": "京都市右京区",
+    "nameEn": "Ukyo Ward, Kyoto City",
+    "total": 191571,
+    "male": 90401,
+    "female": 101170
+  },
+  "26109": {
+    "code": "26109",
+    "prefCode": "26",
+    "nameJa": "京都市伏見区",
+    "nameEn": "Fushimi Ward, Kyoto City",
+    "total": 267005,
+    "male": 128661,
+    "female": 138344
+  },
+  "26110": {
+    "code": "26110",
+    "prefCode": "26",
+    "nameJa": "京都市山科区",
+    "nameEn": "Yamashina Ward, Kyoto City",
+    "total": 126647,
+    "male": 60068,
+    "female": 66579
+  },
+  "26111": {
+    "code": "26111",
+    "prefCode": "26",
+    "nameJa": "京都市西京区",
+    "nameEn": "Nishikyo Ward, Kyoto City",
+    "total": 143918,
+    "male": 68724,
+    "female": 75194
+  },
+  "26201": {
+    "code": "26201",
+    "prefCode": "26",
+    "nameJa": "福知山市",
+    "nameEn": "Fukuchiyama City",
+    "total": 75385,
+    "male": 37445,
+    "female": 37940
+  },
+  "26202": {
+    "code": "26202",
+    "prefCode": "26",
+    "nameJa": "舞鶴市",
+    "nameEn": "Maizuru City",
+    "total": 76732,
+    "male": 38155,
+    "female": 38577
+  },
+  "26203": {
+    "code": "26203",
+    "prefCode": "26",
+    "nameJa": "綾部市",
+    "nameEn": "Ayabe City",
+    "total": 31526,
+    "male": 15160,
+    "female": 16366
+  },
+  "26204": {
+    "code": "26204",
+    "prefCode": "26",
+    "nameJa": "宇治市",
+    "nameEn": "Uji City",
+    "total": 180943,
+    "male": 87119,
+    "female": 93824
+  },
+  "26205": {
+    "code": "26205",
+    "prefCode": "26",
+    "nameJa": "宮津市",
+    "nameEn": "Miyazu City",
+    "total": 16325,
+    "male": 7743,
+    "female": 8582
+  },
+  "26206": {
+    "code": "26206",
+    "prefCode": "26",
+    "nameJa": "亀岡市",
+    "nameEn": "Kameoka City",
+    "total": 86765,
+    "male": 42215,
+    "female": 44550
+  },
+  "26207": {
+    "code": "26207",
+    "prefCode": "26",
+    "nameJa": "城陽市",
+    "nameEn": "Joyo City",
+    "total": 74031,
+    "male": 35653,
+    "female": 38378
+  },
+  "26208": {
+    "code": "26208",
+    "prefCode": "26",
+    "nameJa": "向日市",
+    "nameEn": "Muko City",
+    "total": 56571,
+    "male": 27145,
+    "female": 29426
+  },
+  "26209": {
+    "code": "26209",
+    "prefCode": "26",
+    "nameJa": "長岡京市",
+    "nameEn": "Nagaokakyo City",
+    "total": 82308,
+    "male": 39841,
+    "female": 42467
+  },
+  "26210": {
+    "code": "26210",
+    "prefCode": "26",
+    "nameJa": "八幡市",
+    "nameEn": "Yawata City",
+    "total": 69219,
+    "male": 33647,
+    "female": 35572
+  },
+  "26211": {
+    "code": "26211",
+    "prefCode": "26",
+    "nameJa": "京田辺市",
+    "nameEn": "Kyotanabe City",
+    "total": 71865,
+    "male": 35085,
+    "female": 36780
+  },
+  "26212": {
+    "code": "26212",
+    "prefCode": "26",
+    "nameJa": "京丹後市",
+    "nameEn": "Kyotango City",
+    "total": 51031,
+    "male": 24541,
+    "female": 26490
+  },
+  "26213": {
+    "code": "26213",
+    "prefCode": "26",
+    "nameJa": "南丹市",
+    "nameEn": "Nantan City",
+    "total": 30123,
+    "male": 14634,
+    "female": 15489
+  },
+  "26214": {
+    "code": "26214",
+    "prefCode": "26",
+    "nameJa": "木津川市",
+    "nameEn": "Kizugawa City",
+    "total": 79828,
+    "male": 38490,
+    "female": 41338
+  },
+  "26303": {
+    "code": "26303",
+    "prefCode": "26",
+    "nameJa": "乙訓郡大山崎町",
+    "nameEn": "Oyamazaki Town",
+    "total": 16651,
+    "male": 8029,
+    "female": 8622
+  },
+  "26322": {
+    "code": "26322",
+    "prefCode": "26",
+    "nameJa": "久世郡久御山町",
+    "nameEn": "Kumiyama Town",
+    "total": 15387,
+    "male": 7658,
+    "female": 7729
+  },
+  "26343": {
+    "code": "26343",
+    "prefCode": "26",
+    "nameJa": "綴喜郡井手町",
+    "nameEn": "Ide Town",
+    "total": 6989,
+    "male": 3420,
+    "female": 3569
+  },
+  "26344": {
+    "code": "26344",
+    "prefCode": "26",
+    "nameJa": "綴喜郡宇治田原町",
+    "nameEn": "Ujitawara Town",
+    "total": 8829,
+    "male": 4460,
+    "female": 4369
+  },
+  "26364": {
+    "code": "26364",
+    "prefCode": "26",
+    "nameJa": "相楽郡笠置町",
+    "nameEn": "Kasagi Town",
+    "total": 1116,
+    "male": 537,
+    "female": 579
+  },
+  "26365": {
+    "code": "26365",
+    "prefCode": "26",
+    "nameJa": "相楽郡和束町",
+    "nameEn": "Wazuka Town",
+    "total": 3499,
+    "male": 1660,
+    "female": 1839
+  },
+  "26366": {
+    "code": "26366",
+    "prefCode": "26",
+    "nameJa": "相楽郡精華町",
+    "nameEn": "Seika Town",
+    "total": 36543,
+    "male": 17561,
+    "female": 18982
+  },
+  "26367": {
+    "code": "26367",
+    "prefCode": "26",
+    "nameJa": "相楽郡南山城村",
+    "nameEn": "Minamiyamashiro Village",
+    "total": 2447,
+    "male": 1163,
+    "female": 1284
+  },
+  "26407": {
+    "code": "26407",
+    "prefCode": "26",
+    "nameJa": "船井郡京丹波町",
+    "nameEn": "Kyotamba Town",
+    "total": 12742,
+    "male": 6095,
+    "female": 6647
+  },
+  "26463": {
+    "code": "26463",
+    "prefCode": "26",
+    "nameJa": "与謝郡伊根町",
+    "nameEn": "Ine Town",
+    "total": 1914,
+    "male": 938,
+    "female": 976
+  },
+  "26465": {
+    "code": "26465",
+    "prefCode": "26",
+    "nameJa": "与謝郡与謝野町",
+    "nameEn": "Yosano Town",
+    "total": 19777,
+    "male": 9492,
+    "female": 10285
+  }
+}

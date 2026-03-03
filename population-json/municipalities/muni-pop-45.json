@@ -1,0 +1,236 @@
+{
+  "45201": {
+    "code": "45201",
+    "prefCode": "45",
+    "nameJa": "宮崎市",
+    "nameEn": "Miyazaki City",
+    "total": 397406,
+    "male": 187616,
+    "female": 209790
+  },
+  "45202": {
+    "code": "45202",
+    "prefCode": "45",
+    "nameJa": "都城市",
+    "nameEn": "Miyakonojo City",
+    "total": 161515,
+    "male": 76453,
+    "female": 85062
+  },
+  "45203": {
+    "code": "45203",
+    "prefCode": "45",
+    "nameJa": "延岡市",
+    "nameEn": "Nobeoka City",
+    "total": 115847,
+    "male": 55134,
+    "female": 60713
+  },
+  "45204": {
+    "code": "45204",
+    "prefCode": "45",
+    "nameJa": "日南市",
+    "nameEn": "Nichinan City",
+    "total": 49037,
+    "male": 23274,
+    "female": 25763
+  },
+  "45205": {
+    "code": "45205",
+    "prefCode": "45",
+    "nameJa": "小林市",
+    "nameEn": "Kobayashi City",
+    "total": 42944,
+    "male": 20112,
+    "female": 22832
+  },
+  "45206": {
+    "code": "45206",
+    "prefCode": "45",
+    "nameJa": "日向市",
+    "nameEn": "Hyuga City",
+    "total": 58687,
+    "male": 28148,
+    "female": 30539
+  },
+  "45207": {
+    "code": "45207",
+    "prefCode": "45",
+    "nameJa": "串間市",
+    "nameEn": "Kushima City",
+    "total": 16517,
+    "male": 7823,
+    "female": 8694
+  },
+  "45208": {
+    "code": "45208",
+    "prefCode": "45",
+    "nameJa": "西都市",
+    "nameEn": "Saito City",
+    "total": 28503,
+    "male": 13571,
+    "female": 14932
+  },
+  "45209": {
+    "code": "45209",
+    "prefCode": "45",
+    "nameJa": "えびの市",
+    "nameEn": "Ebino City",
+    "total": 17525,
+    "male": 8277,
+    "female": 9248
+  },
+  "45341": {
+    "code": "45341",
+    "prefCode": "45",
+    "nameJa": "北諸県郡三股町",
+    "nameEn": "Mimata Town",
+    "total": 25878,
+    "male": 12246,
+    "female": 13632
+  },
+  "45361": {
+    "code": "45361",
+    "prefCode": "45",
+    "nameJa": "西諸県郡高原町",
+    "nameEn": "Takaharu Town",
+    "total": 8590,
+    "male": 4105,
+    "female": 4485
+  },
+  "45382": {
+    "code": "45382",
+    "prefCode": "45",
+    "nameJa": "東諸県郡国富町",
+    "nameEn": "Kunitomi Town",
+    "total": 18405,
+    "male": 8716,
+    "female": 9689
+  },
+  "45383": {
+    "code": "45383",
+    "prefCode": "45",
+    "nameJa": "東諸県郡綾町",
+    "nameEn": "Aya Town",
+    "total": 6941,
+    "male": 3299,
+    "female": 3642
+  },
+  "45401": {
+    "code": "45401",
+    "prefCode": "45",
+    "nameJa": "児湯郡高鍋町",
+    "nameEn": "Takanabe Town",
+    "total": 19498,
+    "male": 9241,
+    "female": 10257
+  },
+  "45402": {
+    "code": "45402",
+    "prefCode": "45",
+    "nameJa": "児湯郡新富町",
+    "nameEn": "Shintomi Town",
+    "total": 16718,
+    "male": 8225,
+    "female": 8493
+  },
+  "45403": {
+    "code": "45403",
+    "prefCode": "45",
+    "nameJa": "児湯郡西米良村",
+    "nameEn": "Nishimera Village",
+    "total": 1021,
+    "male": 528,
+    "female": 493
+  },
+  "45404": {
+    "code": "45404",
+    "prefCode": "45",
+    "nameJa": "児湯郡木城町",
+    "nameEn": "Kijo Town",
+    "total": 4817,
+    "male": 2236,
+    "female": 2581
+  },
+  "45405": {
+    "code": "45405",
+    "prefCode": "45",
+    "nameJa": "児湯郡川南町",
+    "nameEn": "Kawaminami Town",
+    "total": 14930,
+    "male": 7124,
+    "female": 7806
+  },
+  "45406": {
+    "code": "45406",
+    "prefCode": "45",
+    "nameJa": "児湯郡都農町",
+    "nameEn": "Tsuno Town",
+    "total": 10148,
+    "male": 4839,
+    "female": 5309
+  },
+  "45421": {
+    "code": "45421",
+    "prefCode": "45",
+    "nameJa": "東臼杵郡門川町",
+    "nameEn": "Kadogawa Town",
+    "total": 17238,
+    "male": 8244,
+    "female": 8994
+  },
+  "45429": {
+    "code": "45429",
+    "prefCode": "45",
+    "nameJa": "東臼杵郡諸塚村",
+    "nameEn": "Morotsuka Village",
+    "total": 1458,
+    "male": 725,
+    "female": 733
+  },
+  "45430": {
+    "code": "45430",
+    "prefCode": "45",
+    "nameJa": "東臼杵郡椎葉村",
+    "nameEn": "Shiiba Village",
+    "total": 2502,
+    "male": 1277,
+    "female": 1225
+  },
+  "45431": {
+    "code": "45431",
+    "prefCode": "45",
+    "nameJa": "東臼杵郡美郷町",
+    "nameEn": "Misato Town",
+    "total": 4677,
+    "male": 2299,
+    "female": 2378
+  },
+  "45441": {
+    "code": "45441",
+    "prefCode": "45",
+    "nameJa": "西臼杵郡高千穂町",
+    "nameEn": "Takachiho Town",
+    "total": 11038,
+    "male": 5345,
+    "female": 5693
+  },
+  "45442": {
+    "code": "45442",
+    "prefCode": "45",
+    "nameJa": "西臼杵郡日之影町",
+    "nameEn": "Hinokage Town",
+    "total": 3485,
+    "male": 1671,
+    "female": 1814
+  },
+  "45443": {
+    "code": "45443",
+    "prefCode": "45",
+    "nameJa": "西臼杵郡五ヶ瀬町",
+    "nameEn": "Gokase Town",
+    "total": 3385,
+    "male": 1667,
+    "female": 1718
+  }
+}

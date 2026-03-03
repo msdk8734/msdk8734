@@ -1,0 +1,659 @@
+{
+  "11100": {
+    "code": "11100",
+    "prefCode": "11",
+    "nameJa": "さいたま市",
+    "nameEn": "Saitama City",
+    "total": 1345012,
+    "male": 666409,
+    "female": 678603
+  },
+  "11101": {
+    "code": "11101",
+    "prefCode": "11",
+    "nameJa": "さいたま市西区",
+    "nameEn": "Nishi Ward, Saitama City",
+    "total": 95251,
+    "male": 47045,
+    "female": 48206
+  },
+  "11102": {
+    "code": "11102",
+    "prefCode": "11",
+    "nameJa": "さいたま市北区",
+    "nameEn": "Kita Ward, Saitama City",
+    "total": 150366,
+    "male": 74463,
+    "female": 75903
+  },
+  "11103": {
+    "code": "11103",
+    "prefCode": "11",
+    "nameJa": "さいたま市大宮区",
+    "nameEn": "Omiya Ward, Saitama City",
+    "total": 124703,
+    "male": 62008,
+    "female": 62695
+  },
+  "11104": {
+    "code": "11104",
+    "prefCode": "11",
+    "nameJa": "さいたま市見沼区",
+    "nameEn": "Minuma Ward, Saitama City",
+    "total": 165105,
+    "male": 81551,
+    "female": 83554
+  },
+  "11105": {
+    "code": "11105",
+    "prefCode": "11",
+    "nameJa": "さいたま市中央区",
+    "nameEn": "Chuo Ward, Saitama City",
+    "total": 103107,
+    "male": 50776,
+    "female": 52331
+  },
+  "11106": {
+    "code": "11106",
+    "prefCode": "11",
+    "nameJa": "さいたま市桜区",
+    "nameEn": "Sakura Ward, Saitama City",
+    "total": 96466,
+    "male": 48781,
+    "female": 47685
+  },
+  "11107": {
+    "code": "11107",
+    "prefCode": "11",
+    "nameJa": "さいたま市浦和区",
+    "nameEn": "Urawa Ward, Saitama City",
+    "total": 169635,
+    "male": 82203,
+    "female": 87432
+  },
+  "11108": {
+    "code": "11108",
+    "prefCode": "11",
+    "nameJa": "さいたま市南区",
+    "nameEn": "Minami Ward, Saitama City",
+    "total": 194299,
+    "male": 97031,
+    "female": 97268
+  },
+  "11109": {
+    "code": "11109",
+    "prefCode": "11",
+    "nameJa": "さいたま市緑区",
+    "nameEn": "Midori Ward, Saitama City",
+    "total": 133648,
+    "male": 65995,
+    "female": 67653
+  },
+  "11110": {
+    "code": "11110",
+    "prefCode": "11",
+    "nameJa": "さいたま市岩槻区",
+    "nameEn": "Iwatsuki Ward, Saitama City",
+    "total": 112432,
+    "male": 56556,
+    "female": 55876
+  },
+  "11201": {
+    "code": "11201",
+    "prefCode": "11",
+    "nameJa": "川越市",
+    "nameEn": "Kawagoe City",
+    "total": 352717,
+    "male": 175614,
+    "female": 177103
+  },
+  "11202": {
+    "code": "11202",
+    "prefCode": "11",
+    "nameJa": "熊谷市",
+    "nameEn": "Kumagaya City",
+    "total": 192074,
+    "male": 96157,
+    "female": 95917
+  },
+  "11203": {
+    "code": "11203",
+    "prefCode": "11",
+    "nameJa": "川口市",
+    "nameEn": "Kawaguchi City",
+    "total": 606315,
+    "male": 306883,
+    "female": 299432
+  },
+  "11206": {
+    "code": "11206",
+    "prefCode": "11",
+    "nameJa": "行田市",
+    "nameEn": "Gyoda City",
+    "total": 78416,
+    "male": 38840,
+    "female": 39576
+  },
+  "11207": {
+    "code": "11207",
+    "prefCode": "11",
+    "nameJa": "秩父市",
+    "nameEn": "Chichibu City",
+    "total": 58223,
+    "male": 28507,
+    "female": 29716
+  },
+  "11208": {
+    "code": "11208",
+    "prefCode": "11",
+    "nameJa": "所沢市",
+    "nameEn": "Tokorozawa City",
+    "total": 343529,
+    "male": 169449,
+    "female": 174080
+  },
+  "11209": {
+    "code": "11209",
+    "prefCode": "11",
+    "nameJa": "飯能市",
+    "nameEn": "Hanno City",
+    "total": 78472,
+    "male": 39212,
+    "female": 39260
+  },
+  "11210": {
+    "code": "11210",
+    "prefCode": "11",
+    "nameJa": "加須市",
+    "nameEn": "Kazo City",
+    "total": 112163,
+    "male": 56474,
+    "female": 55689
+  },
+  "11211": {
+    "code": "11211",
+    "prefCode": "11",
+    "nameJa": "本庄市",
+    "nameEn": "Honjo City",
+    "total": 77285,
+    "male": 38645,
+    "female": 38640
+  },
+  "11212": {
+    "code": "11212",
+    "prefCode": "11",
+    "nameJa": "東松山市",
+    "nameEn": "Higashimatsuyama City",
+    "total": 91094,
+    "male": 45762,
+    "female": 45332
+  },
+  "11214": {
+    "code": "11214",
+    "prefCode": "11",
+    "nameJa": "春日部市",
+    "nameEn": "Kasukabe City",
+    "total": 230687,
+    "male": 114099,
+    "female": 116588
+  },
+  "11215": {
+    "code": "11215",
+    "prefCode": "11",
+    "nameJa": "狭山市",
+    "nameEn": "Sayama City",
+    "total": 148872,
+    "male": 74296,
+    "female": 74576
+  },
+  "11216": {
+    "code": "11216",
+    "prefCode": "11",
+    "nameJa": "羽生市",
+    "nameEn": "Hanyu City",
+    "total": 53855,
+    "male": 27071,
+    "female": 26784
+  },
+  "11217": {
+    "code": "11217",
+    "prefCode": "11",
+    "nameJa": "鴻巣市",
+    "nameEn": "Konosu City",
+    "total": 117582,
+    "male": 58212,
+    "female": 59370
+  },
+  "11218": {
+    "code": "11218",
+    "prefCode": "11",
+    "nameJa": "深谷市",
+    "nameEn": "Fukaya City",
+    "total": 141419,
+    "male": 70624,
+    "female": 70795
+  },
+  "11219": {
+    "code": "11219",
+    "prefCode": "11",
+    "nameJa": "上尾市",
+    "nameEn": "Ageo City",
+    "total": 230167,
+    "male": 113765,
+    "female": 116402
+  },
+  "11221": {
+    "code": "11221",
+    "prefCode": "11",
+    "nameJa": "草加市",
+    "nameEn": "Soka City",
+    "total": 251219,
+    "male": 126619,
+    "female": 124600
+  },
+  "11222": {
+    "code": "11222",
+    "prefCode": "11",
+    "nameJa": "越谷市",
+    "nameEn": "Koshigaya City",
+    "total": 343062,
+    "male": 169773,
+    "female": 173289
+  },
+  "11223": {
+    "code": "11223",
+    "prefCode": "11",
+    "nameJa": "蕨市",
+    "nameEn": "Warabi City",
+    "total": 75646,
+    "male": 38331,
+    "female": 37315
+  },
+  "11224": {
+    "code": "11224",
+    "prefCode": "11",
+    "nameJa": "戸田市",
+    "nameEn": "Toda City",
+    "total": 142163,
+    "male": 72126,
+    "female": 70037
+  },
+  "11225": {
+    "code": "11225",
+    "prefCode": "11",
+    "nameJa": "入間市",
+    "nameEn": "Iruma City",
+    "total": 144723,
+    "male": 71436,
+    "female": 73287
+  },
+  "11227": {
+    "code": "11227",
+    "prefCode": "11",
+    "nameJa": "朝霞市",
+    "nameEn": "Asaka City",
+    "total": 144964,
+    "male": 72997,
+    "female": 71967
+  },
+  "11228": {
+    "code": "11228",
+    "prefCode": "11",
+    "nameJa": "志木市",
+    "nameEn": "Shiki City",
+    "total": 76312,
+    "male": 37759,
+    "female": 38553
+  },
+  "11229": {
+    "code": "11229",
+    "prefCode": "11",
+    "nameJa": "和光市",
+    "nameEn": "Wako City",
+    "total": 84728,
+    "male": 43484,
+    "female": 41244
+  },
+  "11230": {
+    "code": "11230",
+    "prefCode": "11",
+    "nameJa": "新座市",
+    "nameEn": "Niiza City",
+    "total": 166036,
+    "male": 82635,
+    "female": 83401
+  },
+  "11231": {
+    "code": "11231",
+    "prefCode": "11",
+    "nameJa": "桶川市",
+    "nameEn": "Okegawa City",
+    "total": 74448,
+    "male": 36784,
+    "female": 37664
+  },
+  "11232": {
+    "code": "11232",
+    "prefCode": "11",
+    "nameJa": "久喜市",
+    "nameEn": "Kuki City",
+    "total": 150913,
+    "male": 75084,
+    "female": 75829
+  },
+  "11233": {
+    "code": "11233",
+    "prefCode": "11",
+    "nameJa": "北本市",
+    "nameEn": "Kitamoto City",
+    "total": 65403,
+    "male": 32259,
+    "female": 33144
+  },
+  "11234": {
+    "code": "11234",
+    "prefCode": "11",
+    "nameJa": "八潮市",
+    "nameEn": "Yashio City",
+    "total": 93065,
+    "male": 48297,
+    "female": 44768
+  },
+  "11235": {
+    "code": "11235",
+    "prefCode": "11",
+    "nameJa": "富士見市",
+    "nameEn": "Fujimi City",
+    "total": 113145,
+    "male": 55530,
+    "female": 57615
+  },
+  "11237": {
+    "code": "11237",
+    "prefCode": "11",
+    "nameJa": "三郷市",
+    "nameEn": "Misato City",
+    "total": 141942,
+    "male": 71576,
+    "female": 70366
+  },
+  "11238": {
+    "code": "11238",
+    "prefCode": "11",
+    "nameJa": "蓮田市",
+    "nameEn": "Hasuda City",
+    "total": 61337,
+    "male": 30398,
+    "female": 30939
+  },
+  "11239": {
+    "code": "11239",
+    "prefCode": "11",
+    "nameJa": "坂戸市",
+    "nameEn": "Sakado City",
+    "total": 99527,
+    "male": 49652,
+    "female": 49875
+  },
+  "11240": {
+    "code": "11240",
+    "prefCode": "11",
+    "nameJa": "幸手市",
+    "nameEn": "Satte City",
+    "total": 49063,
+    "male": 24668,
+    "female": 24395
+  },
+  "11241": {
+    "code": "11241",
+    "prefCode": "11",
+    "nameJa": "鶴ヶ島市",
+    "nameEn": "Tsurugashima City",
+    "total": 70063,
+    "male": 34732,
+    "female": 35331
+  },
+  "11242": {
+    "code": "11242",
+    "prefCode": "11",
+    "nameJa": "日高市",
+    "nameEn": "Hidaka City",
+    "total": 54396,
+    "male": 27032,
+    "female": 27364
+  },
+  "11243": {
+    "code": "11243",
+    "prefCode": "11",
+    "nameJa": "吉川市",
+    "nameEn": "Yoshikawa City",
+    "total": 72678,
+    "male": 36263,
+    "female": 36415
+  },
+  "11245": {
+    "code": "11245",
+    "prefCode": "11",
+    "nameJa": "ふじみ野市",
+    "nameEn": "Fujimino City",
+    "total": 114363,
+    "male": 56471,
+    "female": 57892
+  },
+  "11246": {
+    "code": "11246",
+    "prefCode": "11",
+    "nameJa": "白岡市",
+    "nameEn": "Shiraoka City",
+    "total": 52649,
+    "male": 26141,
+    "female": 26508
+  },
+  "11301": {
+    "code": "11301",
+    "prefCode": "11",
+    "nameJa": "北足立郡伊奈町",
+    "nameEn": "Ina Town",
+    "total": 45045,
+    "male": 22740,
+    "female": 22305
+  },
+  "11324": {
+    "code": "11324",
+    "prefCode": "11",
+    "nameJa": "入間郡三芳町",
+    "nameEn": "Miyoshi Town",
+    "total": 37453,
+    "male": 18588,
+    "female": 18865
+  },
+  "11326": {
+    "code": "11326",
+    "prefCode": "11",
+    "nameJa": "入間郡毛呂山町",
+    "nameEn": "Moroyama Town",
+    "total": 32365,
+    "male": 16128,
+    "female": 16237
+  },
+  "11327": {
+    "code": "11327",
+    "prefCode": "11",
+    "nameJa": "入間郡越生町",
+    "nameEn": "Ogose Town",
+    "total": 10863,
+    "male": 5414,
+    "female": 5449
+  },
+  "11341": {
+    "code": "11341",
+    "prefCode": "11",
+    "nameJa": "比企郡滑川町",
+    "nameEn": "Namegawa Town",
+    "total": 19745,
+    "male": 10077,
+    "female": 9668
+  },
+  "11342": {
+    "code": "11342",
+    "prefCode": "11",
+    "nameJa": "比企郡嵐山町",
+    "nameEn": "Ranzan Town",
+    "total": 17516,
+    "male": 8706,
+    "female": 8810
+  },
+  "11343": {
+    "code": "11343",
+    "prefCode": "11",
+    "nameJa": "比企郡小川町",
+    "nameEn": "Ogawa Town",
+    "total": 27886,
+    "male": 13904,
+    "female": 13982
+  },
+  "11346": {
+    "code": "11346",
+    "prefCode": "11",
+    "nameJa": "比企郡川島町",
+    "nameEn": "Kawajima Town",
+    "total": 18874,
+    "male": 9662,
+    "female": 9212
+  },
+  "11347": {
+    "code": "11347",
+    "prefCode": "11",
+    "nameJa": "比企郡吉見町",
+    "nameEn": "Yoshimi Town",
+    "total": 17859,
+    "male": 9016,
+    "female": 8843
+  },
+  "11348": {
+    "code": "11348",
+    "prefCode": "11",
+    "nameJa": "比企郡鳩山町",
+    "nameEn": "Hatoyama Town",
+    "total": 12967,
+    "male": 6354,
+    "female": 6613
+  },
+  "11349": {
+    "code": "11349",
+    "prefCode": "11",
+    "nameJa": "比企郡ときがわ町",
+    "nameEn": "Tokigawa Town",
+    "total": 10414,
+    "male": 5290,
+    "female": 5124
+  },
+  "11361": {
+    "code": "11361",
+    "prefCode": "11",
+    "nameJa": "秩父郡横瀬町",
+    "nameEn": "Yokoze Town",
+    "total": 7748,
+    "male": 3821,
+    "female": 3927
+  },
+  "11362": {
+    "code": "11362",
+    "prefCode": "11",
+    "nameJa": "秩父郡皆野町",
+    "nameEn": "Minano Town",
+    "total": 9050,
+    "male": 4530,
+    "female": 4520
+  },
+  "11363": {
+    "code": "11363",
+    "prefCode": "11",
+    "nameJa": "秩父郡長瀞町",
+    "nameEn": "Nagatoro Town",
+    "total": 6516,
+    "male": 3207,
+    "female": 3309
+  },
+  "11365": {
+    "code": "11365",
+    "prefCode": "11",
+    "nameJa": "秩父郡小鹿野町",
+    "nameEn": "Ogano Town",
+    "total": 10316,
+    "male": 5139,
+    "female": 5177
+  },
+  "11369": {
+    "code": "11369",
+    "prefCode": "11",
+    "nameJa": "秩父郡東秩父村",
+    "nameEn": "Higashichichibu Village",
+    "total": 2473,
+    "male": 1241,
+    "female": 1232
+  },
+  "11381": {
+    "code": "11381",
+    "prefCode": "11",
+    "nameJa": "児玉郡美里町",
+    "nameEn": "Misato Town",
+    "total": 10819,
+    "male": 5485,
+    "female": 5334
+  },
+  "11383": {
+    "code": "11383",
+    "prefCode": "11",
+    "nameJa": "児玉郡神川町",
+    "nameEn": "Kamikawa Town",
+    "total": 12888,
+    "male": 6600,
+    "female": 6288
+  },
+  "11385": {
+    "code": "11385",
+    "prefCode": "11",
+    "nameJa": "児玉郡上里町",
+    "nameEn": "Kamisato Town",
+    "total": 30549,
+    "male": 15269,
+    "female": 15280
+  },
+  "11408": {
+    "code": "11408",
+    "prefCode": "11",
+    "nameJa": "大里郡寄居町",
+    "nameEn": "Yorii Town",
+    "total": 32041,
+    "male": 15963,
+    "female": 16078
+  },
+  "11442": {
+    "code": "11442",
+    "prefCode": "11",
+    "nameJa": "南埼玉郡宮代町",
+    "nameEn": "Miyashiro Town",
+    "total": 33371,
+    "male": 16695,
+    "female": 16676
+  },
+  "11464": {
+    "code": "11464",
+    "prefCode": "11",
+    "nameJa": "北葛飾郡杉戸町",
+    "nameEn": "Sugito Town",
+    "total": 44014,
+    "male": 21995,
+    "female": 22019
+  },
+  "11465": {
+    "code": "11465",
+    "prefCode": "11",
+    "nameJa": "北葛飾郡松伏町",
+    "nameEn": "Matsubushi Town",
+    "total": 28140,
+    "male": 14199,
+    "female": 13941
+  }
+}

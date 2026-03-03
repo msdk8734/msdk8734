@@ -1,0 +1,227 @@
+{
+  "05201": {
+    "code": "05201",
+    "prefCode": "05",
+    "nameJa": "秋田市",
+    "nameEn": "Akita City",
+    "total": 297316,
+    "male": 140206,
+    "female": 157110
+  },
+  "05202": {
+    "code": "05202",
+    "prefCode": "05",
+    "nameJa": "能代市",
+    "nameEn": "Noshiro City",
+    "total": 48334,
+    "male": 22450,
+    "female": 25884
+  },
+  "05203": {
+    "code": "05203",
+    "prefCode": "05",
+    "nameJa": "横手市",
+    "nameEn": "Yokote City",
+    "total": 82454,
+    "male": 39160,
+    "female": 43294
+  },
+  "05204": {
+    "code": "05204",
+    "prefCode": "05",
+    "nameJa": "大館市",
+    "nameEn": "Odate City",
+    "total": 66807,
+    "male": 31551,
+    "female": 35256
+  },
+  "05206": {
+    "code": "05206",
+    "prefCode": "05",
+    "nameJa": "男鹿市",
+    "nameEn": "Oga City",
+    "total": 24014,
+    "male": 11442,
+    "female": 12572
+  },
+  "05207": {
+    "code": "05207",
+    "prefCode": "05",
+    "nameJa": "湯沢市",
+    "nameEn": "Yuzawa City",
+    "total": 40531,
+    "male": 19549,
+    "female": 20982
+  },
+  "05209": {
+    "code": "05209",
+    "prefCode": "05",
+    "nameJa": "鹿角市",
+    "nameEn": "Kazuno City",
+    "total": 27714,
+    "male": 13169,
+    "female": 14545
+  },
+  "05210": {
+    "code": "05210",
+    "prefCode": "05",
+    "nameJa": "由利本荘市",
+    "nameEn": "Yurihonjo City",
+    "total": 71723,
+    "male": 34625,
+    "female": 37098
+  },
+  "05211": {
+    "code": "05211",
+    "prefCode": "05",
+    "nameJa": "潟上市",
+    "nameEn": "Katagami City",
+    "total": 31624,
+    "male": 15001,
+    "female": 16623
+  },
+  "05212": {
+    "code": "05212",
+    "prefCode": "05",
+    "nameJa": "大仙市",
+    "nameEn": "Daisen City",
+    "total": 75207,
+    "male": 35423,
+    "female": 39784
+  },
+  "05213": {
+    "code": "05213",
+    "prefCode": "05",
+    "nameJa": "北秋田市",
+    "nameEn": "Kitaakita City",
+    "total": 28536,
+    "male": 13436,
+    "female": 15100
+  },
+  "05214": {
+    "code": "05214",
+    "prefCode": "05",
+    "nameJa": "にかほ市",
+    "nameEn": "Nikaho City",
+    "total": 22463,
+    "male": 10790,
+    "female": 11673
+  },
+  "05215": {
+    "code": "05215",
+    "prefCode": "05",
+    "nameJa": "仙北市",
+    "nameEn": "Semboku City",
+    "total": 23443,
+    "male": 10884,
+    "female": 12559
+  },
+  "05303": {
+    "code": "05303",
+    "prefCode": "05",
+    "nameJa": "鹿角郡小坂町",
+    "nameEn": "Kosaka Town",
+    "total": 4550,
+    "male": 2123,
+    "female": 2427
+  },
+  "05327": {
+    "code": "05327",
+    "prefCode": "05",
+    "nameJa": "北秋田郡上小阿仁村",
+    "nameEn": "Kamikoani Village",
+    "total": 1958,
+    "male": 935,
+    "female": 1023
+  },
+  "05346": {
+    "code": "05346",
+    "prefCode": "05",
+    "nameJa": "山本郡藤里町",
+    "nameEn": "Fujisato Town",
+    "total": 2819,
+    "male": 1354,
+    "female": 1465
+  },
+  "05348": {
+    "code": "05348",
+    "prefCode": "05",
+    "nameJa": "山本郡三種町",
+    "nameEn": "Mitane Town",
+    "total": 14609,
+    "male": 6777,
+    "female": 7832
+  },
+  "05349": {
+    "code": "05349",
+    "prefCode": "05",
+    "nameJa": "山本郡八峰町",
+    "nameEn": "Happou Town",
+    "total": 6301,
+    "male": 2961,
+    "female": 3340
+  },
+  "05361": {
+    "code": "05361",
+    "prefCode": "05",
+    "nameJa": "南秋田郡五城目町",
+    "nameEn": "Gojome Town",
+    "total": 8060,
+    "male": 3771,
+    "female": 4289
+  },
+  "05363": {
+    "code": "05363",
+    "prefCode": "05",
+    "nameJa": "南秋田郡八郎潟町",
+    "nameEn": "Hachirogata Town",
+    "total": 5277,
+    "male": 2412,
+    "female": 2865
+  },
+  "05366": {
+    "code": "05366",
+    "prefCode": "05",
+    "nameJa": "南秋田郡井川町",
+    "nameEn": "Ikawa Town",
+    "total": 4310,
+    "male": 2046,
+    "female": 2264
+  },
+  "05368": {
+    "code": "05368",
+    "prefCode": "05",
+    "nameJa": "南秋田郡大潟村",
+    "nameEn": "Ogata Village",
+    "total": 2976,
+    "male": 1490,
+    "female": 1486
+  },
+  "05434": {
+    "code": "05434",
+    "prefCode": "05",
+    "nameJa": "仙北郡美郷町",
+    "nameEn": "Misato Town",
+    "total": 17831,
+    "male": 8455,
+    "female": 9376
+  },
+  "05463": {
+    "code": "05463",
+    "prefCode": "05",
+    "nameJa": "雄勝郡羽後町",
+    "nameEn": "Ugo Town",
+    "total": 13367,
+    "male": 6505,
+    "female": 6862
+  },
+  "05464": {
+    "code": "05464",
+    "prefCode": "05",
+    "nameJa": "雄勝郡東成瀬村",
+    "nameEn": "Higashinaruse Village",
+    "total": 2396,
+    "male": 1252,
+    "female": 1144
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "43100": {
+    "code": "43100",
+    "prefCode": "43",
+    "nameJa": "熊本市",
+    "nameEn": "Kumamoto City",
+    "total": 731722,
+    "male": 346245,
+    "female": 385477
+  },
+  "43101": {
+    "code": "43101",
+    "prefCode": "43",
+    "nameJa": "熊本市中央区",
+    "nameEn": "Chuo Ward, Kumamoto City",
+    "total": 176424,
+    "male": 82129,
+    "female": 94295
+  },
+  "43102": {
+    "code": "43102",
+    "prefCode": "43",
+    "nameJa": "熊本市東区",
+    "nameEn": "Higashi Ward, Kumamoto City",
+    "total": 191238,
+    "male": 91302,
+    "female": 99936
+  },
+  "43103": {
+    "code": "43103",
+    "prefCode": "43",
+    "nameJa": "熊本市西区",
+    "nameEn": "Nishi Ward, Kumamoto City",
+    "total": 90087,
+    "male": 42338,
+    "female": 47749
+  },
+  "43104": {
+    "code": "43104",
+    "prefCode": "43",
+    "nameJa": "熊本市南区",
+    "nameEn": "Minami Ward, Kumamoto City",
+    "total": 133277,
+    "male": 63382,
+    "female": 69895
+  },
+  "43105": {
+    "code": "43105",
+    "prefCode": "43",
+    "nameJa": "熊本市北区",
+    "nameEn": "Kita Ward, Kumamoto City",
+    "total": 140696,
+    "male": 67094,
+    "female": 73602
+  },
+  "43202": {
+    "code": "43202",
+    "prefCode": "43",
+    "nameJa": "八代市",
+    "nameEn": "Yatsushiro City",
+    "total": 121657,
+    "male": 56627,
+    "female": 65030
+  },
+  "43203": {
+    "code": "43203",
+    "prefCode": "43",
+    "nameJa": "人吉市",
+    "nameEn": "Hitoyoshi City",
+    "total": 30192,
+    "male": 14093,
+    "female": 16099
+  },
+  "43204": {
+    "code": "43204",
+    "prefCode": "43",
+    "nameJa": "荒尾市",
+    "nameEn": "Arao City",
+    "total": 49641,
+    "male": 23522,
+    "female": 26119
+  },
+  "43205": {
+    "code": "43205",
+    "prefCode": "43",
+    "nameJa": "水俣市",
+    "nameEn": "Minamata City",
+    "total": 22133,
+    "male": 10312,
+    "female": 11821
+  },
+  "43206": {
+    "code": "43206",
+    "prefCode": "43",
+    "nameJa": "玉名市",
+    "nameEn": "Tamana City",
+    "total": 63537,
+    "male": 30656,
+    "female": 32881
+  },
+  "43208": {
+    "code": "43208",
+    "prefCode": "43",
+    "nameJa": "山鹿市",
+    "nameEn": "Yamaga City",
+    "total": 48639,
+    "male": 22970,
+    "female": 25669
+  },
+  "43210": {
+    "code": "43210",
+    "prefCode": "43",
+    "nameJa": "菊池市",
+    "nameEn": "Kikuchi City",
+    "total": 46814,
+    "male": 22534,
+    "female": 24280
+  },
+  "43211": {
+    "code": "43211",
+    "prefCode": "43",
+    "nameJa": "宇土市",
+    "nameEn": "Uto City",
+    "total": 36371,
+    "male": 17511,
+    "female": 18860
+  },
+  "43212": {
+    "code": "43212",
+    "prefCode": "43",
+    "nameJa": "上天草市",
+    "nameEn": "Kamiamakusa City",
+    "total": 24285,
+    "male": 11568,
+    "female": 12717
+  },
+  "43213": {
+    "code": "43213",
+    "prefCode": "43",
+    "nameJa": "宇城市",
+    "nameEn": "Uki City",
+    "total": 56956,
+    "male": 27339,
+    "female": 29617
+  },
+  "43214": {
+    "code": "43214",
+    "prefCode": "43",
+    "nameJa": "阿蘇市",
+    "nameEn": "Aso City",
+    "total": 24526,
+    "male": 11582,
+    "female": 12944
+  },
+  "43215": {
+    "code": "43215",
+    "prefCode": "43",
+    "nameJa": "天草市",
+    "nameEn": "Amakusa City",
+    "total": 73437,
+    "male": 34714,
+    "female": 38723
+  },
+  "43216": {
+    "code": "43216",
+    "prefCode": "43",
+    "nameJa": "合志市",
+    "nameEn": "Koshi City",
+    "total": 64751,
+    "male": 31419,
+    "female": 33332
+  },
+  "43348": {
+    "code": "43348",
+    "prefCode": "43",
+    "nameJa": "下益城郡美里町",
+    "nameEn": "Misato Town",
+    "total": 8873,
+    "male": 4223,
+    "female": 4650
+  },
+  "43364": {
+    "code": "43364",
+    "prefCode": "43",
+    "nameJa": "玉名郡玉東町",
+    "nameEn": "Gyokuto Town",
+    "total": 5191,
+    "male": 2472,
+    "female": 2719
+  },
+  "43367": {
+    "code": "43367",
+    "prefCode": "43",
+    "nameJa": "玉名郡南関町",
+    "nameEn": "Nankan Town",
+    "total": 8856,
+    "male": 4257,
+    "female": 4599
+  },
+  "43368": {
+    "code": "43368",
+    "prefCode": "43",
+    "nameJa": "玉名郡長洲町",
+    "nameEn": "Nagasu Town",
+    "total": 15456,
+    "male": 7818,
+    "female": 7638
+  },
+  "43369": {
+    "code": "43369",
+    "prefCode": "43",
+    "nameJa": "玉名郡和水町",
+    "nameEn": "Nagomi Town",
+    "total": 9104,
+    "male": 4376,
+    "female": 4728
+  },
+  "43403": {
+    "code": "43403",
+    "prefCode": "43",
+    "nameJa": "菊池郡大津町",
+    "nameEn": "Ozu Town",
+    "total": 36013,
+    "male": 17926,
+    "female": 18087
+  },
+  "43404": {
+    "code": "43404",
+    "prefCode": "43",
+    "nameJa": "菊池郡菊陽町",
+    "nameEn": "Kikuyo Town",
+    "total": 43915,
+    "male": 21670,
+    "female": 22245
+  },
+  "43423": {
+    "code": "43423",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡南小国町",
+    "nameEn": "Minamioguni Town",
+    "total": 3875,
+    "male": 1857,
+    "female": 2018
+  },
+  "43424": {
+    "code": "43424",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡小国町",
+    "nameEn": "Oguni Town",
+    "total": 6465,
+    "male": 3087,
+    "female": 3378
+  },
+  "43425": {
+    "code": "43425",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡産山村",
+    "nameEn": "Ubuyama Village",
+    "total": 1395,
+    "male": 730,
+    "female": 665
+  },
+  "43428": {
+    "code": "43428",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡高森町",
+    "nameEn": "Takamori Town",
+    "total": 5934,
+    "male": 2877,
+    "female": 3057
+  },
+  "43432": {
+    "code": "43432",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡西原村",
+    "nameEn": "Nishihara Village",
+    "total": 6955,
+    "male": 3419,
+    "female": 3536
+  },
+  "43433": {
+    "code": "43433",
+    "prefCode": "43",
+    "nameJa": "阿蘇郡南阿蘇村",
+    "nameEn": "Minamiaso Village",
+    "total": 10115,
+    "male": 4912,
+    "female": 5203
+  },
+  "43441": {
+    "code": "43441",
+    "prefCode": "43",
+    "nameJa": "上益城郡御船町",
+    "nameEn": "Mifune Town",
+    "total": 17235,
+    "male": 8304,
+    "female": 8931
+  },
+  "43442": {
+    "code": "43442",
+    "prefCode": "43",
+    "nameJa": "上益城郡嘉島町",
+    "nameEn": "Kashima Town",
+    "total": 10159,
+    "male": 4944,
+    "female": 5215
+  },
+  "43443": {
+    "code": "43443",
+    "prefCode": "43",
+    "nameJa": "上益城郡益城町",
+    "nameEn": "Mashiki Town",
+    "total": 34041,
+    "male": 16436,
+    "female": 17605
+  },
+  "43444": {
+    "code": "43444",
+    "prefCode": "43",
+    "nameJa": "上益城郡甲佐町",
+    "nameEn": "Kosa Town",
+    "total": 10146,
+    "male": 4877,
+    "female": 5269
+  },
+  "43447": {
+    "code": "43447",
+    "prefCode": "43",
+    "nameJa": "上益城郡山都町",
+    "nameEn": "Yamato Town",
+    "total": 13272,
+    "male": 6431,
+    "female": 6841
+  },
+  "43468": {
+    "code": "43468",
+    "prefCode": "43",
+    "nameJa": "八代郡氷川町",
+    "nameEn": "Hikawa Town",
+    "total": 10944,
+    "male": 5028,
+    "female": 5916
+  },
+  "43482": {
+    "code": "43482",
+    "prefCode": "43",
+    "nameJa": "葦北郡芦北町",
+    "nameEn": "Ashikita Town",
+    "total": 15284,
+    "male": 7261,
+    "female": 8023
+  },
+  "43484": {
+    "code": "43484",
+    "prefCode": "43",
+    "nameJa": "葦北郡津奈木町",
+    "nameEn": "Tsunagi Town",
+    "total": 4216,
+    "male": 2002,
+    "female": 2214
+  },
+  "43501": {
+    "code": "43501",
+    "prefCode": "43",
+    "nameJa": "球磨郡錦町",
+    "nameEn": "Nishiki Town",
+    "total": 10223,
+    "male": 4853,
+    "female": 5370
+  },
+  "43505": {
+    "code": "43505",
+    "prefCode": "43",
+    "nameJa": "球磨郡多良木町",
+    "nameEn": "Taragi Town",
+    "total": 8554,
+    "male": 4031,
+    "female": 4523
+  },
+  "43506": {
+    "code": "43506",
+    "prefCode": "43",
+    "nameJa": "球磨郡湯前町",
+    "nameEn": "Yunomae Town",
+    "total": 3522,
+    "male": 1668,
+    "female": 1854
+  },
+  "43507": {
+    "code": "43507",
+    "prefCode": "43",
+    "nameJa": "球磨郡水上村",
+    "nameEn": "Mizukami Village",
+    "total": 1976,
+    "male": 932,
+    "female": 1044
+  },
+  "43510": {
+    "code": "43510",
+    "prefCode": "43",
+    "nameJa": "球磨郡相良村",
+    "nameEn": "Sagara Village",
+    "total": 4019,
+    "male": 1921,
+    "female": 2098
+  },
+  "43511": {
+    "code": "43511",
+    "prefCode": "43",
+    "nameJa": "球磨郡五木村",
+    "nameEn": "Itsuki Village",
+    "total": 942,
+    "male": 458,
+    "female": 484
+  },
+  "43512": {
+    "code": "43512",
+    "prefCode": "43",
+    "nameJa": "球磨郡山江村",
+    "nameEn": "Yamae Village",
+    "total": 3221,
+    "male": 1494,
+    "female": 1727
+  },
+  "43513": {
+    "code": "43513",
+    "prefCode": "43",
+    "nameJa": "球磨郡球磨村",
+    "nameEn": "Kuma Village",
+    "total": 2786,
+    "male": 1342,
+    "female": 1444
+  },
+  "43514": {
+    "code": "43514",
+    "prefCode": "43",
+    "nameJa": "球磨郡あさぎり町",
+    "nameEn": "Asagiri Town",
+    "total": 14341,
+    "male": 6717,
+    "female": 7624
+  },
+  "43531": {
+    "code": "43531",
+    "prefCode": "43",
+    "nameJa": "天草郡苓北町",
+    "nameEn": "Reihoku Town",
+    "total": 6409,
+    "male": 3046,
+    "female": 3363
+  }
+}

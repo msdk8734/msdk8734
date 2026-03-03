@@ -1,0 +1,389 @@
+{
+  "46201": {
+    "code": "46201",
+    "prefCode": "46",
+    "nameJa": "鹿児島市",
+    "nameEn": "Kagoshima City",
+    "total": 595042,
+    "male": 277453,
+    "female": 317589
+  },
+  "46203": {
+    "code": "46203",
+    "prefCode": "46",
+    "nameJa": "鹿屋市",
+    "nameEn": "Kanoya City",
+    "total": 99654,
+    "male": 47748,
+    "female": 51906
+  },
+  "46204": {
+    "code": "46204",
+    "prefCode": "46",
+    "nameJa": "枕崎市",
+    "nameEn": "Makurazaki City",
+    "total": 19235,
+    "male": 8847,
+    "female": 10388
+  },
+  "46206": {
+    "code": "46206",
+    "prefCode": "46",
+    "nameJa": "阿久根市",
+    "nameEn": "Akune City",
+    "total": 18538,
+    "male": 8780,
+    "female": 9758
+  },
+  "46208": {
+    "code": "46208",
+    "prefCode": "46",
+    "nameJa": "出水市",
+    "nameEn": "Izumi City",
+    "total": 51783,
+    "male": 24528,
+    "female": 27255
+  },
+  "46210": {
+    "code": "46210",
+    "prefCode": "46",
+    "nameJa": "指宿市",
+    "nameEn": "Ibusuki City",
+    "total": 37920,
+    "male": 17658,
+    "female": 20262
+  },
+  "46213": {
+    "code": "46213",
+    "prefCode": "46",
+    "nameJa": "西之表市",
+    "nameEn": "Nishinoomote City",
+    "total": 14296,
+    "male": 6912,
+    "female": 7384
+  },
+  "46214": {
+    "code": "46214",
+    "prefCode": "46",
+    "nameJa": "垂水市",
+    "nameEn": "Tarumizu City",
+    "total": 13258,
+    "male": 6218,
+    "female": 7040
+  },
+  "46215": {
+    "code": "46215",
+    "prefCode": "46",
+    "nameJa": "薩摩川内市",
+    "nameEn": "Satsumasendai City",
+    "total": 91542,
+    "male": 44506,
+    "female": 47036
+  },
+  "46216": {
+    "code": "46216",
+    "prefCode": "46",
+    "nameJa": "日置市",
+    "nameEn": "Hioki City",
+    "total": 46642,
+    "male": 22158,
+    "female": 24484
+  },
+  "46217": {
+    "code": "46217",
+    "prefCode": "46",
+    "nameJa": "曽於市",
+    "nameEn": "Soo City",
+    "total": 32948,
+    "male": 15491,
+    "female": 17457
+  },
+  "46218": {
+    "code": "46218",
+    "prefCode": "46",
+    "nameJa": "霧島市",
+    "nameEn": "Kirishima City",
+    "total": 123979,
+    "male": 60068,
+    "female": 63911
+  },
+  "46219": {
+    "code": "46219",
+    "prefCode": "46",
+    "nameJa": "いちき串木野市",
+    "nameEn": "Ichikikushikino City",
+    "total": 26147,
+    "male": 12383,
+    "female": 13764
+  },
+  "46220": {
+    "code": "46220",
+    "prefCode": "46",
+    "nameJa": "南さつま市",
+    "nameEn": "Minamisatsuma City",
+    "total": 31720,
+    "male": 14764,
+    "female": 16956
+  },
+  "46221": {
+    "code": "46221",
+    "prefCode": "46",
+    "nameJa": "志布志市",
+    "nameEn": "Shibushi City",
+    "total": 29193,
+    "male": 13952,
+    "female": 15241
+  },
+  "46222": {
+    "code": "46222",
+    "prefCode": "46",
+    "nameJa": "奄美市",
+    "nameEn": "Amami City",
+    "total": 40965,
+    "male": 19785,
+    "female": 21180
+  },
+  "46223": {
+    "code": "46223",
+    "prefCode": "46",
+    "nameJa": "南九州市",
+    "nameEn": "Minamikyushu City",
+    "total": 32079,
+    "male": 15113,
+    "female": 16966
+  },
+  "46224": {
+    "code": "46224",
+    "prefCode": "46",
+    "nameJa": "伊佐市",
+    "nameEn": "Isa City",
+    "total": 23345,
+    "male": 10907,
+    "female": 12438
+  },
+  "46225": {
+    "code": "46225",
+    "prefCode": "46",
+    "nameJa": "姶良市",
+    "nameEn": "Aira City",
+    "total": 78218,
+    "male": 36810,
+    "female": 41408
+  },
+  "46303": {
+    "code": "46303",
+    "prefCode": "46",
+    "nameJa": "鹿児島郡三島村",
+    "nameEn": "Mishima Village",
+    "total": 364,
+    "male": 188,
+    "female": 176
+  },
+  "46304": {
+    "code": "46304",
+    "prefCode": "46",
+    "nameJa": "鹿児島郡十島村",
+    "nameEn": "Toshima Village",
+    "total": 666,
+    "male": 368,
+    "female": 298
+  },
+  "46392": {
+    "code": "46392",
+    "prefCode": "46",
+    "nameJa": "薩摩郡さつま町",
+    "nameEn": "Satsuma Town",
+    "total": 19157,
+    "male": 8975,
+    "female": 10182
+  },
+  "46404": {
+    "code": "46404",
+    "prefCode": "46",
+    "nameJa": "出水郡長島町",
+    "nameEn": "Nagashima Town",
+    "total": 9643,
+    "male": 4688,
+    "female": 4955
+  },
+  "46452": {
+    "code": "46452",
+    "prefCode": "46",
+    "nameJa": "姶良郡湧水町",
+    "nameEn": "Yusui Town",
+    "total": 8463,
+    "male": 4000,
+    "female": 4463
+  },
+  "46468": {
+    "code": "46468",
+    "prefCode": "46",
+    "nameJa": "曽於郡大崎町",
+    "nameEn": "Osaki Town",
+    "total": 12142,
+    "male": 5820,
+    "female": 6322
+  },
+  "46482": {
+    "code": "46482",
+    "prefCode": "46",
+    "nameJa": "肝属郡東串良町",
+    "nameEn": "Higashikushira Town",
+    "total": 6453,
+    "male": 3058,
+    "female": 3395
+  },
+  "46490": {
+    "code": "46490",
+    "prefCode": "46",
+    "nameJa": "肝属郡錦江町",
+    "nameEn": "Kinko Town",
+    "total": 6399,
+    "male": 3070,
+    "female": 3329
+  },
+  "46491": {
+    "code": "46491",
+    "prefCode": "46",
+    "nameJa": "肝属郡南大隅町",
+    "nameEn": "Minamiosumi Town",
+    "total": 6163,
+    "male": 2984,
+    "female": 3179
+  },
+  "46492": {
+    "code": "46492",
+    "prefCode": "46",
+    "nameJa": "肝属郡肝付町",
+    "nameEn": "Kimotsuki Town",
+    "total": 13944,
+    "male": 6866,
+    "female": 7078
+  },
+  "46501": {
+    "code": "46501",
+    "prefCode": "46",
+    "nameJa": "熊毛郡中種子町",
+    "nameEn": "Nakatane Town",
+    "total": 7301,
+    "male": 3509,
+    "female": 3792
+  },
+  "46502": {
+    "code": "46502",
+    "prefCode": "46",
+    "nameJa": "熊毛郡南種子町",
+    "nameEn": "Minamitane Town",
+    "total": 5288,
+    "male": 2651,
+    "female": 2637
+  },
+  "46505": {
+    "code": "46505",
+    "prefCode": "46",
+    "nameJa": "熊毛郡屋久島町",
+    "nameEn": "Yakushima Town",
+    "total": 11591,
+    "male": 5705,
+    "female": 5886
+  },
+  "46523": {
+    "code": "46523",
+    "prefCode": "46",
+    "nameJa": "大島郡大和村",
+    "nameEn": "Yamato Village",
+    "total": 1413,
+    "male": 710,
+    "female": 703
+  },
+  "46524": {
+    "code": "46524",
+    "prefCode": "46",
+    "nameJa": "大島郡宇検村",
+    "nameEn": "Uken Village",
+    "total": 1624,
+    "male": 796,
+    "female": 828
+  },
+  "46525": {
+    "code": "46525",
+    "prefCode": "46",
+    "nameJa": "大島郡瀬戸内町",
+    "nameEn": "Setouchi Town",
+    "total": 8294,
+    "male": 4119,
+    "female": 4175
+  },
+  "46527": {
+    "code": "46527",
+    "prefCode": "46",
+    "nameJa": "大島郡龍郷町",
+    "nameEn": "Tatsugo Town",
+    "total": 5994,
+    "male": 2885,
+    "female": 3109
+  },
+  "46529": {
+    "code": "46529",
+    "prefCode": "46",
+    "nameJa": "大島郡喜界町",
+    "nameEn": "Kikai Town",
+    "total": 6410,
+    "male": 3157,
+    "female": 3253
+  },
+  "46530": {
+    "code": "46530",
+    "prefCode": "46",
+    "nameJa": "大島郡徳之島町",
+    "nameEn": "Tokunoshima Town",
+    "total": 10067,
+    "male": 5020,
+    "female": 5047
+  },
+  "46531": {
+    "code": "46531",
+    "prefCode": "46",
+    "nameJa": "大島郡天城町",
+    "nameEn": "Amagi Town",
+    "total": 5544,
+    "male": 2841,
+    "female": 2703
+  },
+  "46532": {
+    "code": "46532",
+    "prefCode": "46",
+    "nameJa": "大島郡伊仙町",
+    "nameEn": "Isen Town",
+    "total": 6202,
+    "male": 3133,
+    "female": 3069
+  },
+  "46533": {
+    "code": "46533",
+    "prefCode": "46",
+    "nameJa": "大島郡和泊町",
+    "nameEn": "Wadomari Town",
+    "total": 6150,
+    "male": 3078,
+    "female": 3072
+  },
+  "46534": {
+    "code": "46534",
+    "prefCode": "46",
+    "nameJa": "大島郡知名町",
+    "nameEn": "China Town",
+    "total": 5509,
+    "male": 2783,
+    "female": 2726
+  },
+  "46535": {
+    "code": "46535",
+    "prefCode": "46",
+    "nameJa": "大島郡与論町",
+    "nameEn": "Yoron Town",
+    "total": 5076,
+    "male": 2481,
+    "female": 2595
+  }
+}

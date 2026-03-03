@@ -1,0 +1,155 @@
+{
+  "37201": {
+    "code": "37201",
+    "prefCode": "37",
+    "nameJa": "高松市",
+    "nameEn": "Takamatsu City",
+    "total": 419739,
+    "male": 202820,
+    "female": 216919
+  },
+  "37202": {
+    "code": "37202",
+    "prefCode": "37",
+    "nameJa": "丸亀市",
+    "nameEn": "Marugame City",
+    "total": 111196,
+    "male": 54421,
+    "female": 56775
+  },
+  "37203": {
+    "code": "37203",
+    "prefCode": "37",
+    "nameJa": "坂出市",
+    "nameEn": "Sakaide City",
+    "total": 50349,
+    "male": 24344,
+    "female": 26005
+  },
+  "37204": {
+    "code": "37204",
+    "prefCode": "37",
+    "nameJa": "善通寺市",
+    "nameEn": "Zentsuji City",
+    "total": 30338,
+    "male": 15144,
+    "female": 15194
+  },
+  "37205": {
+    "code": "37205",
+    "prefCode": "37",
+    "nameJa": "観音寺市",
+    "nameEn": "Kanonji City",
+    "total": 57071,
+    "male": 27518,
+    "female": 29553
+  },
+  "37206": {
+    "code": "37206",
+    "prefCode": "37",
+    "nameJa": "さぬき市",
+    "nameEn": "Sanuki City",
+    "total": 45108,
+    "male": 21753,
+    "female": 23355
+  },
+  "37207": {
+    "code": "37207",
+    "prefCode": "37",
+    "nameJa": "東かがわ市",
+    "nameEn": "Higashikagawa City",
+    "total": 27900,
+    "male": 13294,
+    "female": 14606
+  },
+  "37208": {
+    "code": "37208",
+    "prefCode": "37",
+    "nameJa": "三豊市",
+    "nameEn": "Mitoyo City",
+    "total": 61407,
+    "male": 29647,
+    "female": 31760
+  },
+  "37322": {
+    "code": "37322",
+    "prefCode": "37",
+    "nameJa": "小豆郡土庄町",
+    "nameEn": "Tonosho Town",
+    "total": 12740,
+    "male": 6041,
+    "female": 6699
+  },
+  "37324": {
+    "code": "37324",
+    "prefCode": "37",
+    "nameJa": "小豆郡小豆島町",
+    "nameEn": "Shodoshima Town",
+    "total": 13337,
+    "male": 6412,
+    "female": 6925
+  },
+  "37341": {
+    "code": "37341",
+    "prefCode": "37",
+    "nameJa": "木田郡三木町",
+    "nameEn": "Miki Town",
+    "total": 27096,
+    "male": 13109,
+    "female": 13987
+  },
+  "37364": {
+    "code": "37364",
+    "prefCode": "37",
+    "nameJa": "香川郡直島町",
+    "nameEn": "Naoshima Town",
+    "total": 2945,
+    "male": 1522,
+    "female": 1423
+  },
+  "37386": {
+    "code": "37386",
+    "prefCode": "37",
+    "nameJa": "綾歌郡宇多津町",
+    "nameEn": "Utazu Town",
+    "total": 18455,
+    "male": 9028,
+    "female": 9427
+  },
+  "37387": {
+    "code": "37387",
+    "prefCode": "37",
+    "nameJa": "綾歌郡綾川町",
+    "nameEn": "Ayagawa Town",
+    "total": 23189,
+    "male": 11356,
+    "female": 11833
+  },
+  "37403": {
+    "code": "37403",
+    "prefCode": "37",
+    "nameJa": "仲多度郡琴平町",
+    "nameEn": "Kotohira Town",
+    "total": 8294,
+    "male": 3884,
+    "female": 4410
+  },
+  "37404": {
+    "code": "37404",
+    "prefCode": "37",
+    "nameJa": "仲多度郡多度津町",
+    "nameEn": "Tadotsu Town",
+    "total": 22071,
+    "male": 11180,
+    "female": 10891
+  },
+  "37406": {
+    "code": "37406",
+    "prefCode": "37",
+    "nameJa": "仲多度郡まんのう町",
+    "nameEn": "Manno Town",
+    "total": 17350,
+    "male": 8421,
+    "female": 8929
+  }
+}

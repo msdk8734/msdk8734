@@ -1,0 +1,218 @@
+{
+  "36201": {
+    "code": "36201",
+    "prefCode": "36",
+    "nameJa": "徳島市",
+    "nameEn": "Tokushima City",
+    "total": 246967,
+    "male": 117602,
+    "female": 129365
+  },
+  "36202": {
+    "code": "36202",
+    "prefCode": "36",
+    "nameJa": "鳴門市",
+    "nameEn": "Naruto City",
+    "total": 54033,
+    "male": 25917,
+    "female": 28116
+  },
+  "36203": {
+    "code": "36203",
+    "prefCode": "36",
+    "nameJa": "小松島市",
+    "nameEn": "Komatsushima City",
+    "total": 35393,
+    "male": 17229,
+    "female": 18164
+  },
+  "36204": {
+    "code": "36204",
+    "prefCode": "36",
+    "nameJa": "阿南市",
+    "nameEn": "Anan City",
+    "total": 68969,
+    "male": 33542,
+    "female": 35427
+  },
+  "36205": {
+    "code": "36205",
+    "prefCode": "36",
+    "nameJa": "吉野川市",
+    "nameEn": "Yoshinogawa City",
+    "total": 38265,
+    "male": 18124,
+    "female": 20141
+  },
+  "36206": {
+    "code": "36206",
+    "prefCode": "36",
+    "nameJa": "阿波市",
+    "nameEn": "Awa City",
+    "total": 34773,
+    "male": 16738,
+    "female": 18035
+  },
+  "36207": {
+    "code": "36207",
+    "prefCode": "36",
+    "nameJa": "美馬市",
+    "nameEn": "Mima City",
+    "total": 26762,
+    "male": 12868,
+    "female": 13894
+  },
+  "36208": {
+    "code": "36208",
+    "prefCode": "36",
+    "nameJa": "三好市",
+    "nameEn": "Miyoshi City",
+    "total": 22861,
+    "male": 10867,
+    "female": 11994
+  },
+  "36301": {
+    "code": "36301",
+    "prefCode": "36",
+    "nameJa": "勝浦郡勝浦町",
+    "nameEn": "Katsuura Town",
+    "total": 4694,
+    "male": 2273,
+    "female": 2421
+  },
+  "36302": {
+    "code": "36302",
+    "prefCode": "36",
+    "nameJa": "勝浦郡上勝町",
+    "nameEn": "Kamikatsu Town",
+    "total": 1402,
+    "male": 658,
+    "female": 744
+  },
+  "36321": {
+    "code": "36321",
+    "prefCode": "36",
+    "nameJa": "名東郡佐那河内村",
+    "nameEn": "Sanagouchi Village",
+    "total": 2141,
+    "male": 1037,
+    "female": 1104
+  },
+  "36341": {
+    "code": "36341",
+    "prefCode": "36",
+    "nameJa": "名西郡石井町",
+    "nameEn": "Ishii Town",
+    "total": 24868,
+    "male": 11836,
+    "female": 13032
+  },
+  "36342": {
+    "code": "36342",
+    "prefCode": "36",
+    "nameJa": "名西郡神山町",
+    "nameEn": "Kamiyama Town",
+    "total": 4777,
+    "male": 2288,
+    "female": 2489
+  },
+  "36368": {
+    "code": "36368",
+    "prefCode": "36",
+    "nameJa": "那賀郡那賀町",
+    "nameEn": "Naka Town",
+    "total": 7278,
+    "male": 3483,
+    "female": 3795
+  },
+  "36383": {
+    "code": "36383",
+    "prefCode": "36",
+    "nameJa": "海部郡牟岐町",
+    "nameEn": "Mugi Town",
+    "total": 3575,
+    "male": 1680,
+    "female": 1895
+  },
+  "36387": {
+    "code": "36387",
+    "prefCode": "36",
+    "nameJa": "海部郡美波町",
+    "nameEn": "Minami Town",
+    "total": 5917,
+    "male": 2789,
+    "female": 3128
+  },
+  "36388": {
+    "code": "36388",
+    "prefCode": "36",
+    "nameJa": "海部郡海陽町",
+    "nameEn": "Kaiyo Town",
+    "total": 8402,
+    "male": 3995,
+    "female": 4407
+  },
+  "36401": {
+    "code": "36401",
+    "prefCode": "36",
+    "nameJa": "板野郡松茂町",
+    "nameEn": "Matsushige Town",
+    "total": 14566,
+    "male": 7274,
+    "female": 7292
+  },
+  "36402": {
+    "code": "36402",
+    "prefCode": "36",
+    "nameJa": "板野郡北島町",
+    "nameEn": "Kitajima Town",
+    "total": 23680,
+    "male": 11535,
+    "female": 12145
+  },
+  "36403": {
+    "code": "36403",
+    "prefCode": "36",
+    "nameJa": "板野郡藍住町",
+    "nameEn": "Aizumi Town",
+    "total": 35413,
+    "male": 17082,
+    "female": 18331
+  },
+  "36404": {
+    "code": "36404",
+    "prefCode": "36",
+    "nameJa": "板野郡板野町",
+    "nameEn": "Itano Town",
+    "total": 12947,
+    "male": 6233,
+    "female": 6714
+  },
+  "36405": {
+    "code": "36405",
+    "prefCode": "36",
+    "nameJa": "板野郡上板町",
+    "nameEn": "Kamiita Town",
+    "total": 11302,
+    "male": 5455,
+    "female": 5847
+  },
+  "36468": {
+    "code": "36468",
+    "prefCode": "36",
+    "nameJa": "美馬郡つるぎ町",
+    "nameEn": "Tsurugi Town",
+    "total": 7622,
+    "male": 3599,
+    "female": 4023
+  },
+  "36489": {
+    "code": "36489",
+    "prefCode": "36",
+    "nameJa": "三好郡東みよし町",
+    "nameEn": "Higashimiyoshi Town",
+    "total": 13405,
+    "male": 6453,
+    "female": 6952
+  }
+}

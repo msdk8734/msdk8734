@@ -1,0 +1,299 @@
+{
+  "03201": {
+    "code": "03201",
+    "prefCode": "03",
+    "nameJa": "盛岡市",
+    "nameEn": "Morioka City",
+    "total": 280286,
+    "male": 132316,
+    "female": 147970
+  },
+  "03202": {
+    "code": "03202",
+    "prefCode": "03",
+    "nameJa": "宮古市",
+    "nameEn": "Miyako City",
+    "total": 46866,
+    "male": 22500,
+    "female": 24366
+  },
+  "03203": {
+    "code": "03203",
+    "prefCode": "03",
+    "nameJa": "大船渡市",
+    "nameEn": "Ofunato City",
+    "total": 32845,
+    "male": 15700,
+    "female": 17145
+  },
+  "03205": {
+    "code": "03205",
+    "prefCode": "03",
+    "nameJa": "花巻市",
+    "nameEn": "Hanamaki City",
+    "total": 91094,
+    "male": 43661,
+    "female": 47433
+  },
+  "03206": {
+    "code": "03206",
+    "prefCode": "03",
+    "nameJa": "北上市",
+    "nameEn": "Kitakami City",
+    "total": 91547,
+    "male": 45934,
+    "female": 45613
+  },
+  "03207": {
+    "code": "03207",
+    "prefCode": "03",
+    "nameJa": "久慈市",
+    "nameEn": "Kuji City",
+    "total": 32000,
+    "male": 15460,
+    "female": 16540
+  },
+  "03208": {
+    "code": "03208",
+    "prefCode": "03",
+    "nameJa": "遠野市",
+    "nameEn": "Tono City",
+    "total": 24528,
+    "male": 11829,
+    "female": 12699
+  },
+  "03209": {
+    "code": "03209",
+    "prefCode": "03",
+    "nameJa": "一関市",
+    "nameEn": "Ichinoseki City",
+    "total": 107555,
+    "male": 52436,
+    "female": 55119
+  },
+  "03210": {
+    "code": "03210",
+    "prefCode": "03",
+    "nameJa": "陸前高田市",
+    "nameEn": "Rikuzentakata City",
+    "total": 17647,
+    "male": 8499,
+    "female": 9148
+  },
+  "03211": {
+    "code": "03211",
+    "prefCode": "03",
+    "nameJa": "釜石市",
+    "nameEn": "Kamaishi City",
+    "total": 29902,
+    "male": 14289,
+    "female": 15613
+  },
+  "03213": {
+    "code": "03213",
+    "prefCode": "03",
+    "nameJa": "二戸市",
+    "nameEn": "Ninohe City",
+    "total": 24655,
+    "male": 11692,
+    "female": 12963
+  },
+  "03214": {
+    "code": "03214",
+    "prefCode": "03",
+    "nameJa": "八幡平市",
+    "nameEn": "Hachimantai City",
+    "total": 23541,
+    "male": 11368,
+    "female": 12173
+  },
+  "03215": {
+    "code": "03215",
+    "prefCode": "03",
+    "nameJa": "奥州市",
+    "nameEn": "Oshu City",
+    "total": 109747,
+    "male": 53553,
+    "female": 56194
+  },
+  "03216": {
+    "code": "03216",
+    "prefCode": "03",
+    "nameJa": "滝沢市",
+    "nameEn": "Takizawa City",
+    "total": 54933,
+    "male": 26997,
+    "female": 27936
+  },
+  "03301": {
+    "code": "03301",
+    "prefCode": "03",
+    "nameJa": "岩手郡雫石町",
+    "nameEn": "Shizukuishi Town",
+    "total": 15301,
+    "male": 7396,
+    "female": 7905
+  },
+  "03302": {
+    "code": "03302",
+    "prefCode": "03",
+    "nameJa": "岩手郡葛巻町",
+    "nameEn": "Kuzumaki Town",
+    "total": 5433,
+    "male": 2690,
+    "female": 2743
+  },
+  "03303": {
+    "code": "03303",
+    "prefCode": "03",
+    "nameJa": "岩手郡岩手町",
+    "nameEn": "Iwate Town",
+    "total": 11841,
+    "male": 5805,
+    "female": 6036
+  },
+  "03321": {
+    "code": "03321",
+    "prefCode": "03",
+    "nameJa": "紫波郡紫波町",
+    "nameEn": "Shiwa Town",
+    "total": 32904,
+    "male": 15861,
+    "female": 17043
+  },
+  "03322": {
+    "code": "03322",
+    "prefCode": "03",
+    "nameJa": "紫波郡矢巾町",
+    "nameEn": "Yahaba Town",
+    "total": 26341,
+    "male": 12598,
+    "female": 13743
+  },
+  "03366": {
+    "code": "03366",
+    "prefCode": "03",
+    "nameJa": "和賀郡西和賀町",
+    "nameEn": "Nishiwaga Town",
+    "total": 4840,
+    "male": 2281,
+    "female": 2559
+  },
+  "03381": {
+    "code": "03381",
+    "prefCode": "03",
+    "nameJa": "胆沢郡金ケ崎町",
+    "nameEn": "Kanegasaki Town",
+    "total": 15183,
+    "male": 7803,
+    "female": 7380
+  },
+  "03402": {
+    "code": "03402",
+    "prefCode": "03",
+    "nameJa": "西磐井郡平泉町",
+    "nameEn": "Hiraizumi Town",
+    "total": 6859,
+    "male": 3321,
+    "female": 3538
+  },
+  "03441": {
+    "code": "03441",
+    "prefCode": "03",
+    "nameJa": "気仙郡住田町",
+    "nameEn": "Sumita Town",
+    "total": 4817,
+    "male": 2384,
+    "female": 2433
+  },
+  "03461": {
+    "code": "03461",
+    "prefCode": "03",
+    "nameJa": "上閉伊郡大槌町",
+    "nameEn": "Otsuchi Town",
+    "total": 10709,
+    "male": 5133,
+    "female": 5576
+  },
+  "03482": {
+    "code": "03482",
+    "prefCode": "03",
+    "nameJa": "下閉伊郡山田町",
+    "nameEn": "Yamada Town",
+    "total": 14240,
+    "male": 6981,
+    "female": 7259
+  },
+  "03483": {
+    "code": "03483",
+    "prefCode": "03",
+    "nameJa": "下閉伊郡岩泉町",
+    "nameEn": "Iwaizumi Town",
+    "total": 8038,
+    "male": 3972,
+    "female": 4066
+  },
+  "03484": {
+    "code": "03484",
+    "prefCode": "03",
+    "nameJa": "下閉伊郡田野畑村",
+    "nameEn": "Tanohata Village",
+    "total": 2977,
+    "male": 1499,
+    "female": 1478
+  },
+  "03485": {
+    "code": "03485",
+    "prefCode": "03",
+    "nameJa": "下閉伊郡普代村",
+    "nameEn": "Fudai Village",
+    "total": 2362,
+    "male": 1187,
+    "female": 1175
+  },
+  "03501": {
+    "code": "03501",
+    "prefCode": "03",
+    "nameJa": "九戸郡軽米町",
+    "nameEn": "Karumai Town",
+    "total": 8134,
+    "male": 3995,
+    "female": 4139
+  },
+  "03503": {
+    "code": "03503",
+    "prefCode": "03",
+    "nameJa": "九戸郡野田村",
+    "nameEn": "Noda Village",
+    "total": 3975,
+    "male": 1943,
+    "female": 2032
+  },
+  "03506": {
+    "code": "03506",
+    "prefCode": "03",
+    "nameJa": "九戸郡九戸村",
+    "nameEn": "Kunohe Village",
+    "total": 5238,
+    "male": 2501,
+    "female": 2737
+  },
+  "03507": {
+    "code": "03507",
+    "prefCode": "03",
+    "nameJa": "九戸郡洋野町",
+    "nameEn": "Hirono Town",
+    "total": 15051,
+    "male": 7300,
+    "female": 7751
+  },
+  "03524": {
+    "code": "03524",
+    "prefCode": "03",
+    "nameJa": "二戸郡一戸町",
+    "nameEn": "Ichinohe Town",
+    "total": 10960,
+    "male": 5310,
+    "female": 5650
+  }
+}
