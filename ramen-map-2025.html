@@ -303,9 +303,12 @@ function renderMap() {
       this.style.strokeWidth = '1.6px';
     });
     path.addEventListener('mouseleave', function() {
-      this.style.stroke = '';
-      this.style.strokeWidth = '';
-    });
+  const self = this;
+  requestAnimationFrame(() => {
+    self.style.stroke = '';
+    self.style.strokeWidth = '';
+  });
+});
   });
 }
 
