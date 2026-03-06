@@ -100,17 +100,17 @@
   #map-container { width: 100vw; height: 100vh; }
   #map-container svg { width: 100%; height: 100%; }
 
-.pref-path {
-    stroke: rgba(255,255,255,0.92);
-    stroke-width: 0.85;
-    vector-effect: non-scaling-stroke;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    transition: fill 0.2s, stroke 0.15s, stroke-width 0.15s, filter 0.15s;
+  .pref-path {
+    stroke: rgba(0,0,0,0.08);
+    stroke-width: 0.7;
+    transition: fill 0.2s, stroke 0.15s, stroke-width 0.15s;
     cursor: pointer;
-    shape-rendering: geometricPrecision;
   }
-
+  .pref-path:hover {
+    stroke: rgba(0,0,0,0.35);
+    stroke-width: 1.2;
+    filter: brightness(0.98);
+  }
 
   .tooltip {
     position: fixed;
@@ -409,6 +409,7 @@ const zoomBehavior = d3.zoom()
   .scaleExtent([0.4, 12])
   .on('zoom', (event) => {
     g.attr('transform', event.transform);
+    g.selectAll('.pref-path').attr('stroke-width', 0.7 / event.transform.k);
   });
 svg.call(zoomBehavior);
 
@@ -419,63 +420,18 @@ g.selectAll('.pref-path')
   .attr('class', 'pref-path')
   .attr('d', pathGen)
   .attr('fill', '#eef3f8')
-  .on('mouseenter', function(ev, d) {
-    d3.select(this).raise()
-      .style('stroke', 'rgba(21,87,160,0.75)')
-      .style('stroke-width', '1.35px')
-      .style('filter', 'brightness(0.97)');
-    showTip(ev, d.properties);
-  })
+  .on('mouseenter', (ev, d) => showTip(ev, d.properties))
   .on('mousemove', moveTip)
-  .on('mouseleave', function(ev, d) {
-    d3.select(this)
-      .style('stroke', null)
-      .style('stroke-width', null)
-      .style('filter', null);
-    hideTip();
-  })
-  .on('touchstart', function(ev, d) {
+  .on('mouseleave', hideTip)
+  .on('touchstart', (ev, d) => {
     ev.preventDefault();
     if (tipLocked && tipLockedId === d.properties.id) {
       tipLocked = false; tipLockedId = null;
       forceHideTip();
-      d3.select(this)
-        .style('stroke', null)
-        .style('stroke-width', null)
-        .style('filter', null);
       return;
     }
-    
-    g.selectAll('.pref-path')
-      .style('stroke', null)
-      .style('stroke-width', null)
-      .style('filter', null);
-
     tipLocked = true;
     tipLockedId = d.properties.id;
-    d3.select(this).raise()
-      .style('stroke', 'rgba(21,87,160,0.75)')
-      .style('stroke-width', '1.35px')
-      .style('filter', 'brightness(0.97)');
-    showTip(ev.touches ? ev.touches[0] : ev, d.properties);
-  });
-    
-    // 他の都道府県のハイライトをリセット
-    g.selectAll('.pref-path')
-      .style('stroke', null)
-      .style('stroke-width', null)
-      .style('filter', null);
-
-    tipLocked = true;
-    tipLockedId = d.properties.id;
-    
-    // タッチ時も最前面に移動して太くする
-    d3.select(this)
-      .raise()
-      .style('stroke', 'rgba(0,0,0,0.35)')
-      .style('stroke-width', '1.2px')
-      .style('filter', 'brightness(0.98)');
-      
     showTip(ev.touches ? ev.touches[0] : ev, d.properties);
   });
 
@@ -593,25 +549,22 @@ function renderRanking(ranked, maxValue, meta) {
     </div>`;
   }).join('');
 
-document.querySelectorAll('.rk-item').forEach(el => {
+  document.querySelectorAll('.rk-item').forEach(el => {
     const id = +el.dataset.id;
     el.addEventListener('mouseenter', () => {
       const path = g.selectAll('.pref-path').filter(d => d.properties.id === id);
-      path.raise()
-        .style('stroke', 'rgba(21,87,160,0.75)')
-        .style('stroke-width', '1.35px')
-        .style('filter', 'brightness(0.97)');
+      path.raise();
+      path.style('stroke', meta.accent).style('stroke-width', '2.5px');
       document.querySelectorAll('.rk-item').forEach(x => {
         x.style.background = (+x.dataset.id === id) ? 'rgba(21,87,160,0.15)' : '';
       });
     });
     el.addEventListener('mouseleave', () => {
       const path = g.selectAll('.pref-path').filter(d => d.properties.id === id);
-      path.style('stroke', null).style('stroke-width', null).style('filter', null);
+      path.style('stroke', null).style('stroke-width', null);
       document.querySelectorAll('.rk-item').forEach(x => x.style.background = '');
     });
     el.addEventListener('click', () => {
-// ...続く（ここはそのまま）
       const datum = geojson.features.find(f => f.properties.id === id);
       if (!datum) return;
       tipLocked = true;
