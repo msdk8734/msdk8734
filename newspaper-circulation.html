@@ -149,6 +149,12 @@
     color: #e8dcc8;
   }
 
+  .tooltip-yoy {
+    font-size: 12px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
   .peak-line {
     stroke: #c8a96e;
     stroke-width: 1;
@@ -198,6 +204,7 @@
     <div class="tooltip" id="tooltip">
       <div class="tooltip-year" id="tt-year"></div>
       <div class="tooltip-value" id="tt-value"></div>
+      <div class="tooltip-yoy" id="tt-yoy"></div>
     </div>
   </div>
 </div>
@@ -270,6 +277,11 @@ const data = raw.trim().split('\n').map(line => {
   const [year, value] = line.split(',');
   return { year: +year, value: +value };
 }).sort((a, b) => a.year - b.year);
+
+// Calculate year-over-year % change
+data.forEach((d, i) => {
+  d.yoy = i === 0 ? null : (d.value - data[i - 1].value) / data[i - 1].value * 100;
+});
 
 const peak = data.reduce((a, b) => b.value > a.value ? b : a);
 const latest = data[data.length - 1];
@@ -379,6 +391,7 @@ g.append('g')
 const tooltip = document.getElementById('tooltip');
 const ttYear = document.getElementById('tt-year');
 const ttValue = document.getElementById('tt-value');
+const ttYoy = document.getElementById('tt-yoy');
 
 const bars = g.selectAll('.bar')
   .data(data)
@@ -395,6 +408,13 @@ bars.on('mousemove', function(event, d) {
     tooltip.style.opacity = '1';
     ttYear.textContent = d.year;
     ttValue.textContent = d.value.toLocaleString('en-US') + ' copies';
+    if (d.yoy === null) {
+      ttYoy.textContent = '';
+    } else {
+      const sign = d.yoy >= 0 ? '+' : '';
+      ttYoy.style.color = d.yoy >= 0 ? '#7ec89a' : '#e08070';
+      ttYoy.textContent = `YoY: ${sign}${d.yoy.toFixed(2)}%`;
+    }
 
     const ttW = tooltip.offsetWidth || 170;
     const ttH = tooltip.offsetHeight || 56;
