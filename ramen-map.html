@@ -59,8 +59,12 @@
   vector-effect: non-scaling-stroke;
   transition: fill 0.2s, stroke 0.15s, stroke-width 0.15s;
 }
-.pref-path:hover { stroke: #aaa; stroke-width: 1.2; }
   .pref-path:hover { stroke: #aaa; stroke-width: 1.2; }
+   /* ↓ここに追加 */
+  .pref-stroke {
+    vector-effect: non-scaling-stroke;
+    transition: stroke 0.15s, stroke-width 0.15s;
+  }
 
   /* ── Bar chart ── */
   .bar-group { cursor: pointer; }
@@ -411,6 +415,11 @@ function coordsToPath(coords) {
 
 function renderGeoJSON(geojson) {
   prefLayer.innerHTML = '';
+  const fillLayer   = el('g');
+  const strokeLayer = el('g');
+  prefLayer.appendChild(fillLayer);
+  prefLayer.appendChild(strokeLayer);
+
   for (const feature of geojson.features) {
     const geom = feature.geometry;
     let d = '';
@@ -420,8 +429,21 @@ function renderGeoJSON(geojson) {
       d = geom.coordinates.map(coordsToPath).join(' ');
     }
     if (!d) continue;
-    const path = el('path', { d, class: 'pref-path' });
-    prefLayer.appendChild(path);
+
+    // 塗りつぶし（境界線なし）
+    const fill = el('path', {
+      d, fill: '#f2f2f2', stroke: 'none'
+    });
+    fillLayer.appendChild(fill);
+
+    // 境界線のみ（塗りつぶしなし）・全県を同じレイヤーで上書きなし
+    const stroke = el('path', {
+      d, fill: 'none', stroke: '#ffffff',
+      'stroke-width': '0.7',
+      'vector-effect': 'non-scaling-stroke',
+      class: 'pref-stroke'
+    });
+    strokeLayer.appendChild(stroke);
   }
 }
 
