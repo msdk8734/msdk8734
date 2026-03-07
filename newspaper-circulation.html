@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japanese Newspaper Circulation</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0d0d0d;
+    color: #e8dcc8;
+    font-family: 'EB Garamond', serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .noise {
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 32px 64px;
+  }
+
+  header {
+    margin-bottom: 40px;
+    border-left: 3px solid #c8a96e;
+    padding-left: 20px;
+  }
+
+  .label {
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #c8a96e;
+    margin-bottom: 8px;
+    font-family: 'EB Garamond', serif;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(22px, 3vw, 36px);
+    font-weight: 900;
+    color: #f0e6d0;
+    line-height: 1.25;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #7a6e5e;
+    letter-spacing: 0.08em;
+    font-style: italic;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    background: rgba(200, 169, 110, 0.06);
+    border: 1px solid rgba(200, 169, 110, 0.15);
+    padding: 14px 20px;
+    min-width: 160px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #7a6e5e;
+    margin-bottom: 4px;
+  }
+
+  .stat-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #c8a96e;
+    font-weight: 700;
+  }
+
+  .stat-sub {
+    font-size: 11px;
+    color: #5a4e3e;
+    margin-top: 2px;
+    font-style: italic;
+  }
+
+  .axis path, .axis line {
+    stroke: #2a2520;
+  }
+
+  .axis text {
+    fill: #6a5e4e;
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+  }
+
+  .grid line {
+    stroke: #1e1a16;
+    stroke-dasharray: 2,4;
+  }
+
+  .bar {
+    cursor: pointer;
+    transition: filter 0.15s ease;
+  }
+
+  .bar:hover {
+    filter: brightness(1.35);
+  }
+
+  .tooltip {
+    position: absolute;
+    background: #1a1610;
+    border: 1px solid #c8a96e;
+    padding: 10px 16px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 13px;
+    min-width: 160px;
+  }
+
+  .tooltip-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: #c8a96e;
+    font-weight: 700;
+    margin-bottom: 3px;
+  }
+
+  .tooltip-value {
+    color: #e8dcc8;
+  }
+
+  .peak-line {
+    stroke: #c8a96e;
+    stroke-width: 1;
+    stroke-dasharray: 4, 4;
+    opacity: 0.4;
+  }
+
+  .peak-label {
+    fill: #c8a96e;
+    font-family: 'EB Garamond', serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    font-style: italic;
+  }
+
+  .decade-marker {
+    fill: none;
+    stroke: #2a2520;
+    stroke-width: 1;
+  }
+
+  .watermark {
+    position: absolute;
+    right: 32px;
+    bottom: 24px;
+    font-size: 10px;
+    color: #2a2520;
+    letter-spacing: 0.2em;
+    font-family: 'EB Garamond', serif;
+  }
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="container">
+  <header>
+    <div class="label">Media Statistics · Japan</div>
+    <h1>Japanese Newspaper Circulation<br><span style="font-size:0.58em;color:#c8a96e;font-weight:400;">1965 — 2025</span></h1>
+    <div class="subtitle">Source: Japan Newspaper Publishers & Editors Association</div>
+  </header>
+
+  <div class="stats-row" id="stats-row"></div>
+
+  <div style="position:relative;">
+    <svg id="chart"></svg>
+    <div class="tooltip" id="tooltip">
+      <div class="tooltip-year" id="tt-year"></div>
+      <div class="tooltip-value" id="tt-value"></div>
+    </div>
+  </div>
+</div>
+<div class="watermark">NEWSPAPER CIRCULATION · JAPAN</div>
+
+<script>
+const raw = `2025,24868122
+2024,26616578
+2023,28590486
+2022,30846631
+2021,33027135
+2020,35091944
+2019,37811248
+2018,39901576
+2017,42128189
+2016,43276147
+2015,44246688
+2014,45362672
+2013,46999468
+2012,47777913
+2011,48345304
+2010,49321840
+2009,50352831
+2008,51491409
+2007,52028671
+2006,52310478
+2005,52568032
+2004,53021564
+2003,52874959
+2002,53198444
+2001,53680753
+2000,53708831
+1999,53757281
+1998,53669866
+1997,53765074
+1996,53555803
+1995,52854538
+1994,52600502
+1993,52433451
+1992,51938092
+1991,52026372
+1990,51907538
+1989,51063353
+1988,50597565
+1987,49831896
+1986,48569364
+1985,48231671
+1984,47515488
+1983,47040709
+1982,47993030
+1981,47256150
+1980,46391096
+1979,45851852
+1978,44276615
+1977,43113521
+1976,42119566
+1975,40512598
+1974,40005526
+1973,39847332
+1972,38162063
+1971,36562450
+1970,36303928
+1969,35073213
+1968,33792078
+1967,32447141
+1966,30935235
+1965,29776465`;
+
+const data = raw.trim().split('\n').map(line => {
+  const [year, value] = line.split(',');
+  return { year: +year, value: +value };
+}).sort((a, b) => a.year - b.year);
+
+const peak = data.reduce((a, b) => b.value > a.value ? b : a);
+const latest = data[data.length - 1];
+const earliest = data[0];
+const decline = ((latest.value - peak.value) / peak.value * 100).toFixed(1);
+
+// Stats
+const statsEl = document.getElementById('stats-row');
+const stats = [
+  { label: 'Peak Circulation', value: (peak.value / 1e6).toFixed(2) + 'M', sub: peak.year },
+  { label: 'Latest Circulation', value: (latest.value / 1e6).toFixed(2) + 'M', sub: latest.year },
+  { label: 'Change from Peak', value: decline + '%', sub: 'decline' },
+  { label: 'Period Covered', value: '60 Years', sub: earliest.year + ' – ' + latest.year },
+];
+stats.forEach(s => {
+  const el = document.createElement('div');
+  el.className = 'stat';
+  el.innerHTML = `<div class="stat-label">${s.label}</div><div class="stat-value">${s.value}</div><div class="stat-sub">${s.sub}</div>`;
+  statsEl.appendChild(el);
+});
+
+// Chart dimensions
+const container = document.querySelector('.container');
+const W = container.clientWidth - 64;
+const H = Math.min(480, Math.max(300, W * 0.45));
+const margin = { top: 24, right: 20, bottom: 48, left: 52 };
+const iW = W - margin.left - margin.right;
+const iH = H - margin.top - margin.bottom;
+
+const svg = d3.select('#chart')
+  .attr('width', W)
+  .attr('height', H);
+
+const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+const x = d3.scaleBand()
+  .domain(data.map(d => d.year))
+  .range([0, iW])
+  .padding(0.12);
+
+const y = d3.scaleLinear()
+  .domain([0, d3.max(data, d => d.value) * 1.05])
+  .range([iH, 0]);
+
+const colorScale = d3.scaleSequential()
+  .domain([0, data.length - 1])
+  .interpolator(d3.interpolateRgbBasis(['#5a4a2e', '#a07830', '#c8a96e', '#d4955a', '#8b3a2a']));
+
+// Grid lines (only at top, not zero)
+const yTicks = y.ticks(5).filter(t => t > 0);
+g.append('g').attr('class', 'grid')
+  .selectAll('line')
+  .data(yTicks)
+  .join('line')
+  .attr('x1', 0).attr('x2', iW)
+  .attr('y1', d => y(d)).attr('y2', d => y(d));
+
+// Peak reference line
+g.append('line')
+  .attr('class', 'peak-line')
+  .attr('x1', 0).attr('x2', iW)
+  .attr('y1', y(peak.value)).attr('y2', y(peak.value));
+
+g.append('text')
+  .attr('class', 'peak-label')
+  .attr('x', 4)
+  .attr('y', y(peak.value) - 5)
+  .text('▲ Peak — ' + peak.year);
+
+// Decade markers
+const decades = [1970, 1980, 1990, 2000, 2010, 2020];
+decades.forEach(dec => {
+  const xPos = x(dec);
+  if (xPos !== undefined) {
+    g.append('line')
+      .attr('class', 'decade-marker')
+      .attr('x1', xPos).attr('x2', xPos)
+      .attr('y1', 0).attr('y2', iH + 8)
+      .style('opacity', 0.5);
+  }
+});
+
+// X Axis
+const xAxis = g.append('g')
+  .attr('class', 'axis')
+  .attr('transform', `translate(0,${iH})`)
+  .call(
+    d3.axisBottom(x)
+      .tickValues(data.filter(d => d.year % 5 === 0).map(d => d.year))
+      .tickSize(5)
+  );
+
+xAxis.selectAll('text')
+  .attr('dy', '1.2em')
+  .style('font-size', '11px');
+
+// Y Axis — only show 0
+g.append('g')
+  .attr('class', 'axis')
+  .call(
+    d3.axisLeft(y)
+      .tickValues([0])
+      .tickSize(5)
+  );
+
+// Bars
+const tooltip = document.getElementById('tooltip');
+const ttYear = document.getElementById('tt-year');
+const ttValue = document.getElementById('tt-value');
+
+const bars = g.selectAll('.bar')
+  .data(data)
+  .join('rect')
+  .attr('class', 'bar')
+  .attr('x', d => x(d.year))
+  .attr('width', x.bandwidth())
+  .attr('y', iH)
+  .attr('height', 0)
+  .attr('fill', (d, i) => colorScale(i))
+  .attr('rx', 1);
+
+bars.on('mousemove', function(event, d) {
+    tooltip.style.opacity = '1';
+    const rect = container.getBoundingClientRect();
+    tooltip.style.left = (event.pageX - rect.left + 12) + 'px';
+    tooltip.style.top = (event.pageY - rect.top - 60) + 'px';
+    ttYear.textContent = d.year;
+    ttValue.textContent = d.value.toLocaleString('en-US') + ' copies';
+  })
+  .on('mouseleave', function() {
+    tooltip.style.opacity = '0';
+  });
+
+// Staggered rise animation
+bars.transition()
+  .duration(800)
+  .delay((d, i) => i * 18)
+  .ease(d3.easeCubicOut)
+  .attr('y', d => y(d.value))
+  .attr('height', d => iH - y(d.value));
+</script>
+</body>
+</html>
