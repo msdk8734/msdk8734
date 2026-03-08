@@ -377,7 +377,7 @@ async function loadPrefData() {
 
   // JSONキーは "01"〜"47"、地図のidは整数1〜47 → 整数キーに変換
   for (const [code, d] of Object.entries(prefDataRaw)) {
-    const id = String(parseInt(code, 10)); // "01" → "1"
+    const id = code; // "01" のまま使う
     nameEn[id] = d.nameEn;
     metricData.total[id] = d.total;
     metricData.male[id] = d.male;
