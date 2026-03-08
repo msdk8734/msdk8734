@@ -386,7 +386,7 @@ async function initData() {
         .then(r => r.ok ? r.json() : null)
         .catch(() => null),
       ...prefCodes.map(code => 
-        fetch(`geo/pref_${code}.json`)
+        fetch(`geo-json/pref_${code}.geojson`)
           .then(res => res.ok ? res.json() : null)
           .catch(() => null)
       )
