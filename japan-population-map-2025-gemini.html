@@ -628,7 +628,7 @@ function showTip(ev, p) {
 
   document.querySelectorAll('.rk-item').forEach(el => {
     el.style.background = +el.dataset.id === p.id ? 'rgba(21,87,160,0.15)' : '';
-    if (+el.dataset.id === p.id) el.scrollIntoView({ behavior: 'nearest', block: 'nearest' });
+    if (+el.dataset.id === p.id) el.scrollIntoView({ behavior: 'auto', block: 'nearest' });
   });
 }
 
