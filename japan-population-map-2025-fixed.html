@@ -10,76 +10,64 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    background: #ffffff;
-    color: #2a2a2a;
+    background: #ffffff; color: #2a2a2a;
     font-family: 'IBM Plex Sans', sans-serif;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+    overflow: hidden; height: 100vh; width: 100vw;
   }
 
-  /* ── HEADER ── */
   #header {
-    position: fixed;
-    top: 0; left: 0; right: 250px;
-    z-index: 100;
+    position: fixed; top: 0; left: 0; right: 250px; z-index: 100;
     padding: 14px 24px 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    display: flex; align-items: flex-start; justify-content: space-between;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 70%, rgba(255,255,255,0) 100%);
     pointer-events: none;
   }
   .title-block h1 { font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.01em; }
   .title-block .sub { font-size: 10.5px; color: #888; margin-top: 2px; }
-  .header-right {
-    display: flex; flex-direction: column;
-    align-items: flex-end; gap: 4px; padding-top: 4px;
-  }
-  .color-bar {
-    width: 140px; height: 10px;
-    border-radius: 999px; border: 1px solid rgba(0,0,0,0.08);
-  }
-  .color-minmax {
-    display: flex; justify-content: space-between;
-    font-size: 9.5px; color: #aaa;
-    font-family: 'JetBrains Mono', monospace; width: 140px;
-  }
+  .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; padding-top: 4px; }
+  .color-bar { width: 140px; height: 10px; border-radius: 999px; border: 1px solid rgba(0,0,0,0.08); }
+  .color-minmax { display: flex; justify-content: space-between; font-size: 9.5px; color: #aaa; font-family: 'JetBrains Mono', monospace; width: 140px; }
 
-  /* ── MAP ── */
   #map-container { width: 100vw; height: 100vh; }
   #map-container svg { width: 100%; height: 100%; }
 
-  .pref-path {
+  /* 市区町村単位のパス（細かいが都道府県色で塗る） */
+  .city-path {
+    stroke: rgba(255,255,255,0.5);
+    stroke-width: 0.3;
+    vector-effect: non-scaling-stroke;
+    shape-rendering: geometricPrecision;
+    transition: fill 0.25s;
+    pointer-events: none; /* ホバーは都道府県レイヤーで処理 */
+  }
+  /* 都道府県アウトライン（透明塗り・ホバー検出用） */
+  .pref-overlay {
+    fill: transparent;
     stroke: rgba(255,255,255,0.92);
     stroke-width: 0.85;
     vector-effect: non-scaling-stroke;
-    stroke-linejoin: round; stroke-linecap: round;
+    stroke-linejoin: round;
     cursor: pointer;
     shape-rendering: geometricPrecision;
-    transition: fill 0.25s;
   }
-  .pref-path.hovered {
+  .pref-overlay.hovered {
     stroke: rgba(255,255,255,1) !important;
     stroke-width: 1.8px !important;
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.28)) brightness(1.06);
+    fill: rgba(255,255,255,0.08);
   }
 
-  /* ── TOOLTIP ── */
   .tooltip {
     position: fixed; pointer-events: none;
-    background: rgba(255,255,255,0.97);
-    backdrop-filter: blur(16px);
-    border: 1px solid #e0e0e0; border-radius: 12px;
-    padding: 16px 20px; opacity: 0; transition: opacity 0.12s;
-    z-index: 200; min-width: 240px;
+    background: rgba(255,255,255,0.97); backdrop-filter: blur(16px);
+    border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px 20px;
+    opacity: 0; transition: opacity 0.12s; z-index: 200; min-width: 240px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.06);
   }
   .tooltip.visible { opacity: 1; }
   .tt-name    { font-size: 17px; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
   .tt-name-ja { font-size: 12px; color: #999; margin-bottom: 10px; }
-  .tt-rank    { font-size: 12px; font-weight: 600; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
-  .tt-rank .num { color: #1557a0; font-size: 20px; font-family: 'JetBrains Mono'; }
+  .tt-rank    { margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+  .tt-rank .num { color: #1557a0; font-size: 20px; font-family: 'JetBrains Mono'; font-weight: 600; }
   .tt-row     { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 14px; }
   .tt-label   { font-size: 12px; color: #888; }
   .tt-val     { font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 600; color: #1a1a1a; }
@@ -89,60 +77,37 @@
   .tt-bar-fill { height: 100%; border-radius: 3px; }
   .tt-note    { font-size: 9.5px; color: #bbb; margin-top: 10px; line-height: 1.4; }
 
-  /* ── RANKING PANEL ── */
   #ranking {
     position: fixed; right: 0; top: 0; bottom: 0; width: 250px;
     background: rgba(255,255,255,0.96); backdrop-filter: blur(10px);
-    border-left: 1px solid #eee; z-index: 90;
-    padding: 16px 10px 12px;
+    border-left: 1px solid #eee; z-index: 90; padding: 16px 10px 12px;
     overflow-y: auto; scrollbar-width: thin; scrollbar-color: #ddd transparent;
   }
-  .rk-title  { font-size: 11px; font-weight: 700; color: #888; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
-  .rk-item   { display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 5px; cursor: pointer; transition: background 0.12s; }
+  .rk-title { font-size: 11px; font-weight: 700; color: #888; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .rk-item  { display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 5px; cursor: pointer; transition: background 0.12s; }
   .rk-item:hover { background: rgba(21,87,160,0.08); }
-  .rk-num    { font-family: 'JetBrains Mono'; font-size: 10px; font-weight: 600; color: #ccc; width: 18px; text-align: right; flex-shrink: 0; }
+  .rk-num   { font-family: 'JetBrains Mono'; font-size: 10px; font-weight: 600; color: #ccc; width: 18px; text-align: right; flex-shrink: 0; }
   .rk-num.gold   { color: #d4a017; }
   .rk-num.silver { color: #999; }
   .rk-num.bronze { color: #b07040; }
-  .rk-name   { font-size: 11.5px; color: #444; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .rk-val    { font-family: 'JetBrains Mono'; font-size: 10px; color: #999; flex-shrink: 0; }
-  .rk-bar    { width: 36px; height: 3px; background: #f0f0f0; border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+  .rk-name  { font-size: 11.5px; color: #444; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rk-val   { font-family: 'JetBrains Mono'; font-size: 10px; color: #999; flex-shrink: 0; }
+  .rk-bar   { width: 36px; height: 3px; background: #f0f0f0; border-radius: 2px; overflow: hidden; flex-shrink: 0; }
   .rk-bar-fill { height: 100%; border-radius: 2px; opacity: 0.5; }
 
-  /* ── LOADING / ERROR ── */
   #status-overlay {
-    position: fixed; inset: 0;
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    gap: 14px; z-index: 300;
-    background: rgba(255,255,255,0.92);
-    font-size: 13px; color: #666;
+    position: fixed; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 14px; z-index: 300;
+    background: rgba(255,255,255,0.95); font-size: 13px; color: #666;
   }
   #status-overlay.hidden { display: none; }
-  #status-overlay .spinner {
-    width: 32px; height: 32px;
-    border: 3px solid #eee; border-top-color: #1f7a43;
-    border-radius: 50%; animation: spin .7s linear infinite;
-  }
-  #status-overlay .err-icon { font-size: 32px; }
-  #status-overlay .err-detail {
-    font-size: 11px; color: #999; line-height: 1.7;
-    text-align: center; max-width: 480px;
-  }
-  #status-overlay .err-detail code {
-    background: #f4f4f4; padding: 1px 5px; border-radius: 4px;
-    font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
-  }
+  .spinner { width: 32px; height: 32px; border: 3px solid #eee; border-top-color: #1f7a43; border-radius: 50%; animation: spin .7s linear infinite; }
+  .err-detail { font-size: 11px; color: #555; line-height: 1.9; text-align: left; max-width: 520px; background: #f8f8f8; padding: 16px 20px; border-radius: 8px; }
+  .err-detail code { background: #eee; padding: 1px 5px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  .hint {
-    position: fixed; bottom: 12px; left: calc(50% - 125px);
-    font-size: 10px; color: #ccc; z-index: 100; pointer-events: none;
-  }
-  @media (max-width: 720px) {
-    #ranking { display: none; }
-    #header  { right: 0; }
-  }
+  .hint { position: fixed; bottom: 12px; left: calc(50% - 125px); font-size: 10px; color: #ccc; z-index: 100; pointer-events: none; }
+  @media (max-width: 720px) { #ranking { display: none; } #header { right: 0; } }
 </style>
 </head>
 <body>
@@ -154,10 +119,7 @@
   </div>
   <div class="header-right">
     <div class="color-bar" id="colorBar"></div>
-    <div class="color-minmax">
-      <span id="minLabel">—</span>
-      <span id="maxLabel">—</span>
-    </div>
+    <div class="color-minmax"><span id="minLabel">—</span><span id="maxLabel">—</span></div>
   </div>
 </div>
 
@@ -171,7 +133,6 @@
 
 <div class="hint">Scroll: zoom &nbsp;|&nbsp; Drag: pan</div>
 
-<!-- ローディング / エラー オーバーレイ -->
 <div id="status-overlay">
   <div class="spinner" id="spinner"></div>
   <div id="status-msg">GeoJSON を読み込み中…</div>
@@ -179,11 +140,7 @@
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  人口データ（インライン）
-//  ※ pref-pop.json の内容をそのまま埋め込み
-//    → fetch不要でランキングは必ず表示される
-// ══════════════════════════════════════════════════════════
+// ── 人口データ（インライン） ───────────────────────────────
 const POP_DATA = {
   "01":{"nameJa":"北海道","nameEn":"Hokkaido","total":5044825},
   "02":{"nameJa":"青森県","nameEn":"Aomori Prefecture","total":1185767},
@@ -234,48 +191,32 @@ const POP_DATA = {
   "47":{"nameJa":"沖縄県","nameEn":"Okinawa Prefecture","total":1484081}
 };
 
-// ══════════════════════════════════════════════════════════
-//  CONSTANTS / SETUP
-// ══════════════════════════════════════════════════════════
+// ── CONSTANTS ─────────────────────────────────────────────
 const COLOR_LOW  = '#eef7f0';
 const COLOR_HIGH = '#1f7a43';
 const ACCENT     = '#1f7a43';
 const PANEL_W    = window.innerWidth <= 720 ? 0 : 250;
 const TOP_PAD    = 88;
 const SIDE_PAD   = 18;
-
 const W = window.innerWidth;
 const H = window.innerHeight;
 
 const svg = d3.select('#map-container').append('svg').attr('width', W).attr('height', H);
 const g   = svg.append('g');
 
-const projection = d3.geoMercator();
-const pathGen    = d3.geoPath().projection(projection);
+svg.call(d3.zoom().scaleExtent([0.4, 20]).on('zoom', ev => g.attr('transform', ev.transform)));
 
-svg.call(
-  d3.zoom().scaleExtent([0.4, 20])
-    .on('zoom', ev => g.attr('transform', ev.transform))
-);
-
-// ── ステータスオーバーレイ ────────────────────────────────
-function setStatus(msg) {
-  document.getElementById('status-msg').textContent = msg;
-}
-function showError(detail) {
+function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
+function hideOverlay()  { document.getElementById('status-overlay').classList.add('hidden'); }
+function showError(html) {
   document.getElementById('spinner').style.display = 'none';
-  document.getElementById('status-msg').textContent = '⚠️ GeoJSON の読み込みに失敗しました';
+  document.getElementById('status-msg').textContent = '⚠️ エラー';
   const det = document.getElementById('err-detail');
-  det.innerHTML = detail;
-  det.style.display = 'block';
-}
-function hideOverlay() {
-  document.getElementById('status-overlay').classList.add('hidden');
+  det.innerHTML = html; det.style.display = 'block';
 }
 
 // ── TOOLTIP ───────────────────────────────────────────────
 const tooltip = d3.select('#tooltip');
-
 function showTip(ev, props) {
   const { nameEn, nameJa, value, rank, maxVal, natTot, avg } = props;
   const pct       = ((value / maxVal) * 100).toFixed(0);
@@ -283,7 +224,6 @@ function showTip(ev, props) {
   const diff      = value - avg;
   const diffStr   = diff >= 0 ? `+${diff.toLocaleString()}` : `-${Math.abs(diff).toLocaleString()}`;
   const diffColor = diff >= 0 ? ACCENT : '#666';
-
   tooltip.html(`
     <div class="tt-name">${nameEn}</div>
     <div class="tt-name-ja">${nameJa}</div>
@@ -303,11 +243,10 @@ function showTip(ev, props) {
       <span class="tt-label">vs. prefecture average</span>
       <span class="tt-val-sm" style="color:${diffColor}">${diffStr}</span>
     </div>
-    <div class="tt-note">Source: Statistics Bureau of Japan, Population Estimates</div>
+    <div class="tt-note">Source: Statistics Bureau of Japan</div>
   `).classed('visible', true);
   moveTip(ev);
 }
-
 function moveTip(ev) {
   const gap = 24;
   tooltip.style('left', '-9999px').style('top', '-9999px');
@@ -315,7 +254,7 @@ function moveTip(ev) {
   let x = ev.clientX + gap, y = ev.clientY + gap;
   if (x + tw > W - 12) x = ev.clientX - gap - tw;
   if (y + th > H - 12) y = ev.clientY - gap - th;
-  tooltip.style('left', Math.max(12, x) + 'px').style('top', Math.max(12, y) + 'px');
+  tooltip.style('left', Math.max(12,x)+'px').style('top', Math.max(12,y)+'px');
 }
 function hideTip() { tooltip.classed('visible', false); }
 
@@ -324,9 +263,9 @@ function renderRanking(ranked, maxVal) {
   const list = document.getElementById('rk-list');
   list.innerHTML = ranked.map((p, i) => {
     const pct    = (p.value / maxVal * 100).toFixed(0);
-    const numCls = i === 0 ? 'rk-num gold' : i === 1 ? 'rk-num silver' : i === 2 ? 'rk-num bronze' : 'rk-num';
+    const numCls = i===0 ? 'rk-num gold' : i===1 ? 'rk-num silver' : i===2 ? 'rk-num bronze' : 'rk-num';
     return `<div class="rk-item" data-id="${p.id}">
-      <span class="${numCls}">${i + 1}</span>
+      <span class="${numCls}">${i+1}</span>
       <span class="rk-name">${p.nameEn}</span>
       <span class="rk-val">${p.value.toLocaleString()}</span>
       <span class="rk-bar"><span class="rk-bar-fill" style="width:${pct}%;background:${ACCENT}"></span></span>
@@ -336,167 +275,170 @@ function renderRanking(ranked, maxVal) {
   list.querySelectorAll('.rk-item').forEach(el => {
     const id = +el.dataset.id;
     el.addEventListener('mouseenter', () => {
-      g.selectAll('.pref-path').filter(d => d.properties._id === id).raise().classed('hovered', true);
+      g.selectAll('.pref-overlay').filter(d => d._id === id).raise().classed('hovered', true);
       el.style.background = 'rgba(21,87,160,0.15)';
     });
     el.addEventListener('mouseleave', () => {
-      g.selectAll('.pref-path').filter(d => d.properties._id === id).classed('hovered', false);
+      g.selectAll('.pref-overlay').filter(d => d._id === id).classed('hovered', false);
       el.style.background = '';
     });
   });
 }
-
 function highlightRankItem(id) {
   document.querySelectorAll('.rk-item').forEach(el => {
     const active = +el.dataset.id === id;
     el.style.background = active ? 'rgba(21,87,160,0.15)' : '';
-    if (active) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    if (active) el.scrollIntoView({ behavior:'smooth', block:'nearest' });
   });
 }
 function clearRankHighlight() {
   document.querySelectorAll('.rk-item').forEach(el => el.style.background = '');
 }
 
-// ══════════════════════════════════════════════════════════
-//  INIT
-// ══════════════════════════════════════════════════════════
+// ── MAIN ──────────────────────────────────────────────────
 async function init() {
 
-  // 1. 人口データをインラインから構築（fetch不要）
+  // 人口データ準備 & ランキング先行描画
   const popMap = {};
   for (const [code, d] of Object.entries(POP_DATA)) {
     popMap[parseInt(code, 10)] = d;
   }
-
-  // ランキングはGeoJSON読み込み前に先行描画
   const rankedPop = Object.entries(POP_DATA)
     .map(([code, d]) => ({ id: parseInt(code, 10), nameEn: d.nameEn, value: d.total }))
     .sort((a, b) => b.value - a.value);
   const maxPopVal = rankedPop[0].value;
-  renderRanking(rankedPop, maxPopVal);
-
-  // 凡例
   const minPopVal = rankedPop[rankedPop.length - 1].value;
+  renderRanking(rankedPop, maxPopVal);
   document.getElementById('colorBar').style.background = `linear-gradient(90deg, ${COLOR_LOW}, ${COLOR_HIGH})`;
   document.getElementById('minLabel').textContent = minPopVal.toLocaleString();
   document.getElementById('maxLabel').textContent = maxPopVal.toLocaleString();
 
-  // 2. GeoJSON fetch（47県 並列）
-  const codes = Array.from({ length: 47 }, (_, i) => String(i + 1).padStart(2, '0'));
+  // GeoJSON fetch（47県 並列）
+  const codes = Array.from({length: 47}, (_, i) => String(i+1).padStart(2,'0'));
   let loaded = 0;
-
   const geoResults = await Promise.all(
     codes.map(async code => {
       try {
         const r = await fetch(`geo-json/pref_${code}.geojson`);
-        const result = r.ok ? await r.json() : null;
-        loaded++;
-        setStatus(`GeoJSON を読み込み中… ${loaded} / 47`);
-        return result;
+        const res = r.ok ? await r.json() : null;
+        setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
+        return res;
       } catch {
-        loaded++;
-        setStatus(`GeoJSON を読み込み中… ${loaded} / 47`);
+        setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
         return null;
       }
     })
   );
 
-  // 3. 都道府県ごとに features を1つの MultiPolygon に結合
-  const prefFeatures = [];
+  // ── ★ 核心部分 ★
+  // features を dissolve せずそのまま使う
+  // 各 feature に都道府県ID・人口を付与するだけ
+  const cityFeatures = [];   // 塗り用（市区町村単位のまま）
+  const prefBounds   = {};   // 都道府県ごとの bounds 計算用
   const failedCodes  = [];
 
   codes.forEach((code, i) => {
     const geo = geoResults[i];
     if (!geo) { failedCodes.push(code); return; }
 
-    const features = Array.isArray(geo.features)
+    const feats = Array.isArray(geo.features)
       ? geo.features.filter(f => f?.geometry)
       : geo.type === 'Feature' ? [geo] : [];
-    if (!features.length) { failedCodes.push(code); return; }
-
-    const allCoords = [];
-    features.forEach(f => {
-      const geom = f.geometry;
-      if      (geom.type === 'Polygon')      allCoords.push(geom.coordinates);
-      else if (geom.type === 'MultiPolygon') allCoords.push(...geom.coordinates);
-    });
+    if (!feats.length) { failedCodes.push(code); return; }
 
     const id  = parseInt(code, 10);
     const pop = popMap[id] || {};
 
-    prefFeatures.push({
-      type: 'Feature',
-      properties: {
-        _id:    id,
-        nameJa: pop.nameJa || features[0].properties?.pref || code,
-        nameEn: pop.nameEn || features[0].properties?.pref || code,
-        total:  pop.total  || 0,
-      },
-      geometry: { type: 'MultiPolygon', coordinates: allCoords }
+    feats.forEach(f => {
+      cityFeatures.push({
+        type: 'Feature',
+        properties: {
+          _id:    id,
+          nameJa: pop.nameJa || f.properties?.pref || code,
+          nameEn: pop.nameEn || f.properties?.pref || code,
+          total:  pop.total  || 0,
+        },
+        geometry: f.geometry   // ← オリジナル geometry をそのまま
+      });
     });
+
+    // 都道府県ごとに features をまとめておく（overlay用）
+    if (!prefBounds[id]) prefBounds[id] = { feats: [], id, ...pop };
+    prefBounds[id].feats.push(...feats);
   });
 
-  // 読み込み失敗レポート
-  if (prefFeatures.length === 0) {
+  if (cityFeatures.length === 0) {
     showError(`
-      <code>geo-json/pref_XX.geojson</code> が1件も読み込めませんでした。<br>
-      失敗したコード: ${failedCodes.slice(0,5).join(', ')}…<br><br>
+      GeoJSON が読み込めませんでした。失敗コード: <code>${failedCodes.slice(0,5).join(', ')}</code><br><br>
       <b>よくある原因：</b><br>
-      ・ファイルをブラウザで直接開いている（<code>file://</code>）→ ローカルサーバーが必要です<br>
-      &nbsp;&nbsp;<code>python3 -m http.server 8000</code> を実行後 <code>http://localhost:8000</code> を開いてください<br>
+      ・<code>file://</code> で開いている → <code>python3 -m http.server 8000</code> 後に <code>http://localhost:8000</code> を開いてください<br>
       ・<code>geo-json/</code> フォルダのパスが違う
     `);
     return;
   }
 
-  if (failedCodes.length > 0) {
-    console.warn('読み込めなかった都道府県:', failedCodes);
-  }
+  const geojson = { type: 'FeatureCollection', features: cityFeatures };
 
-  const geojson = { type: 'FeatureCollection', features: prefFeatures };
-
-  // 4. Projection fit
-  projection.fitExtent(
+  // Projection を features 全体に fitExtent
+  const projection = d3.geoMercator().fitExtent(
     [[SIDE_PAD, TOP_PAD], [W - PANEL_W - SIDE_PAD, H - SIDE_PAD]],
     geojson
   );
+  const pathGen = d3.geoPath().projection(projection);
 
-  // 5. 統計
-  const values = prefFeatures.map(f => f.properties.total).filter(v => v > 0);
-  const maxVal = d3.max(values);
-  const minVal = d3.min(values);
-  const natTot = d3.sum(values);
-  const avg    = Math.round(d3.mean(values));
-
+  // 統計
+  const natTot = rankedPop.reduce((s, p) => s + p.value, 0);
+  const avg    = Math.round(natTot / 47);
   const rankMap = {};
   rankedPop.forEach((p, i) => rankMap[p.id] = i + 1);
 
-  // 6. カラースケール
   const colorScale = d3.scaleSequential()
-    .domain([minVal, maxVal])
+    .domain([minPopVal, maxPopVal])
     .interpolator(t => d3.interpolateRgb(COLOR_LOW, COLOR_HIGH)(Math.pow(t, 0.55)));
 
-  // 7. パス描画
-  g.selectAll('.pref-path')
-    .data(prefFeatures)
+  // ── レイヤー1：市区町村単位で色塗り ──
+  // （都道府県ごとの色で塗るが、境界線は市区町村境）
+  g.selectAll('.city-path')
+    .data(cityFeatures)
     .join('path')
-    .attr('class', 'pref-path')
+    .attr('class', 'city-path')
     .attr('d', pathGen)
-    .attr('fill', d => colorScale(d.properties.total))
+    .attr('fill', d => colorScale(d.properties.total));
+
+  // ── レイヤー2：都道府県単位の透明 overlay（ホバー検出用） ──
+  // 都道府県ごとに FeatureCollection を作り、単一の path として描画
+  const prefOverlayData = Object.values(prefBounds).map(pb => {
+    const fc = { type: 'FeatureCollection', features: pb.feats };
+    return {
+      _id:    pb.id,
+      nameJa: pb.nameJa || '',
+      nameEn: pb.nameEn || '',
+      total:  pb.total  || 0,
+      // 都道府県全体の SVG path 文字列を事前生成
+      d: pb.feats.map(f => pathGen({ type:'Feature', geometry: f.geometry, properties:{} })).join(' ')
+    };
+  });
+
+  g.selectAll('.pref-overlay')
+    .data(prefOverlayData)
+    .join('path')
+    .attr('class', 'pref-overlay')
+    .attr('d', d => d.d)
     .on('mouseenter', function(ev, d) {
       d3.select(this).raise().classed('hovered', true);
-      const p = d.properties;
-      showTip(ev, { nameEn: p.nameEn, nameJa: p.nameJa, value: p.total,
-                    rank: rankMap[p._id], maxVal, natTot, avg });
-      highlightRankItem(p._id);
+      showTip(ev, { nameEn: d.nameEn, nameJa: d.nameJa, value: d.total,
+                    rank: rankMap[d._id], maxVal: maxPopVal, natTot, avg });
+      highlightRankItem(d._id);
     })
     .on('mousemove', moveTip)
-    .on('mouseleave', function() {
+    .on('mouseleave', function(ev, d) {
       d3.select(this).classed('hovered', false);
       hideTip(); clearRankHighlight();
     });
 
   hideOverlay();
+
+  if (failedCodes.length > 0) console.warn('読み込めなかった都道府県:', failedCodes);
 }
 
 window.addEventListener('resize', () => {
