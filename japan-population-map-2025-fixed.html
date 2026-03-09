@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Japan Population Map 2025</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🗾</text></svg>">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -14,7 +13,6 @@
     font-family: 'IBM Plex Sans', sans-serif;
     overflow: hidden; height: 100vh; width: 100vw;
   }
-
   #header {
     position: fixed; top: 0; left: 0; right: 250px; z-index: 100;
     padding: 14px 24px 10px;
@@ -28,32 +26,20 @@
   .color-bar { width: 140px; height: 10px; border-radius: 999px; border: 1px solid rgba(0,0,0,0.08); }
   .color-minmax { display: flex; justify-content: space-between; font-size: 9.5px; color: #aaa; font-family: 'JetBrains Mono', monospace; width: 140px; }
 
-  #map-container { width: 100vw; height: 100vh; }
-  #map-container svg { width: 100%; height: 100%; }
+  #map-container { width: 100vw; height: 100vh; overflow: hidden; position: relative; }
+  #map-svg { width: 100%; height: 100%; display: block; }
 
-  /* 市区町村単位のパス（細かいが都道府県色で塗る） */
-  .city-path {
-    stroke: rgba(255,255,255,0.5);
-    stroke-width: 0.3;
-    vector-effect: non-scaling-stroke;
-    shape-rendering: geometricPrecision;
-    transition: fill 0.25s;
-    pointer-events: none; /* ホバーは都道府県レイヤーで処理 */
-  }
-  /* 都道府県アウトライン（透明塗り・ホバー検出用） */
-  .pref-overlay {
-    fill: transparent;
-    stroke: rgba(255,255,255,0.92);
-    stroke-width: 0.85;
-    vector-effect: non-scaling-stroke;
+  .pref-path {
+    stroke: rgba(255,255,255,0.7);
+    stroke-width: 0.5px;
     stroke-linejoin: round;
     cursor: pointer;
-    shape-rendering: geometricPrecision;
+    transition: filter 0.15s;
   }
-  .pref-overlay.hovered {
-    stroke: rgba(255,255,255,1) !important;
-    stroke-width: 1.8px !important;
-    fill: rgba(255,255,255,0.08);
+  .pref-path:hover {
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1.2px;
+    filter: brightness(1.15) drop-shadow(0 2px 6px rgba(0,0,0,0.3));
   }
 
   .tooltip {
@@ -123,7 +109,10 @@
   </div>
 </div>
 
-<div id="map-container"></div>
+<div id="map-container">
+  <svg id="map-svg"></svg>
+</div>
+
 <div class="tooltip" id="tooltip"></div>
 
 <div id="ranking">
@@ -140,7 +129,9 @@
 </div>
 
 <script>
-// ── 人口データ（インライン） ───────────────────────────────
+// ══════════════════════════════════════════════════════════
+//  人口データ（インライン）
+// ══════════════════════════════════════════════════════════
 const POP_DATA = {
   "01":{"nameJa":"北海道","nameEn":"Hokkaido","total":5044825},
   "02":{"nameJa":"青森県","nameEn":"Aomori Prefecture","total":1185767},
@@ -191,40 +182,167 @@ const POP_DATA = {
   "47":{"nameJa":"沖縄県","nameEn":"Okinawa Prefecture","total":1484081}
 };
 
-// ── CONSTANTS ─────────────────────────────────────────────
-const COLOR_LOW  = '#eef7f0';
-const COLOR_HIGH = '#1f7a43';
-const ACCENT     = '#1f7a43';
-const PANEL_W    = window.innerWidth <= 720 ? 0 : 250;
-const TOP_PAD    = 88;
-const SIDE_PAD   = 18;
-const W = window.innerWidth;
-const H = window.innerHeight;
+// ══════════════════════════════════════════════════════════
+//  投影（D3不使用・自前メルカトル）
+// ══════════════════════════════════════════════════════════
+// D3のgeoMercatorのfitExtentが正しく動作しないため
+// 同じアルゴリズムをJSで実装する
 
-const svg = d3.select('#map-container').append('svg').attr('width', W).attr('height', H);
-const g   = svg.append('g');
+let projScale, projTx, projTy;
 
-svg.call(d3.zoom().scaleExtent([0.4, 20]).on('zoom', ev => g.attr('transform', ev.transform)));
-
-function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
-function hideOverlay()  { document.getElementById('status-overlay').classList.add('hidden'); }
-function showError(html) {
-  document.getElementById('spinner').style.display = 'none';
-  document.getElementById('status-msg').textContent = '⚠️ エラー';
-  const det = document.getElementById('err-detail');
-  det.innerHTML = html; det.style.display = 'block';
+function toMerc(lon, lat) {
+  const x = lon * Math.PI / 180;
+  const y = Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+  return [x, y];
 }
 
-// ── TOOLTIP ───────────────────────────────────────────────
-const tooltip = d3.select('#tooltip');
-function showTip(ev, props) {
+function project(lon, lat) {
+  const [mx, my] = toMerc(lon, lat);
+  return [
+    projScale * mx + projTx,
+    projScale * -my + projTy   // Y軸反転（SVGは下が+）
+  ];
+}
+
+function fitProjection(allFeatures, svgW, svgH, padL, padT, padR, padB) {
+  // 全座標のメルカトル範囲を計算
+  let minX = Infinity, maxX = -Infinity;
+  let minY = Infinity, maxY = -Infinity;
+
+  allFeatures.forEach(feat => {
+    const geom = feat.geometry;
+    const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+    polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
+      const [mx, my] = toMerc(lon, lat);
+      if (mx < minX) minX = mx;
+      if (mx > maxX) maxX = mx;
+      if (-my < minY) minY = -my;   // Y反転後の値で管理
+      if (-my > maxY) maxY = -my;
+    })));
+  });
+
+  const availW = svgW - padL - padR;
+  const availH = svgH - padT - padB;
+  const dx = maxX - minX;
+  const dy = maxY - minY;
+
+  // アスペクト比を保ってfitするscaleを決定
+  projScale = 0.95 * Math.min(availW / dx, availH / dy);
+
+  // センタリング
+  const cx = (minX + maxX) / 2;
+  const cy = (minY + maxY) / 2;
+  projTx = svgW / 2 - projScale * cx;
+  projTy = svgH / 2 - projScale * cy;
+}
+
+// GeoJSONのfeatureをSVGパス文字列に変換
+function featureToPath(feat) {
+  const geom = feat.geometry;
+  const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+  let d = '';
+  polys.forEach(poly => {
+    poly.forEach(ring => {
+      const pts = ring.map(([lon, lat]) => project(lon, lat));
+      d += `M ${pts[0][0].toFixed(2)} ${pts[0][1].toFixed(2)} `;
+      for (let i = 1; i < pts.length; i++) {
+        d += `L ${pts[i][0].toFixed(2)} ${pts[i][1].toFixed(2)} `;
+      }
+      d += 'Z ';
+    });
+  });
+  return d.trim();
+}
+
+// ══════════════════════════════════════════════════════════
+//  カラースケール
+// ══════════════════════════════════════════════════════════
+const COLOR_LOW  = [238, 247, 240];
+const COLOR_HIGH = [31, 122, 67];
+
+function lerpColor(c1, c2, t) {
+  // gamma補正つき補間（視覚的に均一に見える）
+  const g = Math.pow(t, 0.55);
+  const r = Math.round(c1[0] + (c2[0] - c1[0]) * g);
+  const gg = Math.round(c1[1] + (c2[1] - c1[1]) * g);
+  const b = Math.round(c1[2] + (c2[2] - c1[2]) * g);
+  return `rgb(${r},${gg},${b})`;
+}
+
+function getColor(value, minVal, maxVal) {
+  const t = (value - minVal) / (maxVal - minVal);
+  return lerpColor(COLOR_LOW, COLOR_HIGH, t);
+}
+
+// ══════════════════════════════════════════════════════════
+//  ズーム＆パン（SVGのviewBox操作）
+// ══════════════════════════════════════════════════════════
+const PANEL_W = window.innerWidth <= 720 ? 0 : 250;
+let svgW = window.innerWidth;
+let svgH = window.innerHeight;
+
+const svgEl = document.getElementById('map-svg');
+svgEl.setAttribute('width', svgW);
+svgEl.setAttribute('height', svgH);
+
+// ズーム・パン状態
+let viewX = 0, viewY = 0, viewScale = 1;
+let isDragging = false, dragStartX, dragStartY, dragStartViewX, dragStartViewY;
+
+function applyView() {
+  const mapG = document.getElementById('map-g');
+  if (mapG) {
+    mapG.setAttribute('transform', `translate(${viewX}, ${viewY}) scale(${viewScale})`);
+    // stroke-widthをズームに合わせて調整
+    document.querySelectorAll('.pref-path').forEach(p => {
+      p.style.strokeWidth = (0.5 / viewScale) + 'px';
+    });
+  }
+}
+
+svgEl.addEventListener('wheel', e => {
+  e.preventDefault();
+  const delta = e.deltaY > 0 ? 0.85 : 1.18;
+  const rect  = svgEl.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  // マウス位置を中心にズーム
+  viewX = mx - delta * (mx - viewX);
+  viewY = my - delta * (my - viewY);
+  viewScale *= delta;
+  viewScale  = Math.max(0.4, Math.min(20, viewScale));
+  applyView();
+}, { passive: false });
+
+svgEl.addEventListener('mousedown', e => {
+  isDragging = true;
+  dragStartX = e.clientX; dragStartY = e.clientY;
+  dragStartViewX = viewX; dragStartViewY = viewY;
+  svgEl.style.cursor = 'grabbing';
+});
+window.addEventListener('mousemove', e => {
+  if (!isDragging) return;
+  viewX = dragStartViewX + (e.clientX - dragStartX);
+  viewY = dragStartViewY + (e.clientY - dragStartY);
+  applyView();
+});
+window.addEventListener('mouseup', () => {
+  isDragging = false;
+  svgEl.style.cursor = '';
+});
+
+// ══════════════════════════════════════════════════════════
+//  TOOLTIP
+// ══════════════════════════════════════════════════════════
+const tooltipEl = document.getElementById('tooltip');
+function showTip(e, props) {
   const { nameEn, nameJa, value, rank, maxVal, natTot, avg } = props;
-  const pct       = ((value / maxVal) * 100).toFixed(0);
-  const share     = ((value / natTot) * 100).toFixed(1);
-  const diff      = value - avg;
+  const pct   = ((value / maxVal) * 100).toFixed(0);
+  const share = ((value / natTot) * 100).toFixed(1);
+  const diff  = value - avg;
   const diffStr   = diff >= 0 ? `+${diff.toLocaleString()}` : `-${Math.abs(diff).toLocaleString()}`;
-  const diffColor = diff >= 0 ? ACCENT : '#666';
-  tooltip.html(`
+  const diffColor = diff >= 0 ? '#1f7a43' : '#666';
+  tooltipEl.innerHTML = `
     <div class="tt-name">${nameEn}</div>
     <div class="tt-name-ja">${nameJa}</div>
     <div class="tt-rank"><span class="num">#${rank}</span></div>
@@ -233,7 +351,7 @@ function showTip(ev, props) {
       <span class="tt-val">${value.toLocaleString()}<span class="unit"> persons</span></span>
     </div>
     <div class="tt-bar-bg">
-      <div class="tt-bar-fill" style="width:${pct}%;background:linear-gradient(90deg,${COLOR_LOW},${COLOR_HIGH})"></div>
+      <div class="tt-bar-fill" style="width:${pct}%;background:linear-gradient(90deg,rgb(238,247,240),rgb(31,122,67))"></div>
     </div>
     <div class="tt-row" style="margin-top:10px;">
       <span class="tt-label">Share of national total</span>
@@ -244,21 +362,25 @@ function showTip(ev, props) {
       <span class="tt-val-sm" style="color:${diffColor}">${diffStr}</span>
     </div>
     <div class="tt-note">Source: Statistics Bureau of Japan</div>
-  `).classed('visible', true);
-  moveTip(ev);
+  `;
+  tooltipEl.classList.add('visible');
+  moveTip(e);
 }
-function moveTip(ev) {
+function moveTip(e) {
   const gap = 24;
-  tooltip.style('left', '-9999px').style('top', '-9999px');
-  const { width: tw, height: th } = tooltip.node().getBoundingClientRect();
-  let x = ev.clientX + gap, y = ev.clientY + gap;
-  if (x + tw > W - 12) x = ev.clientX - gap - tw;
-  if (y + th > H - 12) y = ev.clientY - gap - th;
-  tooltip.style('left', Math.max(12,x)+'px').style('top', Math.max(12,y)+'px');
+  tooltipEl.style.left = '-9999px'; tooltipEl.style.top = '-9999px';
+  const tw = tooltipEl.offsetWidth, th = tooltipEl.offsetHeight;
+  let x = e.clientX + gap, y = e.clientY + gap;
+  if (x + tw > svgW - 12) x = e.clientX - gap - tw;
+  if (y + th > svgH - 12) y = e.clientY - gap - th;
+  tooltipEl.style.left = Math.max(12, x) + 'px';
+  tooltipEl.style.top  = Math.max(12, y) + 'px';
 }
-function hideTip() { tooltip.classed('visible', false); }
+function hideTip() { tooltipEl.classList.remove('visible'); }
 
-// ── RANKING ───────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════
+//  RANKING
+// ══════════════════════════════════════════════════════════
 function renderRanking(ranked, maxVal) {
   const list = document.getElementById('rk-list');
   list.innerHTML = ranked.map((p, i) => {
@@ -268,23 +390,29 @@ function renderRanking(ranked, maxVal) {
       <span class="${numCls}">${i+1}</span>
       <span class="rk-name">${p.nameEn}</span>
       <span class="rk-val">${p.value.toLocaleString()}</span>
-      <span class="rk-bar"><span class="rk-bar-fill" style="width:${pct}%;background:${ACCENT}"></span></span>
+      <span class="rk-bar"><span class="rk-bar-fill" style="width:${pct}%;background:rgb(31,122,67)"></span></span>
     </div>`;
   }).join('');
 
   list.querySelectorAll('.rk-item').forEach(el => {
     const id = +el.dataset.id;
     el.addEventListener('mouseenter', () => {
-      g.selectAll('.pref-overlay').filter(d => d._id === id).raise().classed('hovered', true);
+      document.querySelectorAll(`.pref-path[data-id="${id}"]`).forEach(p => {
+        p.style.filter = 'brightness(1.15) drop-shadow(0 2px 6px rgba(0,0,0,0.3))';
+        p.style.stroke = 'rgba(255,255,255,1)';
+      });
       el.style.background = 'rgba(21,87,160,0.15)';
     });
     el.addEventListener('mouseleave', () => {
-      g.selectAll('.pref-overlay').filter(d => d._id === id).classed('hovered', false);
+      document.querySelectorAll(`.pref-path[data-id="${id}"]`).forEach(p => {
+        p.style.filter = '';
+        p.style.stroke = '';
+      });
       el.style.background = '';
     });
   });
 }
-function highlightRankItem(id) {
+function highlightRank(id) {
   document.querySelectorAll('.rk-item').forEach(el => {
     const active = +el.dataset.id === id;
     el.style.background = active ? 'rgba(21,87,160,0.15)' : '';
@@ -295,10 +423,20 @@ function clearRankHighlight() {
   document.querySelectorAll('.rk-item').forEach(el => el.style.background = '');
 }
 
-// ── MAIN ──────────────────────────────────────────────────
-async function init() {
+// ══════════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════════
+function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
+function hideOverlay()  { document.getElementById('status-overlay').classList.add('hidden'); }
+function showError(html) {
+  document.getElementById('spinner').style.display = 'none';
+  document.getElementById('status-msg').textContent = '⚠️ エラー';
+  const det = document.getElementById('err-detail');
+  det.innerHTML = html; det.style.display = 'block';
+}
 
-  // 人口データ準備 & ランキング先行描画
+async function init() {
+  // ランキング先行描画
   const popMap = {};
   for (const [code, d] of Object.entries(POP_DATA)) {
     popMap[parseInt(code, 10)] = d;
@@ -309,7 +447,7 @@ async function init() {
   const maxPopVal = rankedPop[0].value;
   const minPopVal = rankedPop[rankedPop.length - 1].value;
   renderRanking(rankedPop, maxPopVal);
-  document.getElementById('colorBar').style.background = `linear-gradient(90deg, ${COLOR_LOW}, ${COLOR_HIGH})`;
+  document.getElementById('colorBar').style.background = 'linear-gradient(90deg, rgb(238,247,240), rgb(31,122,67))';
   document.getElementById('minLabel').textContent = minPopVal.toLocaleString();
   document.getElementById('maxLabel').textContent = maxPopVal.toLocaleString();
 
@@ -322,54 +460,34 @@ async function init() {
         const r = await fetch(`geo-json/pref_${code}.geojson`);
         const res = r.ok ? await r.json() : null;
         setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
-        return res;
+        return { code, geo: res };
       } catch {
         setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
-        return null;
+        return { code, geo: null };
       }
     })
   );
 
-  // ── ★ 核心部分 ★
-  // features を dissolve せずそのまま使う
-  // 各 feature に都道府県ID・人口を付与するだけ
-  const cityFeatures = [];   // 塗り用（市区町村単位のまま）
-  const prefBounds   = {};   // 都道府県ごとの bounds 計算用
-  const failedCodes  = [];
+  // 全featuresを収集
+  const allFeatures = [];   // 投影・bbox計算用
+  const prefGroups  = {};   // id → {features, pop}
 
-  codes.forEach((code, i) => {
-    const geo = geoResults[i];
-    if (!geo) { failedCodes.push(code); return; }
-
+  geoResults.forEach(({ code, geo }) => {
+    if (!geo) return;
     const feats = Array.isArray(geo.features)
       ? geo.features.filter(f => f?.geometry)
       : geo.type === 'Feature' ? [geo] : [];
-    if (!feats.length) { failedCodes.push(code); return; }
+    if (!feats.length) return;
 
     const id  = parseInt(code, 10);
     const pop = popMap[id] || {};
-
-    feats.forEach(f => {
-      cityFeatures.push({
-        type: 'Feature',
-        properties: {
-          _id:    id,
-          nameJa: pop.nameJa || f.properties?.pref || code,
-          nameEn: pop.nameEn || f.properties?.pref || code,
-          total:  pop.total  || 0,
-        },
-        geometry: f.geometry   // ← オリジナル geometry をそのまま
-      });
-    });
-
-    // 都道府県ごとに features をまとめておく（overlay用）
-    if (!prefBounds[id]) prefBounds[id] = { feats: [], id, ...pop };
-    prefBounds[id].feats.push(...feats);
+    allFeatures.push(...feats);
+    prefGroups[id] = { feats, pop };
   });
 
-  if (cityFeatures.length === 0) {
+  if (!allFeatures.length) {
     showError(`
-      GeoJSON が読み込めませんでした。失敗コード: <code>${failedCodes.slice(0,5).join(', ')}</code><br><br>
+      GeoJSON が読み込めませんでした。<br><br>
       <b>よくある原因：</b><br>
       ・<code>file://</code> で開いている → <code>python3 -m http.server 8000</code> 後に <code>http://localhost:8000</code> を開いてください<br>
       ・<code>geo-json/</code> フォルダのパスが違う
@@ -377,14 +495,21 @@ async function init() {
     return;
   }
 
-  const geojson = { type: 'FeatureCollection', features: cityFeatures };
-
-  // Projection を features 全体に fitExtent
-  const projection = d3.geoMercator().fitExtent(
-    [[SIDE_PAD, TOP_PAD], [W - PANEL_W - SIDE_PAD, H - SIDE_PAD]],
-    geojson
+  // 投影パラメータ計算（D3不使用）
+  fitProjection(
+    allFeatures,
+    svgW, svgH,
+    18,           // padLeft
+    88,           // padTop（ヘッダー分）
+    18 + PANEL_W, // padRight（ランキングパネル分）
+    18            // padBottom
   );
-  const pathGen = d3.geoPath().projection(projection);
+
+  // SVG描画
+  const svgEl2 = document.getElementById('map-svg');
+  const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  g.id = 'map-g';
+  svgEl2.appendChild(g);
 
   // 統計
   const natTot = rankedPop.reduce((s, p) => s + p.value, 0);
@@ -392,57 +517,45 @@ async function init() {
   const rankMap = {};
   rankedPop.forEach((p, i) => rankMap[p.id] = i + 1);
 
-  const colorScale = d3.scaleSequential()
-    .domain([minPopVal, maxPopVal])
-    .interpolator(t => d3.interpolateRgb(COLOR_LOW, COLOR_HIGH)(Math.pow(t, 0.55)));
+  // 都道府県ごとにpathを描画（各featureを個別のpath要素として）
+  Object.entries(prefGroups).forEach(([idStr, { feats, pop }]) => {
+    const id    = parseInt(idStr, 10);
+    const color = getColor(pop.total || 0, minPopVal, maxPopVal);
 
-  // ── レイヤー1：市区町村単位で色塗り ──
-  // （都道府県ごとの色で塗るが、境界線は市区町村境）
-  g.selectAll('.city-path')
-    .data(cityFeatures)
-    .join('path')
-    .attr('class', 'city-path')
-    .attr('d', pathGen)
-    .attr('fill', d => colorScale(d.properties.total));
+    feats.forEach(feat => {
+      const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      pathEl.setAttribute('d', featureToPath(feat));
+      pathEl.setAttribute('fill', color);
+      pathEl.setAttribute('class', 'pref-path');
+      pathEl.setAttribute('data-id', id);
 
-  // ── レイヤー2：都道府県単位の透明 overlay（ホバー検出用） ──
-  // 都道府県ごとに FeatureCollection を作り、単一の path として描画
-  const prefOverlayData = Object.values(prefBounds).map(pb => {
-    const fc = { type: 'FeatureCollection', features: pb.feats };
-    return {
-      _id:    pb.id,
-      nameJa: pb.nameJa || '',
-      nameEn: pb.nameEn || '',
-      total:  pb.total  || 0,
-      // 都道府県全体の SVG path 文字列を事前生成
-      d: pb.feats.map(f => pathGen({ type:'Feature', geometry: f.geometry, properties:{} })).join(' ')
-    };
+      pathEl.addEventListener('mouseenter', e => {
+        pathEl.style.filter = 'brightness(1.15) drop-shadow(0 2px 6px rgba(0,0,0,0.3))';
+        showTip(e, {
+          nameEn: pop.nameEn, nameJa: pop.nameJa,
+          value: pop.total, rank: rankMap[id],
+          maxVal: maxPopVal, natTot, avg
+        });
+        highlightRank(id);
+      });
+      pathEl.addEventListener('mousemove', moveTip);
+      pathEl.addEventListener('mouseleave', () => {
+        pathEl.style.filter = '';
+        hideTip();
+        clearRankHighlight();
+      });
+
+      g.appendChild(pathEl);
+    });
   });
 
-  g.selectAll('.pref-overlay')
-    .data(prefOverlayData)
-    .join('path')
-    .attr('class', 'pref-overlay')
-    .attr('d', d => d.d)
-    .on('mouseenter', function(ev, d) {
-      d3.select(this).raise().classed('hovered', true);
-      showTip(ev, { nameEn: d.nameEn, nameJa: d.nameJa, value: d.total,
-                    rank: rankMap[d._id], maxVal: maxPopVal, natTot, avg });
-      highlightRankItem(d._id);
-    })
-    .on('mousemove', moveTip)
-    .on('mouseleave', function(ev, d) {
-      d3.select(this).classed('hovered', false);
-      hideTip(); clearRankHighlight();
-    });
-
   hideOverlay();
-
-  if (failedCodes.length > 0) console.warn('読み込めなかった都道府県:', failedCodes);
 }
 
 window.addEventListener('resize', () => {
-  svg.attr('width', window.innerWidth).attr('height', window.innerHeight);
+  svgW = window.innerWidth; svgH = window.innerHeight;
+  svgEl.setAttribute('width', svgW);
+  svgEl.setAttribute('height', svgH);
 });
 
 init();
