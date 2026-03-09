@@ -30,20 +30,16 @@
   #map-svg { width: 100%; height: 100%; display: block; }
 
   .pref-path {
-    stroke: none;   /* 市区町村内部の境界線を完全に消す */
+    stroke: rgba(255,255,255,0.85);
+    stroke-width: 0.6px;
+    stroke-linejoin: round;
     cursor: pointer;
     transition: filter 0.15s;
   }
   .pref-path:hover {
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
     filter: brightness(1.12) drop-shadow(0 2px 8px rgba(0,0,0,0.25));
-  }
-  /* 都道府県の外枠（白線）は .pref-border レイヤーで描く */
-  .pref-border {
-    fill: none;
-    stroke: rgba(255,255,255,0.9);
-    stroke-width: 0.8px;
-    stroke-linejoin: round;
-    pointer-events: none;
   }
 
   .tooltip {
@@ -450,47 +446,39 @@ async function init() {
   document.getElementById('minLabel').textContent = minPopVal.toLocaleString();
   document.getElementById('maxLabel').textContent = maxPopVal.toLocaleString();
 
-  // GeoJSON fetch（47県 並列）
-  const codes = Array.from({length: 47}, (_, i) => String(i+1).padStart(2,'0'));
-  let loaded = 0;
-  const geoResults = await Promise.all(
-    codes.map(async code => {
-      try {
-        const r = await fetch(`geo-json/pref_${code}.geojson`);
-        const res = r.ok ? await r.json() : null;
-        setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
-        return { code, geo: res };
-      } catch {
-        setStatus(`GeoJSON を読み込み中… ${++loaded} / 47`);
-        return { code, geo: null };
-      }
-    })
-  );
+  // japan.geojson を1回だけfetch（47県dissolved済み）
+  setStatus('japan.geojson を読み込み中…');
+  let japanGeo;
+  try {
+    const r = await fetch('geo-json/japan.geojson');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    japanGeo = await r.json();
+  } catch(e) {
+    showError(`
+      <b>geo-json/japan.geojson</b> が読み込めませんでした。<br><br>
+      まず <code>make_japan_geojson.py</code> を実行して japan.geojson を生成してください：<br>
+      <code>python3 make_japan_geojson.py</code><br><br>
+      その後 <code>python3 -m http.server 8000</code> でサーバーを起動し、<br>
+      <code>http://localhost:8000</code> を開いてください。<br><br>
+      エラー: ${e.message}
+    `);
+    return;
+  }
 
   // 全featuresを収集
-  const allFeatures = [];   // 投影・bbox計算用
-  const prefGroups  = {};   // id → {features, pop}
+  const allFeatures = japanGeo.features.filter(f => f?.geometry);
+  const prefGroups  = {};   // id → {feats, pop}
 
-  geoResults.forEach(({ code, geo }) => {
-    if (!geo) return;
-    const feats = Array.isArray(geo.features)
-      ? geo.features.filter(f => f?.geometry)
-      : geo.type === 'Feature' ? [geo] : [];
-    if (!feats.length) return;
-
-    const id  = parseInt(code, 10);
-    const pop = popMap[id] || {};
-    allFeatures.push(...feats);
-    prefGroups[id] = { feats, pop };
+  allFeatures.forEach(feat => {
+    const code = feat.properties?.code || '';
+    const id   = parseInt(code, 10);
+    const pop  = popMap[id] || {};
+    // japan.geojsonは1県=1feature なのでそのまま格納
+    prefGroups[id] = { feats: [feat], pop };
   });
 
   if (!allFeatures.length) {
-    showError(`
-      GeoJSON が読み込めませんでした。<br><br>
-      <b>よくある原因：</b><br>
-      ・<code>file://</code> で開いている → <code>python3 -m http.server 8000</code> 後に <code>http://localhost:8000</code> を開いてください<br>
-      ・<code>geo-json/</code> フォルダのパスが違う
-    `);
+    showError('japan.geojson に有効なデータがありません。');
     return;
   }
 
@@ -551,19 +539,6 @@ async function init() {
     g.appendChild(pathEl);
   });
 
-  // 都道府県の外枠（白線）を別レイヤーとして最前面に描画
-  // fillなし・strokeのみ → 市区町村境界は塗り色が同じなので見えず、外枠だけ白線になる
-  const borderG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-  borderG.id = 'border-g';
-  Object.entries(prefGroups).forEach(([idStr, { feats }]) => {
-    const combinedD = feats.map(featureToPath).join(' ');
-    const borderEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    borderEl.setAttribute('d', combinedD);
-    borderEl.setAttribute('class', 'pref-border');
-    borderEl.setAttribute('fill-rule', 'evenodd');
-    borderG.appendChild(borderEl);
-  });
-  g.appendChild(borderG);
 
   hideOverlay();
 }
