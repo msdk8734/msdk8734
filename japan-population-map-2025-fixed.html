@@ -9,7 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   body {
     background: #ffffff;
     color: #2a2a2a;
@@ -33,25 +32,18 @@
   }
   .title-block h1 { font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.01em; }
   .title-block .sub { font-size: 10.5px; color: #888; margin-top: 2px; }
-
   .header-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
-    padding-top: 4px;
+    display: flex; flex-direction: column;
+    align-items: flex-end; gap: 4px; padding-top: 4px;
   }
   .color-bar {
     width: 140px; height: 10px;
-    border-radius: 999px;
-    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 999px; border: 1px solid rgba(0,0,0,0.08);
   }
   .color-minmax {
-    display: flex;
-    justify-content: space-between;
+    display: flex; justify-content: space-between;
     font-size: 9.5px; color: #aaa;
-    font-family: 'JetBrains Mono', monospace;
-    width: 140px;
+    font-family: 'JetBrains Mono', monospace; width: 140px;
   }
 
   /* ── MAP ── */
@@ -62,8 +54,7 @@
     stroke: rgba(255,255,255,0.92);
     stroke-width: 0.85;
     vector-effect: non-scaling-stroke;
-    stroke-linejoin: round;
-    stroke-linecap: round;
+    stroke-linejoin: round; stroke-linecap: round;
     cursor: pointer;
     shape-rendering: geometricPrecision;
     transition: fill 0.25s;
@@ -76,17 +67,12 @@
 
   /* ── TOOLTIP ── */
   .tooltip {
-    position: fixed;
-    pointer-events: none;
+    position: fixed; pointer-events: none;
     background: rgba(255,255,255,0.97);
     backdrop-filter: blur(16px);
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 16px 20px;
-    opacity: 0;
-    transition: opacity 0.12s;
-    z-index: 200;
-    min-width: 240px;
+    border: 1px solid #e0e0e0; border-radius: 12px;
+    padding: 16px 20px; opacity: 0; transition: opacity 0.12s;
+    z-index: 200; min-width: 240px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.06);
   }
   .tooltip.visible { opacity: 1; }
@@ -105,17 +91,11 @@
 
   /* ── RANKING PANEL ── */
   #ranking {
-    position: fixed;
-    right: 0; top: 0; bottom: 0;
-    width: 250px;
-    background: rgba(255,255,255,0.96);
-    backdrop-filter: blur(10px);
-    border-left: 1px solid #eee;
-    z-index: 90;
+    position: fixed; right: 0; top: 0; bottom: 0; width: 250px;
+    background: rgba(255,255,255,0.96); backdrop-filter: blur(10px);
+    border-left: 1px solid #eee; z-index: 90;
     padding: 16px 10px 12px;
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #ddd transparent;
+    overflow-y: auto; scrollbar-width: thin; scrollbar-color: #ddd transparent;
   }
   .rk-title  { font-size: 11px; font-weight: 700; color: #888; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
   .rk-item   { display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 5px; cursor: pointer; transition: background 0.12s; }
@@ -129,19 +109,36 @@
   .rk-bar    { width: 36px; height: 3px; background: #f0f0f0; border-radius: 2px; overflow: hidden; flex-shrink: 0; }
   .rk-bar-fill { height: 100%; border-radius: 2px; opacity: 0.5; }
 
-  /* ── MISC ── */
+  /* ── LOADING / ERROR ── */
+  #status-overlay {
+    position: fixed; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 14px; z-index: 300;
+    background: rgba(255,255,255,0.92);
+    font-size: 13px; color: #666;
+  }
+  #status-overlay.hidden { display: none; }
+  #status-overlay .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid #eee; border-top-color: #1f7a43;
+    border-radius: 50%; animation: spin .7s linear infinite;
+  }
+  #status-overlay .err-icon { font-size: 32px; }
+  #status-overlay .err-detail {
+    font-size: 11px; color: #999; line-height: 1.7;
+    text-align: center; max-width: 480px;
+  }
+  #status-overlay .err-detail code {
+    background: #f4f4f4; padding: 1px 5px; border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
   .hint {
     position: fixed; bottom: 12px; left: calc(50% - 125px);
     font-size: 10px; color: #ccc; z-index: 100; pointer-events: none;
   }
-  #error-msg {
-    display: none; position: fixed; top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff0f0; border: 1px solid #fcc; border-radius: 10px;
-    padding: 24px 32px; font-size: 14px; color: #c00;
-    z-index: 999; text-align: center; line-height: 1.8;
-  }
-
   @media (max-width: 720px) {
     #ranking { display: none; }
     #header  { right: 0; }
@@ -173,10 +170,73 @@
 </div>
 
 <div class="hint">Scroll: zoom &nbsp;|&nbsp; Drag: pan</div>
-<div id="error-msg"></div>
+
+<!-- ローディング / エラー オーバーレイ -->
+<div id="status-overlay">
+  <div class="spinner" id="spinner"></div>
+  <div id="status-msg">GeoJSON を読み込み中…</div>
+  <div class="err-detail" id="err-detail" style="display:none"></div>
+</div>
 
 <script>
-// ── CONSTANTS ─────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════
+//  人口データ（インライン）
+//  ※ pref-pop.json の内容をそのまま埋め込み
+//    → fetch不要でランキングは必ず表示される
+// ══════════════════════════════════════════════════════════
+const POP_DATA = {
+  "01":{"nameJa":"北海道","nameEn":"Hokkaido","total":5044825},
+  "02":{"nameJa":"青森県","nameEn":"Aomori Prefecture","total":1185767},
+  "03":{"nameJa":"岩手県","nameEn":"Iwate Prefecture","total":1153900},
+  "04":{"nameJa":"宮城県","nameEn":"Miyagi Prefecture","total":2224980},
+  "05":{"nameJa":"秋田県","nameEn":"Akita Prefecture","total":907593},
+  "06":{"nameJa":"山形県","nameEn":"Yamagata Prefecture","total":1012355},
+  "07":{"nameJa":"福島県","nameEn":"Fukushima Prefecture","total":1771314},
+  "08":{"nameJa":"茨城県","nameEn":"Ibaraki Prefecture","total":2848597},
+  "09":{"nameJa":"栃木県","nameEn":"Tochigi Prefecture","total":1904173},
+  "10":{"nameJa":"群馬県","nameEn":"Gumma Prefecture","total":1907976},
+  "11":{"nameJa":"埼玉県","nameEn":"Saitama Prefecture","total":7374294},
+  "12":{"nameJa":"千葉県","nameEn":"Chiba Prefecture","total":6311579},
+  "13":{"nameJa":"東京都","nameEn":"Tokyo Metropolis","total":14002534},
+  "14":{"nameJa":"神奈川県","nameEn":"Kanagawa Prefecture","total":9202559},
+  "15":{"nameJa":"新潟県","nameEn":"Niigata Prefecture","total":2110754},
+  "16":{"nameJa":"富山県","nameEn":"Toyama Prefecture","total":1008536},
+  "17":{"nameJa":"石川県","nameEn":"Ishikawa Prefecture","total":1098121},
+  "18":{"nameJa":"福井県","nameEn":"Fukui Prefecture","total":746690},
+  "19":{"nameJa":"山梨県","nameEn":"Yamanashi Prefecture","total":801056},
+  "20":{"nameJa":"長野県","nameEn":"Nagano Prefecture","total":2012399},
+  "21":{"nameJa":"岐阜県","nameEn":"Gifu Prefecture","total":1951292},
+  "22":{"nameJa":"静岡県","nameEn":"Shizuoka Prefecture","total":3575704},
+  "23":{"nameJa":"愛知県","nameEn":"Aichi Prefecture","total":7483755},
+  "24":{"nameJa":"三重県","nameEn":"Mie Prefecture","total":1741266},
+  "25":{"nameJa":"滋賀県","nameEn":"Shiga Prefecture","total":1405246},
+  "26":{"nameJa":"京都府","nameEn":"Kyoto Prefecture","total":2472013},
+  "27":{"nameJa":"大阪府","nameEn":"Osaka Prefecture","total":8771961},
+  "28":{"nameJa":"兵庫県","nameEn":"Hyogo Prefecture","total":5393607},
+  "29":{"nameJa":"奈良県","nameEn":"Nara Prefecture","total":1303867},
+  "30":{"nameJa":"和歌山県","nameEn":"Wakayama Prefecture","total":901193},
+  "31":{"nameJa":"鳥取県","nameEn":"Tottori Prefecture","total":534003},
+  "32":{"nameJa":"島根県","nameEn":"Shimane Prefecture","total":642590},
+  "33":{"nameJa":"岡山県","nameEn":"Okayama Prefecture","total":1835478},
+  "34":{"nameJa":"広島県","nameEn":"Hiroshima Prefecture","total":2728771},
+  "35":{"nameJa":"山口県","nameEn":"Yamaguchi Prefecture","total":1292956},
+  "36":{"nameJa":"徳島県","nameEn":"Tokushima Prefecture","total":700409},
+  "37":{"nameJa":"香川県","nameEn":"Kagawa Prefecture","total":939965},
+  "38":{"nameJa":"愛媛県","nameEn":"Ehime Prefecture","total":1296359},
+  "39":{"nameJa":"高知県","nameEn":"Kochi Prefecture","total":664863},
+  "40":{"nameJa":"福岡県","nameEn":"Fukuoka Prefecture","total":5086957},
+  "41":{"nameJa":"佐賀県","nameEn":"Saga Prefecture","total":794252},
+  "42":{"nameJa":"長崎県","nameEn":"Nagasaki Prefecture","total":1274371},
+  "43":{"nameJa":"熊本県","nameEn":"Kumamoto Prefecture","total":1716360},
+  "44":{"nameJa":"大分県","nameEn":"Oita Prefecture","total":1102102},
+  "45":{"nameJa":"宮崎県","nameEn":"Miyazaki Prefecture","total":1048347},
+  "46":{"nameJa":"鹿児島県","nameEn":"Kagoshima Prefecture","total":1558920},
+  "47":{"nameJa":"沖縄県","nameEn":"Okinawa Prefecture","total":1484081}
+};
+
+// ══════════════════════════════════════════════════════════
+//  CONSTANTS / SETUP
+// ══════════════════════════════════════════════════════════
 const COLOR_LOW  = '#eef7f0';
 const COLOR_HIGH = '#1f7a43';
 const ACCENT     = '#1f7a43';
@@ -184,7 +244,6 @@ const PANEL_W    = window.innerWidth <= 720 ? 0 : 250;
 const TOP_PAD    = 88;
 const SIDE_PAD   = 18;
 
-// ── SVG SETUP ─────────────────────────────────────────────
 const W = window.innerWidth;
 const H = window.innerHeight;
 
@@ -198,6 +257,21 @@ svg.call(
   d3.zoom().scaleExtent([0.4, 20])
     .on('zoom', ev => g.attr('transform', ev.transform))
 );
+
+// ── ステータスオーバーレイ ────────────────────────────────
+function setStatus(msg) {
+  document.getElementById('status-msg').textContent = msg;
+}
+function showError(detail) {
+  document.getElementById('spinner').style.display = 'none';
+  document.getElementById('status-msg').textContent = '⚠️ GeoJSON の読み込みに失敗しました';
+  const det = document.getElementById('err-detail');
+  det.innerHTML = detail;
+  det.style.display = 'block';
+}
+function hideOverlay() {
+  document.getElementById('status-overlay').classList.add('hidden');
+}
 
 // ── TOOLTIP ───────────────────────────────────────────────
 const tooltip = d3.select('#tooltip');
@@ -243,14 +317,13 @@ function moveTip(ev) {
   if (y + th > H - 12) y = ev.clientY - gap - th;
   tooltip.style('left', Math.max(12, x) + 'px').style('top', Math.max(12, y) + 'px');
 }
-
 function hideTip() { tooltip.classed('visible', false); }
 
-// ── RANKING PANEL ─────────────────────────────────────────
+// ── RANKING ───────────────────────────────────────────────
 function renderRanking(ranked, maxVal) {
   const list = document.getElementById('rk-list');
   list.innerHTML = ranked.map((p, i) => {
-    const pct = (p.value / maxVal * 100).toFixed(0);
+    const pct    = (p.value / maxVal * 100).toFixed(0);
     const numCls = i === 0 ? 'rk-num gold' : i === 1 ? 'rk-num silver' : i === 2 ? 'rk-num bronze' : 'rk-num';
     return `<div class="rk-item" data-id="${p.id}">
       <span class="${numCls}">${i + 1}</span>
@@ -260,7 +333,6 @@ function renderRanking(ranked, maxVal) {
     </div>`;
   }).join('');
 
-  // ランキングアイテム↔マップ 相互ホバー
   list.querySelectorAll('.rk-item').forEach(el => {
     const id = +el.dataset.id;
     el.addEventListener('mouseenter', () => {
@@ -274,7 +346,6 @@ function renderRanking(ranked, maxVal) {
   });
 }
 
-// ── HIGHLIGHT RANKING ITEM ────────────────────────────────
 function highlightRankItem(id) {
   document.querySelectorAll('.rk-item').forEach(el => {
     const active = +el.dataset.id === id;
@@ -286,57 +357,67 @@ function clearRankHighlight() {
   document.querySelectorAll('.rk-item').forEach(el => el.style.background = '');
 }
 
-// ── MAIN ──────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════════
 async function init() {
 
-  // 1. 人口データ fetch
-  let popData;
-  try {
-    const res = await fetch('population-json/pref-pop.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    popData = await res.json();
-  } catch (e) {
-    showError(`人口データの読み込みに失敗しました。<br><code>population-json/pref-pop.json</code> を確認してください。<br>${e.message}`);
-    return;
+  // 1. 人口データをインラインから構築（fetch不要）
+  const popMap = {};
+  for (const [code, d] of Object.entries(POP_DATA)) {
+    popMap[parseInt(code, 10)] = d;
   }
 
-  // popData 想定フォーマット: { "01": { nameJa, nameEn, total }, "02": {...}, ... }
-  const popMap = {};
-  for (const [code, d] of Object.entries(popData)) {
-    const id = parseInt(code, 10);
-    popMap[id] = {
-      nameJa: d.nameJa || d.pref || '',
-      nameEn: d.nameEn || d.pref || '',
-      total:  d.total  || 0,
-    };
-  }
+  // ランキングはGeoJSON読み込み前に先行描画
+  const rankedPop = Object.entries(POP_DATA)
+    .map(([code, d]) => ({ id: parseInt(code, 10), nameEn: d.nameEn, value: d.total }))
+    .sort((a, b) => b.value - a.value);
+  const maxPopVal = rankedPop[0].value;
+  renderRanking(rankedPop, maxPopVal);
+
+  // 凡例
+  const minPopVal = rankedPop[rankedPop.length - 1].value;
+  document.getElementById('colorBar').style.background = `linear-gradient(90deg, ${COLOR_LOW}, ${COLOR_HIGH})`;
+  document.getElementById('minLabel').textContent = minPopVal.toLocaleString();
+  document.getElementById('maxLabel').textContent = maxPopVal.toLocaleString();
 
   // 2. GeoJSON fetch（47県 並列）
   const codes = Array.from({ length: 47 }, (_, i) => String(i + 1).padStart(2, '0'));
+  let loaded = 0;
+
   const geoResults = await Promise.all(
-    codes.map(code =>
-      fetch(`geo-json/pref_${code}.geojson`)
-        .then(r => r.ok ? r.json() : null)
-        .catch(() => null)
-    )
+    codes.map(async code => {
+      try {
+        const r = await fetch(`geo-json/pref_${code}.geojson`);
+        const result = r.ok ? await r.json() : null;
+        loaded++;
+        setStatus(`GeoJSON を読み込み中… ${loaded} / 47`);
+        return result;
+      } catch {
+        loaded++;
+        setStatus(`GeoJSON を読み込み中… ${loaded} / 47`);
+        return null;
+      }
+    })
   );
 
-  // 3. 都道府県ごとに全 features を1つの MultiPolygon feature に結合
+  // 3. 都道府県ごとに features を1つの MultiPolygon に結合
   const prefFeatures = [];
+  const failedCodes  = [];
+
   codes.forEach((code, i) => {
     const geo = geoResults[i];
-    if (!geo) return;
+    if (!geo) { failedCodes.push(code); return; }
 
     const features = Array.isArray(geo.features)
       ? geo.features.filter(f => f?.geometry)
-      : (geo.type === 'Feature' ? [geo] : []);
-    if (!features.length) return;
+      : geo.type === 'Feature' ? [geo] : [];
+    if (!features.length) { failedCodes.push(code); return; }
 
-    // 全ポリゴン座標を集めて MultiPolygon にまとめる
     const allCoords = [];
     features.forEach(f => {
       const geom = f.geometry;
-      if (geom.type === 'Polygon')           allCoords.push(geom.coordinates);
+      if      (geom.type === 'Polygon')      allCoords.push(geom.coordinates);
       else if (geom.type === 'MultiPolygon') allCoords.push(...geom.coordinates);
     });
 
@@ -355,9 +436,21 @@ async function init() {
     });
   });
 
-  if (!prefFeatures.length) {
-    showError('GeoJSON データが見つかりません。<br><code>geo-json/pref_01.geojson</code> … の存在を確認してください。');
+  // 読み込み失敗レポート
+  if (prefFeatures.length === 0) {
+    showError(`
+      <code>geo-json/pref_XX.geojson</code> が1件も読み込めませんでした。<br>
+      失敗したコード: ${failedCodes.slice(0,5).join(', ')}…<br><br>
+      <b>よくある原因：</b><br>
+      ・ファイルをブラウザで直接開いている（<code>file://</code>）→ ローカルサーバーが必要です<br>
+      &nbsp;&nbsp;<code>python3 -m http.server 8000</code> を実行後 <code>http://localhost:8000</code> を開いてください<br>
+      ・<code>geo-json/</code> フォルダのパスが違う
+    `);
     return;
+  }
+
+  if (failedCodes.length > 0) {
+    console.warn('読み込めなかった都道府県:', failedCodes);
   }
 
   const geojson = { type: 'FeatureCollection', features: prefFeatures };
@@ -368,24 +461,15 @@ async function init() {
     geojson
   );
 
-  // 5. 統計計算
+  // 5. 統計
   const values = prefFeatures.map(f => f.properties.total).filter(v => v > 0);
   const maxVal = d3.max(values);
   const minVal = d3.min(values);
   const natTot = d3.sum(values);
   const avg    = Math.round(d3.mean(values));
 
-  // ランク付け
-  const ranked = [...prefFeatures]
-    .sort((a, b) => b.properties.total - a.properties.total);
   const rankMap = {};
-  ranked.forEach((f, i) => rankMap[f.properties._id] = i + 1);
-
-  // 凡例更新
-  document.getElementById('colorBar').style.background =
-    `linear-gradient(90deg, ${COLOR_LOW}, ${COLOR_HIGH})`;
-  document.getElementById('minLabel').textContent = minVal.toLocaleString();
-  document.getElementById('maxLabel').textContent = maxVal.toLocaleString();
+  rankedPop.forEach((p, i) => rankMap[p.id] = i + 1);
 
   // 6. カラースケール
   const colorScale = d3.scaleSequential()
@@ -402,35 +486,19 @@ async function init() {
     .on('mouseenter', function(ev, d) {
       d3.select(this).raise().classed('hovered', true);
       const p = d.properties;
-      showTip(ev, {
-        nameEn: p.nameEn, nameJa: p.nameJa,
-        value: p.total, rank: rankMap[p._id],
-        maxVal, natTot, avg,
-      });
+      showTip(ev, { nameEn: p.nameEn, nameJa: p.nameJa, value: p.total,
+                    rank: rankMap[p._id], maxVal, natTot, avg });
       highlightRankItem(p._id);
     })
     .on('mousemove', moveTip)
-    .on('mouseleave', function(ev, d) {
+    .on('mouseleave', function() {
       d3.select(this).classed('hovered', false);
-      hideTip();
-      clearRankHighlight();
+      hideTip(); clearRankHighlight();
     });
 
-  // 8. ランキング描画
-  renderRanking(
-    ranked.map(f => ({ id: f.properties._id, nameEn: f.properties.nameEn, value: f.properties.total })),
-    maxVal
-  );
+  hideOverlay();
 }
 
-// ── ERROR DISPLAY ─────────────────────────────────────────
-function showError(html) {
-  const el = document.getElementById('error-msg');
-  el.innerHTML = html;
-  el.style.display = 'block';
-}
-
-// ── RESIZE ────────────────────────────────────────────────
 window.addEventListener('resize', () => {
   svg.attr('width', window.innerWidth).attr('height', window.innerHeight);
 });
