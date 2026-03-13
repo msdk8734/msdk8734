@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -8,136 +7,96 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>🗾</text></svg>">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* ── Reset & Base ──────────────────────────────────── */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  background: #ffffff;
-  color: #2a2a2a;
-  font-family: 'IBM Plex Sans', sans-serif;
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #ffffff; color: #2a2a2a;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden; height: 100vh; width: 100vw;
+  }
+  #header {
+    position: fixed; top: 0; left: 0; right: 250px; z-index: 100;
+    padding: 14px 24px 10px;
+    display: flex; align-items: flex-start; justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 70%, rgba(255,255,255,0) 100%);
+    pointer-events: none;
+  }
+  .title-block h1 { font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.01em; }
+  .title-block .sub { font-size: 10.5px; color: #888; margin-top: 2px; }
+  .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; padding-top: 4px; }
+  .color-bar { width: 140px; height: 10px; border-radius: 999px; border: 1px solid rgba(0,0,0,0.08); }
+  .color-minmax { display: flex; justify-content: space-between; font-size: 9.5px; color: #aaa; font-family: 'JetBrains Mono', monospace; width: 140px; }
 
-/* ── Header ────────────────────────────────────────── */
-#header {
-position: fixed; top: 0; left: 0; right: 250px; z-index: 100;
-padding: 14px 24px 10px;
-display: flex; align-items: flex-start; justify-content: space-between;
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 70%, rgba(255,255,255,0) 100%);
-pointer-events: none;
-}
-.title-block h1 { font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.01em; }
-.title-block .sub { font-size: 10.5px; color: #888; margin-top: 2px; }
-.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; padding-top: 4px; }
-.color-bar { width: 140px; height: 10px; border-radius: 999px; border: 1px solid rgba(0,0,0,0.08); }
-.color-minmax {
-display: flex; justify-content: space-between;
-font-size: 9.5px; color: #aaa;
-font-family: ‘JetBrains Mono’, monospace; width: 140px;
-}
+  #map-container { width: 100vw; height: 100vh; overflow: hidden; position: relative; }
+  #map-svg { width: 100%; height: 100%; display: block; }
 
-/* ── Map ───────────────────────────────────────────── */
-#map-container { width: 100vw; height: 100vh; overflow: hidden; position: relative; }
-#map-svg { width: 100%; height: 100%; display: block; }
-.pref-path {
-stroke: rgba(255,255,255,0.85);
-stroke-width: 0.6px;
-stroke-linejoin: round;
-cursor: pointer;
-transition: filter 0.15s;
-}
-.pref-path:hover {
-stroke: rgba(255,255,255,1);
-stroke-width: 1px;
-filter: brightness(1.12) drop-shadow(0 2px 8px rgba(0,0,0,0.25));
-}
+  .pref-path {
+    stroke: rgba(255,255,255,0.6);
+    stroke-width: 0.2px;
+    stroke-linejoin: round;
+    cursor: pointer;
+    transition: filter 0.15s;
+  }
+  .pref-path:hover {
+    stroke: rgba(255,255,255,0.9);
+    stroke-width: 0.5px;
+    filter: brightness(1.12) drop-shadow(0 2px 8px rgba(0,0,0,0.25));
+  }
 
-/* ── Tooltip ───────────────────────────────────────── */
-.tooltip {
-position: fixed; pointer-events: none;
-background: rgba(255,255,255,0.97); backdrop-filter: blur(16px);
-border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px 20px;
-opacity: 0; transition: opacity 0.12s; z-index: 200; min-width: 240px;
-box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.06);
-}
-.tooltip.visible { opacity: 1; }
-.tt-name    { font-size: 17px; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
-.tt-name-ja { font-size: 12px; color: #999; margin-bottom: 10px; }
-.tt-rank    { margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
-.tt-rank .num { color: #1557a0; font-size: 20px; font-family: ‘JetBrains Mono’; font-weight: 600; }
-.tt-row     { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 14px; }
-.tt-label   { font-size: 12px; color: #888; }
-.tt-val     { font-family: ‘JetBrains Mono’, monospace; font-size: 17px; font-weight: 600; color: #1a1a1a; }
-.tt-val .unit { font-size: 11px; color: #999; font-weight: 400; margin-left: 2px; }
-.tt-val-sm  { font-family: ‘JetBrains Mono’, monospace; font-size: 14px; font-weight: 500; color: #1a1a1a; }
-.tt-bar-bg  { height: 5px; background: #f0f0f0; border-radius: 3px; overflow: hidden; margin-top: 4px; }
-.tt-bar-fill { height: 100%; border-radius: 3px; }
-.tt-note    { font-size: 9.5px; color: #bbb; margin-top: 10px; line-height: 1.4; }
+  .tooltip {
+    position: fixed; pointer-events: none;
+    background: rgba(255,255,255,0.97); backdrop-filter: blur(16px);
+    border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px 20px;
+    opacity: 0; transition: opacity 0.12s; z-index: 200; min-width: 240px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .tooltip.visible { opacity: 1; }
+  .tt-name    { font-size: 17px; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
+  .tt-name-ja { font-size: 12px; color: #999; margin-bottom: 10px; }
+  .tt-rank    { margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+  .tt-rank .num { color: #1557a0; font-size: 20px; font-family: 'JetBrains Mono'; font-weight: 600; }
+  .tt-row     { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 14px; }
+  .tt-label   { font-size: 12px; color: #888; }
+  .tt-val     { font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 600; color: #1a1a1a; }
+  .tt-val .unit { font-size: 11px; color: #999; font-weight: 400; margin-left: 2px; }
+  .tt-val-sm  { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 500; color: #1a1a1a; }
+  .tt-bar-bg  { height: 5px; background: #f0f0f0; border-radius: 3px; overflow: hidden; margin-top: 4px; }
+  .tt-bar-fill { height: 100%; border-radius: 3px; }
+  .tt-note    { font-size: 9.5px; color: #bbb; margin-top: 10px; line-height: 1.4; }
 
-/* ── Ranking Panel ─────────────────────────────────── */
-#ranking {
-position: fixed; right: 0; top: 0; bottom: 0; width: 250px;
-background: rgba(255,255,255,0.96); backdrop-filter: blur(10px);
-border-left: 1px solid #eee; z-index: 90; padding: 16px 10px 12px;
-overflow-y: auto; scrollbar-width: thin; scrollbar-color: #ddd transparent;
-}
-.rk-title {
-font-size: 11px; font-weight: 700; color: #888;
-margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase;
-}
-.rk-item {
-display: flex; align-items: center; gap: 6px;
-padding: 5px 6px; border-radius: 5px; cursor: pointer; transition: background 0.12s;
-}
-.rk-item:hover { background: rgba(21,87,160,0.08); }
-.rk-item.active { background: rgba(21,87,160,0.15); }
-.rk-num   { font-family: ‘JetBrains Mono’; font-size: 10px; font-weight: 600; color: #ccc; width: 18px; text-align: right; flex-shrink: 0; }
-.rk-num.gold   { color: #d4a017; }
-.rk-num.silver { color: #999; }
-.rk-num.bronze { color: #b07040; }
-.rk-name  { font-size: 11.5px; color: #444; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.rk-val   { font-family: ‘JetBrains Mono’; font-size: 10px; color: #999; flex-shrink: 0; }
-.rk-bar   { width: 36px; height: 3px; background: #f0f0f0; border-radius: 2px; overflow: hidden; flex-shrink: 0; }
-.rk-bar-fill { height: 100%; border-radius: 2px; opacity: 0.5; }
+  #ranking {
+    position: fixed; right: 0; top: 0; bottom: 0; width: 250px;
+    background: rgba(255,255,255,0.96); backdrop-filter: blur(10px);
+    border-left: 1px solid #eee; z-index: 90; padding: 16px 10px 12px;
+    overflow-y: auto; scrollbar-width: thin; scrollbar-color: #ddd transparent;
+  }
+  .rk-title { font-size: 11px; font-weight: 700; color: #888; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .rk-item  { display: flex; align-items: center; gap: 6px; padding: 5px 6px; border-radius: 5px; cursor: pointer; transition: background 0.12s; }
+  .rk-item:hover { background: rgba(21,87,160,0.08); }
+  .rk-num   { font-family: 'JetBrains Mono'; font-size: 10px; font-weight: 600; color: #ccc; width: 18px; text-align: right; flex-shrink: 0; }
+  .rk-num.gold   { color: #d4a017; }
+  .rk-num.silver { color: #999; }
+  .rk-num.bronze { color: #b07040; }
+  .rk-name  { font-size: 11.5px; color: #444; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rk-val   { font-family: 'JetBrains Mono'; font-size: 10px; color: #999; flex-shrink: 0; }
+  .rk-bar   { width: 36px; height: 3px; background: #f0f0f0; border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+  .rk-bar-fill { height: 100%; border-radius: 2px; opacity: 0.5; }
 
-/* ── Loading Overlay ───────────────────────────────── */
-#status-overlay {
-position: fixed; inset: 0; display: flex; flex-direction: column;
-align-items: center; justify-content: center; gap: 14px; z-index: 300;
-background: rgba(255,255,255,0.95); font-size: 13px; color: #666;
-}
-#status-overlay.hidden { display: none; }
-.spinner {
-width: 32px; height: 32px;
-border: 3px solid #eee; border-top-color: #1f7a43;
-border-radius: 50%; animation: spin .7s linear infinite;
-}
-.err-detail {
-font-size: 11px; color: #555; line-height: 1.9; text-align: left;
-max-width: 520px; background: #f8f8f8; padding: 16px 20px; border-radius: 8px;
-}
-.err-detail code {
-background: #eee; padding: 1px 5px; border-radius: 4px;
-font-family: ‘JetBrains Mono’, monospace; font-size: 10.5px;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
+  #status-overlay {
+    position: fixed; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 14px; z-index: 300;
+    background: rgba(255,255,255,0.95); font-size: 13px; color: #666;
+  }
+  #status-overlay.hidden { display: none; }
+  .spinner { width: 32px; height: 32px; border: 3px solid #eee; border-top-color: #1f7a43; border-radius: 50%; animation: spin .7s linear infinite; }
+  .err-detail { font-size: 11px; color: #555; line-height: 1.9; text-align: left; max-width: 520px; background: #f8f8f8; padding: 16px 20px; border-radius: 8px; }
+  .err-detail code { background: #eee; padding: 1px 5px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── Misc ──────────────────────────────────────────── */
-.hint {
-position: fixed; bottom: 12px; left: calc(50% - 125px);
-font-size: 10px; color: #ccc; z-index: 100; pointer-events: none;
-}
-@media (max-width: 720px) {
-#ranking { display: none; }
-#header { right: 0; }
-}
+  .hint { position: fixed; bottom: 12px; left: calc(50% - 125px); font-size: 10px; color: #ccc; z-index: 100; pointer-events: none; }
+  @media (max-width: 720px) { #ranking { display: none; } #header { right: 0; } }
 </style>
-
 </head>
 <body>
-
-<!-- ── Header ──────────────────────────────────────── -->
 
 <div id="header">
   <div class="title-block">
@@ -146,201 +105,195 @@ font-size: 10px; color: #ccc; z-index: 100; pointer-events: none;
   </div>
   <div class="header-right">
     <div class="color-bar" id="colorBar"></div>
-    <div class="color-minmax">
-      <span id="minLabel">—</span>
-      <span id="maxLabel">—</span>
-    </div>
+    <div class="color-minmax"><span id="minLabel">—</span><span id="maxLabel">—</span></div>
   </div>
 </div>
-
-<!-- ── Map ─────────────────────────────────────────── -->
 
 <div id="map-container">
   <svg id="map-svg"></svg>
 </div>
 
-<!-- ── Tooltip ─────────────────────────────────────── -->
-
 <div class="tooltip" id="tooltip"></div>
-
-<!-- ── Ranking Panel ───────────────────────────────── -->
 
 <div id="ranking">
   <div class="rk-title">Population Ranking</div>
   <div id="rk-list"></div>
 </div>
 
-<!-- ── Hint ─────────────────────────────────────────── -->
-
 <div class="hint">Scroll: zoom &nbsp;|&nbsp; Drag: pan</div>
-
-<!-- ── Loading Overlay ─────────────────────────────── -->
 
 <div id="status-overlay">
   <div class="spinner" id="spinner"></div>
-  <div id="status-msg">データを読み込み中…</div>
+  <div id="status-msg">GeoJSON を読み込み中…</div>
   <div class="err-detail" id="err-detail" style="display:none"></div>
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════
-//  Configuration
-// ══════════════════════════════════════════════════════════
-const DATA_PATHS = {
-  geojson:    'geo-json/japan.geojson',
-  population: 'population-json/pref-pop.json',
-};
-
-const COLOR_LOW  = [238, 247, 240];
-const COLOR_HIGH = [31, 122, 67];
-
-const PREF_COUNT = 47;
 
 // ══════════════════════════════════════════════════════════
-//  DOM References
+//  投影（D3不使用・自前メルカトル）
 // ══════════════════════════════════════════════════════════
-const $svg       = document.getElementById('map-svg');
-const $tooltip   = document.getElementById('tooltip');
-const $rkList    = document.getElementById('rk-list');
-const $overlay   = document.getElementById('status-overlay');
-const $spinner   = document.getElementById('spinner');
-const $statusMsg = document.getElementById('status-msg');
-const $errDetail = document.getElementById('err-detail');
-const $colorBar  = document.getElementById('colorBar');
-const $minLabel  = document.getElementById('minLabel');
-const $maxLabel  = document.getElementById('maxLabel');
+// D3のgeoMercatorのfitExtentが正しく動作しないため
+// 同じアルゴリズムをJSで実装する
 
-// ══════════════════════════════════════════════════════════
-//  Mercator Projection (D3-free)
-// ══════════════════════════════════════════════════════════
-let projScale = 1, projTx = 0, projTy = 0;
+let projScale, projTx, projTy;
 
 function toMerc(lon, lat) {
-  return [
-    lon * Math.PI / 180,
-    Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360)),
-  ];
+  const x = lon * Math.PI / 180;
+  const y = Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+  return [x, y];
 }
 
 function project(lon, lat) {
   const [mx, my] = toMerc(lon, lat);
-  return [projScale * mx + projTx, projScale * -my + projTy];
+  return [
+    projScale * mx + projTx,
+    projScale * -my + projTy   // Y軸反転（SVGは下が+）
+  ];
 }
 
-function fitProjection(features, w, h, pad) {
-  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+function fitProjection(allFeatures, svgW, svgH, padL, padT, padR, padB) {
+  // 全座標のメルカトル範囲を計算
+  let minX = Infinity, maxX = -Infinity;
+  let minY = Infinity, maxY = -Infinity;
 
-  const eachCoord = (coords, fn) => {
-    if (typeof coords[0] === 'number') { fn(coords); return; }
-    coords.forEach(c => eachCoord(c, fn));
-  };
-
-  features.forEach(f => {
-    if (!f.geometry) return;
-    eachCoord(f.geometry.coordinates, ([lon, lat]) => {
+  allFeatures.forEach(feat => {
+    const geom = feat.geometry;
+    const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+    polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
       const [mx, my] = toMerc(lon, lat);
-      const sy = -my; // SVG Y-flip
       if (mx < minX) minX = mx;
       if (mx > maxX) maxX = mx;
-      if (sy < minY) minY = sy;
-      if (sy > maxY) maxY = sy;
-    });
+      if (-my < minY) minY = -my;   // Y反転後の値で管理
+      if (-my > maxY) maxY = -my;
+    })));
   });
 
-  const availW = w - pad.left - pad.right;
-  const availH = h - pad.top - pad.bottom;
-  projScale = 0.95 * Math.min(availW / (maxX - minX), availH / (maxY - minY));
+  const availW = svgW - padL - padR;
+  const availH = svgH - padT - padB;
+  const dx = maxX - minX;
+  const dy = maxY - minY;
 
+  // アスペクト比を保ってfitするscaleを決定
+  projScale = 0.95 * Math.min(availW / dx, availH / dy);
+
+  // センタリング
   const cx = (minX + maxX) / 2;
   const cy = (minY + maxY) / 2;
-  projTx = w / 2 - projScale * cx;
-  projTy = h / 2 - projScale * cy;
+  projTx = svgW / 2 - projScale * cx;
+  projTy = svgH / 2 - projScale * cy;
+}
+
+// GeoJSONのfeatureをSVGパス文字列に変換
+function featureToPath(feat) {
+  const geom = feat.geometry;
+  const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+  let d = '';
+  polys.forEach(poly => {
+    poly.forEach(ring => {
+      const pts = ring.map(([lon, lat]) => project(lon, lat));
+      d += `M ${pts[0][0].toFixed(2)} ${pts[0][1].toFixed(2)} `;
+      for (let i = 1; i < pts.length; i++) {
+        d += `L ${pts[i][0].toFixed(2)} ${pts[i][1].toFixed(2)} `;
+      }
+      d += 'Z ';
+    });
+  });
+  return d.trim();
 }
 
 // ══════════════════════════════════════════════════════════
-//  GeoJSON → SVG Path
+//  カラースケール
 // ══════════════════════════════════════════════════════════
-function ringToPath(ring) {
-  const pts = ring.map(([lon, lat]) => project(lon, lat));
-  return 'M' + pts.map(p => p[0].toFixed(2) + ' ' + p[1].toFixed(2)).join('L') + 'Z';
-}
+const COLOR_LOW  = [238, 247, 240];
+const COLOR_HIGH = [31, 122, 67];
 
-function featureToPathD(feat) {
-  const g = feat.geometry;
-  if (!g) return '';
-  const polys = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
-  return polys.map(poly => poly.map(ringToPath).join(' ')).join(' ');
-}
-
-// ══════════════════════════════════════════════════════════
-//  Color Scale
-// ══════════════════════════════════════════════════════════
 function lerpColor(c1, c2, t) {
-  const g = Math.pow(t, 0.55); // gamma correction
-  return `rgb(${Math.round(c1[0] + (c2[0] - c1[0]) * g)},${Math.round(c1[1] + (c2[1] - c1[1]) * g)},${Math.round(c1[2] + (c2[2] - c1[2]) * g)})`;
+  // gamma補正つき補間（視覚的に均一に見える）
+  const g = Math.pow(t, 0.55);
+  const r = Math.round(c1[0] + (c2[0] - c1[0]) * g);
+  const gg = Math.round(c1[1] + (c2[1] - c1[1]) * g);
+  const b = Math.round(c1[2] + (c2[2] - c1[2]) * g);
+  return `rgb(${r},${gg},${b})`;
 }
 
-function getColor(value, min, max) {
-  return lerpColor(COLOR_LOW, COLOR_HIGH, (value - min) / (max - min));
+function getColor(value, minVal, maxVal) {
+  const t = (value - minVal) / (maxVal - minVal);
+  return lerpColor(COLOR_LOW, COLOR_HIGH, t);
 }
 
 // ══════════════════════════════════════════════════════════
-//  Zoom & Pan (transform on <g>)
+//  ズーム＆パン（SVGのviewBox操作）
 // ══════════════════════════════════════════════════════════
+const PANEL_W = window.innerWidth <= 720 ? 0 : 250;
+let svgW = window.innerWidth;
+let svgH = window.innerHeight;
+
+const svgEl = document.getElementById('map-svg');
+svgEl.setAttribute('width', svgW);
+svgEl.setAttribute('height', svgH);
+
+// ズーム・パン状態
 let viewX = 0, viewY = 0, viewScale = 1;
-let isDragging = false, dragStartX, dragStartY, dragViewX0, dragViewY0;
+let isDragging = false, dragStartX, dragStartY, dragStartViewX, dragStartViewY;
 
 function applyView() {
-  const g = document.getElementById('map-g');
-  if (g) g.setAttribute('transform', `translate(${viewX},${viewY}) scale(${viewScale})`);
+  const mapG = document.getElementById('map-g');
+  if (mapG) {
+    mapG.setAttribute('transform', `translate(${viewX}, ${viewY}) scale(${viewScale})`);
+
+  }
 }
 
-$svg.addEventListener('wheel', e => {
+svgEl.addEventListener('wheel', e => {
   e.preventDefault();
-  const factor = e.deltaY > 0 ? 0.85 : 1.18;
-  const rect = $svg.getBoundingClientRect();
+  const delta = e.deltaY > 0 ? 0.85 : 1.18;
+  const rect  = svgEl.getBoundingClientRect();
   const mx = e.clientX - rect.left;
   const my = e.clientY - rect.top;
-  viewX = mx - factor * (mx - viewX);
-  viewY = my - factor * (my - viewY);
-  viewScale = Math.max(0.4, Math.min(20, viewScale * factor));
+  // マウス位置を中心にズーム
+  viewX = mx - delta * (mx - viewX);
+  viewY = my - delta * (my - viewY);
+  viewScale *= delta;
+  viewScale  = Math.max(0.4, Math.min(20, viewScale));
   applyView();
 }, { passive: false });
 
-$svg.addEventListener('mousedown', e => {
+svgEl.addEventListener('mousedown', e => {
   isDragging = true;
   dragStartX = e.clientX; dragStartY = e.clientY;
-  dragViewX0 = viewX; dragViewY0 = viewY;
-  $svg.style.cursor = 'grabbing';
+  dragStartViewX = viewX; dragStartViewY = viewY;
+  svgEl.style.cursor = 'grabbing';
 });
 window.addEventListener('mousemove', e => {
   if (!isDragging) return;
-  viewX = dragViewX0 + (e.clientX - dragStartX);
-  viewY = dragViewY0 + (e.clientY - dragStartY);
+  viewX = dragStartViewX + (e.clientX - dragStartX);
+  viewY = dragStartViewY + (e.clientY - dragStartY);
   applyView();
 });
 window.addEventListener('mouseup', () => {
   isDragging = false;
-  $svg.style.cursor = '';
+  svgEl.style.cursor = '';
 });
 
 // ══════════════════════════════════════════════════════════
-//  Tooltip
+//  TOOLTIP
 // ══════════════════════════════════════════════════════════
-function showTooltip(e, { nameEn, nameJa, total, rank, maxVal, natTotal, avg }) {
-  const pct   = (total / maxVal * 100).toFixed(0);
-  const share = (total / natTotal * 100).toFixed(1);
-  const diff  = total - avg;
-  const diffStr   = diff >= 0 ? `+${diff.toLocaleString()}` : `−${Math.abs(diff).toLocaleString()}`;
+const tooltipEl = document.getElementById('tooltip');
+function showTip(e, props) {
+  const { nameEn, nameJa, value, rank, maxVal, natTot, avg } = props;
+  const pct   = ((value / maxVal) * 100).toFixed(0);
+  const share = ((value / natTot) * 100).toFixed(1);
+  const diff  = value - avg;
+  const diffStr   = diff >= 0 ? `+${diff.toLocaleString()}` : `-${Math.abs(diff).toLocaleString()}`;
   const diffColor = diff >= 0 ? '#1f7a43' : '#666';
-
-  $tooltip.innerHTML = `
+  tooltipEl.innerHTML = `
     <div class="tt-name">${nameEn}</div>
     <div class="tt-name-ja">${nameJa}</div>
     <div class="tt-rank"><span class="num">#${rank}</span></div>
     <div class="tt-row">
       <span class="tt-label">Total population</span>
-      <span class="tt-val">${total.toLocaleString()}<span class="unit"> persons</span></span>
+      <span class="tt-val">${value.toLocaleString()}<span class="unit"> persons</span></span>
     </div>
     <div class="tt-bar-bg">
       <div class="tt-bar-fill" style="width:${pct}%;background:linear-gradient(90deg,rgb(238,247,240),rgb(31,122,67))"></div>
@@ -353,243 +306,213 @@ function showTooltip(e, { nameEn, nameJa, total, rank, maxVal, natTotal, avg }) 
       <span class="tt-label">vs. prefecture average</span>
       <span class="tt-val-sm" style="color:${diffColor}">${diffStr}</span>
     </div>
-    <div class="tt-note">Source: Statistics Bureau of Japan</div>`;
-  $tooltip.classList.add('visible');
-  moveTooltip(e);
+    <div class="tt-note">Source: Statistics Bureau of Japan</div>
+  `;
+  tooltipEl.classList.add('visible');
+  moveTip(e);
 }
-
-function moveTooltip(e) {
+function moveTip(e) {
   const gap = 24;
-  $tooltip.style.left = '-9999px';
-  $tooltip.style.top  = '-9999px';
-  const tw = $tooltip.offsetWidth, th = $tooltip.offsetHeight;
+  tooltipEl.style.left = '-9999px'; tooltipEl.style.top = '-9999px';
+  const tw = tooltipEl.offsetWidth, th = tooltipEl.offsetHeight;
   let x = e.clientX + gap, y = e.clientY + gap;
-  if (x + tw > window.innerWidth - 12) x = e.clientX - gap - tw;
-  if (y + th > window.innerHeight - 12) y = e.clientY - gap - th;
-  $tooltip.style.left = Math.max(12, x) + 'px';
-  $tooltip.style.top  = Math.max(12, y) + 'px';
+  if (x + tw > svgW - 12) x = e.clientX - gap - tw;
+  if (y + th > svgH - 12) y = e.clientY - gap - th;
+  tooltipEl.style.left = Math.max(12, x) + 'px';
+  tooltipEl.style.top  = Math.max(12, y) + 'px';
 }
-
-function hideTooltip() {
-  $tooltip.classList.remove('visible');
-}
+function hideTip() { tooltipEl.classList.remove('visible'); }
 
 // ══════════════════════════════════════════════════════════
-//  Ranking Panel
+//  RANKING
 // ══════════════════════════════════════════════════════════
 function renderRanking(ranked, maxVal) {
-  $rkList.innerHTML = ranked.map((p, i) => {
-    const pct    = (p.total / maxVal * 100).toFixed(0);
-    const numCls = i === 0 ? 'rk-num gold' : i === 1 ? 'rk-num silver' : i === 2 ? 'rk-num bronze' : 'rk-num';
-    return `<div class="rk-item" data-id="${p.prefId}">
-      <span class="${numCls}">${i + 1}</span>
+  const list = document.getElementById('rk-list');
+  list.innerHTML = ranked.map((p, i) => {
+    const pct    = (p.value / maxVal * 100).toFixed(0);
+    const numCls = i===0 ? 'rk-num gold' : i===1 ? 'rk-num silver' : i===2 ? 'rk-num bronze' : 'rk-num';
+    return `<div class="rk-item" data-id="${p.id}">
+      <span class="${numCls}">${i+1}</span>
       <span class="rk-name">${p.nameEn}</span>
-      <span class="rk-val">${p.total.toLocaleString()}</span>
+      <span class="rk-val">${p.value.toLocaleString()}</span>
       <span class="rk-bar"><span class="rk-bar-fill" style="width:${pct}%;background:rgb(31,122,67)"></span></span>
     </div>`;
   }).join('');
 
-  // Ranking ↔ Map hover linkage
-  $rkList.querySelectorAll('.rk-item').forEach(el => {
+  list.querySelectorAll('.rk-item').forEach(el => {
     const id = +el.dataset.id;
     el.addEventListener('mouseenter', () => {
-      highlightPref(id, true);
-      el.classList.add('active');
+      document.querySelectorAll(`.pref-path[data-id="${id}"]`).forEach(p => {
+        p.style.filter = 'brightness(1.12) drop-shadow(0 2px 8px rgba(0,0,0,0.25))';
+      });
+      el.style.background = 'rgba(21,87,160,0.15)';
     });
     el.addEventListener('mouseleave', () => {
-      highlightPref(id, false);
-      el.classList.remove('active');
+      document.querySelectorAll(`.pref-path[data-id="${id}"]`).forEach(p => {
+        p.style.filter = '';
+      });
+      el.style.background = '';
     });
   });
 }
-
-function highlightPref(prefId, on) {
-  document.querySelectorAll(`.pref-path[data-id="${prefId}"]`).forEach(p => {
-    p.style.filter = on ? 'brightness(1.12) drop-shadow(0 2px 8px rgba(0,0,0,0.25))' : '';
+function highlightRank(id) {
+  document.querySelectorAll('.rk-item').forEach(el => {
+    const active = +el.dataset.id === id;
+    el.style.background = active ? 'rgba(21,87,160,0.15)' : '';
+    if (active) el.scrollIntoView({ behavior:'smooth', block:'nearest' });
   });
 }
-
-function highlightRankItem(prefId) {
-  $rkList.querySelectorAll('.rk-item').forEach(el => {
-    const active = +el.dataset.id === prefId;
-    el.classList.toggle('active', active);
-    if (active) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  });
-}
-
 function clearRankHighlight() {
-  $rkList.querySelectorAll('.rk-item').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.rk-item').forEach(el => el.style.background = '');
 }
 
 // ══════════════════════════════════════════════════════════
-//  Loading UI
+//  INIT
 // ══════════════════════════════════════════════════════════
-function setStatus(msg) { $statusMsg.textContent = msg; }
-function hideOverlay()  { $overlay.classList.add('hidden'); }
-
+function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
+function hideOverlay()  { document.getElementById('status-overlay').classList.add('hidden'); }
 function showError(html) {
-  $spinner.style.display = 'none';
-  $statusMsg.textContent = '⚠️ エラー';
-  $errDetail.innerHTML = html;
-  $errDetail.style.display = 'block';
+  document.getElementById('spinner').style.display = 'none';
+  document.getElementById('status-msg').textContent = '⚠️ エラー';
+  const det = document.getElementById('err-detail');
+  det.innerHTML = html; det.style.display = 'block';
 }
 
-// ══════════════════════════════════════════════════════════
-//  Data Loading
-// ══════════════════════════════════════════════════════════
-async function fetchJSON(path, label) {
-  setStatus(`${label}を読み込み中…`);
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
-  return res.json();
-}
-
-// ══════════════════════════════════════════════════════════
-//  Extract prefecture ID from feature
-//  Handles both formats:
-//    - japan.geojson:  code = "01" (2-digit, 1 feature per pref)
-//    - pref_XX.geojson: code = "01101" (5-digit municipality)
-// ══════════════════════════════════════════════════════════
-function getPrefId(feature) {
-  const code = String(feature.properties?.code || '');
-  return parseInt(code.slice(0, 2), 10);
-}
-
-// ══════════════════════════════════════════════════════════
-//  Main Init
-// ══════════════════════════════════════════════════════════
 async function init() {
-  const svgW = window.innerWidth;
-  const svgH = window.innerHeight;
-  const panelW = window.innerWidth <= 720 ? 0 : 250;
-  $svg.setAttribute('width', svgW);
-  $svg.setAttribute('height', svgH);
-
-  // ── Load data ──
-  let popData, geoData;
+  // 人口データを外部JSONからfetch
+  setStatus('人口データを読み込み中…');
+  let POP_DATA;
   try {
-    popData = await fetchJSON(DATA_PATHS.population, '人口データ');
-  } catch (e) {
-    showError(`<b>${DATA_PATHS.population}</b> の読み込みに失敗しました。<br><br>エラー: ${e.message}`);
-    return;
-  }
-  try {
-    geoData = await fetchJSON(DATA_PATHS.geojson, '地理データ');
-  } catch (e) {
+    const r = await fetch('population-json/pref-pop.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    POP_DATA = await r.json();
+  } catch(e) {
     showError(`
-      <b>${DATA_PATHS.geojson}</b> の読み込みに失敗しました。<br><br>
-      <code>python3 -m http.server 8000</code> でサーバーを起動し、<br>
-      <code>http://localhost:8000</code> を開いてください。<br><br>
-      エラー: ${e.message}`);
+      <b>population-json/pref-pop.json</b> が読み込めませんでした。<br><br>
+      エラー: ${e.message}
+    `);
     return;
   }
 
-  setStatus('描画中…');
+  // ランキング描画
+  const popMap = {};
+  for (const [code, d] of Object.entries(POP_DATA)) {
+    popMap[parseInt(code, 10)] = d;
+  }
+  const rankedPop = Object.entries(POP_DATA)
+    .map(([code, d]) => ({ id: parseInt(code, 10), nameEn: d.nameEn, value: d.total }))
+    .sort((a, b) => b.value - a.value);
+  const maxPopVal = rankedPop[0].value;
+  const minPopVal = rankedPop[rankedPop.length - 1].value;
+  renderRanking(rankedPop, maxPopVal);
+  document.getElementById('colorBar').style.background = 'linear-gradient(90deg, rgb(238,247,240), rgb(31,122,67))';
+  document.getElementById('minLabel').textContent = minPopVal.toLocaleString();
+  document.getElementById('maxLabel').textContent = maxPopVal.toLocaleString();
 
-  // ── Build population lookup ──
-  // popData keys: "01" .. "47"
-  const popByPrefId = {};  // { 1: {nameJa, nameEn, total, male, female}, ... }
-  for (const [code, d] of Object.entries(popData)) {
-    popByPrefId[parseInt(code, 10)] = d;
+  // japan.geojson を1回だけfetch（47県dissolved済み）
+  setStatus('japan.geojson を読み込み中…');
+  let japanGeo;
+  try {
+    const r = await fetch('geo-json/japan.geojson');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    japanGeo = await r.json();
+  } catch(e) {
+    showError(`
+      <b>geo-json/japan.geojson</b> が読み込めませんでした。<br><br>
+      まず <code>make_japan_geojson.py</code> を実行して japan.geojson を生成してください：<br>
+      <code>python3 make_japan_geojson.py</code><br><br>
+      その後 <code>python3 -m http.server 8000</code> でサーバーを起動し、<br>
+      <code>http://localhost:8000</code> を開いてください。<br><br>
+      エラー: ${e.message}
+    `);
+    return;
   }
 
-  // ── Compute ranking ──
-  const ranked = Object.entries(popByPrefId)
-    .map(([id, d]) => ({ prefId: +id, nameEn: d.nameEn, nameJa: d.nameJa, total: d.total }))
-    .sort((a, b) => b.total - a.total);
+  // 全featuresを収集
+  const allFeatures = japanGeo.features.filter(f => f?.geometry);
+  const prefGroups  = {};   // id → {feats, pop}
 
-  const maxPop = ranked[0].total;
-  const minPop = ranked[ranked.length - 1].total;
-  const natTotal = ranked.reduce((s, p) => s + p.total, 0);
-  const avgPop = Math.round(natTotal / PREF_COUNT);
-
-  const rankOf = {};
-  ranked.forEach((p, i) => { rankOf[p.prefId] = i + 1; });
-
-  // ── Render ranking panel & legend ──
-  renderRanking(ranked, maxPop);
-  $colorBar.style.background = 'linear-gradient(90deg, rgb(238,247,240), rgb(31,122,67))';
-  $minLabel.textContent = minPop.toLocaleString();
-  $maxLabel.textContent = maxPop.toLocaleString();
-
-  // ── Group features by prefecture ──
-  // This handles both cases:
-  //   - japan.geojson with 1 feature per pref (code = "01")
-  //   - any geojson with municipality features (code = "01101")
-  // By grouping on the 2-digit prefix and merging all path data
-  // into a single <path>, internal municipality borders disappear.
-  const prefGroups = {}; // { prefId: [feat, feat, ...] }
-  const features = (geoData.features || []).filter(f => f?.geometry);
-
-  features.forEach(feat => {
-    const prefId = getPrefId(feat);
-    if (!prefId || !popByPrefId[prefId]) return;
-    if (!prefGroups[prefId]) prefGroups[prefId] = [];
-    prefGroups[prefId].push(feat);
+  allFeatures.forEach(feat => {
+    const code = feat.properties?.code || '';
+    const id   = parseInt(code, 10);
+    const pop  = popMap[id] || {};
+    // japan.geojsonは1県=1feature なのでそのまま格納
+    prefGroups[id] = { feats: [feat], pop };
   });
 
-  // ── Projection ──
-  fitProjection(features, svgW, svgH, {
-    left:   18,
-    top:    88,
-    right:  18 + panelW,
-    bottom: 18,
-  });
+  if (!allFeatures.length) {
+    showError('japan.geojson に有効なデータがありません。');
+    return;
+  }
 
-  // ── Draw map ──
+  // 投影パラメータ計算（D3不使用）
+  fitProjection(
+    allFeatures,
+    svgW, svgH,
+    18,           // padLeft
+    88,           // padTop（ヘッダー分）
+    18 + PANEL_W, // padRight（ランキングパネル分）
+    18            // padBottom
+  );
+
+  // SVG描画
+  const svgEl2 = document.getElementById('map-svg');
   const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
   g.id = 'map-g';
-  $svg.appendChild(g);
+  svgEl2.appendChild(g);
 
-  for (const [prefIdStr, feats] of Object.entries(prefGroups)) {
-    const prefId = +prefIdStr;
-    const pop = popByPrefId[prefId];
-    if (!pop) continue;
+  // 統計
+  const natTot = rankedPop.reduce((s, p) => s + p.value, 0);
+  const avg    = Math.round(natTot / 47);
+  const rankMap = {};
+  rankedPop.forEach((p, i) => rankMap[p.id] = i + 1);
 
-    const color = getColor(pop.total, minPop, maxPop);
+  // 都道府県ごとに全featureのパスを1つに結合して描画
+  // → 市区町村境界線が消え、都道府県の外枠だけになる
+  Object.entries(prefGroups).forEach(([idStr, { feats, pop }]) => {
+    const id    = parseInt(idStr, 10);
+    const color = getColor(pop.total || 0, minPopVal, maxPopVal);
 
-    // Combine all features' path data into one <path>
-    // → eliminates internal municipality borders
-    const combinedD = feats.map(featureToPathD).join(' ');
+    // 全featureのd文字列を結合 → SVGは同一path内の複数サブパスを独立して塗る
+    const combinedD = feats.map(featureToPath).join(' ');
 
     const pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     pathEl.setAttribute('d', combinedD);
     pathEl.setAttribute('fill', color);
-    pathEl.setAttribute('fill-rule', 'evenodd');
+    pathEl.setAttribute('fill-rule', 'evenodd'); // 島・穴の処理
     pathEl.setAttribute('class', 'pref-path');
-    pathEl.setAttribute('data-id', prefId);
+    pathEl.setAttribute('data-id', id);
 
     pathEl.addEventListener('mouseenter', e => {
       pathEl.style.filter = 'brightness(1.15) drop-shadow(0 2px 6px rgba(0,0,0,0.3))';
-      showTooltip(e, {
+      showTip(e, {
         nameEn: pop.nameEn, nameJa: pop.nameJa,
-        total: pop.total, rank: rankOf[prefId],
-        maxVal: maxPop, natTotal, avg: avgPop,
+        value: pop.total, rank: rankMap[id],
+        maxVal: maxPopVal, natTot, avg
       });
-      highlightRankItem(prefId);
+      highlightRank(id);
     });
-    pathEl.addEventListener('mousemove', moveTooltip);
+    pathEl.addEventListener('mousemove', moveTip);
     pathEl.addEventListener('mouseleave', () => {
       pathEl.style.filter = '';
-      hideTooltip();
+      hideTip();
       clearRankHighlight();
     });
 
     g.appendChild(pathEl);
-  }
+  });
+
 
   hideOverlay();
 }
 
-// ── Resize handler ──
 window.addEventListener('resize', () => {
-  $svg.setAttribute('width', window.innerWidth);
-  $svg.setAttribute('height', window.innerHeight);
+  svgW = window.innerWidth; svgH = window.innerHeight;
+  svgEl.setAttribute('width', svgW);
+  svgEl.setAttribute('height', svgH);
 });
 
-// ── Start ──
 init();
 </script>
-
 </body>
 </html>
