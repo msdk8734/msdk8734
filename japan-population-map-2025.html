@@ -628,35 +628,46 @@ async function zoomIn(id) {
   document.getElementById('header').style.right = PANEL_W + 'px';
   if (PANEL_W > 0) document.getElementById('ranking').classList.remove('hidden');
 
-  // Dim pref paths
+  // Dim pref paths — keep pointer events so user can click another prefecture
   document.querySelectorAll('.pref-path').forEach(p => {
-    p.style.opacity = '0.18'; p.style.pointerEvents = 'none';
+    p.style.opacity = '0.18';
+    // pointerEvents stays enabled so clicking another pref triggers zoomIn
   });
 
-  // Mainland-only bbox: exclude remote islands for certain prefectures
-  const MAINLAND_FILTER = {
-    '13': { maxLat: 35.95, minLon: 138.8 },  // Tokyo: exclude Izu/Ogasawara
-    '46': { minLat: 30.0 },                    // Kagoshima: exclude Amami
-    '47': { minLon: 127.0 },                   // Okinawa: exclude Miyako/Yaeyama
-    '01': { maxLon: 145.8 },                   // Hokkaido: exclude Northern Territories
+  // Mainland-only bbox using polygon-centroid filtering
+  // Each polygon's centroid must pass the filter to be included in bbox calc
+  const MAINLAND_CENTROID_FILTER = {
+    '13': { minCy: 35.0,  maxCx: 141.0  },  // Tokyo: exclude Izu/Ogasawara
+    '46': { minCy: 30.0               },  // Kagoshima: exclude Amami
+    '47': { minCx: 127.0              },  // Okinawa: exclude Miyako/Yaeyama
+    '01': { maxCx: 145.5              },  // Hokkaido: exclude Northern Territories
   };
-  const mf = MAINLAND_FILTER[code] || {};
+  const mcf = MAINLAND_CENTROID_FILTER[code];
 
-  // Fit view to (filtered) prefecture bbox
   const geom = feat.geometry;
   const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
   let lo = Infinity, hi = -Infinity, la = Infinity, lb = -Infinity;
   let hasMainland = false;
-  polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
-    if (mf.minLon !== undefined && lon < mf.minLon) return;
-    if (mf.maxLon !== undefined && lon > mf.maxLon) return;
-    if (mf.minLat !== undefined && lat < mf.minLat) return;
-    if (mf.maxLat !== undefined && lat > mf.maxLat) return;
+
+  polys.forEach(poly => {
+    if (mcf) {
+      // Compute centroid of outer ring
+      const ring = poly[0];
+      const cx = ring.reduce((s, p) => s + p[0], 0) / ring.length;
+      const cy = ring.reduce((s, p) => s + p[1], 0) / ring.length;
+      if (mcf.minCx !== undefined && cx < mcf.minCx) return;
+      if (mcf.maxCx !== undefined && cx > mcf.maxCx) return;
+      if (mcf.minCy !== undefined && cy < mcf.minCy) return;
+      if (mcf.maxCy !== undefined && cy > mcf.maxCy) return;
+    }
     hasMainland = true;
-    if (lon < lo) lo = lon; if (lon > hi) hi = lon;
-    if (lat < la) la = lat; if (lat > lb) lb = lat;
-  })));
-  // Fallback: if filter removed everything, use full bbox
+    poly.forEach(ring => ring.forEach(([lon, lat]) => {
+      if (lon < lo) lo = lon; if (lon > hi) hi = lon;
+      if (lat < la) la = lat; if (lat > lb) lb = lat;
+    }));
+  });
+
+  // Fallback: if all polygons filtered out, use full bbox
   if (!hasMainland) {
     polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
       if (lon < lo) lo = lon; if (lon > hi) hi = lon;
@@ -843,7 +854,7 @@ function zoomOut() {
     : 'Click a prefecture to zoom in  |  Scroll: zoom  |  Drag: pan';
   document.getElementById('header').style.right = PANEL_W + 'px';
 
-  document.querySelectorAll('.pref-path').forEach(p => { p.style.opacity = ''; p.style.pointerEvents = ''; });
+  document.querySelectorAll('.pref-path').forEach(p => { p.style.opacity = ''; });
   if (cityLayerG) { cityLayerG.remove(); cityLayerG = null; }
 
   viewX = 0; viewY = 0; viewScale = 1; applyView();
