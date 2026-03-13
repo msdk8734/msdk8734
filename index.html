@@ -100,6 +100,71 @@
     background: linear-gradient(135deg, #1a1610 0%, #2a2118 50%, #1e1a12 100%);
   }
 
+  /* ── NEW: PV Ranking theme ── */
+  .card-preview.pvranking-theme {
+    background: linear-gradient(135deg, #0e0e0e 0%, #161410 50%, #1a1710 100%);
+    overflow: hidden;
+  }
+
+  .pvranking-preview {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 16px 20px;
+  }
+
+  .pvr-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .pvr-rank {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    color: #3a3830;
+    width: 14px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .pvr-bars {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex: 1;
+    height: 10px;
+  }
+
+  .pvr-own {
+    height: 100%;
+    background: #c8a97e;
+    border-radius: 2px 0 0 2px;
+    opacity: 0.85;
+  }
+
+  .pvr-ext {
+    height: 100%;
+    background: #7a8c82;
+    border-radius: 0 2px 2px 0;
+    opacity: 0.75;
+  }
+
+  .pvranking-label {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    color: #c8a97e;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+
   .pyramid-preview {
     position: absolute;
     inset: 0;
@@ -274,6 +339,7 @@
     margin-top: 12px;
     padding-top: 12px;
     border-top: 1px solid #f2f2f2;
+    flex-wrap: wrap;
   }
 
   .meta-tag {
@@ -317,12 +383,42 @@
 
 <header>
   <h1>Data Visualizations</h1>
-  <p>Interactive data visualizations built with D3.js, exploring Japanese consumption, population, and climate data through maps and heatmaps.</p>
+  <p>Interactive data visualizations built with D3.js, exploring Japanese consumption, population, and media data through charts, maps, and heatmaps.</p>
 </header>
 
 <div class="divider"><hr></div>
 
 <div class="gallery">
+
+  <!-- ── NEW: Page View Ranking ── -->
+  <a class="card" href="page-view-ranking.html">
+    <div class="card-preview pvranking-theme">
+      <div class="pvranking-label">Top 10 · Q4 2025</div>
+      <div class="pvranking-preview">
+        <div class="pvr-row"><span class="pvr-rank">01</span><div class="pvr-bars"><div class="pvr-own" style="width:52%"></div><div class="pvr-ext" style="width:48%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">02</span><div class="pvr-bars"><div class="pvr-own" style="width:19%"></div><div class="pvr-ext" style="width:60%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">03</span><div class="pvr-bars"><div class="pvr-own" style="width:37%"></div><div class="pvr-ext" style="width:40%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">04</span><div class="pvr-bars"><div class="pvr-own" style="width:19%"></div><div class="pvr-ext" style="width:42%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">05</span><div class="pvr-bars"><div class="pvr-own" style="width:20%"></div><div class="pvr-ext" style="width:38%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">06</span><div class="pvr-bars"><div class="pvr-own" style="width:18%"></div><div class="pvr-ext" style="width:37%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">07</span><div class="pvr-bars"><div class="pvr-own" style="width:17%"></div><div class="pvr-ext" style="width:36%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">08</span><div class="pvr-bars"><div class="pvr-own" style="width:19%"></div><div class="pvr-ext" style="width:1%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">09</span><div class="pvr-bars"><div class="pvr-own" style="width:9%"></div><div class="pvr-ext" style="width:31%"></div></div></div>
+        <div class="pvr-row"><span class="pvr-rank">10</span><div class="pvr-bars"><div class="pvr-own" style="width:11%"></div><div class="pvr-ext" style="width:21%"></div></div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-tag">Bar Chart · Ranking</div>
+      <div class="card-title">Japanese Web Media Page View Ranking</div>
+      <div class="card-desc">Top 10 web media by total monthly page views (Q4 2025), comparing own-site PV vs. external distribution via Yahoo! News, SmartNews, and LINE, with unique user data. Source: JABC.</div>
+      <div class="card-meta">
+        <span class="meta-tag">D3.js</span>
+        <span class="meta-tag">Stacked Bar</span>
+        <span class="meta-tag">Media</span>
+        <span class="card-arrow">→</span>
+      </div>
+    </div>
+  </a>
 
   <a class="card" href="japan-population-pyramid.html">
     <div class="card-preview pyramid-theme">
