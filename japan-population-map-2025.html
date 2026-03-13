@@ -633,14 +633,36 @@ async function zoomIn(id) {
     p.style.opacity = '0.18'; p.style.pointerEvents = 'none';
   });
 
-  // Fit view to prefecture bbox
+  // Mainland-only bbox: exclude remote islands for certain prefectures
+  const MAINLAND_FILTER = {
+    '13': { maxLat: 35.95, minLon: 138.8 },  // Tokyo: exclude Izu/Ogasawara
+    '46': { minLat: 30.0 },                    // Kagoshima: exclude Amami
+    '47': { minLon: 127.0 },                   // Okinawa: exclude Miyako/Yaeyama
+    '01': { maxLon: 145.8 },                   // Hokkaido: exclude Northern Territories
+  };
+  const mf = MAINLAND_FILTER[code] || {};
+
+  // Fit view to (filtered) prefecture bbox
   const geom = feat.geometry;
   const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
   let lo = Infinity, hi = -Infinity, la = Infinity, lb = -Infinity;
+  let hasMainland = false;
   polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
+    if (mf.minLon !== undefined && lon < mf.minLon) return;
+    if (mf.maxLon !== undefined && lon > mf.maxLon) return;
+    if (mf.minLat !== undefined && lat < mf.minLat) return;
+    if (mf.maxLat !== undefined && lat > mf.maxLat) return;
+    hasMainland = true;
     if (lon < lo) lo = lon; if (lon > hi) hi = lon;
     if (lat < la) la = lat; if (lat > lb) lb = lat;
   })));
+  // Fallback: if filter removed everything, use full bbox
+  if (!hasMainland) {
+    polys.forEach(poly => poly.forEach(ring => ring.forEach(([lon, lat]) => {
+      if (lon < lo) lo = lon; if (lon > hi) hi = lon;
+      if (lat < la) la = lat; if (lat > lb) lb = lat;
+    })));
+  }
   const [x0, y0] = project(lo, lb);
   const [x1, y1] = project(hi, la);
   const PAD = IS_TOUCH ? 40 : 80;
